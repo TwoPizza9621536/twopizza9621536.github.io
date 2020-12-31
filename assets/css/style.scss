@@ -1,0 +1,54 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.site-footer {
+  display: grid;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px $hr-border-color;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  
+  @include large {
+    font-size: 1rem;
+  }
+  
+  @include medium {
+    font-size: 1rem;
+  }
+  
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-grid-one {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.site-footer-owner {
+  font-weight: bold;
+  text-align: center;
+}
+
+.site-footer-credits {
+  color: $blockquote-text-color;
+  text-align: center;
+}
+
+.site-footer-opensource {
+  color: $blockquote-text-color;
+  text-align: center;
+}
+
+.copyright {
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
