@@ -4,8 +4,9 @@
   link: /repositories
 - name: Blogs
   link: /blogs
+- name: Staff
+  link: /staff.html
 - name: About
   link: /about
 - name: Contact
   link: /about/contact.html
-  

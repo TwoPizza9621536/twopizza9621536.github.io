@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Samuel Wu @TwoPizza9621536
+title: Sam W @TwoPizza9621536
 email: twopizza9621536@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the site where you can see all of my repostory.
@@ -28,6 +28,27 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://twopizza9621536.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TwoPizza9621536
 github_username:  TwoPizza9621536
+
+# Authors
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Build settings
 theme: jekyll-theme-cayman

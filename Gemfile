@@ -18,9 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jemoji"
   gem "nokogiri", ">= 1.11.0.rc4"
-  gem "activesupport", ">= 4.1.11"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
