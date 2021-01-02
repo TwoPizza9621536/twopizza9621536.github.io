@@ -41,6 +41,8 @@ p.linethree {
 .goback {
   text-transform: uppercase;
   font-size: 117%;
+  margin: 10px auto 10px auto;
+  padding: 2rem;
 }
 
 .copyright {
