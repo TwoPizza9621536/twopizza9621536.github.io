@@ -29,6 +29,8 @@ url: "https://twopizza9621536.github.io" # the base hostname & protocol for your
 twitter_username: TwoPizza9621536
 github_username:  TwoPizza9621536
 
+encoding: UTF-8
+
 # Authors
 collections:
   authors:
