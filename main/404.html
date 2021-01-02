@@ -1,12 +1,24 @@
 ---
 permalink: /404.html
-layout: 404
+layout: default
+title: Uh-ho
+description: 'An error has occurred:'
 ---
 
 <!DOCTYPE html>
 <html lang="en-US>
   <head>
     <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="container">
+      <h1>404</h1>
+
+      <p><strong>Page not found :(</strong></p>
+      <p>The requested page could not be found.</p>
+      <p>To return to the main page by <a href={{ site.url }}>clicking here</a>.</p>
+    </div>
+  </body>
     <style type="text/css" media="screen">
       .container {
         margin: 10px auto;
@@ -20,14 +32,4 @@ layout: 404
         letter-spacing: -1px;
       }
     </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>404</h1>
-
-      <p><strong>Page not found :(</strong></p>
-      <p>The requested page could not be found.</p>
-      <p>To return to the main page by <a href={{ site.url }}>clicking here</a>.</p>
-    </div>
-  </body>
 </html>
