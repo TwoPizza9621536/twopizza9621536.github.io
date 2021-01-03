@@ -32,6 +32,10 @@ github_username:  TwoPizza9621536
 encoding: UTF-8
 timezone: America/New_York
 
+# Pagination
+paginate: 5
+paginate_path: "/blogs/page:num/"
+
 # Authors
 collections:
   authors:
