@@ -208,7 +208,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.11.0.rc4-x64-mingw32)
+    nokogiri (1.11.0-x64-mingw32)
       racc (~> 1.4)
     octokit (4.20.0)
       faraday (>= 0.9)
@@ -259,7 +259,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
-  nokogiri (>= 1.11.0.rc4)
+  nokogiri (>= 1.11.0)
   tzinfo
   tzinfo-data
   wdm

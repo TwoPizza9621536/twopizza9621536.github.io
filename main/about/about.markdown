@@ -14,7 +14,7 @@ description: All Acknowledgment and Dependencies for this site.
 
 ---
 
-For my contacts go [here]({{ '/about/contact.html' | relative_url }}).
+For my contacts go [here]({{ '/about/contacts.html' | relative_url }}).
 
 ## Credit
 
