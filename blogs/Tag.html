@@ -13,11 +13,19 @@ description: Tags for my blogs.
   <body>
     {% for tag in site.tags %}
     <h3>{{ tag[0] }}</h3>
+    <hr />
     <ul>
       {% for post in tag[1] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
     {% endfor %}
+    
+    <div style="text-align: center;">
+      <a href="{{ '/blogs/' | relative_url }}" style="text-align: center; padding: 2rem; color: color: #EA66A8;"
+        >To go back click here.</a
+      >
+    </div>
+    
   </body>
 </html>

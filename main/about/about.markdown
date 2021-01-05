@@ -78,6 +78,8 @@ The icons are license under CC-BY 3.0 see the Additional License section down be
 
 This site is under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/){:target="blank" rel="noreferrer noopener"} License see the license page [here]({{ "/about/license.html" | relative_url }}) for more info.
 
+The snippets are license under the MIT License. To see it [click here]({{ "/snippets/about/" | relative_url }}).
+
 ## Additional Licenses
 
 ---

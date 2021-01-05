@@ -1,7 +1,7 @@
 ---
 layout: default
-title: HTML Blogs
-description: The place where my html blogs are.
+title: Blogs
+description: The place where my blogs are.
 ---
 
 <!DOCTYPE html>
@@ -10,52 +10,92 @@ description: The place where my html blogs are.
     <meta charset="UTF-8" />
   </head>
   <body>
-    <p class="TnCLink">To see <a href={{ "/blogs/tags.html" | relative_url }}>
-      tags click here</a>. To see <a href={{ "/blogs/categories.html" | relative_url }}>
-      categories click here</a>.
-    </p>
-    
-    <p>Here is where is where my blogs are. Some blogs contains snippets.</p>
-    <p class="TnCLink">To see <a href={{ "/snippets/index.html" | relative_url }}>
-      snippets click here</a>.</p>
-    
-    <h1>Latest Posts</h1>
-    <hr />
-    <ul>
-      {% for post in site.posts %}
-          <li>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {{ post.excerpt }}
-          </li>
-      {% endfor %}
-    </ul>
-    
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-      {% else %}
-        <span>&laquo; Prev</span>
-      {% endif %}
+    <div style="text-align: center">
+      <p class="TnCLink">To see <a href={{ "/blogs/tags.html" | relative_url }}>
+        tags click here</a>. To see <a href={{ "/blogs/categories.html" | relative_url }}>
+        categories click here</a>.
+      </p>
       
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <em>{{ page }}</em>
-        {% elsif page == 1 %}
-          <a href="{{ '/' | relative_url }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
-            >{{ page }}</a
-          >
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-      {% else %}
-        <span>Next &raquo;</span>
-      {% endif %}
+      <p>Here is where is where my blogs are. Some blogs contains snippets.</p>
+      <p class="TnCLink">To see <a href={{ "/snippets/index.html" | relative_url }}>
+        snippets click here</a>.
+      </p>
     </div>
-    {% endif %}
+    
+    <h1 style="font-size: 36px;">Latest Post</h1>
+    <hr />
+    
+    <!-- This loops through the paginated posts -->
+    <div class="pagpost">
+      {% for post in paginator.posts %}
+        <h2 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="author">
+          <span class="date">{{ post.date }}</span>
+        </p>
+        <div class="content">
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      <div class="page_number_container">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous_link">
+          Previous
+        </a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+        <span class="page_number_rel">
+          Page: {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next_link">Next</a>
+      {% else %}
+        <span class="next">Next</span>
+      {% endif %}
+      </div>
+    </div>
   </body>
+  <style type="text/css">
+    .pagpost {
+      text-indent: 1rem;
+    }
+    .posttitle {
+      font-size: 1.8em;
+    }
+    .date {
+      color: #EA66A8;
+    }
+    .content {
+      text-indent: 0rem;
+      position: relative;
+      left: 1rem;
+      text-align: justify;
+    }
+    
+    .pagination {
+      overflow: hidden;
+      vertical-align: middle;
+    }
+    .previous_link {
+      font-size-adjust: 2em;
+    }
+    .previous {
+      float: left;
+      color: #159957;
+    }
+    .page_number_container {
+      text-align: center;
+    }
+    .next_link {
+      font-size-adjust: 2em;
+    }
+    .next {
+      float: right;
+      color: #159957;
+    }
+  </style>
 </html>
