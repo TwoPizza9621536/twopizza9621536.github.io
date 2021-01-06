@@ -29,6 +29,9 @@ url: "https://twopizza9621536.github.io" # the base hostname & protocol for your
 twitter_username: TwoPizza9621536
 github_username:  TwoPizza9621536
 
+repository: twopizza9621536/twopizza9621536.github.io
+origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
+
 encoding: UTF-8
 timezone: America/New_York
 
