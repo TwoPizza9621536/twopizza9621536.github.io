@@ -13,7 +13,7 @@ See it [here](twopizza9621536.github.io).
 
 Make sure you have Ruby with Dev-Kit on your computer.
 
-Go to the folfer the repo is in.
+Go to the folder the repo is in.
 
 Then install bundle and run it to install dependencies.
 
