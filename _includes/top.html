@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-      {% if site.google_analytics %}
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '{{ site.google_analytics }}');
-        </script>
-      {% endif %}
-      <meta charset="UTF-8">
+    {% if site.google_analytics %}
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "{{ site.google_analytics }}");
+    </script>
+    {% endif %}
+    <meta charset="UTF-8" />
 
-  {% seo %}
-      <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
-      <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
-      <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32x32.png' | relative_url }}">
-      <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon-16x16.png' | relative_url }}">
-      <link rel="manifest" href="{{ 'site.webmanifest' | relative_url }}">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="theme-color" content="#157878">
-      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-      <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-      <link href="{{ '/feed.xml' | relative_url }}" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
+    {% seo %}
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ 'favicon.ico' | relative_url }}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ '/assets/img/favicon-32x32.png' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{ '/assets/img/favicon-16x16.png' | relative_url }}"
+    />
+    <link rel="manifest" href="{{ 'site.webmanifest' | relative_url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#157878" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+    />
+    <link
+      href="{{ '/feed.xml' | relative_url }}"
+      type="application/rss+xml"
+      rel="alternate"
+      title="Latest 10 blog posts (atom)"
+    />
   </head>
 </html>
