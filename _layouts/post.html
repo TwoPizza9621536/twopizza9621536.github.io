@@ -5,7 +5,7 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <p>
-    Blog created: {{ page.date | date_to_string }} {% if page.datemod %}Blog updated: {{ page.datemod | date_to_string }}{% endif %}
+    Blog created: {{ page.date | date_to_string }} {% if page.moddate %}Blog updated: {{ page.moddate | date_to_string }}{% endif %}
     {% assign author = site.authors | where: 'short_name', page.author | first %}
     {% if author %}
         -
