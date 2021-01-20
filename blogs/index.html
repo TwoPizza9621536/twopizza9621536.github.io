@@ -7,6 +7,7 @@ description: The place where my blogs are.
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <title>{{ page.title }}</title>
     <meta charset="UTF-8" />
   </head>
   <body>
@@ -30,7 +31,8 @@ description: The place where my blogs are.
       {% for post in paginator.posts %}
         <h2 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="author">
-          <span class="date">{{ post.date }}</span>
+          <span class="date">Creation Date:{{ post.date }}</span>
+          <span class="date">Modified Date: {{ post.datemod }}</span>
         </p>
         <div class="content">
           {{ post.excerpt }}
