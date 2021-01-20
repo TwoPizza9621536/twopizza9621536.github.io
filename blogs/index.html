@@ -31,7 +31,7 @@ description: The place where my blogs are.
       {% for post in paginator.posts %}
         <h2 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="author">
-          <span class="date">Creation Date:{{ post.date }}</span>
+          <span class="date">Creation Date: {{ post.date }}</span>
           {% if post.datemod %}
             <span class="date">Modified Date: {{ post.datemod }}</span>
           {% endif %}
