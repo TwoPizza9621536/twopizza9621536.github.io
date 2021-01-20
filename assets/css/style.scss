@@ -18,15 +18,15 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 20px;
-  
+
   @include large {
     font-size: 1rem;
   }
-  
+
   @include medium {
     font-size: 1rem;
   }
-  
+
   @include small {
     font-size: 0.9rem;
   }
@@ -92,10 +92,14 @@ img.icon:hover {
   height:1px;
   overflow:hidden;
 }
- 
+
 #skip a:focus
 {
   position:static;
   width:auto;
   height:auto;
+}
+
+.date {
+  color: #EA66A8;
 }
