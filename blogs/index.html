@@ -2,6 +2,7 @@
 layout: default
 title: Blogs
 description: The place where my blogs are.
+slug: blogs
 ---
 
 <!DOCTYPE html>
@@ -11,55 +12,62 @@ description: The place where my blogs are.
     <meta charset="UTF-8" />
   </head>
   <body>
-    <div style="text-align: center">
-      <p class="TnCLink">To see <a href={{ "/blogs/tags.html" | relative_url }}>
-        tags click here</a>. To see <a href={{ "/blogs/categories.html" | relative_url }}>
-        categories click here</a>.
+    <div style="text-align: center;">
+      <p class="TnCLink">
+        To see
+        <a href="{{ '/blogs/tags.html' | relative_url }}"> tags click here</a>.
+        To see
+        <a href="{{ '/blogs/categories.html' | relative_url }}">
+          categories click here</a
+        >.
       </p>
-      
+
       <p>Here is where is where my blogs are. Some blogs contains snippets.</p>
-      <p class="TnCLink">To see <a href={{ "/snippets/index.html" | relative_url }}>
-        snippets click here</a>.
+      <p class="TnCLink">
+        To see
+        <a href="{{ '/snippets/index.html' | relative_url }}">
+          snippets click here</a
+        >.
       </p>
     </div>
-    
+
     <h1 style="font-size: 36px;">Latest Post</h1>
     <hr />
-    
+
     <!-- This loops through the paginated posts -->
     <div class="pagpost">
       {% for post in paginator.posts %}
-        <h2 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="author">
-          <span class="date">Creation Date: {{ post.date }}</span>
-          {% if post.datemod %}
-            <span class="date">Modified Date: {{ post.datemod }}</span>
-          {% endif %}
-        </p>
-        <div class="content">
-          {{ post.excerpt }}
-        </div>
+      <h2 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="author">
+        <span class="date">Creation Date: {{ post.date }}</span>
+        {% if post.datemod %}
+        <span class="date">Modification Date: {{ post.moddate }}</span>
+        {% endif %}
+      </p>
+      <div class="content">
+        {{ post.excerpt }}
+      </div>
       {% endfor %}
     </div>
 
     <!-- Pagination links -->
     <div class="pagination">
       <div class="page_number_container">
-      {% if paginator.previous_page %}
+        {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous_link">
           Previous
         </a>
-      {% else %}
+        {% else %}
         <span class="previous">Previous</span>
-      {% endif %}
+        {% endif %}
         <span class="page_number_rel">
           Page: {{ paginator.page }} of {{ paginator.total_pages }}
         </span>
-      {% if paginator.next_page %}
+        {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" class="next_link">Next</a>
-      {% else %}
+        {% else %}
         <span class="next">Next</span>
-      {% endif %}
+        {% endif %}
       </div>
     </div>
   </body>
@@ -71,7 +79,7 @@ description: The place where my blogs are.
       font-size: 1.8em;
     }
     .date {
-      color: #EA66A8;
+      color: #ea66a8;
     }
     .content {
       text-indent: 0rem;
@@ -79,7 +87,7 @@ description: The place where my blogs are.
       left: 1rem;
       text-align: justify;
     }
-    
+
     .pagination {
       overflow: hidden;
       vertical-align: middle;
