@@ -4,6 +4,8 @@
   link: /repositories
 - name: Blogs
   link: /blogs/
+- name: Slides
+  link: /slides/
 - name: Snippets
   link: /snippets/index.html
 - name: Staff
