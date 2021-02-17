@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <title>Navigation</title>
     <link rel="stylesheet" href="{{ '../assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
   </head>
   <body>
@@ -10,13 +11,6 @@
           <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} class="navigation-buttons">{{ item.name }}</a>
         {% endfor %}
       </nav>
-      <br />
-      <form method="get" action="https://duckduckgo.com/?q=" target="blank" rel="noreferrer noopener">
-        <input type="hidden" name="sites" value="{{ site.url }}" />
-        <label for="search" class="visuallyhidden">Search this site on DuckDuckGo</label>
-        <input type="text" name="q" id="search" placeholder="Search {{ site.url }} on DuckDuckGo" class="search">
-        <input type="submit" name="submit" value="Search" id="submit"/>
-      </form>
     </div>
   </body>
   <style type="text/css">

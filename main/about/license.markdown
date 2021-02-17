@@ -9,7 +9,7 @@ description: Licenses for the technology used.
 - [Creative Commons Attribution 4.0 International](#creative-commons-attribution-40-international)
 - [Creative Commons Attribution 3.0 Unported](#creative-commons-attribution-30-unported)
 - [Creative Commons Zero 1.0 Universal](#creative-commons-zero-10-universal)
-- [Jekyll MIT License](#jekyll-mit-license)
+- [MIT License](#mit-license)
 - [Font Awesome Free License](#font-awesome-free-license)
 
 ## Creative Commons Attribution-ShareAlike 4.0 International
@@ -1029,14 +1029,14 @@ For more information, please see
 <http://creativecommons.org/publicdomain/zero/1.0/>
 ```
 
-## Jekyll MIT License
+## MIT License
 
 ---
 
 ```markdown
 The MIT License (MIT)
 
-Copyright (c) 2008-present Tom Preston-Werner and Jekyll contributors
+Copyright (c) year copyright holder
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

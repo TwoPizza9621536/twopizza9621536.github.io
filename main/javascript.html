@@ -7,16 +7,47 @@ slug: javascript-zone
 
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
+  <head>
     <title>JavaScript Zone</title>
-</head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ '../assets/css/javascript.css' | relative_url }}"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-    Here are pages that needs JavaScript to function.
+  <body>
+    <h2>Here are pages that needs JavaScript to function.</h2>
 
+    <div class="prompt">
+      To check if javascript is enabled, below is a test to see if javascript is
+      enabled.
+    </div>
+
+    <div class="test">
+      Click me. If the color changes then javascript is enabled.
+    </div>
+
+    <p>
+      You can use WebsiteTutorial to check for JavaScript too, but it uses
+      noscript.
+    </p>
     <ul>
-        <li><a href="{{ '/github-slides' | relative_url }}">GitHub Slideshow</a></li>
+      <li>
+        <a href="{{ '/WebsiteTutorial' | relative_url }}"
+          >Microsoft's Website Tutorial</a
+        >
+        aka WebsiteTutorial
+      </li>
+      <li>
+        <a href="{{ '/github-slideshow' | relative_url }}">Slideshows using reveal.js</a>
+      </li>
     </ul>
-</body>
+    <script src="{{ '../assets/js/javascript.js' | relative_url }}"></script>
+  </body>
 </html>
