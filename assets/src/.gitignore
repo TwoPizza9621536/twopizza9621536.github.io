@@ -1,0 +1,17 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.idea/shelf/workspace.xml
+.vs/
+*
+!*.*
+!/**/
+*.txt
+.vscode/
+*.pdb
+*.exe
+.fake
+.ionide
+.idea/
+

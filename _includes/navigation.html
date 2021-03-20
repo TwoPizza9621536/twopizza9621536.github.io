@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Navigation</title>
+    <link rel="stylesheet" href="{{ '../assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
+  </head>
+  <body>
+    <div class="navigation">  
+      <nav>
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} class="navigation-buttons">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </body>
+  <style type="text/css">
+    .navigation {
+      text-align: center;
+    }
+    .current {
+      color: green;
+      font-size: 1.75em;
+      padding: 10px;
+    }
+    .navigation-buttons {
+      font-size: 1.25em;
+      padding: 10px;
+    }
+  </style>
+</html>
