@@ -4,6 +4,8 @@ title: "Comparing Languages"
 date: 2021-03-20 12:06:00 -0500
 ---
 
+This is a comparison of different languages. The first one is C.
+
 {% highlight c %}
 // Define any preprocessor header files
 #include <stdio.h>

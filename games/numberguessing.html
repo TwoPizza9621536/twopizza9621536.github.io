@@ -1,0 +1,52 @@
+---
+title: Number guessing Game
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Number guessing game</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{'../assets/games/css/numberguessing.css' | relative_url }}"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <p>
+      We have selected a random number between 1 and 100. See if you can guess
+      it in 10 turns or fewer. We'll tell your guess was too high or too low.
+    </p>
+
+    <div class="guessingForm">
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id="guessField" class="guessField" />
+      <input type="submit" value="Submit guess" class="guessSubmit" />
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <p>
+      This is from the MDN page for javascript.
+      <a
+        href="https://github.com/mdn/learning-area"
+        rel="noreferrer noopener nofollow"
+        target="_blank"
+        >See here for the pages</a
+      >.
+    </p>
+    <script src="{{ '../assets/games/js/numberguessing.js' | relative_url }}"></script>
+  </body>
+</html>
