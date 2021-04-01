@@ -9,7 +9,7 @@ $(document).ready(function () {
         } else {
             $(".test").css("background-color", getRandomColor());
         }
-        console.log(
+        Console.log(
             "If you can see this. JavaScript is enabled. " +
             "This also means jQuery is also working."
         );
