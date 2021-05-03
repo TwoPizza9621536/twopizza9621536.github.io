@@ -45,18 +45,28 @@
         >.
       </div>
     </div>
-    <div class="copyright">
+    <div
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dc="http://purl.org/dc/terms/"
+      class="copyright"
+    >
       <a
         rel="license"
         href="http://creativecommons.org/licenses/by-sa/4.0/"
         target="blank"
         rel="noreferrer noopener"
-        ><img
-          alt="Creative Commons License"
+      >
+        <img
+          alt="Creative Commons Share-Alike License"
           style="border-width: 0;"
-          src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg" /></a
-      ><br /><span
-        xmlns:dct="http://purl.org/dc/terms/"
+          src="{{ '/assets/svg/by-sa.svg' | relative_url }}"
+        />
+      </a>
+      <br />
+      Except where otherwise
+      <a href="{{ '/about' | relative_url }}">noted</a> or stated on this page,
+      this website,
+      <span
         href="http://purl.org/dc/dcmitype/Text"
         property="dct:title"
         rel="dct:type"
@@ -64,8 +74,7 @@
       >
       by
       <a
-        xmlns:cc="http://creativecommons.org/ns#"
-        href="twopizza9621536.github.io"
+        href="https://twopizza9621536.github.io"
         property="cc:attributionName"
         rel="cc:attributionURL"
         target="blank"
@@ -79,15 +88,7 @@
         target="blank"
         rel="noreferrer noopener"
         >Creative Commons Attribution-ShareAlike 4.0 International License</a
-      >.<br />Permissions beyond the scope of this license may be available at
-      <a
-        xmlns:cc="http://creativecommons.org/ns#"
-        href="{{ '/about' | relative_url }}"
-        rel="cc:morePermissions"
-        target="blank"
-        rel="noreferrer noopener"
-        >twopizza9621536.github.io/about</a
-      > or stated otherwise.
+      >.
     </div>
     {% include social.html %}
   </footer>

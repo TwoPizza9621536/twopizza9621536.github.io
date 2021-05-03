@@ -7,7 +7,7 @@ description: All Acknowledgment and Dependencies for this site.
 
 - [Contacts](#contacts)
 - [License](#license)
-  - [Additional Permission](#additional-permission)
+  - [Notice](#notice)
 - [Credits](#credits)
   - [Licenses](#licenses)
 
@@ -22,37 +22,53 @@ For my contacts go [here]({{ '/about/contacts.html' | relative_url }}).
 ---
 
 This site is under the
-[Creative Commons Attribution-ShareAlike 4.0 International][1] License.
+[Creative Commons Attribution-ShareAlike 4.0 International][1] license.
 
-To see the legal code [here]({{ "/about/license.html" | relative_url }}).
+Please see the legal code [here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
+and [here][2].
 
 To attribute make sure you have my name in the credits and/or state credits go
 to my name (Sam W) and hyperlink my name to the website
-`twopizza9621536.github.io`.
+`twopizza9621536.github.io` and the image or the caption
+of the image to the link to the page of the source material.
+Add the license notice and the link of the [CC BY-SA 4.0][1] license as part
+of the attribution too.
 
 If you remix or build upon of this website use the CC License Chooser
-(use the beta version) and select CC BY-SA and attribute me my putting my name
-in the author section. You may want to edit the metadata to hyperlink my name
-to this website.
+(use the beta version) and select must CC BY-SA and attribute me my putting my
+name in the author section. You may want to edit the metadata to hyperlink my
+name to this website and the page of the source material.
 
-### Additional Permission
+If it is a slight modication, indicate the modication from the original.
 
-For additional permissions, you can use anything under the Credits Section
-without licencing your website under CC BY-SA 4.0 License and crediting me.
-But you must follow their the licenses that they are under.
+For more info, here is the official CC website for
+[attribution](https://creativecommons.org/use-remix/attribution){:target="blank" rel="noreferrer noopener"}
+and
+[licensing](https://creativecommons.org/share-your-work){:target="blank" rel="noreferrer noopener"}
+
+Here is the official CC wiki for
+[attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution){:target="blank" rel="noreferrer noopener"}
+and
+[licensing](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license){:target="blank" rel="noreferrer noopener"}.
+
+### **Notice**
+
+For other files that under a different license or under the Credits section,
+you can use them without licencing your website under CC BY-SA 4.0 License
+and crediting me, but you must follow their licenses that they are under.
 
 You can use the snippets and repositories that are under the MIT License.
 To see it [click here]({{ "/snippets/about/" | relative_url }}).
 
 You can use code that are specified that the code is under a permissive license
-or is under a public domain compatible license.
+or is under a public domain compatible license or a CC compatible license.
 
 ## Credits
 
 ---
 
 The theme for this site is Cayman. To customize the Jekyll theme, see the basic
-Jekyll usage documentation at [jekyllrb.com][2]
+Jekyll usage documentation at [jekyllrb.com][3]
 
 You can find the source code for Cayman at GitHub:
 [jasonlong](https://github.com/jasonlong){:target="blank" rel="noreferrer noopener"} /
@@ -61,7 +77,7 @@ You can find the source code for Cayman at GitHub:
 Cayman theme is license under CC-BY 4.0. See the License section down below.
 
 You can find the source code for Jekyll-Cayman-theme at GitHub:
-[pietromenna](https://github.com/pietromenna){:target="blank" rel="noreferrer noopener"} /
+[pietromenna][4] /
 [jekyll-cayman-theme](https://github.com/pietromenna/jekyll-cayman-theme){:target="blank" rel="noreferrer noopener"}
 
 Jekyll Cayman theme is license under CC-BY 4.0. See the License section down below.
@@ -127,4 +143,6 @@ All licenses are in the license page click
 [here]({{ "/about/license.html" | relative_url }}) for more info.
 
 [1]: [https://creativecommons.org/licenses/by-sa/4.0/]{:target="blank" rel="noreferrer noopener"}
-[2]: [https://jekyllrb.com/]{:target="blank" rel="noreferrer noopener"}
+[2]: [https://creativecommons.org/licenses/by-sa/4.0/legalcode]{:target="blank" rel="noreferrer noopener"}
+[3]: [https://jekyllrb.com/]{:target="blank" rel="noreferrer noopener"}
+[4]: [https://github.com/pietromenna]{:target="blank" rel="noreferrer noopener"}
