@@ -261,7 +261,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (>= 212)
+  github-pages (>= 214)
   jekyll-feed (>= 0.15.1)
   jekyll-seo-tag (>= 2.7.1)
   jekyll-sitemap (>= 1.4.0)

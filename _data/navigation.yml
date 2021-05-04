@@ -7,10 +7,12 @@
 - name: Javascript
   link: /javascript
 - name: Snippets
-  link: /snippets/index.html
+  link: /snippets
 - name: Staff
   link: /staff.html
 - name: About
   link: /about
+- name: Privacy
+  link: /privacy
 - name: Contact
   link: /about/contacts.html
