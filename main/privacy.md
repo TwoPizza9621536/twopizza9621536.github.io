@@ -26,7 +26,7 @@ here it and this is inspired by [Kev Quirk](https://kevq.uk).
 **_THE PRIVACY POLICY, Terms of Service and DISCLAIMER MAY SUBJECT
 TO CHANGE AT ANY TIME WITHOUT A NOTICE_**
 
-This is last updated on 05-04-2021.
+This is last updated on 05-06-2021.
 
 ## 1. **DISCLAIMER**
 
@@ -105,9 +105,10 @@ tracking in the applications.
 ---
 
 If you contribute, you need to ask the owner of the project so code and credit
-are done correctly. You must follow the Code of Conduct and
-contributing guidelines before contributing. The license of the project must be
-followed and license of the code from other projects must be followed too.
+are done correctly. You must follow the Code of Conduct and contributing guidelines
+before contributing as there are privacy standers in theme. The license of the
+project must be followed and license of the code from other projects must be
+followed too.
 
 ## 8. Exceptions
 
@@ -150,8 +151,8 @@ GitLab is under their ToS, and Privacy Policy. Please check their policy too.
 
 You not need to follow the terms to terms of service in order to access, view,
 read, or copy any of the data on this website. But you must follow the license
-and the terms for services in the Exceptions section for application that uses
-them.
+and the terms for services in the Exceptions for application that uses them
+and/or the Contributing section if you want to tribute.
 
 Otherwise noted or stated on the page this site is under the
 [Creative Commons Attribution-ShareAlike 4.0 International][8]
