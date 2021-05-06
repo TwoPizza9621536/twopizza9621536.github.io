@@ -6,18 +6,18 @@ description: >-
   Privacy policy and Terms of Service for this website and other projects.
 ---
 
-1. **[DISCLAIMER](#disclaimer)**
-2. [HTTPS Secured](#https-secured)
-3. [No Analytics](#no-analytics)
-4. [No Cookies](#no-cookies)
-5. [Mostly No JavaScript](#mostly-no-javascript)
-6. [Projects and Applications](#projects-and-applications)
-7. [Contributing](#contributing)
-8. [Exceptions](#exceptions)
-    1. [Guestbook](#guestbook)
-    2. [Social Media API](#social-media-api)
-    3. [GitHub and GitLab](#github-and-gitlab)
-9. [Terms of Service](#terms-of-service)
+- [1. **DISCLAIMER**](#1-disclaimer)
+- [2. HTTPS Secured](#2-https-secured)
+- [3. No Analytics](#3-no-analytics)
+- [4. No Cookies](#4-no-cookies)
+- [5. Mostly No JavaScript](#5-mostly-no-javascript)
+- [6. Projects And Applications](#6-projects-and-applications)
+- [7. Contributing](#7-contributing)
+- [8. Exceptions](#8-exceptions)
+  - [8.1. Guestbook](#81-guestbook)
+  - [8.2. Social Media API](#82-social-media-api)
+  - [8.3. GitHub and GitLab](#83-github-and-gitlab)
+- [9 Terms of Service](#9-terms-of-service)
 
 Well I need a privacy policy and I want to mind my privacy and yours. I mostly
 try to keep my privacy while using major services. Since you might mind yours
@@ -116,7 +116,7 @@ followed too.
 
 There is some exception to these rules here it is below:
 
-### 7.1 Guestbook
+### 8.1. Guestbook
 
 The guestbook is hosted by [smartgb][5]. The guestbook is not
 HTTPS enforced yet and it follows their own ToS/Agreement and Privacy Policy.
@@ -126,7 +126,7 @@ Here the smartgb Terms:
 and
 [Privacy Policy][7].
 
-### 7.2 Social Media API
+### 8.2. Social Media API
 
 The social media API provided by them like Google/YouTube, Twitter, Discord, etc
 are under their ToS, and Privacy Policy. Please check their policy before using
@@ -134,9 +134,13 @@ applications that uses their APIs.
 
 For Twitter bots and applications, there will be analysis but the data will be
 public and no private data will be stored. There will be a notice and warning
-saying that the tweet is a poll/servery. Tags are tracked for performance only.
+saying that the tweet is a poll/servery. Tags are tracked for performance and
+vitality only.
 
-### 7.3 GitHub and GitLab
+There are logs and performance trackers for usage and errors
+but I will not use the logs but the performance trackers will be used to .
+
+### 8.3. GitHub and GitLab
 
 This website and the repositories are hosted on GitHub. This means the
 repositories are under their ToS, and Privacy Policy. Please check their policy
