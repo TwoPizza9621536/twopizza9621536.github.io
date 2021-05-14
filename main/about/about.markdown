@@ -7,10 +7,13 @@ description: All Acknowledgment and Dependencies for this site.
 
 - [Contacts](#contacts)
 - [Privacy Policy](#privacy-policy)
+- [Terms of Service](#terms-of-service)
 - [License](#license)
-  - [Notice](#notice)
+  - [**Notice**](#notice)
 - [Credits](#credits)
   - [Licenses](#licenses)
+
+Last updated: 05-14-2021
 
 ## Contacts
 
@@ -23,6 +26,14 @@ For my contacts go [here]({{ '/about/contacts.html' | relative_url }}).
 ---
 
 To see the privacy policy go [here]({{ '/privacy' | relative_url }}).
+
+## Terms of Service
+
+---
+
+For snippets provided by third party social media are under their own terms of
+service and guidelines. See the exceptions section of the privacy policy for
+more info.
 
 ## License
 
@@ -37,21 +48,21 @@ and [here][2].
 
 This license states that:
 
-> * You are free to share, copy and redistribute the material in any medium or
+> - You are free to share, copy and redistribute the material in any medium or
      format.
-     * You are also free to adapt, remix, transform, and build upon the material
+     *You are also free to adapt, remix, transform, and build upon the material
      * for any purpose, even commercially. However…
-     * You must provide attribution to the author (me) with a link back to this
+     *You must provide attribution to the author (me) with a link back to this
      website and the page that have material if applicable.
      * If you remix, transform, or build upon the material, you must distribute
      your contributions under the same license as the original.
      * You may not apply legal terms or technological measures that legally
      restrict others from doing anything the license permits.
- 
+
 If you do not follow the license you have 30 days to correct the mistakes to
 follow the license and the mistake is still not corrected the license is
 terminated for you.
- 
+
 To attribute make sure you have my name in the credits and/or state credits go
 to my name (Sam W) and hyperlink my name to the website
 `twopizza9621536.github.io` and the image or the caption
@@ -75,8 +86,6 @@ Here is the official CC wiki for
 [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution){:target="blank" rel="noreferrer noopener"}
 and
 [licensing](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license){:target="blank" rel="noreferrer noopener"}.
-
-This is
 
 ### **Notice**
 

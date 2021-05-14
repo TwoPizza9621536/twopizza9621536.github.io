@@ -26,7 +26,7 @@ here it and this is inspired by [Kev Quirk](https://kevq.uk).
 **_THE PRIVACY POLICY, Terms of Service and DISCLAIMER MAY SUBJECT
 TO CHANGE AT ANY TIME WITHOUT A NOTICE_**
 
-This is last updated on 05-06-2021.
+This is last updated on 05-14-2021.
 
 ## 1. **DISCLAIMER**
 
@@ -161,7 +161,8 @@ and/or the Contributing section if you want to tribute.
 Otherwise noted or stated on the page this site is under the
 [Creative Commons Attribution-ShareAlike 4.0 International][8]
 license. For more information, the noted, licensing information, and credits see
-the [About Page]({{ '/about' | relative_url}}).
+the [About Page]({{ '/about' | relative_url}}). To contact me go
+[here]({{ '/about/contacts.html' | relative_url }}).
 
 [^1]: https://github.blog/2018-05-01-github-pages-custom-domains-https/
 [^2]: https://code.jquery.com/
