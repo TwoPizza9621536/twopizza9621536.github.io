@@ -21,6 +21,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     ethon (0.14.0)
       ffi (>= 1.15.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     faraday (1.4.1)
@@ -32,6 +33,7 @@ GEM
     faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
+    ffi (1.15.0)
     ffi (1.15.0-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -206,13 +208,17 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mini_portile2 (2.5.1)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.11.3-x64-mingw32)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.4-x64-mingw32)
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -236,6 +242,8 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sawyer (0.8.2)
@@ -254,10 +262,12 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -272,4 +282,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.2.15
+   2.1.4
