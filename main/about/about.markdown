@@ -64,7 +64,7 @@ follow the license and the mistake is still not corrected the license is
 terminated for you.
 
 To attribute make sure you have my name in the credits and/or state credits go
-to my name (Sam W) and hyperlink my name to the website
+to my name (Samuel Wu) and hyperlink my name to the website
 `twopizza9621536.github.io` and the image or the caption
 of the image to the link to the page of the source material.
 Add the license notice and the link of the [CC BY-SA 4.0][1] license as part
