@@ -1,6 +1,6 @@
 ---
-short_name: sam
-name: Sam W
+short_name: Sam
+name: Samuel Wu
 position: Owner
 ---
 
