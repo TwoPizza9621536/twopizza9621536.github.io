@@ -43,21 +43,26 @@ This site is under the
 [Creative Commons Attribution-ShareAlike 4.0 International][1]
 license.
 
-Please see the legal code [here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
+**PLEASE MAKE SURE YOU READ THE LEGAL CODE BEFORE YOU DO THE THINGS THAT
+HAS BEEN LISTED BELOW**
+
+You can see the legal code [here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
 and [here][2].
 
 This license states that:
 
 > - You are free to share, copy and redistribute the material in any medium or
      format.
-     *You are also free to adapt, remix, transform, and build upon the material
-     * for any purpose, even commercially. However…
-     *You must provide attribution to the author (me) with a link back to this
+  - You are also free to adapt, remix, transform, and build upon the material
+     for any purpose, even commercially. However…
+  - You must provide attribution to the author (me) with a link back to this
      website and the page that have material if applicable.
-     * If you remix, transform, or build upon the material, you must distribute
+  - If you remix, transform, or build upon the material, you must distribute
      your contributions under the same license as the original.
-     * You may not apply legal terms or technological measures that legally
+  - You may not apply legal terms or technological measures that legally
      restrict others from doing anything the license permits.
+  - When you license under the same license as the original, depending on
+     your jurisdiction, you have wavied your moral rights.
 
 If you do not follow the license you have 30 days to correct the mistakes to
 follow the license and the mistake is still not corrected the license is
@@ -70,12 +75,12 @@ of the image to the link to the page of the source material.
 Add the license notice and the link of the [CC BY-SA 4.0][1] license as part
 of the attribution too.
 
-If you remix or build upon of this website use the CC License Chooser
-(use the beta version) and select must CC BY-SA and attribute me my putting my
-name in the author section. You may want to edit the metadata to hyperlink my
-name to this website and the page of the source material.
+If you remix, adapt, transform or build upon of this website use the CC License
+Chooser (use the beta version) and select must CC BY-SA and attribute me by
+putting my name in the author section. You may want to edit the metadata to
+hyperlink my name to this website and the page of the source material.
 
-If it is a slight modification, indicate the modification from the original.
+If there is a modification, indicate the modification from the original.
 
 For more info, here is the official CC website for
 [attribution](https://creativecommons.org/use-remix/attribution){:target="blank" rel="noreferrer noopener"}
