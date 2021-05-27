@@ -1,3 +1,10 @@
+/**
+ * This file is from StackOverflow.
+ * Random color genterator https://stackoverflow.com/a/1484514
+ * by user Anatoliy and Paolo Forgia is under CC BY-SA 3.0
+ * https://creativecommons.org/licenses/by-sa/3.0/
+ */
+
 $(document).ready(function () {
     var counter = 0;
     $(".test").on("click", function () {
