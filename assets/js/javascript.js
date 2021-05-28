@@ -1,8 +1,9 @@
 /**
  * This file is from StackOverflow.
  * Random color genterator https://stackoverflow.com/a/1484514
- * by user Anatoliy and Paolo Forgia is under CC BY-SA 3.0
- * https://creativecommons.org/licenses/by-sa/3.0/
+ * by user Anatoliy https://stackoverflow.com/users/161832 and
+ * Paolo Forgia https://stackoverflow.com/users/1685157
+ * under CC BY-SA 3.0 Unported https://creativecommons.org/licenses/by-sa/3.0/
  */
 
 $(document).ready(function () {

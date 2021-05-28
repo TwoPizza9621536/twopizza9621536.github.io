@@ -30,5 +30,7 @@ bundle exec jekyll serve
 
 ## License
 
-This website [twopizza9621536.github.io](twopizza9621536.github.io) is under [![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) - see
-[LICENSE](LICENSE) or see [about.markdown](./about/about.markdown) for more info.
+This website [twopizza9621536.github.io](twopizza9621536.github.io) unless
+noted or stated on the page is under
+[![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+- see [about.markdown](./about/about.markdown) for more info.
