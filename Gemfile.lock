@@ -13,8 +13,8 @@ GEM
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.8)
-    dnsruby (1.61.5)
+    concurrent-ruby (1.1.9)
+    dnsruby (1.61.7)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
@@ -24,7 +24,7 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
-    faraday (1.4.2)
+    faraday (1.4.3)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -37,8 +37,8 @@ GEM
     faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
-    ffi (1.15.1)
-    ffi (1.15.1-x64-mingw32)
+    ffi (1.15.3)
+    ffi (1.15.3-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (215)
@@ -219,10 +219,10 @@ GEM
       jekyll-seo-tag (~> 2.1)
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.11.6)
+    nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.6-x64-mingw32)
+    nokogiri (1.11.7-x64-mingw32)
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -266,7 +266,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
-    unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
 
@@ -286,4 +285,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.1.4
+   2.2.19
