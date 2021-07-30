@@ -1,0 +1,14 @@
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /assets/
+Disallow: /LICENSE
+Disallow: /snippets/assets
+Disallow: /snippets/LICENSE
+Disallow: /renovate.json
+Disallow: /README.md
+Disallow: /snippets/README.md
+Disallow: /CODE_OF_CONDUCT.md
+Disallow: /snippets/CODE_OF_CONDUCT.md
+
+Sitemap: https://twopizza9621536.github.io/sitemap.xml
+Sitemap: https://twopizza9621536.github.io/snippets/sitemap.xml
