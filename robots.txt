@@ -1,4 +1,7 @@
 User-agent: *
+User-agent: Mediapartners-Google
+User-agent: AdsBot-Google
+User-agent: AdIdxBot
 Disallow: /assets/
 Disallow: /LICENSE
 Disallow: /snippets/assets
