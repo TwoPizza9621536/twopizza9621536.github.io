@@ -13,7 +13,7 @@ description: All Acknowledgment and Dependencies for this site.
 - [Credits](#credits)
   - [Licenses](#licenses)
 
-Last updated: 05-14-2021
+Last modified: 2021-07-30 13:51:02 EDT
 
 ## Contacts
 
@@ -46,23 +46,24 @@ license.
 **PLEASE MAKE SURE YOU READ THE LEGAL CODE BEFORE YOU DO THE THINGS THAT
 HAS BEEN LISTED BELOW**
 
-You can see the legal code [here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
+You can see the legal code
+[here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
 and [here][2].
 
 This license states that:
 
 > - You are free to share, copy and redistribute the material in any medium or
-     format.
-  - You are also free to adapt, remix, transform, and build upon the material
-     for any purpose, even commercially. However…
-  - You must provide attribution to the author (me) with a link back to this
-     website and the page that have material if applicable.
-  - If you remix, transform, or build upon the material, you must distribute
-     your contributions under the same license as the original.
-  - You may not apply legal terms or technological measures that legally
-     restrict others from doing anything the license permits.
-  - When you license under the same license as the original, depending on
-     your jurisdiction, you have wavied your moral rights.
+>    format.
+> - You are also free to adapt, remix, transform, and build upon the material
+>    for any purpose, even commercially. However…
+>   - You must provide attribution to the author (me) with a link back to this
+>      website and the page that have material if applicable.
+>   - If you remix, transform, or build upon the material, you must distribute
+>      your contributions under the same license as the original.
+>   - You may not apply legal terms or technological measures that legally
+>      restrict others from doing anything the license permits.
+>   - When you license under the same license as the original, depending on your
+>      jurisdiction, you have wavied your moral rights.
 
 If you do not follow the license you have 30 days to correct the mistakes to
 follow the license and the mistake is still not corrected the license is
@@ -82,6 +83,10 @@ hyperlink my name to this website and the page of the source material.
 
 If there is a modification, indicate the modification from the original.
 
+Because this is text media, there are no extra varables determining does this
+activate the sharealike clause; only the text must be standalone and not
+modified for it not to be activated.
+
 For more info, here is the official CC website for
 [attribution](https://creativecommons.org/use-remix/attribution){:target="blank" rel="noreferrer noopener"}
 and
@@ -99,7 +104,7 @@ you can use them without licencing your website under CC BY-SA 4.0 License
 and crediting me, but you must follow their licenses that they are under.
 
 You can use the snippets and repositories that are under the MIT License.
-To see it [click here]({{ "/snippets/about/" | relative_url }}).
+To see it [click here]({{ "/snippets/about" | relative_url }}).
 
 You can use code that are specified that the code is under a permissive license
 or is under a public domain compatible license or a CC BY compatible license.
@@ -131,7 +136,7 @@ Jekyll Cayman theme is license under [CC-BY 4.0][5]. See the License section dow
 
 You can find the source code for Jekyll at GitHub:
 [jekyll](https://github.com/jekyll){:target="blank" rel="noreferrer noopener"} /
-[jekyll]
+[jekyll][3]
 
 Jekyll is license under the MIT license. See the License section down below.
 
@@ -169,6 +174,14 @@ You can find the source code for shields at GitHub:
 [FiraCode](https://github.com/tonsky/FiraCode){:target="blank" rel="noreferrer noopener"}
 
 Fira Code is licensed under the OFL 1.1 License. See the License section down below.
+
+Simple-Jekyll-Search is used for the search page. Simple-Jekyll-Search can be
+found here
+[Christian Fei](https://cri.dev){:target="blank" rel="noreferrer noopener"} /
+[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search){:target="blank" rel="noreferrer noopener"}
+
+Simple-Jekyll-Search is licensed under the MIT License. See the License section
+down below.
 
 For a secret page some badges are from W3C.
 

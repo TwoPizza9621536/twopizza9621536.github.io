@@ -12,7 +12,7 @@
   link: /staff.html
 - name: About
   link: /about
-- name: Privacy
-  link: /privacy
+- name: Privacy & TOS
+  link: /privacy-tos
 - name: Contact
   link: /about/contacts.html
