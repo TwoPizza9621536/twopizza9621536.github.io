@@ -1,7 +1,4 @@
 User-agent: *
-User-agent: Mediapartners-Google
-User-agent: AdsBot-Google
-User-agent: AdIdxBot
 Disallow: /assets/
 Disallow: /LICENSE
 Disallow: /snippets/assets
@@ -11,6 +8,11 @@ Disallow: /README.md
 Disallow: /snippets/README.md
 Disallow: /CODE_OF_CONDUCT.md
 Disallow: /snippets/CODE_OF_CONDUCT.md
+
+User-agent: Mediapartners-Google
+User-agent: AdsBot-Google
+User-agent: AdIdxBot
+Disallow: /
 
 Sitemap: https://twopizza9621536.github.io/sitemap.xml
 Sitemap: https://twopizza9621536.github.io/snippets/sitemap.xml
