@@ -1,5 +1,7 @@
 User-agent: Googlebot
 User-agent: AdsBot-Google
+User-agent: Bingbot
+User-agent: AdIdxBot
 Disallow: /assets/
 Disallow: /LICENSE
 Disallow: /snippets/assets
