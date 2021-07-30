@@ -14,7 +14,7 @@ description: >-
 - [6. Projects And Applications](#6-projects-and-applications)
 - [7. Contributing](#7-contributing)
 - [8. Exceptions](#8-exceptions)
-  - [8.1. Social Media API](#81-social-media-api)
+  - [8.1. Social Media and 3rd Parties APIs](#81-social-media-and-3rd-parties-apis)
   - [8.2. GitHub and GitLab](#82-github-and-gitlab)
 - [9. Terms of Service](#9-terms-of-service)
 
@@ -25,7 +25,7 @@ here it and this is inspired by [Kev Quirk](https://kevq.uk).
 **_THE PRIVACY POLICY, Terms of Service and DISCLAIMER MAY SUBJECT
 TO CHANGE AT ANY TIME WITHOUT A NOTICE_**
 
-Last modified on 2021-07-30 13:50:24 EDT.
+Last modified on 2021-07-30 18:04:33 EDT.
 
 ## 1. **DISCLAIMER**
 
@@ -71,8 +71,8 @@ bug report or issue in the repository for the application.
 
 There no logs or IP Address recorded and stored for me to be able to track you.
 
-But there are excptions to this which are listed below in
-[Section 8](#8-exceptions).
+But there are excptions like webmasters and analysis to this which are listed
+below in [Section 8](#8-exceptions).
 
 ## 4. No Cookies
 
@@ -118,19 +118,23 @@ followed too.
 
 There is some exception to these rules here it is below:
 
-### 8.1. Social Media API
+### 8.1. Social Media and 3rd Parties APIs
 
-The social media API provided by them like Google/YouTube, Twitter, Discord, etc
-are under their ToS, and Privacy Policy. Please check their policy before using
-applications that uses their APIs.
+The social media and 3rd parties APIs provided by them like Google/YouTube,
+Twitter, Discord, etc are under their ToS, and Privacy Policy. Please check their
+policy before using applications that uses their APIs.
 
 For Twitter bots and applications, there will be analysis but the data will be
 public and no private data will be stored. There will be a notice and warning
 saying that the tweet is a poll/servery. Tags are tracked for performance and
 vitality only.
 
+For Google and Bing's webmasters, they are only used for SEO and source code
+improvements.
+
 There are logs and performance trackers for usage and errors
-but I will not use the logs but the performance trackers will be used to .
+but I will not use the logs but the performance trackers will be used for
+troubleshooting and source code improvements.
 
 ### 8.2. GitHub and GitLab
 
