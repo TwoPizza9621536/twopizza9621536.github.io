@@ -2,7 +2,7 @@
 layout: default
 title: Search Page
 description: A search page for this site.
-permalink: /javascript/search.html
+permalink: /search.html
 slug: search
 ---
 
@@ -14,8 +14,8 @@ slug: search
 
   <body>
     <p>
-      This is a search page for this site and requires javascript. The search is
-      using the
+      This is a search page for this site and requires javascript.
+      The search is using the
       <a
         href="https://github.com/christian-fei/Simple-Jekyll-Search"
         target="blank"
@@ -55,7 +55,7 @@ slug: search
       SimpleJekyllSearch({
         searchInput: document.getElementById("search-input"),
         resultsContainer: document.getElementById("results-container"),
-        json: "{{ '../search.json' | absolute_url }}",
+        json: '/search.json',
       });
     </script>
   </body>
