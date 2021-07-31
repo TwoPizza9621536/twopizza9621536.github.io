@@ -120,9 +120,9 @@ There is some exception to these rules here it is below:
 
 ### 8.1. Social Media and 3rd Parties APIs
 
-The social media and 3rd parties APIs provided by them like Google/YouTube,
-Twitter, Discord, etc are under their ToS, and Privacy Policy. Please check their
-policy before using applications that uses their APIs.
+The social media and 3rd parties APIs provided by them like Google,
+Microsoft, Twitter, Discord, etc are under their ToS, and Privacy Policy.
+Please check their policy before using applications that uses their APIs.
 
 For Twitter bots and applications, there will be analysis but the data will be
 public and no private data will be stored. There will be a notice and warning
@@ -157,8 +157,8 @@ and/or the Contributing section if you want to tribute.
 > Otherwise noted or stated on the page this site is under the
   [Creative Commons Attribution-ShareAlike 4.0 International][8]
   license. For more information, the noted, licensing information, and
-  credits see the [About Page]({{ '/about' | relative_url}}). To contact me
-  go [here]({{ '/about/contacts.html' | relative_url }}).
+  credits see the [About Page]({{ '/about' | relative_url}}). If you need to
+  contact me go [here]({{ '/about/contacts.html' | relative_url }}).
 
 [^1]: https://github.blog/2018-05-01-github-pages-custom-domains-https/
 [^2]: https://code.jquery.com/
