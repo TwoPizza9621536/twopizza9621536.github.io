@@ -25,7 +25,7 @@ here it and this is inspired by [Kev Quirk](https://kevq.uk).
 **_THE PRIVACY POLICY, Terms of Service and DISCLAIMER MAY SUBJECT
 TO CHANGE AT ANY TIME WITHOUT A NOTICE_**
 
-Last modified on 2021-07-30 18:04:33 EDT.
+Last modified on 2021-07-30 16:27:27 EDT.
 
 ## 1. **DISCLAIMER**
 
@@ -150,9 +150,9 @@ GitLab is under their ToS, and Privacy Policy. Please check their policy too.
 ---
 
 You not need to follow the terms to terms of service in order to access, view,
-read, or copy any of the data on this website. But you must follow the license
-and the terms for services in the Exceptions for application that uses them
-and/or the Contributing section if you want to tribute.
+read, copy, or use any content on this website, **BUT** you will need follow
+the licenses that the content is under. See below for the license of the
+website.
 
 > Otherwise noted or stated on the page this site is under the
   [Creative Commons Attribution-ShareAlike 4.0 International][8]
