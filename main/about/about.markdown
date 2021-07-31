@@ -13,7 +13,7 @@ description: All Acknowledgment and Dependencies for this site.
 - [Credits](#credits)
   - [Licenses](#licenses)
 
-Last modified: 2021-07-30 13:51:02 EDT
+Last modified: 2021-07-31 16:20:59 EDT
 
 ## Contacts
 
@@ -45,6 +45,11 @@ license.
 
 **PLEASE MAKE SURE YOU READ THE LEGAL CODE BEFORE YOU DO THE THINGS THAT
 HAS BEEN LISTED BELOW**
+
+**I AM NOT A LAWYER NOR CREATIVE COMMONS IS A LAW FIRM, GET A LAWYER FOR
+LEGAL ADVICE**
+
+_Creative Commons has no affiliation to this website_ 
 
 You can see the legal code
 [here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
@@ -107,7 +112,8 @@ You can use the snippets and repositories that are under the MIT License.
 To see it [click here]({{ "/snippets/about" | relative_url }}).
 
 You can use code that are specified that the code is under a permissive license
-or is under a public domain compatible license or a CC BY compatible license.
+or is under a public domain compatible license or a CC BY compatible license for
+ShareAlike not to be activated.
 
 ## Credits
 
