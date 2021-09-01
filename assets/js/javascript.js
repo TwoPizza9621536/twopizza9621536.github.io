@@ -22,7 +22,6 @@ $(document).ready(function () {
             "This also means jQuery is also working."
         );
     });
-
 });
 
 function getRandomColor() {
@@ -32,5 +31,4 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-
 }
