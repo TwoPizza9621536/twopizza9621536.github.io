@@ -1,5 +1,23 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Samuel Wu @TwoPizza9621536<title/>
+    {% seo title=off %}
 
-{{ content }}
+    {% include top.html %}
+</head>
+
+<body>
+    {% include header.html %}
+
+    {% include navigation.html %}
+
+    <main class="main-content" id="content" role="main">
+        {{ content }}
+    </main>
+
+    {% include navigation.html %}
+
+    {% include footer.html %}
+    </body>
+</html>
