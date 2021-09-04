@@ -4,15 +4,15 @@ title: Staff
 permalink: /staff.html
 ---
 
-<h1>Staff</h1>
+<h2>Staff</h2>
 <hr/>
 <ul>
     {% for author in site.authors %}
         <li>
-            <h2>
+            <h3>
                 <a href="{{ author.url }}">{{ author.name }}</a>
-            </h2>
-            <h3>{{ author.position }}</h3>
+            </h3>
+            <h4>{{ author.position }}</h4>
             <p>{{ author.content | markdownify }}</p>
         </li>
     {% endfor %}
