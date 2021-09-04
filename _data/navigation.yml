@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: Repositories
-  link: /repositories
 - name: Blogs
   link: /blogs/
 - name: Javascript

@@ -3,7 +3,8 @@ layout: page
 title: Privacy Policy and Terms of Service
 permalink: /privacy-tos
 description: >-
-  Privacy policy and Terms of Service for this website and other projects.
+  Privacy policy and Terms of Service for this github.io site and other
+  projects.
 ---
 
 - [1. **DISCLAIMER**](#1-disclaimer)

@@ -2,7 +2,8 @@
 layout: page
 title: About
 permalink: /about
-description: All Acknowledgment and Dependencies for this site.
+description: >-
+  All Acknowledgment and Dependencies for twopizza9621536.github.io page.
 ---
 
 - [Contacts](#contacts)
@@ -25,7 +26,7 @@ For my contacts go [here]({{ '/about/contacts.html' | relative_url }}).
 
 ---
 
-To see the privacy policy go [here]({{ '/privacy' | relative_url }}).
+To see the privacy policy go [here]({{ '/privacy-tos' | relative_url }}).
 
 ## Terms of Service
 
