@@ -44,6 +44,7 @@ group :jekyll_plugins do
   gem "jekyll-asciidoc"
   gem "html-pipeline"
   gem "jekyll-toc"
+  gem "jekyll-theme-cayman"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
