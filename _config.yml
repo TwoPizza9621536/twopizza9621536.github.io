@@ -35,8 +35,15 @@ encoding: UTF-8
 timezone: America/New_York
 
 # Pagination
-paginate: 5
-paginate_path: "/blogs/page:num/"
+permalink: /blogs/:year/:month/:title.html
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/blogs/page:num/"
+  title: " - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
 
 # Authors
 collections:
@@ -66,6 +73,22 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - jekyll-paginate-v2
+  - jekyll-sass-converter
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-avatar
+  - jekyll-default-layout
+  - jekyll-commonmark-ghpages
+  - jekyll-mentions
+  - jekyll-asciidoc
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -81,9 +104,15 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - nppBackup/
+  - CODE_OF_CONDUCT.md
+  - renovate.json
+
+# Additional Flags
+disable_disk_cache: true
+lsi: true
+
+sass:
+  style: compressed
+
+jekyll-mentions:
+  base_url: https://twitter.com

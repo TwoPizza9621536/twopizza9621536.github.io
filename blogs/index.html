@@ -4,6 +4,8 @@ title: Blogs
 description: >-
   The place where the coding, programming, technology, and software blogs are.
 slug: blogs
+pagination:
+  enabled: true
 ---
 
 <div style="text-align: center;">
@@ -48,19 +50,25 @@ slug: blogs
 <div class="pagination">
   <div class="page_number_container">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous_link">
-      Previous
-    </a>
+    <a
+      href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+      class="newer_link"
+      >Newer</a
+    >
     {% else %}
-    <span class="previous">Previous</span>
+    <span class="newer">Newer</span>
     {% endif %}
     <span class="page_number_rel">
       Page: {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next_link">Next</a>
+    <a
+      href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+      class="older_link"
+      >Older</a
+    >
     {% else %}
-    <span class="next">Next</span>
+    <span class="older">Older</span>
     {% endif %}
   </div>
 </div>
@@ -86,10 +94,10 @@ slug: blogs
   overflow: hidden;
   vertical-align: middle;
 }
-.previous_link {
+.older_link {
   font-size-adjust: 2em;
 }
-.previous {
+.older {
   float: left;
   color: #159957;
 }
@@ -99,7 +107,7 @@ slug: blogs
 .next_link {
   font-size-adjust: 2em;
 }
-.next {
+.newer {
   float: right;
   color: #159957;
 }
