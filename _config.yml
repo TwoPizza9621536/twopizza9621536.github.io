@@ -89,7 +89,6 @@ plugins:
   - jekyll-asciidoc
   - jekyll-toc
   - jekyll-email-protect
-  - jekyll-twitter-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
