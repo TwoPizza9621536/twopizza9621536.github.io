@@ -1,0 +1,23 @@
+<!-- This loops through the paginated posts -->
+<div class="pagpost">
+  {% for post in paginator.posts %}
+  <h4 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  <p class="author">
+    <time
+      class="date"
+      datetime="{{ post.date }}"
+      >Posted On: {{ post.date }}</time
+    >
+    {% if post.datemod %}
+    <time
+      class="date"
+      datetime="{{ post.moddate }}"
+      >Last Updated On: {{ post.moddate }}</time
+    >
+    {% endif %}
+  </p>
+  <div class="content">
+    {{ post.excerpt }}
+  </div>
+  {% endfor %}
+</div>

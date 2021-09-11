@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Blogs
 description: >-
   The place where the coding, programming, technology, and software blogs are.
@@ -30,48 +30,9 @@ pagination:
 <h2 style="font-size: 36px;">Latest Post</h2>
 <hr />
 
-<!-- This loops through the paginated posts -->
-<div class="pagpost">
-  {% for post in paginator.posts %}
-  <h3 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p class="author">
-    <span class="date">Creation Date: {{ post.date }}</span>
-    {% if post.datemod %}
-    <span class="date">Modification Date: {{ post.moddate }}</span>
-    {% endif %}
-  </p>
-  <div class="content">
-    {{ post.excerpt }}
-  </div>
-  {% endfor %}
-</div>
+{% include pagination.html %}
 
-<!-- Pagination links -->
-<div class="pagination">
-  <div class="page_number_container">
-    {% if paginator.previous_page %}
-    <a
-      href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
-      class="newer_link"
-      >Newer</a
-    >
-    {% else %}
-    <span class="newer">Newer</span>
-    {% endif %}
-    <span class="page_number_rel">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-    {% if paginator.next_page %}
-    <a
-      href="{{ paginator.next_page_path | prepend: site.baseurl }}"
-      class="older_link"
-      >Older</a
-    >
-    {% else %}
-    <span class="older">Older</span>
-    {% endif %}
-  </div>
-</div>
+{% include next-back-links.html %}
 
 <style type="text/css">
 .pagpost {

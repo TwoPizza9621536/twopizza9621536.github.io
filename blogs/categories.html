@@ -1,0 +1,27 @@
+---
+layout: page
+title: Categories
+permalink: /blogs/categories.html
+description: Categories for the blogs.
+slug: categories
+---
+
+<ul>
+{% for category in site.categories %}
+  {% assign category_name = category[0] | downcase | replace: '-', ' ' %}
+  <li class="category__item">
+    <a
+      href="{{ site.url }}/category/{{ category[0] }}"
+      title="{{ category_name }}"
+      >{{ category_name }}</a
+    >
+  </li>
+{% endfor %}
+</ul>
+
+<p>
+  See all
+  <a href="{{ {{ '/blogs/tags.html' | relative_url }}"
+    >tags</a
+  > here.
+</p>

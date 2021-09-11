@@ -1,0 +1,26 @@
+<!-- Pagination links -->
+<div class="pagination">
+  <div class="page_number_container">
+    {% if paginator.previous_page %}
+    <a
+      href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+      class="newer_link"
+      >Newer</a
+    >
+    {% else %}
+    <span class="newer">Newer</span>
+    {% endif %}
+    <span class="page_number_rel">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+    <a
+      href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+      class="older_link"
+      >Older</a
+    >
+    {% else %}
+    <span class="older">Older</span>
+    {% endif %}
+  </div>
+</div>

@@ -45,6 +45,7 @@ group :jekyll_plugins do
   gem 'jekyll-toc'
   gem 'jekyll-email-protect'
   gem 'jekyll-twitter-plugin'
+  gem 'jekyll-archives'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -45,6 +45,24 @@ pagination:
   sort_field: "date"
   sort_reverse: true
 
+# Archive
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+  layout: archive
+
+# AutoPages
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+  tags:
+    title: 'Posts tagged with :tag'
+  collections:
+    title: 'Posts in collection :coll'
+
 # Authors
 collections:
   authors:
@@ -89,6 +107,7 @@ plugins:
   - jekyll-asciidoc
   - jekyll-toc
   - jekyll-email-protect
+  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default.
