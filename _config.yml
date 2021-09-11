@@ -106,7 +106,6 @@ exclude:
   - Gemfile.lock
   - CODE_OF_CONDUCT.md
   - renovate.json
-  - .tweet-cache/
 
 # Additional Flags
 disable_disk_cache: true
