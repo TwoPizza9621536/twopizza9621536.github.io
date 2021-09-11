@@ -83,12 +83,13 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
-  - jekyll-avatar
   - jekyll-default-layout
   - jekyll-commonmark-ghpages
   - jekyll-mentions
   - jekyll-asciidoc
   - jekyll-toc
+  - jekyll-email-protect
+  - jekyll-twitter-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -106,6 +107,7 @@ exclude:
   - Gemfile.lock
   - CODE_OF_CONDUCT.md
   - renovate.json
+  - .tweet-cache/
 
 # Additional Flags
 disable_disk_cache: true

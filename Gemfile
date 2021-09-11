@@ -38,13 +38,14 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-relative-links"
   gem "classifier-reborn"
-  gem "jekyll-avatar"
   gem "jekyll-commonmark-ghpages"
   gem "jekyll-mentions"
   gem "jekyll-asciidoc"
   gem "html-pipeline"
   gem "jekyll-toc"
   gem "jekyll-theme-cayman"
+  gem "jekyll-email-protect"
+  gem "jekyll-twitter-plugin"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

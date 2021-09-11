@@ -13,7 +13,7 @@ description: Contatct infomation for questions and requests.
 <ul>
   <li>
     Email:
-    <a href="mailto:{{ site.email }}" target="top">{{ site.email }}</a>
+    <a href="mailto:{{ site.email | encode_email }}" target="top">{{ site.email }}</a>
     <p>For secure emails use GPG to send emails. My GPG are at:</p>
     <ul>
       <li class="gpg">
