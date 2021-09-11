@@ -11,7 +11,7 @@ slug: tags
   {% assign tag_name = tag[0] | downcase %}
   <li class="tag__item">
     <a
-      href="{{ site.url }}/tag/{{ tag[0] }}"
+      href="{{ site.url }}/tag/{{ tag[0] | downcase }}"
       title="{{ tag_name }}"
       >{{ tag_name }}</a
     >

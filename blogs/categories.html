@@ -11,7 +11,7 @@ slug: categories
   {% assign category_name = category[0] | downcase | replace: '-', ' ' %}
   <li class="category__item">
     <a
-      href="{{ site.url }}/category/{{ category[0] }}"
+      href="{{ site.url }}{{ site.baseurl }}/category/{{ category[0] | downcase }}"
       title="{{ category_name }}"
       >{{ category_name }}</a
     >
