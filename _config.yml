@@ -35,7 +35,7 @@ encoding: UTF-8
 timezone: America/New_York
 
 # Pagination
-permalink: /blogs/:year/:month/:title.html
+permalink: /blogs/:year/:month/:day/:title.html
 pagination:
   enabled: true
   per_page: 3
