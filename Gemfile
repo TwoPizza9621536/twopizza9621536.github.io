@@ -62,4 +62,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm", ">= 1.1.0"
 
 # webrick needed for webserver
-gem "webrick", "~> 1.7"
+gem "webrick"
