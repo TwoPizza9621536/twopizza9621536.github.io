@@ -70,12 +70,29 @@
   padding: 1em;
 }
 
-.site-footer-owner .build-time{
+.site-footer-owner {
   font-weight: bold;
   text-align: center;
 }
 
-.site-footer-credits .site-footer-opensource .build-date {
+.build-time {
+  font-weight: bold;
+  text-align: center;
+}
+
+.site-footer-credits
+{
+  color: $blockquote-text-color;
+  text-align: center;
+}
+
+.site-footer-opensource
+{
+  color: $blockquote-text-color;
+  text-align: center;
+}
+
+.build-date {
   color: $blockquote-text-color;
   text-align: center;
 }
