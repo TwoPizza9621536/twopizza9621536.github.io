@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Samuel Wu @TwoPizza9621536</title>
-    {% seo title=false %}
+  <title>Samuel Wu @TwoPizza9621536</title>
+  {% seo title=false %}
 
-    {% include top-noseo.html %}
+  {% include top-noseo.html %}
 </head>
 
 <body>
-    {% include header.html %}
+  {% include header.html %}
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    <main class="main-content" id="content" role="main">
-        {{ content | toc }}
-    </main>
+  <main class="main-content" id="content" role="main">
+    <div id="table-of-contents">
+      <input id="spoiler-check" type="checkbox">
+      <label class="spoiler" for="spoiler-check"
+        >Table Of Contents</label
+      >
+      {{ content | toc_only }}
+    </div>
+    <div id="markdown-content">
+      {{ content | inject_anchors }}
+    </div>
+  </main>
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    {% include footer.html %}
-    </body>
+  {% include footer.html %}
+  </body>
 </html>

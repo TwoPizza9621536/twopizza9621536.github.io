@@ -7,54 +7,91 @@
 
 $date-color: #ea66a8;
 
+%disable-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .main-content {
-  figure.highlight pre {
-    code {
-      font-family: "Fira Code", monospace;
-      font-size: 12px;
-      counter-reset: code;
-      white-space: pre;
+  div#table-of-contents {
+    .spoiler {
+      @extend %disable-selection;
+      cursor: pointer;
+      display: table;
+    }
 
-      .div {
-        counter-increment: code;
+    input#spoiler-check {
+      display: none;
+    }
 
-        &:before {
-          content: counter(code);
-          width: 12px;
-          text-align: right;
+    input ~ .spoiler {
+      &::before {
+        content: '[ ';
+      }
 
-          -webkit-touch-callout: none;
-          -webkit-user-select: none;
-          -khtml-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
+      &::after {
+        content: ' ]';
+      }
+
+      ~ ul#toc {
+        display: none;
+      }
+    }
+
+    input:checked ~ .spoiler {
+      &::before {
+        content: '- ';
+      }
+
+      &::after {
+        content: ' -';
+      }
+
+      ~ ul#toc {
+        display: inline-block;
       }
     }
   }
 
-  @supports (font-variation-settings: normal) {
-    code {
+  figure.highlight {
+    table.highlighttable {
+      overflow-x:auto;
+      display:block;
+    }
+    
+    table.highlighttable td.code {
+      width:100%;
+    }
+
+    pre code {
       font-family: "Fira Code", monospace;
       font-size: 12px;
       counter-reset: code;
       white-space: pre;
 
-      .div {
-        counter-increment: code;
+      &[data-lang]::before {
+        @extend %disable-selection;
+        content: attr(data-lang);
 
-        &:before {
-          content: counter(code);
-          width: 12px;
-          text-align: right;
+        display: block;
+      }
+    }
 
-          -webkit-touch-callout: none;
-          -webkit-user-select: none;
-          -khtml-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
+    @supports (font-variation-settings: normal) {
+      pre code {
+        font-family: "Fira Code", monospace;
+        font-size: 12px;
+        white-space: pre;
+
+        &[data-lang]::before {
+          @extend %disable-selection;
+          content: attr(data-lang);
+
+          display: block;
         }
       }
     }

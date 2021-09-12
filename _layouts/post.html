@@ -12,4 +12,13 @@ layout: default
     {% endif %}
 </p>
 
-{{ content | toc }}
+<div id="table-of-contents">
+  <input id="spoiler-check" type="checkbox">
+  <label class="spoiler" for="spoiler-check"
+    >Table Of Contents</label
+  >
+  {% toc %}
+</div>
+<div id="markdown-content">
+  {{ content }}
+</div>
