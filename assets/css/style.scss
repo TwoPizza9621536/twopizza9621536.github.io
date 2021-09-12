@@ -20,6 +20,7 @@ $date-color: #ea66a8;
   div#table-of-contents {
     .spoiler {
       @extend %disable-selection;
+      color: $blockquote-text-color;
       cursor: pointer;
       display: table;
     }
@@ -58,26 +59,28 @@ $date-color: #ea66a8;
   }
 
   figure.highlight {
-    table.highlighttable {
-      overflow-x:auto;
-      display:block;
-    }
-    
-    table.highlighttable td.code {
-      width:100%;
-    }
+    position: relative;
 
     pre code {
       font-family: "Fira Code", monospace;
       font-size: 12px;
-      counter-reset: code;
-      white-space: pre;
+
+      td.code, td.gl {
+        padding: 0;
+      }
 
       &[data-lang]::before {
         @extend %disable-selection;
         content: attr(data-lang);
 
-        display: block;
+        position: absolute;
+      }
+
+      .lineno {
+        @extend %disable-selection;
+        display:inline-block; 
+        padding: 0 5px; 
+        text-align: right;
       }
     }
 
@@ -85,13 +88,23 @@ $date-color: #ea66a8;
       pre code {
         font-family: "Fira Code", monospace;
         font-size: 12px;
-        white-space: pre;
+
+        td.code, td.gl {
+          padding: 0;
+        }
 
         &[data-lang]::before {
           @extend %disable-selection;
           content: attr(data-lang);
 
-          display: block;
+          position: absolute;
+        }
+
+        .lineno {
+          @extend %disable-selection;
+          display:inline-block; 
+          padding: 0 5px; 
+          text-align: right;
         }
       }
     }

@@ -133,6 +133,12 @@ lsi: true
 
 sass:
   style: compressed
+markdown: kramdown
+kramdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 jekyll-mentions:
   base_url: https://twitter.com
