@@ -6,27 +6,6 @@
 @import "monokai.css";
 
 .main-content {
-  table.rouge-table {
-    border-spacing: 0
-  }
-
-  table.highlighttable {
-    overflow-x:auto;
-    display:block;
-  }
-
-  table.highlighttable td.code {
-    width:100%;
-  }
-
-  td.gutter gl {
-    text-align: right
-  }
-
-  pre code {
-    white-space: pre;
-  }
-
   code {
     font-family: "Fira Code", monospace;
     font-size: 12;
