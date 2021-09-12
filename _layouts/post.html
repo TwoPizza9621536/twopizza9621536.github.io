@@ -5,13 +5,11 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <p>
-    Blog created: {{ page.date | date_to_string }} | {% if page.moddate %}Blog updated: {{ page.moddate | date_to_string }}{% endif %}
+    Posted On: {{ page.date }} | {% if page.moddate %} Last Updated On: {{ page.moddate }}{% endif %}
     {% assign author = site.authors | where: 'short_name', page.author | first %}
     {% if author %}
-        -
         <a href="{{ author.url }}">{{ author.name }}</a>
     {% endif %}
 </p>
 
 {{ content | toc }}
-

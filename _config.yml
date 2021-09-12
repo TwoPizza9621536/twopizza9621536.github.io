@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This my blogs for coding, programming, technology, and software that will go
   into shenanigans. Keep scrolling to see my github profile.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://twopizza9621536.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://twopizza9621536.github.io"
 twitter_username: TwoPizza9621536
 github_username: TwoPizza9621536
 
@@ -35,7 +35,7 @@ encoding: UTF-8
 timezone: America/New_York
 
 # Pagination
-permalink: /blogs/:year/:month/:day/:title.html
+permalink: /blogs/:year/:month/:day/:title/
 pagination:
   enabled: true
   per_page: 3

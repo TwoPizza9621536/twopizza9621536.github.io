@@ -6,13 +6,28 @@
 @import "monokai.css";
 
 .main-content {
+  table.highlighttable {
+    overflow-x:auto;
+    display:block;
+  }
+
+  table.highlighttable td.code {
+    width:100%;
+  }
+
+  pre code {
+    white-space: pre;
+  }
+
   code {
     font-family: "Fira Code", monospace;
+    font-size: 12;
   }
 
   @supports (font-variation-settings: normal) {
     code {
       font-family: "Fira Code VF", monospace;
+      font-size: 12;
     }
   }
 }
@@ -51,17 +66,12 @@
   padding: 1em;
 }
 
-.site-footer-owner {
+.site-footer-owner .build-time{
   font-weight: bold;
   text-align: center;
 }
 
-.site-footer-credits {
-  color: $blockquote-text-color;
-  text-align: center;
-}
-
-.site-footer-opensource {
+.site-footer-credits .site-footer-opensource .build-date {
   color: $blockquote-text-color;
   text-align: center;
 }
@@ -94,21 +104,6 @@ img.icon {
 
 img.icon:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#skip a {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-#skip a:focus {
-  position: static;
-  width: auto;
-  height: auto;
 }
 
 .date {
