@@ -61,31 +61,8 @@ $date-color: #ea66a8;
   figure.highlight {
     position: relative;
 
-    pre code {
-      font-family: "Fira Code", monospace;
-      font-size: 12px;
-
-      td.code, td.gl {
-        padding: 0;
-      }
-
-      &[data-lang]::before {
-        @extend %disable-selection;
-        content: attr(data-lang);
-
-        position: absolute;
-      }
-
-      .lineno {
-        @extend %disable-selection;
-        display:inline-block; 
-        padding: 0 5px; 
-        text-align: right;
-      }
-    }
-
-    @supports (font-variation-settings: normal) {
-      pre code {
+    pre {
+      code {
         font-family: "Fira Code", monospace;
         font-size: 12px;
 
@@ -98,6 +75,20 @@ $date-color: #ea66a8;
           content: attr(data-lang);
 
           position: absolute;
+
+          right: 34px;
+          top: -10px;
+          padding-left: $spacing-unit / 4;
+          padding-right: $spacing-unit / 4;
+
+          border: 1px solid $gray;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+
+          min-width: 40px;
+          text-align: center;
         }
 
         .lineno {
@@ -106,6 +97,51 @@ $date-color: #ea66a8;
           padding: 0 5px; 
           text-align: right;
         }
+      }
+
+      background-color: #272822;
+    }
+
+    @supports (font-variation-settings: normal) {
+      pre {
+        code {
+          font-family: "Fira Code", monospace;
+          font-size: 12px;
+
+          td.code, td.gl {
+            padding: 0;
+          }
+
+          &[data-lang]::before {
+            @extend %disable-selection;
+            content: attr(data-lang);
+
+            position: absolute;
+
+            right: 34px;
+            top: -10px;
+            padding-left: $spacing-unit / 4;
+            padding-right: $spacing-unit / 4;
+
+            border: 1px solid $gray;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            min-width: 40px;
+            text-align: center;
+          }
+
+          .lineno {
+            @extend %disable-selection;
+            display:inline-block; 
+            padding: 0 5px; 
+            text-align: right;
+          }
+        }
+
+        background-color: #272822;
       }
     }
   }
