@@ -58,13 +58,18 @@ $date-color: #ea66a8;
     }
   }
 
-  figure.highlight {
-    position: relative;
+
+  .highlight {
+    margin: 0;
 
     pre {
+      border: 0;
+      margin: 0 0 10px;
+
       code {
         font-family: "Fira Code", monospace;
         font-size: 12px;
+        margin: 0;
 
         td.code, td.gl {
           padding: 0;
@@ -74,39 +79,27 @@ $date-color: #ea66a8;
           @extend %disable-selection;
           content: attr(data-lang);
 
-          position: absolute;
-
-          right: 34px;
-          top: -10px;
-          padding-left: 7.5px;
-          padding-right: 7.5px;
-
-          border: 1px solid;
-          border-top-left-radius: 5px;
-          border-top-right-radius: 5px;
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-
-          min-width: 40px;
-          text-align: center;
+          display: block;
         }
 
         .lineno {
           @extend %disable-selection;
           display:inline-block; 
-          padding: 0 5px; 
+          padding: 0 5px;
           text-align: right;
         }
       }
-
-      background-color: #272822;
     }
 
     @supports (font-variation-settings: normal) {
       pre {
+        border: 0;
+        margin: 0 0 10px;
+
         code {
           font-family: "Fira Code", monospace;
           font-size: 12px;
+          white-space: pre;
 
           td.code, td.gl {
             padding: 0;
@@ -116,21 +109,7 @@ $date-color: #ea66a8;
             @extend %disable-selection;
             content: attr(data-lang);
 
-            position: absolute;
-
-            right: 34px;
-            top: -10px;
-            padding-left: 7.5px;
-            padding-right: 7.5px;
-
-            border: 1px solid;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-
-            min-width: 40px;
-            text-align: center;
+            display: block;
           }
 
           .lineno {
@@ -140,8 +119,6 @@ $date-color: #ea66a8;
             text-align: right;
           }
         }
-
-        background-color: #272822;
       }
     }
   }
