@@ -108,6 +108,8 @@ plugins:
   - jekyll-toc
   - jekyll-email-protect
   - jekyll-archives
+  - jekyll_inline_highlight
+  - highlight-linedivs
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,7 +1,11 @@
 <!-- This loops through the paginated posts -->
 <div class="pagpost">
   {% for post in paginator.posts %}
-  <h4 class="posttitle"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+  <h4 class="posttitle no_toc_section">
+    <a href="{{ post.url | relative_url }}"
+      >{{ post.title }}</a
+    >
+  </h4>
   <p class="author">
     <time
       class="date"

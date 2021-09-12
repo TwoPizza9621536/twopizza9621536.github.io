@@ -5,19 +5,61 @@
 @import "jekyll-theme-cayman";
 @import "monokai.css";
 
+$date-color: #ea66a8;
+
 .main-content {
-  code {
-    font-family: "Fira Code", monospace;
-    font-size: 12;
+  figure.highlight pre {
+    code {
+      font-family: "Fira Code", monospace;
+      font-size: 12px;
+      counter-reset: code;
+      white-space: pre;
+
+      .div {
+        counter-increment: code;
+
+        &:before {
+          content: counter(code);
+          width: 12px;
+          text-align: right;
+
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+      }
+    }
   }
 
   @supports (font-variation-settings: normal) {
     code {
-      font-family: "Fira Code VF", monospace;
-      font-size: 12;
+      font-family: "Fira Code", monospace;
+      font-size: 12px;
+      counter-reset: code;
+      white-space: pre;
+
+      .div {
+        counter-increment: code;
+
+        &:before {
+          content: counter(code);
+          width: 12px;
+          text-align: right;
+
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+      }
     }
   }
-  
+
   .posttitle {
     font-size: 1.5em;
   }
@@ -57,28 +99,22 @@
   padding: 1em;
 }
 
-.site-footer-owner {
+%site-footer {
   font-weight: bold;
   text-align: center;
+}
+
+.site-footer-owner {
+  @extend %site-footer;
 }
 
 .build-time {
-  font-weight: bold;
-  text-align: center;
+  @extend %site-footer;
+  color: $date-color;
 }
 
-.site-footer-credits
-{
-  color: $blockquote-text-color;
-  text-align: center;
-}
-
-.site-footer-opensource
-{
-  color: $blockquote-text-color;
-  text-align: center;
-}
-
+.site-footer-credits,
+.site-footer-opensource,
 .build-date {
   color: $blockquote-text-color;
   text-align: center;
@@ -115,5 +151,5 @@ img.icon:hover {
 }
 
 .date {
-  color: #ea66a8;
+  color: $date-color;
 }
