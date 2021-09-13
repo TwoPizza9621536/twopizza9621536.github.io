@@ -1,0 +1,26 @@
+---
+layout: page
+title: Collections
+permalink: /blogs/categories.html
+description: Collection form the log.
+slug: categories
+---
+
+<ul>
+{% for collection in site.collections %}
+  {% assign collection_name = collection[0] | downcase | replace: '-', ' ' %}
+  <li class="collection__item">
+    <a
+      href="{{ site.url }}{{ site.baseurl }}/collection/{{ category[0] | downcase }}"
+      title="{{ category_name }}"
+      >{{ collection_name }}</a
+    >
+  </li>
+{% endfor %}
+</ul>
+
+<p>
+  <a href="{{ '/blogs.html' | relative_url }}"
+    >To go back click here.</a
+  >
+</p>

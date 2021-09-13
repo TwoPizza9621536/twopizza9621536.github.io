@@ -3,18 +3,12 @@ layout: page
 title: About
 permalink: /about
 description: >-
-  All Acknowledgment and Dependencies for twopizza9621536.github.io page.
+  All Acknowledgment and Dependencies for twopizza9621536.github.io.
+jekyll-mentions: https://github.com
+toc: true
 ---
 
-- [Contacts](#contacts)
-- [Privacy Policy](#privacy-policy)
-- [Terms of Service](#terms-of-service)
-- [License](#license)
-  - [**Notice**](#notice)
-- [Credits](#credits)
-  - [Licenses](#licenses)
-
-Last modified: 2021-07-31 16:20:59 EDT
+Last modified: 2021-09-13 17:56:34 -0400
 
 ## Contacts
 
@@ -50,7 +44,7 @@ HAS BEEN LISTED BELOW**
 **I AM NOT A LAWYER NOR CREATIVE COMMONS IS A LAW FIRM, GET A LAWYER FOR
 LEGAL ADVICE**
 
-_Creative Commons has no affiliation to this website_ 
+*_Creative Commons has no affiliation to this website_*
 
 You can see the legal code
 [here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
@@ -69,7 +63,7 @@ This license states that:
 >   - You may not apply legal terms or technological measures that legally
 >      restrict others from doing anything the license permits.
 >   - When you license under the same license as the original, depending on your
->      jurisdiction, you have wavied your moral rights.
+>      jurisdiction, you have waived your moral rights.
 
 If you do not follow the license you have 30 days to correct the mistakes to
 follow the license and the mistake is still not corrected the license is
@@ -89,19 +83,19 @@ hyperlink my name to this website and the page of the source material.
 
 If there is a modification, indicate the modification from the original.
 
-Because this is text media, there are no extra varables determining does this
+Because this is text media, there are no extra variables determining does this
 activate the sharealike clause; only the text must be standalone and not
 modified for it not to be activated.
 
 For more info, here is the official CC website for
-[attribution](https://creativecommons.org/use-remix/attribution){:target="blank" rel="noreferrer noopener"}
+[attribution](https://creativecommons.org/use-remix/attribution)
 and
-[licensing](https://creativecommons.org/share-your-work){:target="blank" rel="noreferrer noopener"}
+[licensing](https://creativecommons.org/share-your-work)
 
 Here is the official CC wiki for
-[attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution){:target="blank" rel="noreferrer noopener"}
+[attribution][3]
 and
-[licensing](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license){:target="blank" rel="noreferrer noopener"}.
+[licensing][4].
 
 ### **Notice**
 
@@ -122,95 +116,121 @@ ShareAlike not to be activated.
 
 Some pages like the about page (like the license states section),
 privacy page, and the guestbook are inspired from or
-from Kev Quirk's website.
-<https://kevq.uk> by [Kev Quirk](https://kevq.uk){:target="blank" rel="noreferrer noopener"}
+from Kev Quirk's website. <https://kevq.uk> by [Kev Quirk](https://kevq.uk)
 is under the [Creative Commons Attribution-ShareAlike 4.0 International][1].
 
+### Cayman
+
 The theme for this site is Cayman. To customize the Jekyll theme, see the basic
-Jekyll usage documentation at [jekyllrb.com][3]
+Jekyll usage documentation at <jekyllrb.com>.
 
 You can find the source code for Cayman at GitHub:
-[jasonlong](https://github.com/jasonlong){:target="blank" rel="noreferrer noopener"} /
-[cayman-theme](https://github.com/jasonlong/cayman-theme){:target="blank" rel="noreferrer noopener"}
+@jasonlong / @jasonlong/cayman-theme
 
-Cayman theme is license under [CC-BY 4.0][5]. See the License section down below.
+Cayman theme is license under [CC-BY 4.0][5].
+See the License section down below.
 
 You can find the source code for Jekyll-Cayman-theme at GitHub:
-[pietromenna][4] /
-[jekyll-cayman-theme](https://github.com/pietromenna/jekyll-cayman-theme){:target="blank" rel="noreferrer noopener"}
+@pietromenna / @pietromenna/jekyll-cayman-theme
 
-Jekyll Cayman theme is license under [CC-BY 4.0][5]. See the License section down below.
+Jekyll Cayman theme is license under [CC-BY 4.0][5].
+See the License section down below.
+
+### Jekyll
 
 You can find the source code for Jekyll at GitHub:
-[jekyll](https://github.com/jekyll){:target="blank" rel="noreferrer noopener"} /
-[jekyll][3]
+<https://jekyll.rb> / @jekyll / @jekyll/jekyll
 
-Jekyll is license under the MIT license. See the License section down below.
+Jekyll is license under the MIT license.
+See the License section down below.
+
+### Font Awesome
 
 The social media icons from Font Awesome.
 
 You can find the source code for Font Awesome at GitHub:
-[Fort Awesome](https://github.com/FortAwesome){:target="blank" rel="noreferrer noopener"} /
-[Font Awesome](https://github.com/FortAwesome/Font-Awesome){:target="blank" rel="noreferrer noopener"}
+@Fort Awesome / @FortAwesome/Font-Awesome
 or
-[Font Awesome](https://fontawesome.com){:target="blank" rel="noreferrer noopener"}
+[Font Awesome](https://fontawesome.com)
 
-Font Awesome is license under the Font Awesome Free License. See the License
-section down below.
+Font Awesome is license under the Font Awesome Free License.
+See the License section down below.
 
-For the badges at the main page, they are from shields.io.
-
-You can find the source code for shields at GitHub:
-[Badges](https://github.com/badges){:target="blank" rel="noreferrer noopener"} /
-[Shields](https://github.com/badges/shields){:target="blank" rel="noreferrer noopener"}
-or
-[shields.io](https://shields.io){:target="blank" rel="noreferrer noopener"}
-
-Shields.io is license under CC0 1.0. See the License section down below.
+### jQuery
 
 jQuery is used for javascript. jQuery can be found here
-[jQuery](https://code.jquery.com/){:target="blank" rel="noreferrer noopener"} /
-[jQuery](https://jquery.com/download/){:target="blank" rel="noreferrer noopener"}
+[jQuery](https://code.jquery.com/) / [jQuery](https://jquery.com/download/) /
+@jquery / @jquery/jquery
 
-jQuery is licensed under the MIT License. See the License section down below.
+jQuery is licensed under the MIT License.
+See the License section down below.
+
+### Fira Code
 
 Fira Code is the font used for the code snippets and additional formatting.
 
-You can find the source code for shields at GitHub:
-[tonsky](https://github.com/tonsky){:target="blank" rel="noreferrer noopener"} /
-[FiraCode](https://github.com/tonsky/FiraCode){:target="blank" rel="noreferrer noopener"}
+Fira Code can be found here:
+@tonsky / @tonsky/FiraCode
 
-Fira Code is licensed under the OFL 1.1 License. See the License section down below.
+Fira Code is licensed under the OFL 1.1 License.
+See the License section down below.
 
-Simple-Jekyll-Search is used for the search page. Simple-Jekyll-Search can be
-found here
-[Christian Fei](https://cri.dev){:target="blank" rel="noreferrer noopener"} /
-[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search){:target="blank" rel="noreferrer noopener"}
+### Simple-Jekyll-Search
 
-Simple-Jekyll-Search is licensed under the MIT License. See the License section
-down below.
+Simple-Jekyll-Search is used for the search page.
+Simple-Jekyll-Search can be found here:
+[Christian Fei](https://cri.dev) / @christian-fei /
+@christian-fei/Simple-Jekyll-Search
+
+Simple-Jekyll-Search is licensed under the MIT License.
+See the License section down below.
+
+### Dejkyll
+
+Uses code fom Dejkll for pagination and autopages.
+Dejkll can be found here:
+@kuntoaji / @kuntoaji/dekyll
+
+Dejkll is licensed under the MIT License.
+See the License section down below.
+
+### CSS
+
+Some CSS is from <https://www.bytedude.com>. Source code can be found here:
+@m-cat / @mcat/bytedude.com.
+
+### W3C
 
 For a secret page some badges are from W3C.
 
 You can find the badges at the W3C website:
-[W3C](https://w3.org){:target="blank" rel="noreferrer noopener"} /
-[W3C HTML5 Logo](https://www.w3.org/html/logo/index.html){:target="blank" rel="noreferrer noopener"}
+[W3C](https://w3.org) /
+[W3C HTML5 Logo](https://www.w3.org/html/logo/index.html)
 
 HTML 5 icon can be found at the W3C website:
-[W3C](https://w3.org){:target="blank" rel="noreferrer noopener"} /
-[Validation Icons](https://www.w3.org/QA/Tools/Icons){:target="blank" rel="noreferrer noopener"}
+[W3C](https://w3.org) / [Validation Icons](https://www.w3.org/QA/Tools/Icons)
 
-The icons are license under [CC-BY 3.0][6]. See the License section down below.
+The icons are license under [CC-BY 3.0][6].
+See the License section down below.
 
-### Licenses
+### Gems
+
+For gems see the Gemfile for the repository
+[here]({{ site.github.repository_url }}/blob/main/Gemfile).
+
+The gems are licensed under the MIT License.
+See the License section down below.
+
+## Licenses
 
 ---
 
-All licenses are in the [license page]({{ "/about/license.html" | relative_url }}).
+All licenses are in the
+[license page]({{ "/about/license.html" | relative_url }}).
 
 [1]: https://creativecommons.org/licenses/by-sa/4.0/
 [2]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
-[3]: https://jekyllrb.com/
-[4]: https://github.com/pietromenna
+[3]: https://wiki.creativecommons.org/wiki/Best_practices_for_attribution
+[4]: https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license
 [5]: https://creativecommons.org/licenses/by/4.0/
 [6]: https://creativecommons.org/licenses/by/3.0/

@@ -109,6 +109,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-archives
   - jekyll_inline_highlight
+  - jekyll-highlight
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -134,5 +135,4 @@ lsi: true
 sass:
   style: compressed
 
-jekyll-mentions:
-  base_url: https://twitter.com
+jekyll-mentions: https://twitter.com

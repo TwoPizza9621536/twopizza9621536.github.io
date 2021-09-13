@@ -46,6 +46,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
         display: block;
         font-size: 16px;
         text-align: right;
+        color: $code-bg-color;
       }
 
       .lineno {
