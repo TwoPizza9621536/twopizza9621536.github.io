@@ -5,8 +5,6 @@
 @import "jekyll-theme-cayman";
 @import "monokai.css";
 
-$date-color: #ea66a8;
-
 %disable-selection {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -16,11 +14,51 @@ $date-color: #ea66a8;
   user-select: none;
 }
 
+%code-block {
+  pre {
+    border: 0;
+    margin: 0 0 10px;
+    border-radius: 5px;
+
+    code {
+      font-family: "Fira Code", monospace;
+      font-size: 12px;
+      white-space: pre;
+      border-radius: 0;
+
+      td.code {
+        padding: 2.5px;
+        width:100%;
+      }
+
+      td.gl {
+        padding: 2.5px;
+      }
+
+      &[data-lang]::before {
+        @extend %disable-selection;
+        content: attr(data-lang);
+
+        display: block;
+        font-size: 14px;
+        text-align: right;
+      }
+
+      .lineno {
+        @extend %disable-selection;
+        display:inline-block; 
+        padding: 0 5px; 
+        text-align: right;
+      }
+    }
+  }
+}
+
 .main-content {
   div#table-of-contents {
     .spoiler {
       @extend %disable-selection;
-      color: $blockquote-text-color;
+      color: $code-text-color;
       cursor: pointer;
       display: table;
     }
@@ -54,6 +92,8 @@ $date-color: #ea66a8;
 
       ~ ul#toc {
         display: inline-block;
+        border: 1px solid $border-color;
+        background-color: $blockquote-text-color;
       }
     }
   }
@@ -62,70 +102,13 @@ $date-color: #ea66a8;
   .highlight {
     margin: 0;
 
-    pre {
-      border: 0;
-      margin: 0 0 10px;
-
-      code {
-        font-family: "Fira Code", monospace;
-        font-size: 12px;
-        margin: 0;
-
-        td.code, td.gl {
-          padding: 0;
-        }
-
-        &[data-lang]::before {
-          @extend %disable-selection;
-          content: attr(data-lang);
-
-          display: block;
-        }
-
-        .lineno {
-          @extend %disable-selection;
-          display:inline-block; 
-          padding: 0 5px;
-          text-align: right;
-        }
-      }
-    }
+    @extend %code-block;
 
     @supports (font-variation-settings: normal) {
-      pre {
-        border: 0;
-        margin: 0 0 10px;
-
-        code {
-          font-family: "Fira Code", monospace;
-          font-size: 12px;
-          white-space: pre;
-
-          td.code, td.gl {
-            padding: 2.5px;
-            border: 0;
-          }
-
-          &[data-lang]::before {
-            @extend %disable-selection;
-            content: attr(data-lang);
-
-            display: block;
-            font-size: 14px;
-            text-align: right;
-          }
-
-          .lineno {
-            @extend %disable-selection;
-            display:inline-block; 
-            padding: 0 5px; 
-            text-align: right;
-          }
-        }
-      }
+      @extend %code-block;
     }
   }
-
+  
   .posttitle {
     font-size: 1.5em;
   }
@@ -176,7 +159,7 @@ $date-color: #ea66a8;
 
 .build-time {
   @extend %site-footer;
-  color: $date-color;
+  color: $header-bg-color-tertiary;
 }
 
 .site-footer-credits,
@@ -217,5 +200,5 @@ img.icon:hover {
 }
 
 .date {
-  color: $date-color;
+  color: $header-bg-color-tertiary;
 }
