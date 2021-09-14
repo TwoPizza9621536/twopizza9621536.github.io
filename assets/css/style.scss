@@ -51,8 +51,8 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
       .lineno {
         @extend %disable-selection;
-        display:inline-block; 
-        padding: 0 5px; 
+        display:inline-block;
+        padding: 0 5px;
         text-align: right;
       }
     }
