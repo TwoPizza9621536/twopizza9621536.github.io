@@ -18,6 +18,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
 %code-block {
   pre {
+    border: 0;
     border-radius: 0 0 5px 5px;
     padding: 0 0.8rem 0.8rem 0.8rem;
     background: #272822;
