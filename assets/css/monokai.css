@@ -1,7 +1,5 @@
 .main-content pre {
   line-height: 125%;
-  background-color: #272822;
-  color: #f8f8f2;
 }
 .main-content .highlight td.linenos .normal {
   color: inherit;
