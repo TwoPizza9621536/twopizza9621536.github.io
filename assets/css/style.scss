@@ -19,8 +19,8 @@ $header-bg-color-tertiary: #ea66a8 !default;
 %code-block {
   pre {
     border: 0;
-    margin: 0 0 10px;
     border-radius: 0 0 5px 5px;
+    padding: 0 0.8rem 0.8rem 0.8rem;
 
     code {
       font-family: "Fira Code", monospace;
@@ -113,7 +113,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
       background-color: #272822;
       color: $code-bg-color;
       text-align: left;
-      padding: 0.8rem;
+      padding: 0.8rem 0.8rem 0.8rem 0;
       font-size: 16px;
     }
 
