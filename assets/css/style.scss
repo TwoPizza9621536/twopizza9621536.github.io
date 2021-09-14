@@ -20,7 +20,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
   pre {
     border: 0;
     margin: 0 0 10px;
-    border-radius: 0 0 5px;
+    border-radius: 0 0 5px 5px;
 
     code {
       font-family: "Fira Code", monospace;
@@ -109,9 +109,11 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
     figcaption {
       @extend %disable-selection;
-      border-radius: 5px 5px 0;
+      border-radius: 5px 5px 0 0;
       background-color: #272822;
       color: $code-bg-color;
+      text-align: left;
+      padding: 0.8rem;
     }
 
     @extend %code-block;
@@ -120,7 +122,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
       @extend %code-block;
     }
   }
-  
+
   .posttitle {
     font-size: 1.5em;
   }
