@@ -20,7 +20,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
   pre {
     border: 0;
     margin: 0 0 10px;
-    border-radius: 5px;
+    border-radius: 0 0 5px;
 
     code {
       font-family: "Fira Code", monospace;
@@ -106,6 +106,13 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
   .highlight {
     margin: 0;
+
+    figcaption {
+      @extend %disable-selection;
+      border-radius: 5px 5px 0;
+      background-color: 272822;
+      color: $code-bg-color;
+    }
 
     @extend %code-block;
 
