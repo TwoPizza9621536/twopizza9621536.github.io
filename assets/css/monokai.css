@@ -1,5 +1,7 @@
 .main-content pre {
   line-height: 125%;
+  background: #272822;
+  color: #f8f8f2;
 }
 .main-content td.linenos .normal {
   color: inherit;
@@ -27,10 +29,6 @@
 }
 .main-content .hll {
   background-color: #49483e;
-}
-.main-content {
-  background: #272822;
-  color: #f8f8f2;
 }
 .main-content .c {
   color: #75715e;
