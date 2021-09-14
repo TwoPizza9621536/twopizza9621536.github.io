@@ -114,6 +114,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
       color: $code-bg-color;
       text-align: left;
       padding: 0.8rem;
+      font-size: 16px;
     }
 
     @extend %code-block;
