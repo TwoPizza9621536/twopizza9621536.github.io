@@ -110,7 +110,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
     figcaption {
       @extend %disable-selection;
       border-radius: 5px 5px 0;
-      background-color: 272822;
+      background-color: #272822;
       color: $code-bg-color;
     }
 
