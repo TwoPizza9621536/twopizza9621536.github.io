@@ -110,6 +110,7 @@ plugins:
   - jekyll-archives
   - jekyll_inline_highlight
   - jekyll-highlight
+  - jekyll-youtube
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -127,6 +128,7 @@ exclude:
   - Gemfile.lock
   - CODE_OF_CONDUCT.md
   - renovate.json
+  - vendor/
 
 # Additional Flags
 disable_disk_cache: true

@@ -49,6 +49,7 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll_inline_highlight'
   gem 'jekyll-highlight'
+  gem 'jekyll-youtube'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

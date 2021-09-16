@@ -44,6 +44,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
         @extend %disable-selection;
         display:inline-block;
         text-align: right;
+        border-right: 1;
       }
     }
   }
