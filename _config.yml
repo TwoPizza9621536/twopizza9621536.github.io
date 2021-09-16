@@ -110,7 +110,6 @@ plugins:
   - jekyll-archives
   - jekyll_inline_highlight
   - jekyll-highlight
-  - jekyll-youtube
 
 # Exclude from processing.
 # The following items will not be processed, by default.
