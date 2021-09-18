@@ -30,6 +30,17 @@ $header-bg-color-tertiary: #ea66a8 !default;
       white-space: pre;
       border-radius: 0;
 
+      td.code {
+        padding: 2.5px;
+        width:100%;
+        border: 0;
+      }
+
+      td.gl {
+        padding: 2.5px;
+        border: 0;
+      }
+
       &[data-lang]::before {
         @extend %disable-selection;
         content: attr(data-lang);
