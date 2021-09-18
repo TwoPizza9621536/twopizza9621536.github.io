@@ -19,7 +19,6 @@ $header-bg-color-tertiary: #ea66a8 !default;
 %code-block {
   pre {
     border: 0;
-    border-radius: 10px;
     padding: 0.8rem;
     font-family: "Fira Code", Consolas, 'Courier New', monospace;
     color: #ffffff;
@@ -111,6 +110,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
 
   .highlight {
+    border-radius: 10px;
     margin: 0;
 
     @extend %code-block;
