@@ -109,7 +109,6 @@ plugins:
   - jekyll-email-protect
   - jekyll-archives
   - jekyll_inline_highlight
-  - jekyll-highlight
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -19,7 +19,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
 %code-block {
   pre {
     border: 0;
-    border-radius: 0 0 5px 5px;
+    border-radius: 10px;
     padding: 0 0.8rem 0.8rem 0.8rem;
     background-color: #272822;
     color: #f8f8f2;
@@ -97,16 +97,6 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
   .highlight {
     margin: 0;
-
-    figcaption {
-      @extend %disable-selection;
-      border-radius: 5px 5px 0 0;
-      background-color: #272822;
-      color: $code-bg-color;
-      text-align: left;
-      padding: 0.8rem 0.8rem 0;
-      font-size: 16px;
-    }
 
     @extend %code-block;
 
