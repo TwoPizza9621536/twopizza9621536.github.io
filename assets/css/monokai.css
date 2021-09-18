@@ -90,7 +90,9 @@
 .main-content .highlight .mo {
   color: #ae81ff;
 }
-.main-content .highlight .m, .highlight .mb, .highlight .mx {
+.main-content .highlight .m,
+.main-content .highlight .mb,
+.main-content.highlight .mx {
   color: #ae81ff;
 }
 .main-content .highlight .sc {
@@ -182,7 +184,6 @@
   background-color: #272822;
 }
 .main-content .highlight {
-  color: #ffffff;
   background-color: #272822;
 }
 .main-content .highlight .n,
