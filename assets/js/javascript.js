@@ -1,3 +1,5 @@
+/*eslint no-undef: "error"*/
+/*eslint-env browser*/
 /**
  * This file is from StackOverflow.
  * Random color genterator https://stackoverflow.com/a/1484514

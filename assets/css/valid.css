@@ -19,7 +19,7 @@ p {
   padding: 2rem;
   line-height: 1.5em;
   font-size: 1.3em;
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
 }
 
 p.lineone {
@@ -41,7 +41,7 @@ p.linethree {
 .goback {
   text-transform: uppercase;
   font-size: 117%;
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
   padding: 2rem;
 }
 

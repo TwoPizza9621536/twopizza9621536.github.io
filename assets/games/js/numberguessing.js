@@ -1,3 +1,6 @@
+/*eslint no-undef: "error"*/
+/*eslint-env browser*/
+
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 const guesses = document.querySelector(".guesses");
@@ -30,13 +33,7 @@ function checkGuess() {
         lastResult.textContent = "!!! GAME OVER !!!";
         setGameOver();
     } else {
-        lastResult.textContent = "Wrong!";
-        lastResult.style.backgroundColor = "red";
-        if (userGuess < randomNumber) {
-            lowOrHi.textContent = "Last guess was too low!";
-        } else if (userGuess > randomNumber) {
-            lowOrHi.textContent = "Last guess was too high";
-        }
+        compareResult(userGuess, randomNumber);
     }
 
     guessCount++;
@@ -58,15 +55,25 @@ function resetGame() {
     guessField.value = "";
     guessField.focus();
 
-    lastResult.style.backgroundColor = "whie";
+    lastResult.style.backgroundColor = "white";
 
     randomNumber = Math.floor(Math.random() * 100) + 1;
 }
 
 function setGameOver() {
-    guessField.disabled = guessSubmit.disabled= true;
+    guessField.disabled = guessSubmit.disabled = true;
     resetButton = document.createElement("button");
     resetButton.textContent = "Start new game";
     document.body.append(resetButton);
     resetButton.addEventListener("click", resetGame);
+}
+
+function compareResult(userGuess, randomNumber) {
+    lastResult.textContent = "Wrong!";
+    lastResult.style.backgroundColor = "red";
+    if (userGuess < randomNumber) {
+        lowOrHi.textContent = "Last guess was too low!";
+    } else if (userGuess > randomNumber) {
+        lowOrHi.textContent = "Last guess was too high";
+    }
 }
