@@ -5,11 +5,11 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <p>
-    Posted On: {{ page.date }} | {% if page.moddate %} Last Updated On: {{ page.moddate }}{% endif %}
-    {% assign author = site.authors | where: 'short_name', page.author | first %}
-    {% if author %}
-        <a href="{{ author.url }}">{{ author.name }}</a>
-    {% endif %}
+  Posted On: {{ page.date }} | Last Updated On: {{ page.last_modified_at }}
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+    <a href="{{ author.url }}">{{ author.name }}</a>
+  {% endif %}
 </p>
 
 <div id="table-of-contents">
@@ -20,4 +20,5 @@ layout: default
   {% toc %}
 </div>
 <br>
+
 {{ content }}

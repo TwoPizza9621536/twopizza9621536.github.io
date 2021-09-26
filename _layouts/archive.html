@@ -23,9 +23,9 @@ layout: default
         >{{ post.title }}</a
       >
     </h3>
-    {% if post.datemod %}
-    <span class="date">Last Updated: {{ post.moddate }}</span>
-    {% endif %}
+    <span class="date">
+      Last Updated: {{ post.last_modified_at }}
+    </span>
     <div class="content">
       {{ post.excerpt }}
     </div>
