@@ -139,4 +139,4 @@ sass:
 jekyll-mentions: https://twitter.com
 
 last-modified-at:
-  date-format: %Y-%m-d %H:%ML%S %z
+  date-format: "%Y-%m-d %H:%ML%S %z"
