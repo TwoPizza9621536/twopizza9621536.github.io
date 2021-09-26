@@ -47,7 +47,6 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-archives'
   gem 'jekyll-compose'
-  gem 'jekyll-remote-theme'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-include-cache'
 end
