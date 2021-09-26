@@ -48,6 +48,8 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-compose'
   gem 'jekyll-remote-theme'
+  gem 'jekyll-last-modified-at'
+  gem 'jekyll-include-cache'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
