@@ -86,6 +86,7 @@ defaults:
 
 # Build settings
 theme: jekyll-theme-cayman
+remote_theme: pietromenna/jekyll-cayman-theme
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -108,7 +109,9 @@ plugins:
   - jekyll-toc
   - jekyll-email-protect
   - jekyll-archives
-  - jekyll_inline_highlight
+  - jekyll-remote-theme
+  - jekyll-last-modified-at
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
