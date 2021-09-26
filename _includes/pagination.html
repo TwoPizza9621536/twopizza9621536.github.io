@@ -12,13 +12,11 @@
       datetime="{{ post.date }}"
       >Posted On: {{ post.date }}</time
     >
-    {% if post.moddate %}
     <time
       class="date"
-      datetime="{{ post.moddate }}"
-      >Last Updated On: {{ post.moddate }}</time
+      datetime="{{ post.last_modified_at }}"
+      >Last Updated On: {{ post.last_modified_at }}</time
     >
-    {% endif %}
   </p>
   <div class="content">
     {{ post.excerpt }}
