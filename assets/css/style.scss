@@ -212,15 +212,15 @@ $header-bg-color-tertiary: #ea66a8 !default;
       a {
         padding: 0.25em;
       }
-
-      img.icon {
-        width: 32px;
-        height: 32px;
-      }
-
-      img.icon:hover {
-        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-      }
     }
   }
+}
+
+img.icon {
+  width: 32px;
+  height: 32px;
+}
+
+img.icon:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
