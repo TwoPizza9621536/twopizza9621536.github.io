@@ -194,14 +194,6 @@ $header-bg-color-tertiary: #ea66a8 !default;
       text-align: center;
     }
 
-    .copyright {
-      grid-column: 2;
-      grid-row: 1;
-      display: block;
-      font-size: 16px;
-      text-align: center;
-    }
-
     div.mediaicons {
       grid-column: 3;
       grid-row: 1;
@@ -214,6 +206,14 @@ $header-bg-color-tertiary: #ea66a8 !default;
       }
     }
   }
+}
+
+.copyright {
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  font-size: 16px;
+  text-align: center;
 }
 
 img.icon {
