@@ -9,72 +9,39 @@ description: Contatct infomation for questions and requests.
 <p>To know about me see the About Me section of the main page.</p>
 <h2>Here is all my contact info:</h2>
 <hr />
-<p>Last updated: 09-04-2021</p>
+<p>Last updated: {{ page.last_modified_at }}</p>
+Email:
+<a href="mailto:{{ site.email | encode_email }}" target="top">{{ site.email }}</a>
+<p>For secure emails use PGP to send emails. My PGP Key is at:</p>
 <ul>
   <li>
-    Email:
-    <a href="mailto:{{ site.email | encode_email }}" target="top">{{ site.email }}</a>
-    <p>For secure emails use GPG to send emails. My GPG are at:</p>
-    <ul>
-      <li class="gpg">
-        <a
-          href="https://keys.mailvelope.com/pks/lookup?op=get&search=twopizza9621536%40gmail.com"
-          target="blank"
-          rel="noreferrer noopener"
-          >Mailvelope Key Server</a
-        >
-      </li>
-      <li class="gpg">
-        <a
-          href="https://keyserver.pgp.com/"
-          target="blank"
-          rel="noreferrer noopener"
-          >PGP Global Directory</a
-        >
-      </li>
-    </ul>
-    <p>
-      My Fingerprint is:
-      <code>7306 72C0 A7F2 0609 DE31 0320 5FEE F0B6 07E2 7238</code>
-      with the id of
-      <code>5FEE F0B6 07E2 7238</code>,
-      this should match with the end of the fingerprint and the key from
-      PGP Global Directory, Mailvelope Key Server, Keyase, and other places
-      should also match too.
-      This key is generated on 05-14-2021.
-    </p>
+	<a
+	  href="https://keys.mailvelope.com/pks/lookup?op=get&search=twopizza9621536%40gmail.com"
+	  target="blank"
+	  rel="noreferrer noopener"
+	  >Mailvelope Key Server</a
+	>
   </li>
-  <br />
   <li>
-    Twitter:
-    <a
-      href="https://www.twitter.com/TwoPizza9621536"
-      target="blank"
-      rel="noreferrer noopener"
-      >{{ site.twitter_username }}</a
-    >
-  </li>
-  <br />
-  <li>
-    Github:
-    <a
-      href="https://github.com/TwoPizza9621536"
-      target="blank"
-      rel="noreferrer noopener"
-      >{{ site.github_username }}</a
-    >
-  </li>
-  <br />
-  <li>
-    Keybase:
-    <a
-      href="https://keybase.io/twopizza9621536"
-      target="blank"
-      rel="noreferrer noopener"
-      >{{ site.github_username }}
-    </a>
+	<a
+	  href="https://keyserver.pgp.com/"
+	  target="blank"
+	  rel="noreferrer noopener"
+	  >PGP Global Directory</a
+	>
   </li>
 </ul>
+<p>
+  My PGP Key ID is:
+  <code>5FEE F0B6 07E2 7238</code>,
+  and this should match the bottom half of the fingerprint.
+  This key is generated on 05-14-2021.
+</p>
+
+<p>
+  For socials see the footer of the page.
+</p>
+
 <style type="text/css">
 p {
   text-indent: 15px;

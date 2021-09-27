@@ -1,13 +1,6 @@
 User-agent: *
 Disallow: /assets/
-Disallow: /LICENSE
 Disallow: /snippets/assets
-Disallow: /snippets/LICENSE
-Disallow: /renovate.json
-Disallow: /README.md
-Disallow: /snippets/README.md
-Disallow: /CODE_OF_CONDUCT.md
-Disallow: /snippets/CODE_OF_CONDUCT.md
 
 User-agent: Mediapartners-Google
 User-agent: AdsBot-Google

@@ -10,27 +10,28 @@ pagination:
 
 <div style="text-align: center">
   <p class="TnCLink">
-    To see
-    <a href="{{ '/blogs/tags.html' | relative_url }}"> tags click here</a>.
-    To see
+    <a href="{{ '/blogs/tags.html' | relative_url }}">To sort by tags.</a>
     <a href="{{ '/blogs/categories.html' | relative_url }}">
-      categories click here</a
-    >.
+	  To sort by categories.
+	</a>
   </p>
 
-  <p>Here is where is where my blogs are. Some blogs contains snippets.</p>
-  <p class="TnCLink">
-    To see
-    <a href="{{ '/snippets/index.html' | relative_url }}">
-      snippets click here</a
-    >.
+  <p
+    class="TnCLink"
+    >Here is where is where my blogs are. Some blogs contains
+	  <a
+	    href="{{ '/snippets/index.html' | relative_url }}"
+		>code snippets</a
+      >.
   </p>
 </div>
 
 <h2 style="font-size: 36px">Latest Post</h2>
 <hr />
 
-{% include pagination.html %} {% include next-back-links.html %}
+{% include pagination.html %}
+
+{% include next-back-links.html %}
 
 <style type="text/css">
   .pagpost {

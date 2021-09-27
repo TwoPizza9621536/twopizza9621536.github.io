@@ -26,13 +26,13 @@ here it and this is inspired by [Kev Quirk](https://kevq.uk).
 **_THE PRIVACY POLICY, Terms of Service and DISCLAIMER MAY SUBJECT
 TO CHANGE AT ANY TIME WITHOUT A NOTICE_**
 
-Last modified on 2021-07-30 16:27:27 EDT.
+Last modified on {{ page.last_modified_at }}
 
 ## 1. **DISCLAIMER**
 
 ---
 
-These only apply to this website and my own projects. For applications,
+These **ONLY** apply to sites I own and my own projects. For applications,
 projects, and website for other groups that I am apart of are subjected under
 their own ToS and Privacy Policy.
 

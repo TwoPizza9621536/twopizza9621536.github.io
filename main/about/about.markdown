@@ -14,21 +14,14 @@ Last modified: 2021-09-13 17:56:34 -0400
 
 ---
 
-For my contacts go [here]({{ '/about/contacts.html' | relative_url }}).
+Here are [my contacts]({{ '/about/contacts.html' | relative_url }}).
 
-## Privacy Policy
-
----
-
-To see the privacy policy go [here]({{ '/privacy-tos' | relative_url }}).
-
-## Terms of Service
+## Privacy Policy And Terms Of Service
 
 ---
 
-For snippets provided by third party social media are under their own terms of
-service and guidelines. See the exceptions section of the privacy policy for
-more info.
+You can see the site's
+[Privacy Policy and Terms of Service]({{ '/privacy-tos' | relative_url }}).
 
 ## License
 
@@ -46,8 +39,7 @@ LEGAL ADVICE**
 
 *_Creative Commons has no affiliation to this website_*
 
-You can see the legal code
-[here]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
+You can see the [legal code]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
 and [here][2].
 
 This license states that:
@@ -128,13 +120,11 @@ You can find the source code for Cayman at GitHub:
 @jasonlong / @jasonlong/cayman-theme
 
 Cayman theme is license under [CC-BY 4.0][5].
-See the License section down below.
 
 You can find the source code for Jekyll-Cayman-theme at GitHub:
 @pietromenna / @pietromenna/jekyll-cayman-theme
 
 Jekyll Cayman theme is license under [CC-BY 4.0][5].
-See the License section down below.
 
 ### Jekyll
 
@@ -142,7 +132,6 @@ You can find the source code for Jekyll at GitHub:
 <https://jekyll.rb> / @jekyll / @jekyll/jekyll
 
 Jekyll is license under the MIT license.
-See the License section down below.
 
 ### Font Awesome
 
@@ -154,7 +143,6 @@ or
 [Font Awesome](https://fontawesome.com)
 
 Font Awesome is license under the Font Awesome Free License.
-See the License section down below.
 
 ### jQuery
 
@@ -163,7 +151,6 @@ jQuery is used for javascript. jQuery can be found here
 @jquery / @jquery/jquery
 
 jQuery is licensed under the MIT License.
-See the License section down below.
 
 ### Fira Code
 
@@ -173,7 +160,6 @@ Fira Code can be found here:
 @tonsky / @tonsky/FiraCode
 
 Fira Code is licensed under the OFL 1.1 License.
-See the License section down below.
 
 ### Simple-Jekyll-Search
 
@@ -183,7 +169,6 @@ Simple-Jekyll-Search can be found here:
 @christian-fei/Simple-Jekyll-Search
 
 Simple-Jekyll-Search is licensed under the MIT License.
-See the License section down below.
 
 ### Dejkyll
 
@@ -192,7 +177,6 @@ Dejkll can be found here:
 @kuntoaji / @kuntoaji/dekyll
 
 Dejkll is licensed under the MIT License.
-See the License section down below.
 
 ### CSS
 
@@ -211,7 +195,6 @@ HTML 5 icon can be found at the W3C website:
 [W3C](https://w3.org) / [Validation Icons](https://www.w3.org/QA/Tools/Icons)
 
 The icons are license under [CC-BY 3.0][6].
-See the License section down below.
 
 ### Gems
 
@@ -219,13 +202,12 @@ For gems see the Gemfile for the repository
 [here]({{ site.github.repository_url }}/blob/main/Gemfile).
 
 The gems are licensed under the MIT License.
-See the License section down below.
 
 ## Licenses
 
 ---
 
-All licenses are in the
+For a quick reference, all licenses are in the
 [license page]({{ "/about/license.html" | relative_url }}).
 
 [1]: https://creativecommons.org/licenses/by-sa/4.0/
