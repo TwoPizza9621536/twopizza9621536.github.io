@@ -156,30 +156,34 @@ $header-bg-color-tertiary: #ea66a8 !default;
   }
 }
 
-.site-grid-one {
-  grid-column: 1;
-  grid-row: 1;
-  padding: 1em;
-
-  .date {
-    color: $header-bg-color-tertiary;
-    background-color: #000;
-    font-size: 18;
-  }
-}
-
 %site-footer {
   font-weight: bold;
   text-align: center;
 }
 
-.site-footer-owner {
-  @extend %site-footer;
+%date-style {
+  color: $header-bg-color-tertiary;
+  background-color: #000;
+  font-size: 18;
 }
 
-.build-time {
+.site-grid-one {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 1em;
+
+  .build-time {
+    @extend %site-footer;
+    @extend $date-style;
+  }
+}
+
+.date {
+  @extend $date-style;
+}
+
+.site-footer-owner {
   @extend %site-footer;
-  color: $header-bg-color-tertiary;
 }
 
 .site-footer-credits,
