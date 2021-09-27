@@ -122,6 +122,10 @@ $header-bg-color-tertiary: #ea66a8 !default;
   .posttitle {
     font-size: 1.5em;
   }
+  
+  a.ancher {
+    @extend %disable-selection;
+  }
 }
 
 .noscript {
@@ -211,4 +215,5 @@ img.icon:hover {
 
 .date {
   color: $header-bg-color-tertiary;
+  background-color: #000;
 }
