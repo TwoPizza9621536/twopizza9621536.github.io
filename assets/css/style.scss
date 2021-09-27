@@ -124,7 +124,6 @@ $header-bg-color-tertiary: #ea66a8 !default;
     }
   }
 
-
   .highlight {
     border-radius: 10px;
     margin: 0;
@@ -143,12 +142,16 @@ $header-bg-color-tertiary: #ea66a8 !default;
   a.ancher {
     @extend %disable-selection;
   }
-}
 
-.noscript {
-  font-weight: bold;
-  padding: 2em;
-  text-align: center;
+  .date {
+    @extend %date-style;
+  }
+
+  .noscript {
+    font-weight: bold;
+    padding: 2em;
+    text-align: center;
+  }
 }
 
 .site-footer {
@@ -179,7 +182,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
     time.build-time {
       @extend %site-footer;
-      @extend $date-style;
+      @extend %date-style;
     }
 
     div.site-footer-owner,
@@ -220,8 +223,4 @@ $header-bg-color-tertiary: #ea66a8 !default;
       }
     }
   }
-}
-
-.date {
-  @extend $date-style;
 }
