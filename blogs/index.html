@@ -16,13 +16,11 @@ pagination:
 	</a>
   </p>
 
-  <p
-    class="TnCLink"
-    >Here is where is where my blogs are. Some blogs contains
-	  <a
-	    href="{{ '/snippets/index.html' | relative_url }}"
-		>code snippets</a
-      >.
+  <p class="TnCLink">
+    Here is where is where my blogs are. Some blogs contains
+    <a href="{{ '/snippets/index.html' | relative_url }}"
+      >code snippets</a
+    >.
   </p>
 </div>
 
@@ -32,39 +30,3 @@ pagination:
 {% include pagination.html %}
 
 {% include next-back-links.html %}
-
-<style type="text/css">
-  .pagpost {
-    text-indent: 1rem;
-  }
-  .posttitle {
-    font-size: 1.8em;
-  }
-  .content {
-    text-indent: 1rem;
-    position: relative;
-    left: 1rem;
-    text-align: justify;
-  }
-  .pagination {
-    overflow: hidden;
-    vertical-align: middle;
-  }
-  .older_link {
-    font-size-adjust: 2em;
-  }
-  .older {
-    float: left;
-    color: #159957;
-  }
-  .page_number_container {
-    text-align: center;
-  }
-  .next_link {
-    font-size-adjust: 2em;
-  }
-  .newer {
-    float: right;
-    color: #159957;
-  }
-</style>
