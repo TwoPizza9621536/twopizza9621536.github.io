@@ -224,3 +224,38 @@ img.icon {
 img.icon:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+.pagpost {
+  text-indent: 1rem;
+
+  .posttitle {
+    font-size: 1.8em;
+  }
+  .postcontent {
+    text-indent: 1rem;
+    position: relative;
+    left: 1rem;
+    text-align: justify;
+  }
+  .pagination {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  .older_link {
+    font-size-adjust: 2em;
+  }
+  .older {
+    float: left;
+    color: #159957;
+  }
+  .page_number_container {
+    text-align: center;
+  }
+  .next_link {
+    font-size-adjust: 2em;
+  }
+  .newer {
+    float: right;
+    color: #159957;
+  }
+}
