@@ -110,6 +110,7 @@ plugins:
   - jekyll-archives
   - jekyll-last-modified-at
   - jekyll-include-cache
+  - jekyll-octicons
 
 # Exclude from processing.
 # The following items will not be processed, by default.
