@@ -3,8 +3,9 @@
   <div class="page_number_container">
     {% if paginator.previous_page %}
     <a
-      href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+      href="{{ paginator.previous_page_path }}"
       class="newer_link"
+      rel="prev"
       >Newer</a
     >
     {% else %}
@@ -15,8 +16,9 @@
     </span>
     {% if paginator.next_page %}
     <a
-      href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+      href="{{ paginator.next_page_path }}"
       class="older_link"
+      rel="next"
       >Older</a
     >
     {% else %}

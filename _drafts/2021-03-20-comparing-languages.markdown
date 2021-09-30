@@ -2,9 +2,23 @@
 layout: post
 title: "Comparing Languages"
 date: 2021-03-20 12:06:00 -0500
+tags:
+  - C
+  - Java
+  - Python
+categories:
+  - Scripting
+  - Programming
+  - Languages
+  - Comparison
 ---
 
-This is a comparison of different languages. The first one is C.
+This is a comparison of syntax in 3 different languages as well as a test. It
+is just a simple and basic analysis comparison. To compare them I written a
+program that asks a number to write the character 'A' into a file that is also
+going to be provided by the user.
+
+## C
 
 {% highlight c %}
 // Define any preprocessor header files
@@ -46,3 +60,5 @@ int main(int argc, char **argv)
     return 0;
 }
 {% endhighlight %}
+
+
