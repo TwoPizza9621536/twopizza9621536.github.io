@@ -8,7 +8,7 @@ jekyll-mentions: https://github.com
 toc: true
 ---
 
-Last modified: 2021-09-13 17:56:34 -0400
+Last modified: {{ page.last_modified_at }}
 
 ## Contacts
 
@@ -161,9 +161,17 @@ Fira Code can be found here:
 
 Fira Code is licensed under the OFL 1.1 License.
 
-### Simple-Jekyll-Search
+### Jekyll-Search
 
-Simple-Jekyll-Search is used for the search page.
+Jekyll-Search is now the new implementation of the search page.
+Jekyll-Search can be found here:
+@mathaywarduk / @mathaywarduk/jekyll-search
+
+Jekyll-Search is licensed under the MIT License.
+
+#### Simple-Jekyll-Search
+
+Simple-Jekyll-Search was the previous implementation.
 Simple-Jekyll-Search can be found here:
 [Christian Fei](https://cri.dev) / @christian-fei /
 @christian-fei/Simple-Jekyll-Search
