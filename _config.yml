@@ -64,6 +64,7 @@ autopages:
     title: 'Posts in collection :coll'
 
 # Authors
+collections_dir: collections
 collections:
   authors:
     output: true

@@ -1,0 +1,9 @@
+---
+---
+
+{% if post.collection != "posts" %}
+.page-header {
+  background-color: none;
+  background-image: url("{% asset_path pattern.svg {{ post.url }} %}");
+}
+{% endif %}
