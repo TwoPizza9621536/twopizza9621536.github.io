@@ -23,4 +23,6 @@ layout: default
 
 {{ content }}
 
+{% if post.collection != "posts" %}
 {% include collections.html %}
+{% endif %}
