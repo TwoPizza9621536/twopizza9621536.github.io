@@ -166,4 +166,4 @@ Python is the simplist as it is a beginner language and all of the io is
 abstracted.
 
 There are more version of the
-[program written in different languagues]({{ post.snippets | relative_url }}).
+[program written in different languagues]({{ page.snippets | absolute_url }}).
