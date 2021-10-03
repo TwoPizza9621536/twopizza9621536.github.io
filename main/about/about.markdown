@@ -10,6 +10,13 @@ toc: true
 
 Last modified: {{ page.last_modified_at }}
 
+> Github, the GITHUB® logo design, OCTOCAT® and the OCTOCAT® logo design are
+>  exclusive trademarks registered in the United States by GitHub, Inc.
+> For guidelines on the permitted uses of Github trademarks, refer to
+>  <https://github.com/logos>
+> For the other media icons, they are trademarks or registered tradmarks in the
+>  United States and/or other countries.
+
 ## Contacts
 
 ---
@@ -37,7 +44,7 @@ HAS BEEN LISTED BELOW**
 **I AM NOT A LAWYER NOR CREATIVE COMMONS IS A LAW FIRM, GET A LAWYER FOR
 LEGAL ADVICE**
 
-*_Creative Commons has no affiliation to this website_*
+_Creative Commons has no affiliation to this website_
 
 You can see the [legal code]({{ "/about/license.html#creative-commons-attribution-sharealike-40-international" | relative_url }})
 and [here][2].
