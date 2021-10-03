@@ -13,7 +13,7 @@ Last modified: {{ page.last_modified_at }}
 > **Github, the GITHUB® logo design, OCTOCAT® and the OCTOCAT® logo design are
 >  exclusive trademarks registered in the United States by GitHub, Inc.
 > For guidelines on the permitted uses of Github trademarks, refer to
->  <https://github.com/logos>
+>  <https://github.com/logos>.
 > For the other media icons, they are trademarks or registered tradmarks in the
 >  United States and/or other countries.**
 
