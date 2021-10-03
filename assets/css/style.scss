@@ -214,8 +214,8 @@ $header-bg-color-tertiary: #ea66a8 !default;
 
 .site-footer {
   display: grid;
-  padding-top: 2rem;
-  margin-top: 2rem;
+  padding: 2rem 0;
+  margin: 2rem 0;
   border-top: solid 1px $hr-border-color;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
