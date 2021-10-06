@@ -97,7 +97,6 @@ plugins:
   - jekyll-sass-converter
   - jekyll-coffeescript
   - jekyll-default-layout
-  - jekyll-gist
   - jekyll-github-metadata
   - jekyll-optional-front-matter
   - jekyll-readme-index
