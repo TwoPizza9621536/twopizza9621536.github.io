@@ -8,7 +8,7 @@ slug: tags
 
 <ul>
 {% for collection in site.collections %}
-  {% assign collection_name = tag[0] | downcase %}
+  {% assign collection_name = collection[0] | downcase %}
   <li class="collection__item">
     <a
       href="{{ site.url }}/collection/{{ collection[0] | downcase }}"
