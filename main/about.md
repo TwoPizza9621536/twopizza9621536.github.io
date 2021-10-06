@@ -11,4 +11,4 @@ wants to code.
 
 ## Contacts
 
-[See the Contacts Page][{{ '/contacts' | relative_url }}].
+[See the Contacts Page]({{ '/contacts' | relative_url }}).
