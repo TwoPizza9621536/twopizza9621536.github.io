@@ -66,15 +66,11 @@ autopages:
 # Authors
 collections_dir: collections
 collections:
-  authors:
-    output: true
+  mingw_gcc:
+    label: "Quest for a MinGW GCC"
+    output: false
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"
@@ -84,6 +80,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "mingw_gcc"
+    values:
+      layout: "post"
 
 # Build settings
 theme: jekyll-theme-cayman

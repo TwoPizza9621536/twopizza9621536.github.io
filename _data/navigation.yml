@@ -8,11 +8,9 @@
   link: /search.html
 - name: Snippets
   link: /snippets
-- name: Staff
-  link: /staff.html
-- name: About
+- name: About Me
   link: /about
-- name: Privacy & TOS
+- name: Privacy & ToS
   link: /privacy-tos
-- name: Contact
-  link: /about/contacts.html
+- name: License
+  link: /license

@@ -5,6 +5,7 @@ permalink: /privacy-tos
 description: >-
   Privacy policy and Terms of Service for this github.io site and other
   projects.
+toc: true
 ---
 
 - [1. **DISCLAIMER**](#1-disclaimer)
@@ -158,8 +159,8 @@ website.
 > Otherwise noted or stated on the page this site is under the
   [Creative Commons Attribution-ShareAlike 4.0 International][8]
   license. For more information, the noted, licensing information, and
-  credits see the [About Page]({{ '/about' | relative_url}}). If you need to
-  contact me go [here]({{ '/about/contacts.html' | relative_url }}).
+  credits see the [License Page]({{ '/license' | relative_url }}). If you need to
+  contact me go [here]({{ '/contacts' | relative_url }}).
 
 [^1]: https://github.blog/2018-05-01-github-pages-custom-domains-https/
 [^2]: https://code.jquery.com/

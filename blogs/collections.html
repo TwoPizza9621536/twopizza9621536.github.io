@@ -1,0 +1,27 @@
+---
+layout: page
+title: Collections
+permalink: /blogs/collections.html
+description: Collections of posts.
+slug: tags
+---
+
+<ul>
+{% for collection in site.collections %}
+  {% assign collection_name = tag[0] | downcase %}
+  <li class="collection__item">
+    <a
+      href="{{ site.url }}/collection/{{ collection[0] | downcase }}"
+      title="{{ collection_name }}"
+      >{{ collection_name }}</a
+    >
+  </li>
+{% endfor %}
+</ul>
+
+<a href="{{ '/tags.html' | relative_url }}">
+  To sort by tags.
+</a>
+<a herf="{{ '/categories.html' | relative_url }}">
+  For posts in categories.
+</a>
