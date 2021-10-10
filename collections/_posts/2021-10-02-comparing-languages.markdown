@@ -2,15 +2,8 @@
 layout: post
 title: "Comparing Languages"
 date: 2021-10-02 14:53:31 -0400
-tags:
-  - C
-  - Java
-  - Python
-categories:
-  - Scripting
-  - Programming
-  - Languages
-  - Comparison
+tags: [c, java, python]
+categories: [programming, scripting, languages, comparison]
 toc: true
 snippets: /snippets/2021/01/21/type-number-of-characters-into-a-file
 ---

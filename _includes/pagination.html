@@ -6,17 +6,19 @@
       >{{ post.title }}</a
     >
   </h4>
-  <p class="author">
-    <time
-      class="date"
-      datetime="{{ post.date }}"
-      >Posted On: {{ post.date }}</time
-    >
-    <time
-      class="date"
-      datetime="{{ post.last_modified_at }}"
-      >Last Updated On: {{ post.last_modified_at }}</time
-    >
+  <p>
+    <small>
+      <time
+        class="date"
+        datetime="{{ post.date }}"
+        >Posted On: {{ post.date }}</time
+      >
+      <time
+        class="date"
+        datetime="{{ post.last_modified_at }}"
+        >Last Updated On: {{ post.last_modified_at }}</time
+      >
+    </small>
   </p>
   <div class="postcontent">
     {{ post.excerpt }}

@@ -23,6 +23,8 @@ layout: default
 
 {{ content }}
 
+{% include tags.html %}
+
 {% if page.collection != "posts" %}
 {% include collections.html %}
 {% endif %}
