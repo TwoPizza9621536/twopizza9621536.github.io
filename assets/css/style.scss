@@ -195,6 +195,10 @@ $header-bg-color-tertiary: #ea66a8 !default;
       }
     }
   }
+
+  ruby {
+    text-transform: full-size-kana;
+  }
 }
 
 .navigation {
