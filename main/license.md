@@ -14,8 +14,14 @@ Last modified: {{ page.last_modified_at }}
 >  exclusive trademarks registered in the United States by GitHub, Inc.
 > For guidelines on the permitted uses of Github trademarks, refer to
 >  <https://github.com/logos>.
-> For the other media icons, they are trademarks or registered tradmarks in the
->  United States and/or other countries.**
+> W3C® is a trademark (registered in numerous countries) of the
+> World Wide Web Consortium; marks of W3C are registered and held by its host
+>  institutions MIT, ERCIM, Keio, and Beihang.
+> For guidlines on the permitted uses of World Wide Web Consortium trademarks,
+>  refer to, <https://www.w3.org/Consortium/Legal/2002/trademark-license-20021231>
+>  or for other rights: <https://www.w3.org/Consortium/Legal/ipr-notice>.
+>  Icons at <https://www.w3.org/Consortium/Legal/logo-usage-20000308>.
+> All other trademarks are the property of their respective owners.**
 
 ## License
 
@@ -109,12 +115,12 @@ The theme for this site is Cayman. To customize the Jekyll theme, see the basic
 Jekyll usage documentation at <jekyllrb.com>.
 
 Source code for Cayman at:
-@jasonlong / @jasonlong/cayman-theme
+@jasonlong / <https://github.com/jasonlong/cayman-theme>
 
 Cayman theme is license under [CC-BY 4.0][5].
 
 Source code for Jekyll-Cayman-theme at:
-@pietromenna / @pietromenna/jekyll-cayman-theme
+@pietromenna / <https://github.com/pietromenna/jekyll-cayman-theme>
 
 Jekyll Cayman theme is license under [CC-BY 4.0][5].
 
@@ -123,12 +129,12 @@ Jekyll Cayman theme is license under [CC-BY 4.0][5].
 Collection banners are created by using geopatterns by @jasonlong.
 
 Source code for GeoPatterns at:
-@jasonlong/geopatterns
+<https://github.com/jasonlong/geopatterns>
 
 ### Jekyll
 
 Source code for Jekyll at:
-<https://jekyll.rb> / @jekyll / @jekyll/jekyll
+<https://jekyll.rb> / @jekyll / <https://github.com/jekyll/jekyll>
 
 Jekyll is license under the [MIT License][7].
 
@@ -137,7 +143,7 @@ Jekyll is license under the [MIT License][7].
 The social media icons from Font Awesome.
 
 Source code for Font Awesome at:
-@Fort Awesome / @FortAwesome/Font-Awesome
+@Fort Awesome / <https://github.com/FortAwesome/Font-Awesome>
 or
 [Font Awesome](https://fontawesome.com)
 
@@ -147,7 +153,7 @@ Font Awesome is license under the Font Awesome Free License.
 
 jQuery is used for javascript. jQuery download at
 [jQuery](https://code.jquery.com/) / [jQuery](https://jquery.com/download/) /
-@jquery / @jquery/jquery
+@jquery / <https://github.com/jquery/jquery>
 
 jQuery is licensed under the [MIT License][7].
 
@@ -156,7 +162,7 @@ jQuery is licensed under the [MIT License][7].
 Fira Code is the font used for the code snippets and additional formatting.
 
 Fira Code at:
-@tonsky / @tonsky/FiraCode
+@tonsky / <https://github.com/tonsky/FiraCode>
 
 Fira Code is licensed under the OFL 1.1 License.
 
@@ -164,7 +170,7 @@ Fira Code is licensed under the OFL 1.1 License.
 
 Jekyll-Search is now the new implementation of the search page.
 Source code for Jekyll-Search at:
-@mathaywarduk / @mathaywarduk/jekyll-search
+@mathaywarduk / <https://github.com/mathaywarduk/jekyll-search>
 
 Jekyll-Search is licensed under the [MIT License][7].
 
@@ -173,7 +179,7 @@ Jekyll-Search is licensed under the [MIT License][7].
 Simple-Jekyll-Search was the previous implementation.
 Simple-Jekyll-Search can be found at:
 [Christian Fei](https://cri.dev) / @christian-fei /
-@christian-fei/Simple-Jekyll-Search
+<https://github.com/christian-fei/Simple-Jekyll-Search>
 
 Simple-Jekyll-Search is licensed under the [MIT License][7].
 
@@ -181,14 +187,14 @@ Simple-Jekyll-Search is licensed under the [MIT License][7].
 
 Uses code fom Dejkll for pagination and autopages.
 COde for Dejkll at:
-@kuntoaji / @kuntoaji/dekyll
+@kuntoaji / <https://github.com/kuntoaji/dekyll>
 
 Dejkll is licensed under the [MIT License][7].
 
 ### CSS
 
 Some CSS is from <https://www.bytedude.com>. Source code can be found at:
-@m-cat / @mcat/bytedude.com.
+@m-cat / <https://github.com/mcat/bytedude.com>
 
 ### W3C
 
@@ -196,10 +202,10 @@ For a secret page some badges are from W3C.
 
 You can find the badges at the W3C website:
 [W3C](https://w3.org) /
-[W3C HTML5 Logo](https://www.w3.org/html/logo/index.html)
+[Validation Badges](https://www.w3.org/html/logo/index.html)
 
 HTML 5 icon can be found at the W3C website:
-[W3C](https://w3.org) / [Validation Icons](https://www.w3.org/QA/Tools/Icons)
+[W3C](https://w3.org) / [W3C HTML5 Logo](https://www.w3.org/QA/Tools/Icons)
 
 The icons are license under [CC-BY 3.0][6].
 

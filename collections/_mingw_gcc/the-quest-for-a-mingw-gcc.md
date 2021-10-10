@@ -1,17 +1,30 @@
 ---
 title: "The Quest For a MinGW GCC"
 date: 2021-10-02 04:33:23 -0400
+description: Compiling a compiler
+tag: [gcc]
+categories: [compilers, compiling]
 ---
 
 > **MinGW® is a registered trademark of Software in the Pubic Interest Inc in
 >  the United States.
-> Windows® is a registered trademark of Microsoft Corperation in the Unted
+> Windows® is a registered trademark of Microsoft Corporation in the United
 >  States and other countries.
-> UNIX® is a registered trademark of the Open Group
+> Linux® is a registered trademark of Linus Torvalds in the United States
+>  and other countries.
 
 ## Introduction
 
-[MinGW](https://osdn.net/projects/mingw/) is a project that ports the Gnu
-Compiler Collection to Windows during XP. It was a native port using Windows
-threads instead of the UNIX POSIX threads, and allow to create native windows
-binaries without.
+The [MinGW](https://osdn.net/projects/mingw/) project is a port the Gnu
+Compiler Collection for Windows during XP. It was a native port enabling the
+use of the Windows API. It got a fork called [MinGW-w64](https://mingw-w64.org)
+which added 64bit support, provides a better port of the Windows API, and
+allows Linux systems to compile to Windows.
+
+I wanted a updated version of GCC running on for the MinGW triple, which is
+`mingw`. A triple is basically the a way to tell the compiler to compile the
+code for a specific platfrom. The [OSDev Wiki][1] explains [targing triple][2]
+better, and a great resource for general OS development and programming.
+
+[1]: <https://wiki.osdev.org>
+[2]: <https://wiki.osdev.org/Target_Triplet>

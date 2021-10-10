@@ -74,7 +74,6 @@ $header-bg-color-tertiary: #ea66a8 !default;
 %date-style {
   color: $header-bg-color-tertiary;
   background-color: #000;
-  font-size: 18;
 }
 
 %no-grid {
@@ -194,6 +193,10 @@ $header-bg-color-tertiary: #ea66a8 !default;
         color: #159957;
       }
     }
+  }
+
+  ruby {
+    text-transform: full-size-kana;
   }
 }
 
