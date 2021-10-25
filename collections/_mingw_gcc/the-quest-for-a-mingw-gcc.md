@@ -26,5 +26,8 @@ I wanted a updated version of GCC running on for the MinGW triple, which is
 code for a specific platfrom. The [OSDev Wiki][1] explains [targing triple][2]
 better, and a great resource for general OS development and programming.
 
+I wanted a updated version of GCC running on the `mingw` triple. The current
+version is GCC 11 (at the time of writing this)
+
 [1]: <https://wiki.osdev.org>
 [2]: <https://wiki.osdev.org/Target_Triplet>
