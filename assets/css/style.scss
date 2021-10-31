@@ -5,8 +5,7 @@
 @import url(https://unpkg.com/@primer/octicons/build/build.css);
 @import "jekyll-theme-cayman";
 @import "monokai.css";
-
-$header-bg-color-tertiary: #ea66a8 !default;
+@import "fontawesome/fontawesome";
 
 %disable-selection {
   -webkit-touch-callout: none;
@@ -246,9 +245,9 @@ $header-bg-color-tertiary: #ea66a8 !default;
       @extend %date-style;
     }
 
-    .owner,
-    .credits,
-    .opensource,
+    .site-footer-owner,
+    .site-footer-credits,
+    .site-footer-opensource,
     .build-date {
       @extend %no-grid;
       color: $blockquote-text-color;
