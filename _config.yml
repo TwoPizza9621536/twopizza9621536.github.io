@@ -137,6 +137,7 @@ lsi: true
 
 sass:
   style: compressed
+  sass_dir: _sass
 
 jekyll-mentions: https://twitter.com
 
