@@ -87,7 +87,7 @@ defaults:
       layout: "post"
 
 # Build settings
-theme: jekyll-cayman-theme
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-sitemap
