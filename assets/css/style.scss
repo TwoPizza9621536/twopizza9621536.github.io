@@ -3,7 +3,7 @@
 
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
 @import url(https://unpkg.com/@primer/octicons/build/build.css);
-@import "{{ site.theme }}";
+@import "jekyll-theme-cayman";
 @import "monokai.css";
 
 $header-bg-color-tertiary: #ea66a8 !default;
