@@ -262,8 +262,17 @@ $header-bg-color-tertiary: #ea66a8 !default;
       text-align: center;
       padding: 1em;
 
-      a {
-        padding: 0.25em;
+      a:hover {
+        text-decoration: none;
+      }
+
+      img.icon {
+        width: 32px;
+        height: 32px;
+      }
+
+      img.icon:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
       }
     }
   }
@@ -277,7 +286,13 @@ $header-bg-color-tertiary: #ea66a8 !default;
   text-align: center;
 
   img {
-    border-width: 0;
+    width: 48px;
+    height: 48px;
+  }
+
+  a:hover {
+    text-decoration: none;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 }
 
@@ -287,13 +302,4 @@ $header-bg-color-tertiary: #ea66a8 !default;
   display: block;
   font-size: 16px;
   text-align: center;
-}
-
-img.icon {
-  width: 32px;
-  height: 32px;
-}
-
-img.icon:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
