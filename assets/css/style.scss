@@ -21,8 +21,8 @@ $header-bg-color-tertiary: #ea66a8 !default;
   pre {
     border: 0;
     padding: 0.8rem;
-    font-family: "Fira Code", Consolas, 'Courier New', monospace;
-    color: #ffffff;
+    font-family: 'Fira Code', Consolas, 'Courier New', monospace;
+    color: #fff;
     background-color: #272822;
 
     code {
@@ -236,7 +236,7 @@ $header-bg-color-tertiary: #ea66a8 !default;
     font-size: 0.9rem;
   }
 
-  div.site-grid-one {
+  .info {
     grid-column: 1;
     grid-row: 1;
     padding: 1em;
@@ -246,60 +246,63 @@ $header-bg-color-tertiary: #ea66a8 !default;
       @extend %date-style;
     }
 
-    div.site-footer-owner,
-    div.site-footer-credits,
-    div.site-footer-opensource,
-    div.build-date {
+    .owner,
+    .credits,
+    .opensource,
+    .build-date {
       @extend %no-grid;
       color: $blockquote-text-color;
       text-align: center;
     }
+  }
 
-    div.mediaicons {
-      grid-column: 4;
-      grid-row: 1;
-      display: block;
-      text-align: center;
-      padding: 1em;
+  .copyright {
+    grid-column: 2;
+    grid-row: 1;
+    display: block;
+    font-size: 16px;
+    text-align: center;
 
-      a:hover {
-        text-decoration: none;
-      }
+    img {
+      width: 48px;
+      height: 48px;
+    }
 
-      img.icon {
-        width: 32px;
-        height: 32px;
-      }
-
-      img.icon:hover {
-        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-      }
+    a:hover {
+      text-decoration: none;
     }
   }
-}
 
-.copyright {
-  grid-column: 2;
-  grid-row: 1;
-  display: block;
-  font-size: 16px;
-  text-align: center;
-
-  img {
-    width: 48px;
-    height: 48px;
+  .trademark {
+    grid-column: 3;
+    grid-row: 1;
+    display: block;
+    font-size: 16px;
+    text-align: center;
   }
 
-  a:hover {
-    text-decoration: none;
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-}
+  .mediaicons {
+    grid-column: 4;
+    grid-row: 1;
+    display: block;
+    text-align: center;
+    padding: 1em;
 
-.trademark {
-  grid-column: 3;
-  grid-row: 1;
-  display: block;
-  font-size: 16px;
-  text-align: center;
+    a {
+      padding 0.25em
+    }
+	
+    a:hover {
+      text-decoration: none;
+    }
+
+    img.icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    img.icon:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+  }
 }
