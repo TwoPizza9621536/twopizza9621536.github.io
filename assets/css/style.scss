@@ -263,6 +263,7 @@
 
   a:hover {
     text-decoration: none;
+	color: #65ACE6;
   }
 
   .copyright {
@@ -271,10 +272,6 @@
     display: block;
     font-size: 16px;
     text-align: center;
-
-	i:hover i {
-      color: #65ACE6;
-    }
   }
 
   .trademark {
@@ -299,7 +296,6 @@
 
     i:hover {
       box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-	  color: #65ACE6;
     }
   }
 }
