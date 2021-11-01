@@ -263,14 +263,13 @@
     font-size: 16px;
     text-align: center;
 
-    img {
-      width: 48px;
-      height: 48px;
-    }
-
-    a:hover {
+	a:hover {
       text-decoration: none;
     }
+
+    i {
+      @extend %fa-icon;
+	}
   }
 
   .trademark {
@@ -296,13 +295,8 @@
       text-decoration: none;
     }
 
-    img.icon {
-      width: 32px;
-      height: 32px;
-    }
-
-    img.icon:hover {
-      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    i {
+      @extend %fa-icon;
     }
   }
 }
