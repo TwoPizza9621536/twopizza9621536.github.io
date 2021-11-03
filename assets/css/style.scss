@@ -261,17 +261,17 @@
     color: #fff;
   }
 
-  a:hover i {
-    text-decoration: none;
-    color: #65ACE6;
-  }
-
   .copyright {
     grid-column: 2;
     grid-row: 1;
     display: block;
     font-size: 16px;
     text-align: center;
+
+    a:hover i {
+      color: #65ACE6;
+      text-decoration-line: none;
+    }
   }
 
   .trademark {
@@ -292,6 +292,11 @@
 
     a {
       padding: 0.25em;
+    }
+
+    a:hover {
+      color: #65ACE6;
+      text-decoration-line: none;
     }
 
     i:hover {
