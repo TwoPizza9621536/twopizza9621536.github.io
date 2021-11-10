@@ -92,6 +92,8 @@ and
 
 ### **Notice**
 
+---
+
 For other files that under a different license or under the Credits section,
 you can use them without licencing your website under CC BY-SA 4.0 License
 and crediting me, but you must follow their licenses that they are under.
@@ -113,6 +115,8 @@ is under the [Creative Commons Attribution-ShareAlike 4.0 International][1].
 
 ### Cayman
 
+---
+
 The theme for this site is Cayman. To customize the Jekyll theme, see the basic
 Jekyll usage documentation at <jekyllrb.com>.
 
@@ -128,6 +132,8 @@ Jekyll Cayman theme is license under [CC-BY 4.0][5].
 
 ### Collection Banners
 
+---
+
 Collection banners are created by using geopatterns by @jasonlong.
 
 Source code for GeoPatterns at:
@@ -135,12 +141,16 @@ Source code for GeoPatterns at:
 
 ### Jekyll
 
+---
+
 Source code for Jekyll at:
 <https://jekyll.rb> / @jekyll / <https://github.com/jekyll/jekyll>
 
 Jekyll is license under the [MIT License][7].
 
 ### Font Awesome
+
+---
 
 The social media icons from Font Awesome.
 
@@ -153,6 +163,8 @@ Font Awesome is license under the Font Awesome Free License.
 
 ### jQuery
 
+---
+
 jQuery is used for javascript. jQuery download at
 [jQuery](https://code.jquery.com/) / [jQuery](https://jquery.com/download/) /
 @jquery / <https://github.com/jquery/jquery>
@@ -160,6 +172,8 @@ jQuery is used for javascript. jQuery download at
 jQuery is licensed under the [MIT License][7].
 
 ### Fira Code
+
+---
 
 Fira Code is the font used for the code snippets and additional formatting.
 
@@ -170,6 +184,8 @@ Fira Code is licensed under the OFL 1.1 License.
 
 ### Jekyll-Search
 
+---
+
 Jekyll-Search is now the new implementation of the search page.
 Source code for Jekyll-Search at:
 @mathaywarduk / <https://github.com/mathaywarduk/jekyll-search>
@@ -177,6 +193,8 @@ Source code for Jekyll-Search at:
 Jekyll-Search is licensed under the [MIT License][7].
 
 #### Simple-Jekyll-Search
+
+---
 
 Simple-Jekyll-Search was the previous implementation.
 Simple-Jekyll-Search can be found at:
@@ -187,6 +205,8 @@ Simple-Jekyll-Search is licensed under the [MIT License][7].
 
 ### Dejkyll
 
+---
+
 Uses code fom Dejkll for pagination and autopages.
 COde for Dejkll at:
 @kuntoaji / <https://github.com/kuntoaji/dekyll>
@@ -195,10 +215,14 @@ Dejkll is licensed under the [MIT License][7].
 
 ### CSS
 
+---
+
 Some CSS is from <https://www.bytedude.com>. Source code can be found at:
 @m-cat / <https://github.com/mcat/bytedude.com>
 
 ### W3C
+
+---
 
 For a secret page some badges are from W3C.
 
@@ -212,6 +236,8 @@ HTML 5 icon can be found at the W3C website:
 The icons are license under [CC-BY 3.0][6].
 
 ### Ruby Gems
+
+---
 
 For the gems see the
 [Gemfile]({{ site.github.repository_url }}/blob/main/Gemfile).
