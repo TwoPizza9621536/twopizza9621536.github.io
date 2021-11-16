@@ -6,13 +6,6 @@ tag: [gcc]
 categories: [compilers, compiling]
 ---
 
-> **MinGW® is a registered trademark of Software in the Pubic Interest Inc in
->  the United States.
-> Windows® is a registered trademark of Microsoft Corporation in the United
->  States and other countries.
-> Linux® is a registered trademark of Linus Torvalds in the United States
->  and other countries.
-
 ## Introduction
 
 The [MinGW](https://osdn.net/projects/mingw/) project is a port the Gnu
