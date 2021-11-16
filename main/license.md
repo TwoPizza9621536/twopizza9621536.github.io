@@ -10,20 +10,10 @@ toc: true
 
 Last modified: {{ page.last_modified_at }}
 
-> **For guidelines on the permitted uses of Creative Commons trademarks, refer
-> to <https://creativecommons.org/policies>.
-> Github, the GITHUB® logo design, OCTOCAT® and the OCTOCAT® logo design are
->  exclusive trademarks registered in the United States by GitHub, Inc.
-> For guidelines on the permitted uses of Github trademarks, refer to
->  <https://github.com/logos>.
-> W3C® is a trademark (registered in numerous countries) of the
-> World Wide Web Consortium; marks of W3C are registered and held by its host
->  institutions MIT, ERCIM, Keio, and Beihang.
-> For guidlines on the permitted uses of World Wide Web Consortium trademarks,
->  refer to, <https://www.w3.org/Consortium/Legal/2002/trademark-license-20021231>
->  or for other rights: <https://www.w3.org/Consortium/Legal/ipr-notice>.
->  Icons at <https://www.w3.org/Consortium/Legal/logo-usage-20000308>.
-> All other trademarks are the property of their respective owners.**
+> **All copyright, trademarks, and register trademarks are properties of their 
+> respective owners. For the usage of such copyright, trademarks, and register
+> trademarks, please search up thier respective guideline usage from their
+> respective owners.**
 
 ## License
 
@@ -33,15 +23,12 @@ This site is under the
 [Creative Commons Attribution-ShareAlike 4.0 International][1]
 license.
 
-**PLEASE MAKE SURE YOU READ THE LEGAL CODE BEFORE YOU DO THE THINGS THAT
-HAS BEEN LISTED BELOW**
-
 **I AM NOT A LAWYER NOR CREATIVE COMMONS IS A LAW FIRM, GET A LAWYER FOR
 LEGAL ADVICE**
 
 _Creative Commons has no affiliation to this website_
 
-If you are using content from this site read the [legal code][2].
+**If you are using content from this site please read the [legal code][2].**
 
 This license states that:
 
@@ -49,25 +36,35 @@ This license states that:
 >    format.
 > - You are also free to adapt, remix, transform, and build upon the material
 >    for any purpose, even commercially. However…
->   - You must provide attribution to the author (me) with a link back to this
+>   - You must provide attributions to the author (me) with a link back to this
 >      website and the page that have material if applicable.
 >   - If you remix, transform, or build upon the material, you must distribute
 >      your contributions under the same license as the original.
->   - You may not apply legal terms or technological measures that legally
->      restrict others from doing anything the license permits.
+>   - You may not apply legal terms or effective technological measures that
+>      legally restrict others from doing anything the license permits. (No DRM)
 >   - When you license under the same license as the original, depending on your
 >      jurisdiction, you have waived your moral rights.
+>   - If the author (me) request to remove any attributions for the material,
+>      you must remove the attribution.
+> - When adapt, remix, transform, and build upon the material,
+>    you must also provide:
+>     - No royalites
+>     - No trademark and patant grants.
+>     - No endosement, any endosement results in a request to remove
+>      attributions.
+>     - No warranties and liability.
+>     - Terms that is stated above.
 
-If you do not follow the license you have 30 days to correct the mistakes to
-follow the license and the mistake is still not corrected the license is
-terminated for you.
+If you violate any terms that is stated in the license, you have 30 days to
+correct the violations to reinstate license for you. If the violation is still
+not corrected, the license is terminated and you will not use the material for
+life unless I manually reinstate the license for you. Any usage of the material
+after the license termination will result in a DMCA takedown.
 
-To attribute make sure you have my name in the credits and/or state credits go
-to my name (Samuel Wu) and hyperlink my name to the website
-`twopizza9621536.github.io` and the image or the caption
-of the image to the link to the page of the source material.
-Add the license notice and the link of the [CC BY-SA 4.0][1] license as part
-of the attribution too.
+To attribute, make sure in the credits or around the material there should be
+the title of the source material, my name with a link to this website, the full
+or abbreviation of the license, a link to the license [CC BY-SA 4.0][1], and a
+link to the page of the source material.
 
 If you remix, adapt, transform or build upon of this website use the CC License
 Chooser (use the beta version) and select must CC BY-SA and attribute me by
@@ -78,17 +75,14 @@ If there is a modification, indicate the modification from the original.
 
 Because this is text media, there are no extra variables determining does this
 activate the sharealike clause; only the text must be standalone and not
-modified for it not to be activated.
+modified for it not to be activated. **This is only for me.**
 
 For more info, here is the official CC website for
 [attribution](https://creativecommons.org/use-remix/attribution)
 and
 [licensing](https://creativecommons.org/share-your-work)
 
-Here is the official CC wiki for
-[attribution][3]
-and
-[licensing][4].
+Here is the official CC wiki for [attribution][3] and [licensing][4].
 
 ### **Notice**
 
