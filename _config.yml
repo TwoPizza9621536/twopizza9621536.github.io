@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Samuel Wu @TwoPizza9621536
+title: Samuel Wu @TwoPizza9621-2021536
 email: twopizza9621536@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This my blogs for coding, programming, technology, and software that will go
@@ -112,6 +112,9 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-include-cache
   - jekyll-octicons
+  - jekyll-redirect-from
+  - jekyll_version_plugin
+  - jekyll_github_sample
 
 # Exclude from processing.
 # The following items will not be processed, by default.

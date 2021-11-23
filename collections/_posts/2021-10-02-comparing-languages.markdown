@@ -24,42 +24,9 @@ stdin and stdout using {% ihighlight c %}prinf(){% endihighlight %} and
 the filename provided to create, open and write to the file. Last close it and
 ask the user input to exit.
 
+{% github_sample_ref /TwoPizza9621536/snippets/blob/90f7dc4591f81b8bc22f8aa1031d5463ec1950e6/C/Printchara.c %}
 {% highlight c linenos %}
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(int argc, char **argv)
-{
-    int num = 0;
-    char filename[24];
-
-    printf("How many 'A' should be written to a file: \n");
-    scanf("%d", &num);
-
-    printf("What is the name for the file: (Must be 24 characters): \n");
-    scanf("%24s", filename);
-
-    FILE *fptr;
-
-    fptr = fopen(filename, "w");
-
-    for (size_t i = 0; i < num; i++)
-    {
-        fprintf(fptr, "%c", 'A');
-    }
-
-    fclose(fptr);
-
-    printf("Operation Completed. Press Enter to exit.\n");
-    fflush(stdout);
-    int chara;
-    while ((chara != '\n') && (chara != EOF) )
-    {
-        chara = getchar();
-    }
-
-    return 0;
-}
+{% github_sample /TwoPizza9621536/snippets/blob/90f7dc4591f81b8bc22f8aa1031d5463ec1950e6/C/Printchara.c 24 %}
 {% endhighlight %}
 
 ## Java
@@ -72,58 +39,9 @@ be modules for input/output (io), by using the
 handle memory managment, this also is in C but only excptions becuase C does
 not have managment.
 
+{% github_sample_ref /TwoPizza9621536/snippets/blob/90f7dc4591f81b8bc22f8aa1031d5463ec1950e6/Java/Printchara.Java %}
 {% highlight java linenos %}
-package io.Printchara;
-
-import java.io.*;
-import java.nio.file.*;
-import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
-import java.util.Scanner;
-
-public class Main
-{
-    public static void main(String[] args)
-    {
-        Scanner input = new Scanner(System.in);
-
-        logger.log("How many 'A' should be written to a file: ");
-        int num = Integer.parseInt(input.nextLine());
-
-        logger.log("What is the name for the file: ");
-        String filename = input.nextLine();
-
-        writeChara(Paths.get(System.getProperty("user.dir"), filename));
-
-        logger.log("Operation Complete. Press Enter to exit.");
-        input.nextLine();
-        input.close();
-    }
-
-    public static void writeChara(filePath)
-    {
-        File fs = new File(String.valueOf(filePath));
-        try(RandomAccessFile stream = new RandomAccessFile(fs, "rw"))
-        {
-            FileChannel channel = stream.getChannel();
-            String character = "A";
-
-            for (int i = 0; i < num; i++)
-            {
-                byte[] strByte = character.getBytes();
-                ByteBuffer buffer = ByteBuffer.allocate(strByte.length);
-
-                buffer.put(strByte);
-                buffer.flip();
-                channel.write(buffer);
-            }
-        }
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
-    }        
-}
+{% github_sample /TwoPizza9621536/snippets/blob/90f7dc4591f81b8bc22f8aa1031d5463ec1950e6/Java/Printchara.Java 24 %}
 {% endhighlight %}
 
 ## Python
@@ -136,19 +54,9 @@ python library which also include file handling. The
 file, a memory managment handler like the
 {% ihighlight java %}try{% endihighlight %} in java.
 
+{% github_sample_ref /TwoPizza9621536/snippets/blob/main/Python/Printchara.py %}
 {% highlight python linenos %}
-print("How many 'A' should be written to a file: ")
-num = input()
-
-print("What is the name for the file: ")
-filename = input()
-
-with open(filename, 'w+') as f:
-    for i in range (int(num)):
-        f.write('A')
-        i = i + 1
-
-input("Operation Completed. Press Enter to exit.")
+{% github_sample /TwoPizza9621536/snippets/blob/main/Python/Printchara.py 24 %}
 {% endhighlight %}
 
 ## Conclusion

@@ -37,14 +37,16 @@
     </div>
     <div class="build-date">
       This site is build on
-        <a
-          href="{{ site.github.repository_url }}/actions"
-          target="blank"
-          rel="noreferrer noopener"
-          ><time class="build-time" datetime="{{ site.time }}"
-            >{{ site.time }}</time
-          ></a
-        >.
+      <a
+        href="{{ site.github.repository_url }}/actions"
+        target="blank"
+        rel="noreferrer noopener"
+        ><time class="build-time" datetime="{{ site.time }}"
+          >{{ site.time }}</time
+        ></a
+      >.
+      <br>
+      Build commit: {% project_version commit short %}
     </div>
   </div>
   <div

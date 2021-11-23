@@ -49,6 +49,9 @@ group :jekyll_plugins do
   gem 'jekyll-last-modified-at'
   gem 'jekyll-include-cache'
   gem 'jekyll-octicons'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll_version_plugin'
+  gem 'jekyll_github_sample'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
