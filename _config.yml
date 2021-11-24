@@ -98,6 +98,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-github-sample
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-mentions
@@ -110,6 +111,7 @@ plugins:
   - jekyll-sass-converter
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-target-blank
   - jekyll-titles-from-headings
   - jekyll-toc
   - jekyll_version_plugin
@@ -146,5 +148,5 @@ jekyll-mentions: https://twitter.com
 last-modified-at:
   date-format: "%Y-%m-d %H:%ML%S %z"
 
-extlinks:
-  attributes: {rel: nofollow noopener, target: _blank}
+target-blank:
+    rel: nofollow
