@@ -24,9 +24,9 @@ stdin and stdout using {% ihighlight c %}prinf(){% endihighlight %} and
 the filename provided to create, open and write to the file. Last close it and
 ask the user input to exit.
 
-{% github_fileref TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c %}
+{% github_fileref /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c %}
 {% highlight c linenos %}
-{% github_file TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c 24 %}
+{% github_file /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c 24 %}
 {% endhighlight %}
 
 ## Java
@@ -39,9 +39,9 @@ be modules for input/output (io), by using the
 handle memory managment, this also is in C but only excptions becuase C does
 not have managment.
 
-{% github_fileref TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Java/Printchara.Java %}
+{% github_fileref /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Java/Printchara.Java %}
 {% highlight java linenos %}
-{% github_file TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Java/Printchara.Java 24 %}
+{% github_file /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Java/Printchara.Java 24 %}
 {% endhighlight %}
 
 ## Python
@@ -54,14 +54,14 @@ python library which also include file handling. The
 file, a memory managment handler like the
 {% ihighlight java %}try{% endihighlight %} in java.
 
-{% github_fileref TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Python/Printchara.py %}
+{% github_fileref /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Python/Printchara.py %}
 {% highlight python linenos %}
-{% github_file TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Python/Printchara.py 24 %}
+{% github_file /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/Python/Printchara.py 24 %}
 {% endhighlight %}
 
 ## Conclusion
 
-C eventhough you have learn pointers, memory management and manually set
+C even though you have learn pointers, memory management and manually set
 everything up, it is still simple. Java is both more complicated and simpified.
 Python is the simplist as it is a beginner language and all of the io is
 abstracted.
