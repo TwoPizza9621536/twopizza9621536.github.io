@@ -43,7 +43,6 @@ group :jekyll_plugins do
   gem 'html-pipeline'
   gem 'jekyll-toc'
   gem 'jekyll-email-protect'
-  gem 'jekyll-twitter-plugin'
   gem 'jekyll-archives'
   gem 'jekyll-compose'
   gem 'jekyll-last-modified-at'
