@@ -47,7 +47,7 @@ module JekyllGithubContent
 
     def render(context)
       file_lines = cache.fetch(@github_file.get_raw_file_uri) do
-        URI.open(@github_file.get_raw_file_uri).readlines
+        URI.open(@github_file.get_raw_file_uri.to_s).readlines
       end
       lines_to_print = file_lines[@initial_line..@end_line]
       lines_to_print.join
