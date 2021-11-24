@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 4.2'
+gem 'jekyll'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem 'jekyll-theme-cayman'
@@ -51,7 +51,6 @@ group :jekyll_plugins do
   gem 'jekyll-octicons'
   gem 'jekyll-redirect-from'
   gem 'jekyll_version_plugin'
-  gem 'jekyll_github_content'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
