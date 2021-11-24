@@ -13,22 +13,16 @@ layout: default
 {% endif %}
 
 <ul class="posts">
-{% for post in page.posts %}
+  {% for post in page.posts %}
   <li>
     <span class="post-date">Posted On: {{ post.date | date: "%Y-%m-%d" }}</span>
     <h3>
-      <a
-        class="post-link"
-        href="{{ post.url | relative_url }}"
+      <a class="post-link" href="{{ post.url | relative_url }}"
         >{{ post.title }}</a
       >
     </h3>
-    <span class="date">
-      Last Updated: {{ post.last_modified_at }}
-    </span>
-    <div class="content">
-      {{ post.excerpt }}
-    </div>
+    <span class="date"> Last Updated: {{ post.last_modified_at }} </span>
+    <div class="content">{{ post.excerpt }}</div>
   </li>
-{% endfor %}
+  {% endfor %}
 </ul>

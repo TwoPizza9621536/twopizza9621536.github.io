@@ -1,14 +1,20 @@
-<div class="navigation">  
-  <nav>
-    {% for item in site.data.navigation %}
-      <a
-        href="{{ item.link }}"
-        {% if page.url == item.link %}
-        class="current"
-        {% endif %}
-        class="navigation-buttons"
-        >{{ item.name }}</a
-      >
-    {% endfor %}
+<div class="navigation">
+  <nav class="navigation-buttons">
+  {% for item in site.data.navigation %}
+    <a
+      href="{{ item.link }}"
+      {% if page.url == item.link %}
+      class="current"
+      {% endif %}
+      {% if page.url == / %}
+      rel="home"
+      {% elsif page.url == /license %}
+      rel="license"
+      {% elsif page.url == /about %}
+      rel="author"
+      {% endif %}
+      >{{ item.name }}</a
+    >
+  {% endfor %}
   </nav>
 </div>

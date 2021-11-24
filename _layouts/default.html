@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  {% include top.html %}
-</head>
+  <head>
+    {% include top.html %}
+  </head>
 
-<body>
-  {% include header.html %}
+  <body>
+    {% include header.html | extlinks %}
+    {% include_cached navigation.html | extlinks %}
 
-  {% include_cached navigation.html %}
+    <main class="main-content" id="content" role="main">
+    {{ content | extlinks }}
+    </main>
 
-  <main class="main-content" id="content" role="main">
-    {{ content }}
-  </main>
-
-  {% include_cached navigation.html %}
-
-  {% include_cached footer.html %}
-</body>
+    {% include_cached navigation.html | extlinks %}
+    {% include_cached footer.html | extlinks %}
+  </body>
 </html>

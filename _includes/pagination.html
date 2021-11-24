@@ -2,26 +2,18 @@
 <div class="pagpost">
   {% for post in paginator.posts %}
   <h4 class="posttitle no_toc_section">
-    <a href="{{ post.url | relative_url }}"
-      >{{ post.title }}</a
-    >
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h4>
   <p>
     <small>
-      <time
-        class="date"
-        datetime="{{ post.date }}"
+      <time class="date" datetime="{{ post.date }}"
         >Posted On: {{ post.date }}</time
       >
-      <time
-        class="date"
-        datetime="{{ post.last_modified_at }}"
+      <time class="date" datetime="{{ post.last_modified_at }}"
         >Last Updated On: {{ post.last_modified_at }}</time
       >
     </small>
   </p>
-  <div class="postcontent">
-    {{ post.excerpt }}
-  </div>
+  <div class="postcontent">{{ post.excerpt }}</div>
   {% endfor %}
 </div>

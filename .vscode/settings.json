@@ -1,0 +1,16 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#551238",
+    "titleBar.activeBackground": "#77194F",
+    "titleBar.activeForeground": "#FEFCFD"
+  },
+  "files.associations": {
+    "*.html": "jekyll"
+  },
+  "markdownlint.config": {
+    "MD028": false,
+    "MD025": {
+      "front_matter_title": ""
+    }
+  }
+}

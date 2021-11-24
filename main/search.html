@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Search Page
 description: A search page for this github.io site.
 permalink: /search.html
@@ -8,35 +8,20 @@ search_omit: true
 ---
 
 <p>
-  This is a search page for this site and requires javascript.
-  The current implementation is using
-  <a
-    href="https://github.com/mathaywarduk/jekyll-search"
-	target="blank"
-    rel="noreferrer noopener"
-	>jekyll-search</a
-  >
+  This is a search page for this site and requires javascript. The current
+  implementation is using
+  <a href="https://github.com/mathaywarduk/jekyll-search">jekyll-search</a>
   by
-  <a
-    href="https://github.com/mathaywarduk"
-	target="blank"
-    rel="noreferrer noopener"
-    >Mat Hayward</a
-  >.
+  <a href="https://github.com/mathaywarduk">Mat Hayward</a>.
 </p>
 <p>
   The previous implementation was using
-  <a
-    href="https://github.com/christian-fei/Simple-Jekyll-Search"
-    target="blank"
-    rel="noreferrer noopener"
+  <a href="https://github.com/christian-fei/Simple-Jekyll-Search"
     >Simple-Jekyll-Search</a
   >
   by
-  <a href="https://cri.dev" target="blank" rel="noreferrer noopener"
-    >Christian Fei</a
-  >. The script is licensed under the MIT License, see the
-  <a href="{{ '/about' | relative_url }}">about page</a>.
+  <a href="https://cri.dev">Christian Fei</a>. The script is licensed under the
+  MIT License, see the <a href="{{ '/about' | relative_url }}">about page</a>.
 </p>
 
 <!-- Search form -->
@@ -44,7 +29,8 @@ search_omit: true
   <label for="q">Search term</label>
   <input
     type="search"
-    name="q" id="q"
+    name="q"
+    id="q"
     placeholder="Enter search term"
     data-search-input
   />
@@ -53,19 +39,19 @@ search_omit: true
 
 <!-- Search results placeholder -->
 <p data-search-found>
-<span data-search-found-count></span>
-result(s) found for &ldquo;
-<span data-search-found-term></span>&rdquo;.
+  <span data-search-found-count></span>
+  result(s) found for &ldquo;
+  <span data-search-found-term></span>&rdquo;.
 </p>
 <div data-search-results></div>
 
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
-<div>
-  <h2><a href="##Url##">##Title##</a></h2>
-  <h3><a href="##Url##">##Date##</a></h3>
-  <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
-</div>
+  <div>
+    <h2><a href="##Url##">##Title##</a></h2>
+    <h3><a href="##Url##">##Date##</a></h3>
+    <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+  </div>
 </script>
 
 {% include jquery.html %}

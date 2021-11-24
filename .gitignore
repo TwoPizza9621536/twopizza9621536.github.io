@@ -11,11 +11,6 @@ nppBackup/
 .ztr-directory
 *.log
 
-##
-## Visual Studio Code
-##
-.vscode/
-
 nodemodules/
 
 *.lock

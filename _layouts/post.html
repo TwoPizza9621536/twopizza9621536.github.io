@@ -4,22 +4,14 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<p>
-  Posted On: {{ page.date }} | Last Updated On: {{ page.last_modified_at }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
+<p>Posted On: {{ page.date }} | Last Updated On: {{ page.last_modified_at }}</p>
 
 <div id="table-of-contents">
-  <input id="spoiler-check" type="checkbox">
-  <label class="spoiler" for="spoiler-check"
-    >Table Of Contents</label
-  >
+  <input id="spoiler-check" type="checkbox" />
+  <label class="spoiler" for="spoiler-check">Table Of Contents</label>
   {% toc %}
 </div>
-<br>
+<br />
 
 {{ content }}
 
