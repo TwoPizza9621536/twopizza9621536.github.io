@@ -5,14 +5,14 @@
   </head>
 
   <body>
-    {% include header.html | extlinks %}
-    {% include_cached navigation.html | extlinks %}
+    {% include header.html %}
+    {% include_cached navigation.html %}
 
     <main class="main-content" id="content" role="main">
-    {{ content | extlinks }}
+      {{ content | extlinks }}
     </main>
 
-    {% include_cached navigation.html | extlinks %}
+    {% include_cached navigation.html %}
     {% include_cached footer.html | extlinks %}
   </body>
 </html>

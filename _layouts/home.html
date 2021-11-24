@@ -7,19 +7,19 @@
 </head>
 
 <body>
-  {% include header.html | extlinks %}
-  {% include_cached navigation.html | extlinks %}
+  {% include header.html %}
+  {% include_cached navigation.html %}
 
   <main class="main-content" id="content" role="main">
     <div id="table-of-contents">
       <input id="spoiler-check" type="checkbox">
       <label class="spoiler" for="spoiler-check">Table Of Contents</label>
-      {{ content | toc_only | extlinks }}
+      {{ content | toc_only }}
     </div>
-    {{ content | inject_anchors | extlinks }}
+    {{ content | inject_anchors }}
   </main>
 
-  {% include_cached navigation.html | extlinks %}
+  {% include_cached navigation.html %}
   {% include_cached footer.html | extlinks %}
   </body>
 </html>
