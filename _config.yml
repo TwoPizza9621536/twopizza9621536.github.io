@@ -114,7 +114,6 @@ plugins:
   - jekyll-octicons
   - jekyll-redirect-from
   - jekyll_version_plugin
-  - jekyll_github_content
 
 # Exclude from processing.
 # The following items will not be processed, by default.
