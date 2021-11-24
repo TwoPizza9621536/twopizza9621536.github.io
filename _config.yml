@@ -98,7 +98,6 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-github-sample
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-mentions
@@ -114,6 +113,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-titles-from-headings
   - jekyll-toc
+  - jekyll_github_sample
   - jekyll_version_plugin
   - jemoji
 
