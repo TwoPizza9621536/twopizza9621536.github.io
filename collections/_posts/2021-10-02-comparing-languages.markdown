@@ -26,7 +26,7 @@ ask the user input to exit.
 
 {% github_sample_ref https://github.com/TwoPizza9621536/snippets/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c %}
 {% highlight c linenos %}
-{% github_file TwoPizza9621536/snippets/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c 24 %}
+{% github_sample TwoPizza9621536/snippets/de58a106e186d7efe32b2cea868b87a226a96aa9/C/Printchara.c 24 %}
 {% endhighlight %}
 
 ## Java
