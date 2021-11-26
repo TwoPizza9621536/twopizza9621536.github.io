@@ -8,7 +8,7 @@ toc: true
 snippets: /snippets/2021/01/21/type-number-of-characters-into-a-file
 ---
 
-{% github_sample_ref /bwillis/versioncake/989237901cb873f96df12be48cbf1239be496bd7/Appraisals %}
+{% github_sample_ref /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/README.md %}
 {% highlight ruby %}
-{% github_sample /bwillis/versioncake/989237901cb873f96df12be48cbf1239be496bd7/Appraisals 0 5 %}
+{% github_sample /TwoPizza9621536/snippets/blob/de58a106e186d7efe32b2cea868b87a226a96aa9/README.md %}
 {% endhighlight %}
