@@ -1,10 +1,12 @@
 <div class="navigation">
-  <nav class="navigation-buttons">
-  {% for item in site.data.navigation %}
+  <nav>
+    {% for item in site.data.navigation %}
     <a
       href="{{ item.link }}"
       {% if page.url == item.link %}
       class="current"
+      {% elsif %}
+      class="navigation-buttons"
       {% endif %}
       {% if page.url == "/" %}
       rel="home"
