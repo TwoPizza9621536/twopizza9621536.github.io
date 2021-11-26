@@ -219,7 +219,7 @@
   padding: 2rem 0;
   margin: 2rem 0;
   border-top: solid 1px $hr-border-color;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr
   grid-auto-rows: auto;
   grid-gap: 20px;
 
