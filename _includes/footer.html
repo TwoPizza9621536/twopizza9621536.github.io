@@ -43,7 +43,11 @@
         ></a
       >.
       <br />
-      Build commit: {% project_version commit short %}
+      Build commit:
+      <a
+        href="{{ site.github.repository_url }}/tree/{% project_version commit short %}"
+        >{% project_version commit short %}</a
+      >
     </div>
   </div>
   <div
