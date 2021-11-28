@@ -1,12 +1,15 @@
-_site
-.sass-cache
-.jekyll-cache
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
 vendor
 .bundle/
 
 .idea/
-nppBackup/
+/shelf/
+/workspace.xml
+.vscode/
+vendor/
 
 .ztr-directory
 *.log

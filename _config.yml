@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Samuel Wu @TwoPizza9621-2021536
+title: Samuel Wu @TwoPizza9621536
 email: twopizza9621536@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This my blogs for coding, programming, technology, and software that will go
@@ -38,9 +38,9 @@ timezone: America/New_York
 permalink: /blogs/:year/:month/:day/:title/
 pagination:
   enabled: true
-  per_page: 3
-  permalink: "/blogs/page:num/"
-  title: " - page :num"
+  per_page: 5
+  permalink: "/page:num/"
+  title: ":title - page :num"
   limit: 0
   sort_field: "date"
   sort_reverse: true
@@ -63,7 +63,7 @@ autopages:
   collections:
     title: 'Posts in collection :coll'
 
-# Authors
+# Collections
 collections_dir: collections
 collections:
   mingw_gcc:
