@@ -59,27 +59,16 @@
       .lineno {
         @extend %disable-selection;
         display: inline-block;
-        padding: 0 5px 0 0;
+        padding: 0 5px;
         text-align: right;
       }
     }
   }
 }
 
-%site-footer {
-  font-weight: bold;
-  text-align: center;
-}
-
 %date-style {
   color: $header-bg-color-tertiary;
   background-color: #000;
-}
-
-%no-grid {
-  grid-template-columns: 0;
-  grid-template-rows: 0;
-  grid-gap: 0;
 }
 
 .main-content {
@@ -181,7 +170,7 @@
 
       .older {
         float: left;
-        color: #159957;
+        color: $section-headings-color;
       }
 
       .next_link {
@@ -190,7 +179,7 @@
 
       .newer {
         float: right;
-        color: #159957;
+        color: $section-headings-color;
       }
     }
   }
@@ -207,41 +196,40 @@
     font-size: 1.25em;
     padding: 10px;
     .current {
-      color: green;
+      color: $section-headings-color;
       font-size: 1.75em;
-      padding: 10px;
     }
   }
 }
 
 .site-footer {
   display: grid;
-  padding: 2rem 0;
-  margin: 2rem 0;
   border-top: solid 1px $hr-border-color;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 20px;
+  width: 100%;
+  text-align: center;
 
   @include large {
     font-size: 1rem;
   }
 
   @include medium {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   @include small {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
   .info {
     grid-column: 1;
     grid-row: 1;
-    padding: 1em;
 
     time.build-time {
-      @extend %site-footer;
+      font-weight: bold;
+      text-align: center;
       @extend %date-style;
     }
 
@@ -249,9 +237,7 @@
     .site-footer-credits,
     .site-footer-opensource,
     .build-date {
-      @extend %no-grid;
       color: $blockquote-text-color;
-      text-align: center;
     }
   }
 
@@ -264,8 +250,6 @@
     grid-column: 2;
     grid-row: 1;
     display: block;
-    font-size: 16px;
-    text-align: center;
 
     a:hover i {
       color: #65ace6;
@@ -277,16 +261,9 @@
   }
 
   .mediaicons {
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 1;
     display: block;
-    text-align: center;
-    padding: 1em;
-    font-size: 0.8rem;
-
-    a {
-      padding: 0.25em;
-    }
 
     a:hover {
       text-decoration-line: none;
