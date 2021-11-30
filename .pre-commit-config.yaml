@@ -1,0 +1,30 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: fix-byte-order-marker
+    -   id: mixed-line-ending
+    -   id: trailing-whitespace
+-   repo: https://github.com/klieret/jekyll-relative-url-check
+    rev: v2.0.1
+    hooks:
+    -   id: jekyll-relative-url-check-html
+    -   id: jekyll-relative-url-check-markdown
+-   repo: https://github.com/jackdewinter/pymarkdown
+    rev: 0.9.2
+    hooks:
+    -   id: pymarkdown
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.3.0
+    hooks:
+    -   id: eslint
+-   repo: https://github.com/pre-commit/mirrors-scss-lint
+    rev: v0.59.0
+    hooks:
+    -   id: scss-lint
+-   repo: https://github.com/pre-commit/mirrors-csslint
+    rev: v1.0.5  # Use the sha / tag you want to point at
+    hooks:
+    -   id: csslint

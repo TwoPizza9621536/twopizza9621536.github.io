@@ -126,12 +126,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
-  - Gemfile.lock
-  - CODE_OF_CONDUCT.md
   - renovate.json
   - vendor/
 
