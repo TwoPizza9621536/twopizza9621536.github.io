@@ -57,11 +57,11 @@
 # Jekyll plugin.
 module Jekyll
   def self.get_post_path(page_id, collections)
-    #loop through all collections to find the matching document and get its slug
+    # loop through all collections to find the matching document and get its slug
     collections.each do |collection|
       doc = collection.docs.find { |doc| doc.id == page_id }
       if doc != nil
-        slug = Jekyll::VERSION  >= '3.0.0' ? doc.data["slug"] : doc.slug
+        slug = Jekyll::VERSION >= '3.0.0' ? doc.data["slug"] : doc.slug
         return "#{collection.label}/#{slug}"
       end
     end
