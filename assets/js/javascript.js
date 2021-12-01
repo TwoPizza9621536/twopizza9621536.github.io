@@ -6,10 +6,19 @@
  * under CC BY-SA 3.0 Unported https://creativecommons.org/licenses/by-sa/3.0/
  */
 
+const getRandomColor = () => {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
 $(document)(
   function () {
     let counter = 0;
-    $('.test').on('click', function () {
+    $('.test').on('click', () => {
       counter += 1;
       if (counter < 5) {
         $('.test').getComputedStyle('background-color', '#159957');
@@ -25,12 +34,3 @@ $(document)(
     });
   }
 );
-
-function getRandomColor () {
-  const letters = '0123456789ABCDEF';
-  let color = '#';
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
