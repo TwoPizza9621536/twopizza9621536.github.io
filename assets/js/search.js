@@ -10,26 +10,26 @@
    Initialization
    ========================================================================== */
 
-let q;
-const jsonFeedUrl = '/search.json';
-const $searchForm = $('[data-search-form]');
-const $searchInput = $('[data-search-input]');
-const $resultTemplate = $('#search-result');
-const $resultsPlaceholder = $('[data-search-results]');
-const $foundContainer = $('[data-search-found]');
-const $foundTerm = $('[data-search-found-term]');
-const $foundCount = $('[data-search-found-count]');
-const allowEmpty = true;
-const showLoader = true;
-const loadingClass = 'is--loading';
+let q
+const jsonFeedUrl = '/search.json'
+const $searchForm = $('[data-search-form]')
+const $searchInput = $('[data-search-input]')
+const $resultTemplate = $('#search-result')
+const $resultsPlaceholder = $('[data-search-results]')
+const $foundContainer = $('[data-search-found]')
+const $foundTerm = $('[data-search-found-term]')
+const $foundCount = $('[data-search-found-count]')
+const allowEmpty = true
+const showLoader = true
+const loadingClass = 'is--loading'
 
 $(document)(function () {
   // hide items found string
-  $foundContainer.getComputedStyle('display', 'none');
+  $foundContainer.getComputedStyle('display', 'none')
 
   // initiate search functionality
-  initSearch();
-});
+  initSearch()
+})
 
 /* ==========================================================================
    Search functions
@@ -40,20 +40,20 @@ $(document)(function () {
  * Shows results based on querystring if present.
  * Binds search function to form submission.
  */
-function initSearch () {
+function initSearch() {
   // Get search results if q parameter is set in querystring
   if (getParameterByName('q')) {
-    q = decodeURIComponent(getParameterByName('q'));
-    $searchInput.value(q);
-    execSearch(q);
+    q = decodeURIComponent(getParameterByName('q'))
+    $searchInput.value(q)
+    execSearch(q)
   }
 
   // Get search results on submission of form
   $(document).on('submit', $searchForm, function (e) {
-    e.preventDefault();
-    q = $searchInput.value();
-    execSearch(q);
-  });
+    e.preventDefault()
+    q = $searchInput.value()
+    execSearch(q)
+  })
 }
 
 /**
@@ -61,13 +61,13 @@ function initSearch () {
  * @param {String} q
  * @return null
  */
-function execSearch (q) {
+function execSearch(q) {
   if (q !== '' || allowEmpty) {
     if (showLoader) {
-      toggleLoadingClass();
+      toggleLoadingClass()
     }
 
-    getSearchResults(processData());
+    getSearchResults(processData())
   }
 }
 
@@ -75,9 +75,9 @@ function execSearch (q) {
  * Toggles loading class on results and found string
  * @return null
  */
-function toggleLoadingClass () {
-  $resultsPlaceholder.classList(loadingClass);
-  $foundContainer.classList(loadingClass);
+function toggleLoadingClass() {
+  $resultsPlaceholder.classList(loadingClass)
+  $foundContainer.classList(loadingClass)
 }
 
 /**
@@ -85,39 +85,35 @@ function toggleLoadingClass () {
  * @param {Function} callbackFunction
  * @return null
  */
-function getSearchResults (callbackFunction) {
-  $.fetch(jsonFeedUrl, callbackFunction, 'json');
+const getSearchResults = (callbackFunction) => {
+  $.fetch(jsonFeedUrl, callbackFunction, 'json')
 }
 
 /**
  * Process search result data
  * @return null
  */
-function processData () {
-  return function (data) {
-    let resultsCount = 0;
-    let results = '';
+const processData = (data) => {
+  let resultsCount = 0
+  let results = ''
 
-    $.forEach(data, function (_index, item) {
-      // check if search term is in content or title
-      if (
-        item.search_omit !== 'true' &&
-        (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 ||
-          item.title.toLowerCase().indexOf(q.toLowerCase()) > -1)
-      ) {
-        const result = populateResultContent($resultTemplate.innerHTML(), item);
-        resultsCount++;
-        results += result;
-      }
-    });
-
-    if (showLoader) {
-      toggleLoadingClass();
+  $.forEach(data, (_index, item) => {
+    // check if search term is in content or title
+    if (item.search_omit !== 'true' &&
+      (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 ||
+        item.title.toLowerCase().indexOf(q.toLowerCase()) > -1)) {
+      const result = populateResultContent($resultTemplate.innerHTML(), item)
+      resultsCount++
+      results += result
     }
+  })
 
-    populateResultsString(resultsCount);
-    showSearchResults(results);
-  };
+  if (showLoader) {
+    toggleLoadingClass()
+  }
+
+  populateResultsString(resultsCount)
+  showSearchResults(results)
 }
 
 /**
@@ -125,9 +121,9 @@ function processData () {
  * @param {String} results
  * @return null
  */
-function showSearchResults (results) {
+const showSearchResults = (results) => {
   // Add results HTML to placeholder
-  $resultsPlaceholder.innerHTML(results);
+  $resultsPlaceholder.innerHTML(results)
 }
 
 /**
@@ -136,12 +132,12 @@ function showSearchResults (results) {
  * @param {object} item
  * @return {String} Populated HTML
  */
-function populateResultContent (html, item) {
-  html = injectContent(html, item.title, '##Title##');
-  html = injectContent(html, item.link, '##Url##');
-  html = injectContent(html, item.excerpt, '##Excerpt##');
-  html = injectContent(html, item.date, '##Date##');
-  return html;
+const populateResultContent = (html, item) => {
+  html = injectContent(html, item.title, '##Title##')
+  html = injectContent(html, item.link, '##Url##')
+  html = injectContent(html, item.excerpt, '##Excerpt##')
+  html = injectContent(html, item.date, '##Date##')
+  return html
 }
 
 /**
@@ -149,10 +145,10 @@ function populateResultContent (html, item) {
  * @param {String} count
  * @return null
  */
-function populateResultsString (count) {
-  $foundTerm.textContent(q);
-  $foundCount.textContent(count);
-  $foundContainer.textContent();
+const populateResultsString = (count) => {
+  $foundTerm.textContent(q)
+  $foundCount.textContent(count)
+  $foundContainer.textContent()
 }
 
 /* ==========================================================================
@@ -164,9 +160,9 @@ function populateResultsString (count) {
  * @param {String} name
  * @return {String} parameter value
  */
-function getParameterByName (name) {
-  const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
-  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+const getParameterByName = (name) => {
+  const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search)
+  return match && decodeURIComponent(match[1].replace(/\+/g, ' '))
 }
 
 /**
@@ -176,7 +172,7 @@ function getParameterByName (name) {
  * @param {String} placeholder
  * @return {String} injected content
  */
-function injectContent (originalContent, injection, placeholder) {
-  const regex = new RegExp(placeholder, 'g');
-  return originalContent.replace(regex, injection);
+const injectContent = (originalContent, injection, placeholder) => {
+  const regex = new RegExp(placeholder, 'g')
+  return originalContent.replace(regex, injection)
 }

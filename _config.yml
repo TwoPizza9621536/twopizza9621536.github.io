@@ -91,6 +91,7 @@ defaults:
 plugins:
   - jekyll-archives
   - jekyll-asciidoc
+  - jekyll-babel
   - jekyll-coffeescript
   - jekyll-commonmark-ghpages
   - jekyll-default-layout
@@ -101,6 +102,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-mentions
+  - jekyll-minifier
   - jekyll-octicons
   - jekyll-optional-front-matter
   - jekyll-paginate-v2

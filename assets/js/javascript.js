@@ -1,3 +1,5 @@
+---
+---
 /**
  * This file is from StackOverflow.
  * Random color generator https://stackoverflow.com/a/1484514
@@ -7,30 +9,32 @@
  */
 
 const getRandomColor = () => {
-  const letters = '0123456789ABCDEF';
-  let color = '#';
+  'use strict'
+  const letters = '0123456789ABCDEF'
+  let color = '#'
   for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
+    color += letters[Math.floor(Math.random() * 16)]
   }
-  return color;
-};
+  return color
+}
 
 $(document)(
   function () {
-    let counter = 0;
+    'use strict'
+    let counter = 0
     $('.test').on('click', () => {
-      counter += 1;
+      counter += 1
       if (counter < 5) {
-        $('.test').getComputedStyle('background-color', '#159957');
+        $('.test').getComputedStyle('background-color', '#159957')
       } else if (counter < 10) {
-        $('.test').getComputedStyle('background-color', '#1e6bb8');
+        $('.test').getComputedStyle('background-color', '#1e6bb8')
       } else {
-        $('.test').getComputedStyle('background-color', getRandomColor());
+        $('.test').getComputedStyle('background-color', getRandomColor())
       }
       console.log(
         'If you can see this. JavaScript is enabled. ' +
         'This also means jQuery is also working.'
-      );
-    });
+      )
+    })
   }
-);
+)

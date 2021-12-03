@@ -8,7 +8,7 @@
 @import "fontawesome/fontawesome";
 @import "fontawesome/brands";
 
-%disable-selection {
+@mixin disable-selection {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -17,7 +17,7 @@
   user-select: none;
 }
 
-%code-block {
+@mixin code-block {
   pre {
     border: 0;
     padding: 0.8rem;
@@ -47,26 +47,25 @@
       }
 
       &[data-lang]::before {
-        @extend %disable-selection;
         content: attr(data-lang);
-
         display: block;
         font-size: 16px;
         text-align: right;
         color: $code-bg-color;
+        @include disable-selection;
       }
 
       .lineno {
-        @extend %disable-selection;
         display: inline-block;
         padding: 0 5px;
         text-align: right;
+        @include disable-selection;
       }
     }
   }
 }
 
-%date-style {
+@mixin date-style {
   color: $header-bg-color-tertiary;
   background-color: #000;
 }
@@ -74,10 +73,10 @@
 .main-content {
   div#table-of-contents {
     .spoiler {
-      @extend %disable-selection;
       color: $code-text-color;
       cursor: pointer;
       display: table;
+      @include disable-selection;
     }
 
     input#spoiler-check {
@@ -117,10 +116,10 @@
     border-radius: 10px;
     margin: 0;
 
-    @extend %code-block;
+    @include code-block;
 
     @supports (font-variation-settings: normal) {
-      @extend %code-block;
+      @include code-block;
     }
   }
 
@@ -129,11 +128,11 @@
   }
 
   a.ancher {
-    @extend %disable-selection;
+    @include disable-selection;
   }
 
   .date {
-    @extend %date-style;
+    @include date-style;
   }
 
   .noscript {
@@ -230,7 +229,7 @@
     time.build-time {
       font-weight: bold;
       text-align: center;
-      @extend %date-style;
+      @include date-style;
     }
 
     .site-footer-owner,
