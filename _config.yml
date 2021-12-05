@@ -146,4 +146,8 @@ last-modified-at:
   date-format: "%Y-%m-d %H:%ML%S %z"
 
 target-blank:
-    rel: nofollow
+  rel: nofollow
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
