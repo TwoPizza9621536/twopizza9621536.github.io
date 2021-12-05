@@ -23,7 +23,7 @@ email: twopizza9621536@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This my blogs for coding, programming, technology, and software that will go
   into shenanigans. Keep scrolling to see my github profile.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: "https://twopizza9621536.github.io"
 twitter_username: TwoPizza9621536
 github_username: TwoPizza9621536
@@ -39,8 +39,8 @@ permalink: /blogs/:year/:month/:day/:title/
 pagination:
   enabled: true
   per_page: 5
-  permalink: "/page:num/"
-  title: ":title - page :num"
+  permalink: '/page:num/'
+  title: ':title - page :num'
   limit: 0
   sort_field: "date"
   sort_reverse: true
@@ -73,18 +73,18 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
   - scope:
-      path: ""
+      path: ''
     values:
-      layout: "default"
+      layout: 'default'
   - scope:
-      path: ""
-      type: "mingw_gcc"
+      path: ''
+      type: 'mingw_gcc'
     values:
-      layout: "post"
+      layout: 'post'
 
 # Build settings
 # theme: jekyll-theme-cayman
@@ -149,5 +149,6 @@ target-blank:
   rel: nofollow
 
 jekyll-minifier:
+  exclude: '*.html'
   uglifier_args:
     harmony: true
