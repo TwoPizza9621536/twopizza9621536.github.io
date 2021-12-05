@@ -6,15 +6,15 @@ on:
       - main
 jobs:
   github-pages:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}  
+          key: ${{ runner.os }}-gems-2004-${{ hashFiles('**/Gemfile.lock') }}  
           restore-keys: |
-            ${{ runner.os }}-gems-
+            ${{ runner.os }}-gems-2004-
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
