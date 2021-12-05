@@ -52,6 +52,7 @@ group :jekyll_plugins do
   gem 'jekyll_version_plugin'
   gem 'jemoji'
   gem 'liquid'
+  gem 'mini_racer'
   gem 'nokogiri'
   gem 'rouge'
   gem 'sassc'
