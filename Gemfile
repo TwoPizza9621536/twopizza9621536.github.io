@@ -20,6 +20,7 @@ gem 'jekyll'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'classifier-reborn'
+  gem 'ffi'
   gem 'html-pipeline'
   gem 'jekyll-archives'
   gem 'jekyll-asciidoc'
