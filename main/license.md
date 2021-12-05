@@ -10,7 +10,7 @@ toc: true
 
 Last modified: {{ page.last_modified_at }}
 
-> **All copyright, trademarks, and register trademarks are properties of their 
+> **All copyright, trademarks, and register trademarks are properties of their
 > respective owners. For the usage of such copyright, trademarks, and register
 > trademarks, please search up thier respective guideline usage from their
 > respective owners.**
