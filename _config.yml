@@ -102,7 +102,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-mentions
-  - jekyll-minifier
   - jekyll-octicons
   - jekyll-optional-front-matter
   - jekyll-paginate-v2
