@@ -51,7 +51,7 @@ jekyll-archives:
     - year
   layout: archive
   permalinks:
-  year: '/archives/:year/'
+  year: '/archive/:year/'
 
 # AutoPages
 autopages:
@@ -125,7 +125,7 @@ include:
   - .htaccess
 
 # Additional Flags
-disable_disk_cache: false
+disable_disk_cache: true
 lsi: true
 
 sass:
