@@ -1,9 +1,4 @@
 {
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#551238",
-    "titleBar.activeBackground": "#77194F",
-    "titleBar.activeForeground": "#FEFCFD"
-  },
   "files.associations": {
     "*.html": "jekyll"
   },

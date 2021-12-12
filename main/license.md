@@ -94,8 +94,8 @@ and crediting me, but you must follow their licenses that they are under.
 You can use the snippets and repositories that are under the MIT License.
 
 You can use code that are specified that the code is under a permissive license
-or is under a public domain compatible license or a CC BY compatible license for
-ShareAlike not to be activated.
+or is under a public domain compatible license or a CC BY compatible license
+for ShareAlike not to be activated.
 
 ## Credits
 
@@ -175,26 +175,26 @@ Fira Code at:
 
 Fira Code is licensed under the OFL 1.1 License.
 
-### Jekyll-Search
+### Simple-Jekyll-Search
 
 ---
 
-Jekyll-Search is now the new implementation of the search page.
-Source code for Jekyll-Search at:
-@mathaywarduk / <https://github.com/mathaywarduk/jekyll-search>
-
-Jekyll-Search is licensed under the [MIT License][7].
-
-#### Simple-Jekyll-Search
-
----
-
-Simple-Jekyll-Search was the previous implementation.
+Simple-Jekyll-Search has been reimplemented as the search page.
 Simple-Jekyll-Search can be found at:
 [Christian Fei](https://cri.dev) / @christian-fei /
 <https://github.com/christian-fei/Simple-Jekyll-Search>
 
 Simple-Jekyll-Search is licensed under the [MIT License][7].
+
+#### Jekyll-Search
+
+---
+
+Jekyll-Search is implementation that has replaced Simple-Jekyll-Search.
+Source code for Jekyll-Search at:
+@mathaywarduk / <https://github.com/mathaywarduk/jekyll-search>
+
+Jekyll-Search is licensed under the [MIT License][7].
 
 ### Dejkyll
 
