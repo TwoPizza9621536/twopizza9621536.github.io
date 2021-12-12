@@ -22,11 +22,9 @@ repos:
     rev: v8.4.0
     hooks:
     -   id: eslint
--   repo: https://github.com/pre-commit/mirrors-scss-lint
-    rev: v0.59.0
+        additional_dependencies: ['standard', 'eslint-config-standard']
+-   repo: https://github.com/awebdeveloper/pre-commit-stylelint
+    rev: '0.0.2'
     hooks:
-    -   id: scss-lint
--   repo: https://github.com/pre-commit/mirrors-csslint
-    rev: v1.0.5
-    hooks:
-    -   id: csslint
+    -   id: stylelint
+        additional_dependencies: ['stylelint', 'stylelint-config-standard', 'stylelint-config-standard-scss']
