@@ -51,7 +51,7 @@ jekyll-archives:
     - year
   layout: archive
   permalinks:
-  year: '/archive/:year/'
+    year: '/archive/:year/'
 
 # AutoPages
 autopages:
