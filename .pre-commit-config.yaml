@@ -13,10 +13,11 @@ repos:
     hooks:
     -   id: jekyll-relative-url-check-html
     -   id: jekyll-relative-url-check-markdown
--   repo: https://github.com/jackdewinter/pymarkdown
-    rev: 0.9.2
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.30.0
     hooks:
-    -   id: pymarkdown
+    - id: markdownlint
+    - id: markdownlint-fix
 -   repo: https://github.com/pre-commit/mirrors-eslint
     rev: v8.4.0
     hooks:
@@ -26,6 +27,6 @@ repos:
     hooks:
     -   id: scss-lint
 -   repo: https://github.com/pre-commit/mirrors-csslint
-    rev: v1.0.5  # Use the sha / tag you want to point at
+    rev: v1.0.5
     hooks:
     -   id: csslint
