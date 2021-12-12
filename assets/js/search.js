@@ -168,7 +168,7 @@ function populateResultsString(count) {
  * @return {String} parameter value
  */
 function getParameterByName(name) {
-    let match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search)
+    const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search)
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '))
 }
 
@@ -180,6 +180,6 @@ function getParameterByName(name) {
  * @return {String} injected content
  */
 function injectContent(originalContent, injection, placeholder) {
-    let regex = new RegExp(placeholder, 'g')
+    const regex = new RegExp(placeholder, 'g')
     return originalContent.replace(regex, injection)
 }
