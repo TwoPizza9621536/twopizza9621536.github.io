@@ -9,34 +9,34 @@ layout: js_minifier
  * @version  0.1
  */
 
-/* ==========================================================================
-   Initialization
-   ========================================================================== */
+ /* ==========================================================================
+    Initialisation
+    ========================================================================== */
 
 let q
-const jsonFeedUrl = '/search.json'
-const $searchForm = $('[data-search-form]')
-const $searchInput = $('[data-search-input]')
-const $resultTemplate = $('#search-result')
-const $resultsPlaceholder = $('[data-search-results]')
-const $foundContainer = $('[data-search-found]')
-const $foundTerm = $('[data-search-found-term]')
-const $foundCount = $('[data-search-found-count]')
+const jsonFeedUrl = "/search.json"
+const $searchForm = $("[data-search-form]")
+const $searchInput = $("[data-search-input]")
+const $resultTemplate = $("#search-result")
+const $resultsPlaceholder = $("[data-search-results]")
+const $foundContainer = $("[data-search-found]")
+const $foundTerm = $("[data-search-found-term]")
+const $foundCount = $("[data-search-found-count]")
 const allowEmpty = true
 const showLoader = true
-const loadingClass = 'is--loading'
+const loadingClass = "is--loading"
 
-$(document)(function () {
-  // hide items found string
-  $foundContainer.getComputedStyle('display', 'none')
+$(() => {
+    // hide items found string
+    $foundContainer.hide()
 
-  // initiate search functionality
-  initSearch()
-})
+    // initiate search functionality
+    initSearch()
+});
 
-/* ==========================================================================
-   Search functions
-   ========================================================================== */
+ /* ==========================================================================
+    Search functions
+    ========================================================================== */
 
 /**
  * Initiate search functionality.
@@ -44,79 +44,83 @@ $(document)(function () {
  * Binds search function to form submission.
  */
 function initSearch() {
-  // Get search results if q parameter is set in querystring
-  if (getParameterByName('q')) {
-    q = decodeURIComponent(getParameterByName('q'))
-    $searchInput.value(q)
-    execSearch(q)
-  }
+    // Get search results if q parameter is set in querystring
+    if (getParameterByName('q')) {
+        q = decodeURIComponent(getParameterByName('q'))
+        $searchInput.val(q)
+        execSearch(q)
+    }
 
-  // Get search results on submission of form
-  $(document).on('submit', $searchForm, function (e) {
-    e.preventDefault()
-    q = $searchInput.value()
-    execSearch(q)
-  })
+    // Get search results on submission of form
+    $(document).on("submit", $searchForm, function(e) {
+        e.preventDefault()
+        q = $searchInput.val()
+        execSearch(q)
+    })
 }
 
 /**
  * Executes search
- * @param {String} q
+ * @param {String} q 
  * @return null
  */
 function execSearch(q) {
-  if (q !== '' || allowEmpty) {
-    if (showLoader) {
-      toggleLoadingClass()
-    }
+    if (q != '' || allowEmpty) {
+        if (showLoader) {
+            toggleLoadingClass()
+        }
 
-    getSearchResults(processData())
-  }
+        getSearchResults(processData())
+    }
 }
+
 
 /**
  * Toggles loading class on results and found string
  * @return null
  */
 function toggleLoadingClass() {
-  $resultsPlaceholder.classList(loadingClass)
-  $foundContainer.classList(loadingClass)
+    $resultsPlaceholder.toggleClass(loadingClass)
+    $foundContainer.toggleClass(loadingClass)
 }
 
 /**
  * Get Search results from JSON
- * @param {Function} callbackFunction
+ * @param {Function} callbackFunction 
  * @return null
  */
-const getSearchResults = (callbackFunction) => {
-  $.fetch(jsonFeedUrl, callbackFunction, 'json')
+function getSearchResults(callbackFunction) {
+    $.get(jsonFeedUrl, callbackFunction, 'json')
 }
+
 
 /**
  * Process search result data
  * @return null
  */
-const processData = (data) => {
-  let resultsCount = 0
-  let results = ''
+function processData() {
+    $results = [];
+    
+    return function(data) {
+        let resultsCount = 0;
+        let results = ""
 
-  $.forEach(data, (_index, item) => {
-    // check if search term is in content or title
-    if (item.search_omit !== 'true' &&
-      (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 ||
-        item.title.toLowerCase().indexOf(q.toLowerCase()) > -1)) {
-      const result = populateResultContent($resultTemplate.innerHTML(), item)
-      resultsCount++
-      results += result
+        $.each(data, function(index, item) {
+            // check if search term is in content or title 
+            if (item.search_omit != "true" && (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.title.toLowerCase().indexOf(q.toLowerCase()) > -1)) {
+                let result = populateResultContent($resultTemplate.html(), item)
+                resultsCount++
+                results += result
+            }
+        })
+
+        if (showLoader) {
+            toggleLoadingClass();
+        }
+
+        populateResultsString(resultsCount)
+        showSearchResults(results)
     }
-  })
-
-  if (showLoader) {
-    toggleLoadingClass()
-  }
-
-  populateResultsString(resultsCount)
-  showSearchResults(results)
 }
 
 /**
@@ -124,58 +128,58 @@ const processData = (data) => {
  * @param {String} results
  * @return null
  */
-const showSearchResults = (results) => {
-  // Add results HTML to placeholder
-  $resultsPlaceholder.innerHTML(results)
+function showSearchResults(results) {
+    // Add results HTML to placeholder
+    $resultsPlaceholder.html(results)
 }
 
 /**
  * Add results content to item template
- * @param {String} html
+ * @param {String} html 
  * @param {object} item
  * @return {String} Populated HTML
  */
-const populateResultContent = (html, item) => {
-  html = injectContent(html, item.title, '##Title##')
-  html = injectContent(html, item.link, '##Url##')
-  html = injectContent(html, item.excerpt, '##Excerpt##')
-  html = injectContent(html, item.date, '##Date##')
-  return html
+function populateResultContent(html, item) {
+    html = injectContent(html, item.title, '##Title##');
+    html = injectContent(html, item.link, '##Url##');
+    html = injectContent(html, item.excerpt, '##Excerpt##');
+    html = injectContent(html, item.date, '##Date##');
+    return html;
 }
 
 /**
  * Populates results string
- * @param {String} count
+ * @param {String} count 
  * @return null
  */
-const populateResultsString = (count) => {
-  $foundTerm.textContent(q)
-  $foundCount.textContent(count)
-  $foundContainer.textContent()
+function populateResultsString(count) {
+    $foundTerm.text(q)
+    $foundCount.text(count)
+    $foundContainer.show()
 }
 
-/* ==========================================================================
-   Helper functions
-   ========================================================================== */
+ /* ==========================================================================
+    Helper functions
+    ========================================================================== */
 
 /**
  * Gets query string parameter - taken from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
- * @param {String} name
+ * @param {String} name 
  * @return {String} parameter value
  */
-const getParameterByName = (name) => {
-  const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search)
-  return match && decodeURIComponent(match[1].replace(/\+/g, ' '))
+function getParameterByName(name) {
+    let match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search)
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '))
 }
 
 /**
  * Injects content into template using placeholder
  * @param {String} originalContent
  * @param {String} injection
- * @param {String} placeholder
+ * @param {String} placeholder 
  * @return {String} injected content
  */
-const injectContent = (originalContent, injection, placeholder) => {
-  const regex = new RegExp(placeholder, 'g')
-  return originalContent.replace(regex, injection)
+function injectContent(originalContent, injection, placeholder) {
+    let regex = new RegExp(placeholder, 'g')
+    return originalContent.replace(regex, injection)
 }
