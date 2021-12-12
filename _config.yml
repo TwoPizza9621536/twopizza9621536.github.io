@@ -127,12 +127,11 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - Gemfile
   - renovate.json
-  - vendor/
+  - README.md
 
 # Additional Flags
-disable_disk_cache: true
+disable_disk_cache: false
 lsi: true
 
 sass:
