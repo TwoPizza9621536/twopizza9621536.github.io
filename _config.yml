@@ -49,8 +49,6 @@ pagination:
 jekyll-archives:
   enabled:
     - year
-    - month
-    - day
   layout: archive
 
 # AutoPages
@@ -80,11 +78,6 @@ defaults:
       path: ''
     values:
       layout: 'default'
-  - scope:
-      path: ''
-      type: 'mingw_gcc'
-    values:
-      layout: 'post'
 
 # Build settings
 # theme: jekyll-theme-cayman
