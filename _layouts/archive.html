@@ -4,12 +4,6 @@ layout: default
 
 {% if page.type == 'year' %}
 <h2>Archive {{ page.date | date: "%Y" }}</h2>
-{% elsif page.type == 'month' %}
-<h2>Archive {{ page.date | date: "%Y-%m" }}</h2>
-{% elsif page.type == 'day' %}
-<h2>Archive {{ page.date | date: "%Y-%m-%d" }}</h2>
-{% else %}
-<h2>Archive with {{ page.type }} '{{ page.title }}'</h2>
 {% endif %}
 
 <ul class="posts">
