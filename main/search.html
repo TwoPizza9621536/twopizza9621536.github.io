@@ -4,12 +4,24 @@ title: Search Page
 description: A search page for this github.io site.
 permalink: /search.html
 slug: search
-search_omit: true
 ---
 
 <p>
   This is a search page for this site and requires javascript. The current
   implementation is using
+  <a
+    href="https://github.com/christian-fei/Simple-Jekyll-Search"
+    target="blank"
+    rel="noreferrer noopener"
+    >Simple-Jekyll-Search</a
+  >
+  by
+  <a href="https://cri.dev" target="blank" rel="noreferrer noopener"
+    >Christian Fei</a
+  >.
+</p>
+<p>
+  The previous implementation was using
   <a
     href="https://github.com/mathaywarduk/jekyll-search"
     target="blank"
@@ -23,53 +35,24 @@ search_omit: true
     rel="noreferrer noopener"
     >Mat Hayward</a
   >.
-</p>
-<p>
-  The previous implementation was using
-  <a
-    href="https://github.com/christian-fei/Simple-Jekyll-Search"
-    target="blank"
-    rel="noreferrer noopener"
-    >Simple-Jekyll-Search</a
-  >
-  by
-  <a href="https://cri.dev" target="blank" rel="noreferrer noopener"
-    >Christian Fei</a
-  >. The script is licensed under the MIT License, see the
+  The script is licensed under the MIT License, see the
   <a href="{{ '/about' | relative_url }}">about page</a>.
 </p>
 
-<!-- Search form -->
-<form method="get" action="/search" data-search-form>
-  <label for="q">Search term</label>
-  <input
-    type="search"
-    name="q"
-    id="q"
-    placeholder="Enter search term"
-    data-search-input
-  />
-  <input type="submit" value="Search" />
-</form>
+<!-- HTML search field -->
+<div id="search-container">
+  <input type="text" id="search-input" placeholder="Enter search term here..." autofocus>
+  <ul id="results-container"></ul>
+</div>
 
-<!-- Search results placeholder -->
-<p data-search-found>
-  <span data-search-found-count></span>
-  result(s) found for &ldquo;
-  <span data-search-found-term></span>&rdquo;.
-</p>
-<div data-search-results></div>
+<!-- or without installing anything -->
+<script src="{{ '/assets/search.js' | relative_url }}"></script>
 
-<!-- Search result template -->
-<script type="text/x-template" id="search-result">
-  <div>
-    <h2><a href="##Url##">##Title##</a></h2>
-    <h3><a href="##Url##">##Date##</a></h3>
-    <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
-  </div>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li><a href="{url}">{title}</a><br><span class="post-meta">{date}</span><br><p>{excerpt}</p></li>',
+  })
 </script>
-
-{% include jquery.html %}
-
-<!-- Search script - Must appear after template -->
-<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
