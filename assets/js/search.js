@@ -1,6 +1,5 @@
 ---
 layout: js_minifier
-replace_names: false
 ---
 /**
  * A simple JSON search
@@ -33,7 +32,7 @@ $(() => {
 
     // initiate search functionality
     initSearch()
-});
+})
 
  /* ==========================================================================
     Search functions
@@ -100,10 +99,10 @@ function getSearchResults(callbackFunction) {
  * @return null
  */
 function processData() {
-    $results = [];
+    let $results = []
     
     return function(data) {
-        let resultsCount = 0;
+        let resultsCount = 0
         let results = ""
 
         $.each(data, function(index, item) {
@@ -116,7 +115,7 @@ function processData() {
         })
 
         if (showLoader) {
-            toggleLoadingClass();
+            toggleLoadingClass()
         }
 
         populateResultsString(resultsCount)
@@ -141,11 +140,11 @@ function showSearchResults(results) {
  * @return {String} Populated HTML
  */
 function populateResultContent(html, item) {
-    html = injectContent(html, item.title, '##Title##');
-    html = injectContent(html, item.link, '##Url##');
-    html = injectContent(html, item.excerpt, '##Excerpt##');
-    html = injectContent(html, item.date, '##Date##');
-    return html;
+    html = injectContent(html, item.title, '##Title##')
+    html = injectContent(html, item.link, '##Url##')
+    html = injectContent(html, item.excerpt, '##Excerpt##')
+    html = injectContent(html, item.date, '##Date##')
+    return html
 }
 
 /**
