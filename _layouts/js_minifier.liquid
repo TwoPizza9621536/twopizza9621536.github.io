@@ -245,7 +245,7 @@ SOFTWARE.
 
 	{%- comment -%} Поиск параметров стрелочных функций {%- endcomment -%}
 	{%- assign js_arrow_params = "" | split: " " -%}
-	{%- assign forNamesArray = content | split: "=>" -%}	
+	{%- assign forNamesArray = content | split: "=>" -%}
 	{%- for forNamesPart in forNamesArray -%}
 		{%- if forloop.last != true -%}
 			{%- assign aux = forNamesPart | split: "(" -%}
@@ -290,14 +290,14 @@ SOFTWARE.
 		{%- assign size_number = size | plus: 0 -%} {%- comment -%} Строка в число {%- endcomment -%}
 		{%- for name in js_keys -%}
 			{%- if name.size == size_number -%}
-				{%- assign name_to_array = name | split: " " -%} 
+				{%- assign name_to_array = name | split: " " -%}
 				{%- assign js_keys_sorted = js_keys_sorted | concat: name_to_array -%}
 			{%- endif -%}
 		{%- endfor -%}
 	{%- endfor -%}
 
 	{%- assign js_keys = js_keys_sorted | reverse -%}
-	
+
 	{%- assign alphabet = "a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" | split: " " -%}
 	{%- assign otherValidJsSimbols = "0 1 2 3 4 5 6 7 8 9 _ $" | split: " " -%}
 	{%- assign fullAlphabet = alphabet | concat: otherValidJsSimbols -%}
@@ -443,7 +443,7 @@ SOFTWARE.
 			{%- endif -%}
 		{%- endif -%}
 		{%- assign newNamesIndexStr = "~!" | append: newNamesIndex | append: "#@" | append: newNamesIndex1 | append: "#@" | append: newNamesIndex2 | append: "!~" -%}
-		
+
 		{%- assign newName = alphabet[newNamesIndex] -%}
 		{%- if newNamesIndex1 >= 0 -%}
 			{%- assign newName = newName | prepend: alphabet[newNamesIndex1] -%}

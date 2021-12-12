@@ -25,8 +25,10 @@ the filename provided to create, open and write to the file. Last close it and
 ask the user input to exit.
 
 {% highlight c linenos %}
-#include <stdio.h>
-#include <stdlib.h>
+
+# include <stdio.h>
+
+# include <stdlib.h>
 
 int main(int argc, char **argv)
 {

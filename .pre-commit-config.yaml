@@ -4,7 +4,7 @@ repos:
     hooks:
     -   id: check-toml
     -   id: check-yaml
-#    -   id: end-of-file-fixer
+    -   id: end-of-file-fixer
     -   id: fix-byte-order-marker
     -   id: mixed-line-ending
     -   id: trailing-whitespace
@@ -13,18 +13,19 @@ repos:
     hooks:
     -   id: jekyll-relative-url-check-html
     -   id: jekyll-relative-url-check-markdown
-#-   repo: https://github.com/igorshubovych/markdownlint-cli
-#    rev: v0.30.0
-#    hooks:
-#    - id: markdownlint
-#    - id: markdownlint-fix
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.30.0
+    hooks:
+    - id: markdownlint
+    - id: markdownlint-fix
 -   repo: https://github.com/pre-commit/mirrors-eslint
     rev: v8.4.0
     hooks:
     -   id: eslint
-        additional_dependencies: 
+        additional_dependencies:
         -   'eslint'
         -   'standard'
         -   'eslint-config-standard'
         -   'eslint-plugin-import'
         -   'eslint-plugin-node'
+        -   'eslint-plugin-promise'

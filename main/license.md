@@ -10,10 +10,10 @@ toc: true
 
 Last modified: {{ page.last_modified_at }}
 
-> **All copyright, trademarks, and register trademarks are properties of their
-> respective owners. For the usage of such copyright, trademarks, and register
-> trademarks, please search up thier respective guideline usage from their
-> respective owners.**
+> **All copyright, trademarks, and register trademarks are properties of
+> their respective owners. For the usage of such copyright, trademarks, and
+> register trademarks, please search up thier respective guideline usage
+> from their respective owners.**
 
 ## License
 
@@ -23,12 +23,11 @@ This site is under the
 [Creative Commons Attribution-ShareAlike 4.0 International][1]
 license.
 
-**I AM NOT A LAWYER NOR CREATIVE COMMONS IS A LAW FIRM, GET A LAWYER FOR
-LEGAL ADVICE**
+**I AM NOT A LAWYER NOR CREATIVE COMMONS IS
+A LAW FIRM, GET A LAWYER FOR LEGAL ADVICE**
 
-_Creative Commons has no affiliation to this website_
-
-**If you are using content from this site please read the [legal code][2].**
+_Creative Commons has no affiliation to this website.
+If you are using content from this site please read the [legal code][2]._
 
 This license states that:
 
@@ -48,12 +47,12 @@ This license states that:
 >      you must remove the attribution.
 > - When adapt, remix, transform, and build upon the material,
 >    you must also provide:
->     - No royalites
->     - No trademark and patant grants.
->     - No endosement, any endosement results in a request to remove
+>   - No royalites
+>   - No trademark and patant grants.
+>   - No endosement, any endosement results in a request to remove
 >      attributions.
->     - No warranties and liability.
->     - Terms that is stated above.
+>   - No warranties and liability.
+>   - Terms that is stated above.
 
 If you violate any terms that is stated in the license, you have 30 days to
 correct the violations to reinstate license for you. If the violation is still
@@ -202,7 +201,7 @@ Simple-Jekyll-Search is licensed under the [MIT License][7].
 ---
 
 Uses code fom Dejkll for pagination and autopages.
-COde for Dejkll at:
+Code for Dejkll at:
 @kuntoaji / <https://github.com/kuntoaji/dekyll>
 
 Dejkll is licensed under the [MIT License][7].
@@ -213,6 +212,16 @@ Dejkll is licensed under the [MIT License][7].
 
 Some CSS is from <https://www.bytedude.com>. Source code can be found at:
 @m-cat / <https://github.com/mcat/bytedude.com>
+
+### Jekyll Minifier Layouts
+
+---
+
+To minify HTML and JavaScript, liquid layouts are used instead.
+They can be found at:
+@Mendeo / <https://github.com/Mendeo/jekyll-minifier>
+
+The layouts are licensed under the [MIT License][7].
 
 ### W3C
 
