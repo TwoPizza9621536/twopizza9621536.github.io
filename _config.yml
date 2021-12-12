@@ -35,7 +35,7 @@ encoding: UTF-8
 timezone: America/New_York
 
 # Pagination
-permalink: /blogs/:year/:month/:day/:title/
+permalink: /blogs/:year/:month/:title/
 pagination:
   enabled: true
   per_page: 5
@@ -50,6 +50,8 @@ jekyll-archives:
   enabled:
     - year
   layout: archive
+  permalinks:
+  year: '/archives/:year/'
 
 # AutoPages
 autopages:
@@ -63,10 +65,6 @@ autopages:
 
 # Collections
 collections_dir: collections
-collections:
-  mingw_gcc:
-    label: "Quest for a MinGW GCC"
-    output: false
 
 defaults:
   - scope:
