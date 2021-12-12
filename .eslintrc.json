@@ -4,8 +4,7 @@
     "es6": true,
     "jquery": true
   },
-  "plugins": ["jquery"],
-  "extends": ["eslint:recommended", "plugin:jquery/deprecated", "standard"],
+  "extends": ["eslint:recommended", "standard"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"

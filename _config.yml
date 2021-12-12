@@ -149,8 +149,6 @@ target-blank:
   rel: nofollow
 
 jekyll-minifier:
-  exclude: '*.html'
+  exclude: ['*.html', '*.xml']
   uglifier_args:
     harmony: true
-    mangle: false
-    compress: false
