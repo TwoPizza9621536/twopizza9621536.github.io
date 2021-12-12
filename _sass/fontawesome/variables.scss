@@ -46,7 +46,7 @@ $fa-stack-width: ($fa-fw-width * 2) !default;
 $fa-stack-z-index: auto !default;
 
 $fa-font-display: block !default;
-$fa-font-path: "../assets/webfonts" !default;
+$fa-font-path: "/assets/webfonts" !default;
 
 // convenience function used to set content property
 @function fa-content($fa-var) {

@@ -34,14 +34,18 @@ slug: search
     target="blank"
     rel="noreferrer noopener"
     >Mat Hayward</a
-  >.
-  The script is licensed under the MIT License, see the
+  >. The script is licensed under the MIT License, see the
   <a href="{{ '/about' | relative_url }}">about page</a>.
 </p>
 
 <!-- HTML search field -->
 <div id="search-container">
-  <input type="text" id="search-input" placeholder="Enter search term here..." autofocus>
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Enter search term here..."
+    autofocus
+  />
   <ul id="results-container"></ul>
 </div>
 
@@ -50,9 +54,16 @@ slug: search
 
 <script>
   var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/search.json',
-    searchResultTemplate: '<li><a href="{url}">{title}</a><br><span class="post-meta">{date}</span><br><p>{excerpt}</p></li>',
-  })
+    searchInput: document.getElementById("search-input"),
+    resultsContainer: document.getElementById("results-container"),
+    json: "/search.json",
+    searchResultTemplate:
+      '<li>
+        <a href="{url}">{title}</a>
+        <br>
+        <span class="post-meta">{date}</span>
+        <br>
+        <p>{description}</p>
+      </li>'
+  });
 </script>

@@ -4,8 +4,9 @@ title: "Comparing Languages"
 date: 2021-10-02 14:53:31 -0400
 tags: [c, java, python]
 categories: [programming, scripting, languages, comparison]
+description: A test of Jekyll's syntax highlighting and first blog post.
 toc: true
-snippets: /snippets/2021/01/21/type-number-of-characters-into-a-file
+snippets: https://github.com/TwoPizza9621536/snippets/tree/main/Printchara
 ---
 
 This is a comparison of syntax in 3 different languages as well as a test. It
@@ -161,4 +162,4 @@ Python is the simplist as it is a beginner language and all of the io is
 abstracted.
 
 There are more version of the
-[program written in different languagues]({{ page.snippets | absolute_url }}).
+[program written in different languagues]({{ page.snippets }}).

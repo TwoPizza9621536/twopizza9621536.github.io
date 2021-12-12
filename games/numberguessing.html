@@ -8,15 +8,12 @@ layout: page
   type="text/css"
   href="{{'../assets/games/css/numberguessing.css' | relative_url }}"
 />
-<script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"
-></script>
+
+<script src="{{ '../assets/js/jquery-3.6.0.js' | relative_url }}"></script>
 
 <p>
-  We have selected a random number between 1 and 100. See if you can guess
-  it in 10 turns or fewer. We'll tell your guess was too high or too low.
+  We have selected a random number between 1 and 100. See if you can guess it in
+  10 turns or fewer. We'll tell your guess was too high or too low.
 </p>
 
 <div class="guessingForm">
@@ -33,9 +30,7 @@ layout: page
 
 <p>
   This is from the
-  <a
-    href="https://github.com/mdn/learning-area"
-    >MDN tutorial for javascript</a
+  <a href="https://github.com/mdn/learning-area">MDN tutorial for javascript</a
   >.
 </p>
 <script src="{{ '../assets/games/js/numberguessing.js' | relative_url }}"></script>

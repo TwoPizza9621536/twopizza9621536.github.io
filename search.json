@@ -7,7 +7,7 @@ layout: none
       "title"    : "{{ post.title }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
-      "excerpt" : {{ post.excerpt | markdownify | strip_html | escape | jsonify }}
+      "description" : "{{ post.description | strip_html | strip_newlines | escape }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

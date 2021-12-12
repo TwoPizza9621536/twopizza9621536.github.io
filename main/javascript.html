@@ -14,6 +14,10 @@ decription: >-
   href="{{ '../assets/css/javascript.css' | relative_url }}"
 />
 
+<script src="{{ '../assets/js/jquery-3.6.0.js' | relative_url }}"></script>
+
+<script src="{{ '../assets/js/javascript.js' | relative_url }}"></script>
+
 <h2>Here are pages that needs JavaScript to function.</h2>
 
 <div class="prompt">
@@ -26,16 +30,14 @@ decription: >-
 </div>
 
 <p>
-  You can use the Search Page or WebsiteTutorial to check for JavaScript
-  too, but WebsiteTutorial uses noscript.
+  You can use the Search Page or WebsiteTutorial to check for JavaScript too,
+  but WebsiteTutorial uses noscript.
 </p>
 
 <h3>Pages</h3>
 <ul>
   <li>
-    <a href="{{ '/search.html' | relative_url }}"
-      >Search</a
-    >
+    <a href="{{ '/search.html' | relative_url }}">Search</a>
     a search page for this site
   </li>
   <li>
@@ -50,11 +52,3 @@ decription: >-
     >
   </li>
 </ul>
-
-{% include jquery.html %}
-
-<script
-  type="text/javascript"
-  src="{{ '../assets/js/javascript.js' | relative_url }}"
-  charset="utf-8"
-></script>

@@ -2,12 +2,13 @@
 layout: page
 title: Categories
 permalink: /blogs/categories.html
-description: Categories for the blogs.
+description: >-
+  Topics that I will write about for technology, software and programming.
 slug: categories
 ---
 
 <ul>
-{% for category in site.categories %}
+  {% for category in site.categories %}
   {% assign category_name = category[0] | downcase | replace: '-', ' ' %}
   <li class="category__item">
     <a
@@ -16,9 +17,7 @@ slug: categories
       >{{ category_name }}</a
     >
   </li>
-{% endfor %}
+  {% endfor %}
 </ul>
 
-<a href="{{ '/blogs/tags.html' | relative_url }}">
-  To sort by tags.
-</a>
+<a href="{{ '/blogs/tags.html' | relative_url }}">To sort by tags.</a>
