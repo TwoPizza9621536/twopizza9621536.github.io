@@ -137,7 +137,6 @@ disable_disk_cache: true
 lsi: true
 
 sass:
-  implementation: sass-embedded
   sass_dir: _sass
   style: compressed
 
