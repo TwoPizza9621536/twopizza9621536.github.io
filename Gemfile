@@ -20,7 +20,6 @@ gem 'jekyll'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'classifier-reborn'
-  gem 'ffi'
   gem 'html-pipeline'
   gem 'jekyll-archives'
   gem 'jekyll-asciidoc'
@@ -35,7 +34,6 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-mentions'
-  gem 'jekyll-minifier'
   gem 'jekyll-octicons'
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-paginate-v2'
@@ -56,7 +54,7 @@ group :jekyll_plugins do
   gem 'nokogiri'
   gem 'octopress-minify-html'
   gem 'rouge'
-  gem 'sassc'
+  gem 'sass-embedded'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

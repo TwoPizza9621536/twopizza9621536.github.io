@@ -137,8 +137,9 @@ disable_disk_cache: true
 lsi: true
 
 sass:
-  style: compressed
+  implementation: sass-embedded
   sass_dir: _sass
+  style: compressed
 
 jekyll-mentions: https://twitter.com
 
@@ -147,8 +148,3 @@ last-modified-at:
 
 target-blank:
   rel: nofollow
-
-jekyll-minifier:
-  exclude: ['*.html', '*.xml']
-  uglifier_args:
-    harmony: true

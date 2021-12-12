@@ -1,4 +1,5 @@
 ---
+layout: js_minifier
 ---
 /**
  * This file is from StackOverflow.

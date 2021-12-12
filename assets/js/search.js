@@ -1,3 +1,6 @@
+---
+layout: js_minifier
+---
 /**
  * A simple JSON search
  * Requires jQuery (v 1.7+)
