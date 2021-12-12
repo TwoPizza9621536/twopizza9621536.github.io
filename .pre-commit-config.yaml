@@ -27,12 +27,4 @@ repos:
         -   'standard'
         -   'eslint-config-standard'
         -   'eslint-plugin-import'
--   repo: https://github.com/awebdeveloper/pre-commit-stylelint
-    rev: '0.0.2'
-    hooks:
-    -   id: stylelint
-        additional_dependencies:
-        -   'stylelint'
-        -   'stylelint-config-standard'
-        -   'stylelint-config-standard-scss'
-        -   'postcss'
+        -   'eslint-plugin-node'
