@@ -219,7 +219,8 @@ Some CSS is from <https://www.bytedude.com>. Source code can be found at:
 
 To minify HTML and JavaScript, liquid layouts are used instead.
 They can be found at:
-@Mendeo / <https://github.com/Mendeo/jekyll-minifier>
+@Mendeo / <https://github.com/Mendeo/jekyll-minifier> for JavaScript
+@penibelst / <https://github.com/penibelst/jekyll-compress-html>
 
 The layouts are licensed under the [MIT License][7].
 

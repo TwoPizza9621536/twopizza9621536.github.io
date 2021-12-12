@@ -127,8 +127,11 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - LICENSE
   - renovate.json
   - README.md
+include:
+  - .htaccess
 
 # Additional Flags
 disable_disk_cache: false
@@ -145,3 +148,9 @@ last-modified-at:
 
 target-blank:
   rel: nofollow
+
+compress_html:
+  clippings: all
+  comments: all
+  ignore:
+    envs: development

@@ -25,6 +25,6 @@ bundle exec jekyll serve
 
 ## License
 
-Unless it is noted or stated on the page, [twopizza9621536.github.io](twopizza9621536.github.io) is under
-the Creative Commons License.
+Unless it is noted or stated on the page, this site is under the
+Creative Commons License.
 See the site's license page for more info
