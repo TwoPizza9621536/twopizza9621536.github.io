@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: /archive/
+title: Archive
+description: An archive of all pages that links to older posts.
+---
+
+<h2>Yearly Archives</h2>
+
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<h3>
+  <a href="{{ '/archive/{{ year.name }}' | relative_url}}"
+    >{{ year.name }}</a
+  >
+</h3>
+{% endfor %}
