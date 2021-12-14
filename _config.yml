@@ -146,3 +146,7 @@ compress_html:
   comments: all
   ignore:
     envs: development
+  blanklines: false
+  profile: false
+  endings: all
+  startings: []
