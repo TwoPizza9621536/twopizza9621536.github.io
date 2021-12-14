@@ -22,10 +22,10 @@ headers for file handling. The main function starts with initialization of an
 integer and a character array, to store the inputs. Then ask the user with
 stdin and stdout using {% ihighlight c %}prinf(){% endihighlight %} and
 {% ihighlight c %}scanf(){% endihighlight %}. Next create a file pointer `*` to
-the filename provided to create, open and write to the file. Last close it and
-ask the user input to exit.
+the filename provided to create in memory, then open the file and write to it.
+Last close it and ask the user input to exit.
 
-{% highlight c linenos %}
+{% highlight c %}
 # include <stdio.h>
 # include <stdlib.h>
 
@@ -67,13 +67,13 @@ int main(int argc, char **argv)
 
 With Java as the next language the are more things going on. Now there needs to
 be modules for input/output (io), by using the
-{% ihighlight java %}import{% endihighlight %} statments. There is also a
+{% ihighlight java %}import{% endihighlight %} statements. There is also a
 {% ihighlight java %}try{% endihighlight %} and
-{% ihighlight java %}catch{% endihighlight %} block which catch excptions and
-handle memory managment, this also is in C but only excptions becuase C does
-not have managment.
+{% ihighlight java %}catch{% endihighlight %} block which catch exceptions and
+handle memory management, this also is in C but only exceptions as C does
+not have memory management.
 
-{% highlight java linenos %}
+{% highlight java %}
 package io.Printchara;
 
 import java.io.*;
@@ -129,15 +129,15 @@ public class Main
 
 ## Python
 
-Lastly Python has the simplist version of the program because it is also a
+Lastly Python has the simplest version of the program because it is also a
 scripting language. This is the first version of the program
 written. No imports or include as the python automatically includes the
 python library which also include file handling. The
 {% ihighlight python %}with{% endihighlight %} is the handler to close the
-file, a memory managment handler like the
+file, a memory management handler like the
 {% ihighlight java %}try{% endihighlight %} in java.
 
-{% highlight python linenos %}
+{% highlight python %}
 print("How many 'A' should be written to a file: ")
 num = input()
 
@@ -154,10 +154,10 @@ input("Operation Completed. Press Enter to exit.")
 
 ## Conclusion
 
-C eventhough you have learn pointers, memory management and manually set
-everything up, it is still simple. Java is both more complicated and simpified.
-Python is the simplist as it is a beginner language and all of the io is
+C even though you have learn pointers, memory management and manually set
+everything up, it is still simple. Java is both more complicated and simplified.
+Python is the simplest as it is a beginner language and all of the io is
 abstracted.
 
 There are more version of the
-[program written in different languagues]({{ page.snippets }}).
+[program written in different languages]({{ page.snippets }}).

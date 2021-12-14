@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: html_minifier
 ---
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ layout: compress
 
   <body>
     {% include header.html %}
-    {% include_cached navigation.html %}
+    {% include navigation.html %}
 
     <main class="main-content" id="content" role="main">
       <div id="table-of-contents">
@@ -23,7 +23,7 @@ layout: compress
       {{ content | inject_anchors }}
     </main>
 
-    {% include_cached navigation.html %}
+    {% include navigation.html %}
     {% include_cached footer.html %}
   </body>
 </html>

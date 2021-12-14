@@ -28,31 +28,12 @@
       font-size: 12px;
       white-space: pre;
       border-radius: 0;
-      td.code {
-        padding: 2.5px;
-        border: 0;
-        width: 100%;
-        pre {
-          padding: 0;
-          border-radius: 0;
-        }
-      }
-      td.gl {
-        padding: 2.5px;
-        border: 0;
-      }
       &[data-lang]::before {
         content: attr(data-lang);
         display: block;
         font-size: 16px;
         text-align: right;
         color: $code-bg-color;
-        @include disable-selection;
-      }
-      .lineno {
-        display: inline-block;
-        padding: 0 5px;
-        text-align: right;
         @include disable-selection;
       }
     }

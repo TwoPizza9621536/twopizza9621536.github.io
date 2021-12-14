@@ -51,6 +51,7 @@ group :jekyll_plugins do
   gem 'liquid'
   gem 'mini_racer', :platform => :ruby
   gem 'nokogiri'
+  gem 'octopress-minify-html'
   gem 'rouge'
   gem 'sassc'
 end

@@ -9,7 +9,7 @@
 - name: About Me
   link: /about
 - name: Public Keys
-  link: public-keys
+  link: /public-keys
 - name: Privacy & ToS
   link: /privacy-tos
 - name: License

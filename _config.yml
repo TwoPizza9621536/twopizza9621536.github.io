@@ -148,5 +148,3 @@ compress_html:
     envs: development
   blanklines: false
   profile: false
-  endings: all
-  startings: []
