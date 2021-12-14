@@ -5,7 +5,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    {% include top.html %}
+    {% include head.html %}{% seo %}
   </head>
 
   <body>
@@ -19,4 +19,12 @@ layout: compress
     {% include navigation.html %}
     {% include_cached footer.html %}
   </body>
+  {% if page.pattern %}
+  <style>
+    .page-header {
+      background-color: unset;
+      background-image: url("{% asset_path {{ page.pattern }}.svg {{ page.collection }} %}");
+    }
+  </style>
+  {% endif %}
 </html>

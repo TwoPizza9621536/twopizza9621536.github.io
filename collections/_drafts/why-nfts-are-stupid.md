@@ -1,10 +1,15 @@
 ---
-title: NFTs or how techbros are stupid
+title: "Non Fungible Tokens: Why People Do Not Know How Digital Works"
+description:
 ---
 
 ## Overview
 
 ## Why NFTs Is Stupid
+
+### How "Digital" Works
+
+### Copyright
 
 ## How NFTs Ruined Cryptocurrency
 

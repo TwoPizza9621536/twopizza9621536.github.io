@@ -10,7 +10,7 @@ description: An archive of all pages that links to older posts.
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
 <h3>
-  <a href="{{ '/archive/{{ year.name }}' | relative_url}}"
+  <a href="{{ site.url }}{{ site.baseurl }}/archive/{{ year.name }}"
     >{{ year.name }}</a
   >
 </h3>

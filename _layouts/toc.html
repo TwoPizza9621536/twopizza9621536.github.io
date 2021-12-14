@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<div id="table-of-contents">
+  <input id="spoiler-check" type="checkbox" />
+  <label class="spoiler" for="spoiler-check">Table Of Contents</label>
+  {{ content | toc_only }}
+</div>
+{{ content | inject_anchors }}

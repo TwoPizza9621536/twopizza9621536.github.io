@@ -1,82 +1,29 @@
 <div class="mediaicons">
   <a
-    href="https://twitter.com/TwoPizza9621536"
-    target="blank"
-    rel="noreferrer noopener"
+    href="mailto:{{ site.email | encode_email }}"
+    target="top"
+    title="Email"
     role="img"
-    aria-label="TwoPizza9621536's Twitter Account"
-    ><i aria-hidden="true" class="fab fa-twitter fa-3x"></i
+    aria-label="Email to TwoPizza9621536"
+    ><i aria-hidden="true" class="fa-solid fa-envelope fa-3x"></i
   ></a>
+  {% assign sm = site.data.social-media %}
+  {% for entry in sm %}
+    {% assign key = entry | first %}
+    <a
+      href="{{ sm[key].href }}{{ sm[key].id }}"
+      title="{{ sm[key].title }}"
+      role="img"
+      aria-label="{{ sm[key].aria }}"
+      ><i aria-hidden="true" class="fa-brands {{ sm[key].fa-icon }} fa-3x"></i
+    ></a>
+  {% endfor %}
   <a
-    href="https://github.com/TwoPizza9621536"
-    target="blank"
-    rel="noreferrer noopener"
+    href="{{ '/feed.xml' | relative_url }}"
+    target="top"
+    title="RSS Feed"
     role="img"
-    aria-label="TwoPizza9621536's Github Account"
-    ><i aria-hidden="true" class="fab fa-github fa-3x"></i
-  ></a>
-  <a
-    href="https://gitlab.com/TwoPizza9621536"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Gitlab Account"
-    ><i aria-hidden="true" class="fab fa-gitlab fa-3x"></i
-  ></a>
-  <a
-    href="https://www.youtube.com/channel/UCUyHDMP6DBH2f8Lk4pyEJnw"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Youtube Channel"
-    ><i aria-hidden="true" class="fab fa-youtube fa-3x"></i
-  ></a>
-  <a
-    href="https://stackoverflow.com/users/13830925/twopizza9621536"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Stackoverflow Account"
-    ><i aria-hidden="true" class="fab fa-stack-overflow fa-3x"></i
-  ></a>
-  <a
-    href="https://discordapp.com/users/TwoPizza9621536#6662"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Discord Account"
-    ><i aria-hidden="true" class="fab fa-discord fa-3x"></i
-  ></a>
-  <a
-    href="https://www.twitch.tv/twopizza9621536"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Twitch Channel"
-    ><i aria-hidden="true" class="fab fa-twitch fa-3x"></i
-  ></a>
-  <a
-    href="https://soundcloud.com/user-790721752"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's SoundCloud Account"
-    ><i aria-hidden="true" class="fab fa-soundcloud fa-3x"></i
-  ></a>
-  <a
-    href="https://keybase.io/TwoPizza9621536"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Keybase Account"
-    ><i aria-hidden="true" class="fab fa-keybase fa-3x"></i
-  ></a>
-  <a
-    href="https://news.ycombinator.com/user?id=TwoPizza9612536"
-    target="blank"
-    rel="noreferrer noopener"
-    role="img"
-    aria-label="TwoPizza9621536's Hacker News Account"
-    ><i aria-hidden="true" class="fab fa-hacker-news fa-3x"></i
+    aria-label="Email to TwoPizza9621536"
+    ><i aria-hidden="true" class="fa-solid fa-rss fa-3x"></i
   ></a>
 </div>

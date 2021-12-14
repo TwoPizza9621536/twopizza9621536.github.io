@@ -3,6 +3,7 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
+
 {% include categories.html %}
 
 <p>Posted On: {{ page.date }} | Last Updated On: {{ page.last_modified_at }}</p>
@@ -17,7 +18,3 @@ layout: default
 {{ content }}
 
 {% include tags.html %}
-
-{% if page.collection != "posts" %}
-{% include collections.html %}
-{% endif %}

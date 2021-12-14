@@ -6,6 +6,7 @@
 @import "jekyll-theme-cayman";
 @import "monokai.css";
 @import "fontawesome/fontawesome";
+@import "fontawesome/solid";
 @import "fontawesome/brands";
 
 @mixin disable-selection {
@@ -16,7 +17,6 @@
   -ms-user-select: none;
   user-select: none;
 }
-
 @mixin code-block {
   pre {
     border: 0;
@@ -24,28 +24,23 @@
     font-family: "Fira Code", Consolas, "Courier New", monospace;
     color: #fff;
     background-color: #272822;
-
     code {
       font-size: 12px;
       white-space: pre;
       border-radius: 0;
-
       td.code {
         padding: 2.5px;
         border: 0;
         width: 100%;
-
         pre {
           padding: 0;
           border-radius: 0;
         }
       }
-
       td.gl {
         padding: 2.5px;
         border: 0;
       }
-
       &[data-lang]::before {
         content: attr(data-lang);
         display: block;
@@ -54,7 +49,6 @@
         color: $code-bg-color;
         @include disable-selection;
       }
-
       .lineno {
         display: inline-block;
         padding: 0 5px;
@@ -64,12 +58,10 @@
     }
   }
 }
-
 @mixin date-style {
   color: $header-bg-color-tertiary;
   background-color: #000;
 }
-
 .main-content {
   div#table-of-contents {
     .spoiler {
@@ -78,76 +70,59 @@
       display: table;
       @include disable-selection;
     }
-
     input#spoiler-check {
       display: none;
     }
-
     input ~ .spoiler {
       &::before {
         content: "[ ";
       }
-
       &::after {
         content: " ]";
       }
-
       ~ ul#toc {
         display: none;
       }
     }
-
     input:checked ~ .spoiler {
       &::before {
         content: "- ";
       }
-
       &::after {
         content: " -";
       }
-
       ~ ul#toc {
         display: inline-block;
       }
     }
   }
-
   .highlight {
     border-radius: 10px;
     margin: 0;
-
     @include code-block;
-
     @supports (font-variation-settings: normal) {
       @include code-block;
     }
   }
-
   .posttitle {
     font-size: 1.5em;
   }
-
   a.ancher {
     @include disable-selection;
   }
-
   .date {
     @include date-style;
   }
-
   .noscript {
     font-weight: bold;
     padding: 2em;
     text-align: center;
   }
-
   .pagpost {
     text-indent: 1rem;
-
     .posttitle {
       font-size: 1.8em;
     }
-
     .postcontent {
       text-indent: 1rem;
       position: relative;
@@ -155,42 +130,33 @@
       text-align: justify;
     }
   }
-
   .pagination {
     overflow: hidden;
     vertical-align: middle;
-
     .page_number_container {
       text-align: center;
-
       .older_link {
         font-size-adjust: 2em;
       }
-
       .older {
         float: left;
         color: $section-headings-color;
       }
-
       .next_link {
         font-size-adjust: 2em;
       }
-
       .newer {
         float: right;
         color: $section-headings-color;
       }
     }
   }
-
   ruby {
     text-transform: full-size-kana;
   }
 }
-
 .navigation {
   text-align: center;
-
   .navigation-buttons {
     font-size: 1.25em;
     padding: 10px;
@@ -200,7 +166,6 @@
     }
   }
 }
-
 .site-footer {
   display: grid;
   border-top: solid 1px $hr-border-color;
@@ -209,29 +174,23 @@
   grid-gap: 20px;
   width: 100%;
   text-align: center;
-
   @include large {
     font-size: 1rem;
   }
-
   @include medium {
     font-size: 0.8rem;
   }
-
   @include small {
     font-size: 0.5rem;
   }
-
   .info {
     grid-column: 1;
     grid-row: 1;
-
     time.build-time {
       font-weight: bold;
       text-align: center;
       @include date-style;
     }
-
     .site-footer-owner,
     .site-footer-credits,
     .site-footer-opensource,
@@ -239,35 +198,28 @@
       color: $blockquote-text-color;
     }
   }
-
   i {
     @extend %fa-icon;
     color: #000;
   }
-
   .copyright {
     grid-column: 2;
     grid-row: 1;
     display: block;
-
     a:hover i {
       color: #65ace6;
     }
-
     a.cclogo:hover {
       text-decoration-line: none;
     }
   }
-
   .mediaicons {
     grid-column: 3;
     grid-row: 1;
     display: block;
-
     a:hover {
       text-decoration-line: none;
     }
-
     i:hover {
       box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
       color: #65ace6;

@@ -1,0 +1,59 @@
+twitter:
+  aria: TwoPizza9621536s Twitter Account
+  id: TwoPizza9621536
+  href: https://www.twitter.com/
+  title: Twitter
+  fa-icon: fa-twitter
+github:
+  aria: TwoPizza9621536s Twitter Account
+  id: TwoPizza9621536
+  href: https://github.com/
+  title: Github
+  fa-icon: fa-github
+gitlab:
+  aria: TwoPizza9621536s GitLab Account
+  id: TwoPizza9621536
+  href: https://gitlab.com/
+  title: GitLab
+  fa-icon: fa-gitlab
+youtube:
+  aria: TwoPizza9621536s YouTube Account
+  id: UCUyHDMP6DBH2f8Lk4pyEJnw
+  href: https://www.youtube.com/channel/
+  title: YouTube
+  fa-icon: fa-youtube
+stackoverflow:
+  aria: TwoPizza9621536s Stackoverflow Account
+  id: 13830925/twopizza9621536
+  href: https://stackoverflow.com/users/
+  title: StackOverflow
+  fa-icon: fa-stackoverflow
+discord:
+  aria: TwoPizza9621536s Discord Account
+  id: TwoPizza9621536#6662
+  href: https://discordapp.com/users/
+  title: Discord
+  fa-icon: fa-discord
+twitch:
+  aria: TwoPizza9621536s Twitch Channel
+  id: twopizza9621536
+  href: https://www.twitch.tv/
+  title: Twitch
+  fa-icon: fa-twitch
+soundcloud:
+  aria: TwoPizza9621536s SoundCloud Account
+  id: user-790721752
+  href: https://soundcloud.com/
+  title: SoundCloud
+  fa-icon: fa-soundcloud
+keybase:
+  aria: TwoPizza9621536s Keybase Account
+  id: TwoPizza9621536
+  href: https://keybase.io/
+  title: Keybase
+  fa-icon: fa-keybase
+hacker-news:
+  aria: TwoPizza9621536s Hacker News Account
+  id: user?id=TwoPizza9612536
+  href: https://news.ycombinator.com/
+  fa-icon: fa-hacker-news

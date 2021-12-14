@@ -3,26 +3,25 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  {% include_cached top-noseo.html %}
-  <title>Samuel Wu @TwoPizza9621536</title>
-  {% seo title=false %}
-</head>
+  <head>
+    {% include head.html %}
+    <title>Samuel Wu @TwoPizza9621536</title>{% seo title=false %}
+  </head>
 
-<body>
-  {% include header.html %}
-  {% include_cached navigation.html %}
+  <body>
+    {% include header.html %}
+    {% include_cached navigation.html %}
 
-  <main class="main-content" id="content" role="main">
-    <div id="table-of-contents">
-      <input id="spoiler-check" type="checkbox">
-      <label class="spoiler" for="spoiler-check">Table Of Contents</label>
-      {{ content | toc_only }}
-    </div>
-    {{ content | inject_anchors }}
-  </main>
+    <main class="main-content" id="content" role="main">
+      <div id="table-of-contents">
+        <input id="spoiler-check" type="checkbox">
+        <label class="spoiler" for="spoiler-check">Table Of Contents</label>
+        {{ content | toc_only }}
+      </div>
+      {{ content | inject_anchors }}
+    </main>
 
-  {% include_cached navigation.html %}
-  {% include_cached footer.html %}
+    {% include_cached navigation.html %}
+    {% include_cached footer.html %}
   </body>
 </html>

@@ -46,11 +46,10 @@ group :jekyll_plugins do
   gem 'jekyll-target-blank'
   gem 'jekyll-titles-from-headings'
   gem 'jekyll-toc'
-  gem 'jekyll_github_sample'
   gem 'jekyll_version_plugin'
   gem 'jemoji'
   gem 'liquid'
-  gem 'mini_racer'
+  gem 'mini_racer', :platform => :ruby
   gem 'nokogiri'
   gem 'octopress-minify-html'
   gem 'rouge'

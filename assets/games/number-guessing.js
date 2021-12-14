@@ -1,7 +1,10 @@
+---
+  layout: js_minifier
+---
 /* eslint no-undef: "error" */
 /* eslint-env browser */
 
-let randomNumber = Math.floor(Math.random() * 100) + 1
+  let randomNumber = Math.floor(Math.random() * 100) + 1
 
 const guesses = document.querySelector('.guesses')
 const lastResult = document.querySelector('.lastResult')
@@ -15,7 +18,7 @@ let resetButton
 
 const userGuess = Number(guessField.value)
 
-$(document)(() => {
+$(() => {
   guessSubmit.addEventListener('click', checkGuess)
 })
 

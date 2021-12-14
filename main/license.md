@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: toc
 title: License
 permalink: /license
 description: >-
@@ -12,7 +12,7 @@ Last modified: {{ page.last_modified_at }}
 
 > **All copyright, trademarks, and register trademarks are properties of
 > their respective owners. For the usage of such copyright, trademarks, and
-> register trademarks, please search up thier respective guideline usage
+> register trademarks, please search up their respective guideline usage
 > from their respective owners.**
 
 ## License
@@ -223,6 +223,14 @@ They can be found at:
 @penibelst / <https://github.com/penibelst/jekyll-compress-html>
 
 The layouts are licensed under the [MIT License][7].
+
+### Jekyll Include Tricks
+
+---
+
+These tricks are from @jreel.
+They can be found at:
+<https://jreel.github.io/jekyll-tips-tricks-and-best-practices/>
 
 ### W3C
 

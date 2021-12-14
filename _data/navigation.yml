@@ -5,9 +5,11 @@
 - name: Javascript
   link: /javascript
 - name: Search
-  link: /search.html
+  link: /search
 - name: About Me
   link: /about
+- name: Public Keys
+  link: public-keys
 - name: Privacy & ToS
   link: /privacy-tos
 - name: License

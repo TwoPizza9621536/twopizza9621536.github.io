@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: toc
 title: Privacy Policy, Terms of Service And License Agreement
 permalink: /privacy-tos
 description: >-
@@ -7,14 +7,6 @@ description: >-
   and other projects.
 toc: true
 ---
-
-- [1. **DISCLAIMER**](#1-disclaimer)
-- [2. No Analytics](#2-no-analytics)
-  - [2.1. No Cookies](#21-no-cookies)
-- [3. Projects And Applications](#3-projects-and-applications)
-- [4. Contributing](#4-contributing)
-- [5. Exceptions](#5-exceptions)
-- [6. Terms of Service and License Agreement](#6-terms-of-service-and-license-agreement)
 
 Well I need a privacy policy and I want to mind my privacy and yours. I mostly
 try to keep my privacy while using major services. Since you might mind yours

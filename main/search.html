@@ -2,8 +2,12 @@
 layout: page
 title: Search Page
 description: A search page for this github.io site.
-permalink: /search.html
+permalink: /search
 slug: search
+main_css:
+  - search
+main_js:
+  - search
 ---
 
 <p>
@@ -48,9 +52,6 @@ slug: search
   />
   <ul id="results-container"></ul>
 </div>
-
-<!-- or without installing anything -->
-<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 
 <script>
   var sjs = SimpleJekyllSearch({
