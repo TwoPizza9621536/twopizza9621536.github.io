@@ -5,7 +5,7 @@ permalink: /privacy-tos
 description: >-
   Privacy policy, Terms of Service and License Agreement for this github.io site
   and other projects.
-toc: true
+slug: privacy-tos
 ---
 
 Well I need a privacy policy and I want to mind my privacy and yours. I mostly

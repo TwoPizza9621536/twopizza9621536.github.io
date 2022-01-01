@@ -3,45 +3,64 @@ layout: home
 permalink: /
 title: Samuel Wu @TwoPizza9621536
 toc: true
+slug: index
 ---
 
 <h2>Welcome</h2>
-<hr>
-
+<hr />
 <p>
   Welcome to my main page. This is where I store tech/programming blogs. Below
-  are my repositories.
+  are my repositories and latest posts.
 </p>
+
+<h2>Lastest Posts</h3>
+<hr />
+<ul>
+  {% for post in site.posts limit:5 %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p>
+      <small>
+        <time class="date" datetime="{{ post.date }}"
+          >Posted On: {{ post.date }}</time
+        >
+        <time class="date" datetime="{{ post.last_modified_at }}"
+          >Last Updated On: {{ post.last_modified_at }}</time
+        >
+      </small>
+    </p>
+    <div class="postcontent">{{ post.excerpt }}</div>
+  </li>
+  {% endfor %}
+</ul>
+<p>To see older posts, click on the blogs tab in the navigation above.</p>
+
 <div class="repo">
   <h3>Repositories</h3>
-  <hr>
+  <hr />
   <ul>
     <li>
-      <h4>
-        <a href="https://github.com/twopizza9621536/twopizza9621536.github.io"
-          >twopizza9621536.github.io</a
-        >
-      </h4>
+      <a href="https://github.com/twopizza9621536/twopizza9621536.github.io"
+        >twopizza9621536.github.io</a
+      >
       <p>This is the source code for this website.</p>
     </li>
     <li>
-      <h4>
-        <a href="https://github.com/twopizza9621536/snippets">snippets</a>
-      </h4>
-      <p>Where all the snippets are stored for my blogs.</p>
+      <a href="https://github.com/twopizza9621536/snippets">snippets</a>
+      <p>Where code snippets are stored for my blogs.</p>
     </li>
     <li>
-      <h4>
-        <a href="https://github.com/twopizza9621536/VideoLister">VideoLister</a>
-      </h4>
+      <a herf="https://github.com/twopizza9621536/Iupyter-Notebooks">Iupyter Notebooks</a>
+      <p>Where Jupyter notebooks are stored to provide interactive notebooks.</p>
+    </li>
+    <li>
+      <a href="https://github.com/twopizza9621536/VideoLister">VideoLister</a>
       <p>
         A .Net Program which it can list videos from a playlist from Youtube.
       </p>
     </li>
   </ul>
-  <p>
-    <a href="https://github.com/TwoPizza9621536?tab=repositories"
-      >To see all my repository click here.</a
-    >
-  </p>
+  <a href="https://github.com/TwoPizza9621536?tab=repositories"
+    >To see all my repository click here.</a
+  >
 </div>

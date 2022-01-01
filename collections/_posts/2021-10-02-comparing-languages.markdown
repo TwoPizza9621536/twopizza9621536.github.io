@@ -1,12 +1,17 @@
 ---
 layout: post
-title: "Comparing Languages"
-date: 2021-10-02 14:53:31 -0400
-tags: [c, java, python]
-categories: [programming, scripting, languages, comparison]
+title: 'Comparing Languages'
+date: '2021-10-02 14:53:31 -0400'
+tags:
+    - c
+    - java
+    - python
+categories:
+    - programming
+    - comparison
 description: A test of Jekyll's syntax highlighting and first blog post.
-toc: true
-snippets: https://github.com/TwoPizza9621536/snippets/tree/main/Printchara
+snippets: 'https://github.com/TwoPizza9621536/snippets/tree/main/Printchara'
+slug: comparing-languages
 ---
 
 This is a comparison of syntax in 3 different languages as well as a test. It

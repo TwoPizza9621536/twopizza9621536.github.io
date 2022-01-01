@@ -5,7 +5,7 @@ permalink: /license
 description: >-
   The License, Acknowledgments and Dependencies for twopizza9621536.github.io.
 jekyll-mentions: https://github.com
-toc: true
+slug: license
 ---
 
 Last modified: {{ page.last_modified_at }}

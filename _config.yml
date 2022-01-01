@@ -67,10 +67,11 @@ collections_dir: collections
 
 defaults:
   - scope:
-      path: ""
+      path: ''
       type: 'posts'
     values:
       layout: 'post'
+      toc: true
   - scope:
       path: ''
     values:

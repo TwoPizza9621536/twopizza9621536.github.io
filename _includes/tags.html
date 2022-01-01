@@ -1,5 +1,5 @@
 <ul class="tag">
-  <li class="tag__item"><strong>Tags: </strong></li>
+  <strong class="tag__label">Tags:</strong>
   {% for tag in page.tags %}
   <li class="tag__item">
     <a href="{{ site.url }}/tag/{{ tag | downcase }}" title="{{ tag }}"

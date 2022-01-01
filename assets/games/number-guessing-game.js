@@ -1,5 +1,5 @@
 ---
-  layout: js_minifier
+layout: js_minifier
 ---
 /* eslint no-undef: "error" */
 /* eslint-env browser */

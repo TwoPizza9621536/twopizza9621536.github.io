@@ -2,7 +2,7 @@
 layout: page
 title: Public Encryption Signing Keys
 permalink: /public-keys
-slug: encryption-keys
+slug: public-encryption-signing-keys
 description: >-
   Public keys to send encrypted emails or check for authenticity of a file.
 custom_css:

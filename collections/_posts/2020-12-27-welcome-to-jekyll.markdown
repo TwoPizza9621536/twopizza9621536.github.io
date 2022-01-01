@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
-date: 2020-12-27 17:23:16 -0500
+title: Welcome to Jekyll!
+date: '2020-12-27 17:23:16 -0500'
 categories: jekyll update
 tags: jekyll
 slug: jekyll
