@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "number-guessing-game.css",
+	"sources": [
+		"number-guessing-game.scss"
+	],
+	"sourcesContent": [
+		"html {\n  font-family: sans-serif;\n}\nbody {\n  margin: 0 auto;\n}\n.lastResult {\n  color: white;\n  padding: 3px;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,UAAU,CACxB,AACD,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,MAAM,CACf,AACD,AAAA,WAAW,AAAC,CACV,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,GAAG,CACb"
+}

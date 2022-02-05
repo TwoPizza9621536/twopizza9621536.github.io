@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "404.css",
+	"sources": [
+		"404.scss"
+	],
+	"sourcesContent": [
+		".container {\n  margin: 10px auto;\n  max-width: 600px;\n  text-align: center;\n}\nh1 {\n  font-size: 4em;\n  letter-spacing: -1px;\n  line-height: 1;\n  margin: 30px 0;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,AAAC,CACT,MAAM,CAAE,SAAS,CACjB,SAAS,CAAE,KAAK,CAChB,UAAU,CAAE,MAAM,CACnB,AACD,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,GAAG,CACd,cAAc,CAAE,IAAI,CACpB,WAAW,CAAE,CAAC,CACd,MAAM,CAAE,MAAM,CACf"
+}

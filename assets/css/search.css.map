@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "search.css",
+	"sources": [
+		"search.scss"
+	],
+	"sourcesContent": [
+		"ul#results-container {\n  list-style-type: none;\n  padding: 0;\n}\n#results-container li {\n  margin-bottom: 1.5rem;\n}\nspan.post-meta {\n  font-size: 1rem;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,EAAE,AAAA,kBAAkB,AAAC,CACnB,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,CAAC,CACX,AACD,AAAA,kBAAkB,CAAC,EAAE,AAAC,CACpB,aAAa,CAAE,MAAM,CACtB,AACD,AAAA,IAAI,AAAA,UAAU,AAAC,CACb,SAAS,CAAE,IAAI,CAChB"
+}

@@ -1,0 +1,17 @@
+[
+  
+    {
+      "title"    : "Comparing Languages",
+      "url"      : "/blogs/2021/10/comparing-languages/",
+      "date"     : "2021-10-02 14:53:31 -0400",
+      "description" : "A test of Jekyll&#39;s syntax highlighting and first blog post."
+    } ,
+  
+    {
+      "title"    : "Welcome to Jekyll!",
+      "url"      : "/blogs/2020/12/jekyll/",
+      "date"     : "2020-12-27 17:23:16 -0500",
+      "description" : "A test post from the Jekyll team."
+    } 
+  
+]

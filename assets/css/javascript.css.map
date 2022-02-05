@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "javascript.css",
+	"sources": [
+		"javascript.scss"
+	],
+	"sourcesContent": [
+		".prompt {\n  margin: 0 auto;\n  padding: 2em;\n  text-align: center;\n}\n.test {\n  -khtml-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  background-color: #ea66a8;\n  border: 4px;\n  color: white;\n  margin: 0 auto;\n  padding: 2em;\n  text-align: center;\n  user-select: none;\n  width: 66%;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,OAAO,AAAC,CACN,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,GAAG,CACZ,UAAU,CAAE,MAAM,CACnB,AACD,AAAA,KAAK,AAAC,CACJ,kBAAkB,CAAE,IAAI,CACxB,gBAAgB,CAAE,IAAI,CACtB,eAAe,CAAE,IAAI,CACrB,qBAAqB,CAAE,IAAI,CAC3B,mBAAmB,CAAE,IAAI,CACzB,gBAAgB,CAAE,OAAO,CACzB,MAAM,CAAE,GAAG,CACX,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,GAAG,CACZ,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,GAAG,CACX"
+}
