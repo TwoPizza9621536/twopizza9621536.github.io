@@ -10,10 +10,10 @@ slug: license
 
 Last modified: {{ page.last_modified_at }}
 
-> **All copyright, trademarks, and register trademarks are properties of
-> their respective owners. For the usage of such copyright, trademarks, and
-> register trademarks, please search up their respective guideline usage
-> from their respective owners.**
+> **All copyright, trademarks, and register trademarks that are not from this
+> site are properties of their respective owners. For the usage of such
+> copyright, trademarks, and register trademarks, please search up their
+> respective guideline usage from their respective owners.**
 
 ## License
 
@@ -73,8 +73,9 @@ hyperlink my name to this website and the page of the source material.
 If there is a modification, indicate the modification from the original.
 
 Because this is text media, there are no extra variables determining does this
-activate the sharealike clause; only the text must be standalone and not
-modified for it not to be activated. **This is only for me.**
+activate the share-alike clause; the usage the text must be under fair use, and
+the text must be standalone and it not modified for the clause not to be
+activated. **This is only for me.**
 
 For more info, here is the official CC website for
 [attribution](https://creativecommons.org/use-remix/attribution)
@@ -91,11 +92,11 @@ For other files that under a different license or under the Credits section,
 you can use them without licencing your website under CC BY-SA 4.0 License
 and crediting me, but you must follow their licenses that they are under.
 
-You can use the snippets and repositories that are under the MIT License.
+You can use the snippets that are under the MIT License.
 
-You can use code that are specified that the code is under a permissive license
-or is under a public domain compatible license or a CC BY compatible license
-for ShareAlike not to be activated.
+You can use code or content that is under a permissive license (CC BY/BSD/MIT)
+or is under a public domain compatible license (PDM/CC0/Unlicense) for
+ShareAlike not to be activated.
 
 ## Credits
 
