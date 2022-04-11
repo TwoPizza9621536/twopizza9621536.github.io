@@ -30,8 +30,8 @@ the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.
 
 {% highlight c %}
-#include <stdio.h>
-#include <stdlib.h>
+# include <stdio.h>
+# include <stdlib.h>
 
 int main(int argc, char **argv)
 {
