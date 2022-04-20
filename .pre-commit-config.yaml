@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.2.0
     hooks:
     -   id: check-toml
     -   id: check-yaml
@@ -14,12 +14,12 @@ repos:
     -   id: jekyll-relative-url-check-html
     -   id: jekyll-relative-url-check-markdown
 -   repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.31.0
+    rev: v0.31.1
     hooks:
     - id: markdownlint
     - id: markdownlint-fix
 -   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v8.8.0
+    rev: v8.13.0
     hooks:
     -   id: eslint
         additional_dependencies:

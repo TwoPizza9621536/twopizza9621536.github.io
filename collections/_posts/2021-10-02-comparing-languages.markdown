@@ -10,7 +10,6 @@ categories:
     - programming
     - comparison
 description: A test of Jekyll's syntax highlighting and first blog post.
-snippets: 'https://github.com/TwoPizza9621536/snippets/tree/main/Printchara'
 slug: comparing-languages
 ---
 
@@ -31,10 +30,8 @@ the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.
 
 {% highlight c %}
-
-# include <stdio.h>
-
-# include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char **argv)
 {
@@ -151,9 +148,9 @@ num = input()
 print("What is the name for the file: ")
 filename = input()
 
-with open(filename, 'w+') as f:
+with open(filename, "w+") as f:
     for i in range (int(num)):
-        f.write('A')
+        f.write("A")
         i = i + 1
 
 input("Operation Completed. Press Enter to exit.")
@@ -165,6 +162,3 @@ C even though you have learn pointers, memory management and manually set
 everything up, it is still simple. Java is both more complicated and simplified.
 Python is the simplest as it is a beginner language and all of the io is
 abstracted.
-
-There are more version of the
-[program written in different languages]({{ page.snippets }}).
