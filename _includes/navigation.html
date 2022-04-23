@@ -1,0 +1,22 @@
+<nav>
+  <ul>
+    {% for item in site.data.navigation %}
+    <li>
+      <a
+        href="{{ item.link }}"
+        {% if page.url==item.link %}
+        class="current"
+        {% endif %}
+        {% if page.url=="/" %}
+        rel="home"
+        {% elsif page.url=="/license" %}
+        rel="license"
+        {% elsif page.url=="/about" %}
+        rel="author"
+        {% endif %}>
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    {% include header.html %}
+    {% include navigation.html %}
+
+    <main class="main-content" id="content" role="main">
+      {{ content }}
+    </main>
+
+    {% include_cached footer.html %}
+  </body>
+</html>

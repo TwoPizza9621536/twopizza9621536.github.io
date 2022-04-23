@@ -1,0 +1,83 @@
+title: Samuel Wu @TwoPizza9621536
+email: twopizza9621536@gmail.com
+description: >-
+  This my blogs for coding, programming, technology, and software that will
+  spiral into shenanigans.
+baseurl: ""
+url: "https://twopizza9621536.github.io"
+author: Samuel Wu
+
+repository: TwoPizza9621536/twopizza9621536.github.io
+origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
+
+twitter:
+  username: TwoPizza9621536
+  card: summary
+
+github:
+  username: TwoPizza9621536
+
+social:
+  links:
+    - https://twitter.com/TwoPizza9621536
+    - https://github.com/TwoPizza9621536
+    - https://keybase.io/TwoPizza9621536
+    - https://reddit.com/u/twopizza9621536
+
+webmaster_verifications:
+  google: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
+  bing: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
+
+encoding: UTF-8
+timezone: America/New_York
+locale: en-US
+lang: en-US
+
+collections_dir: collections
+permalink: /:year/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+feed:
+  excerpt_only: true
+
+jekyll-mentions: https://twitter.com
+
+last-modified-at:
+  date-format: "%F %T %z"
+
+lsi: true
+
+plugins:
+  - jekyll_version_plugin
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+  - jekyll-mentions
+  - jekyll-octicons
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-titles-from-headings
+  - jemoji
+
+target-blank:
+  rel: nofollow
+
+exclude:
+  - LICENSE
+  - README.md

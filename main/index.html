@@ -1,0 +1,41 @@
+---
+permalink: /
+---
+
+<h2>Welcome :wave:</h2>
+<hr />
+<p>
+  Welcome to my main page. This is where I store tech/programming blogs. Below
+  are my latest posts.
+</p>
+
+<h2>Latest Posts :newspaper:</h3>
+<hr />
+<ul class="post-listing">
+  {% for post in site.posts limit:5 %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p class="date-time">
+      <small>
+        Posted On: {{ post.date }} | Last Updated On: {{ post.last_modified_at }}
+      </small>
+    </p>
+    <p class="post-description">{{ post.description }}</p>
+    {{ post.excerpt }}
+  </li>
+  {% endfor %}
+</ul>
+<a href="{{ '/blogs' | relative_url }}">See older posts.</a>
+
+<h2>Repositories</h2>
+<ul class="repos">
+  {% for repository in site.github.public_repositories limit:5 %}
+  <li>
+    <a href="{{ repository.repository_url }}">{{ repository.project_title }}</a>
+    <p>{{ repository.project_tagline }}</p>
+  </li>
+  {% endfor %}
+</ul>
+<a href="https://github.com/TwoPizza9621536?tab=repositories"
+  >Here is all of my repositories.</a
+>
