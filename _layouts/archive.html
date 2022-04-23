@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h2>Archive {{ page.date | date: "%Y" }}</h2>
+
+<ul class="posts">
+  {% for post in page.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p class="date-time">
+      <small>
+        Posted On: {{ post.date }} | Last Updated On: {{ post.last_modified_at }}
+      </small>
+    </p>
+    <p class="post-description">{{ post.description }}</p>
+    {{ post.excerpt }}
+  </li>
+  {% endfor %}
+</ul>

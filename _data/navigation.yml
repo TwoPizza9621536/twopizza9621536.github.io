@@ -1,10 +1,10 @@
 - name: Home
   link: /
-- name: About
-  link: /about
 - name: Blogs
   link: /blogs
 - name: ToS & Privacy
   link: /terms-of-service-privacy-policy
 - name: License
   link: /license
+- name: About
+  link: /about

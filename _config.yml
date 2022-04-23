@@ -36,6 +36,13 @@ lang: en-US
 collections_dir: collections
 permalink: /:year/:title
 
+jekyll-archives:
+  enabled:
+    - year
+  layout: archive
+  permalinks:
+    year: /:year/
+
 defaults:
   -
     scope:
@@ -61,6 +68,7 @@ lsi: true
 
 plugins:
   - jekyll_version_plugin
+  - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata

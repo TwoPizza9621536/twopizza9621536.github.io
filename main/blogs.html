@@ -5,8 +5,10 @@ description: >-
   The place where my coding, programming, technology, and software blogs are.
 ---
 
+<h2>Posts</h2>
+
 <ul class="post-listing">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:25%}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <p class="date-time">
@@ -20,3 +22,15 @@ description: >-
   {% endfor %}
 </ul>
 
+<h2>Yearly Archives</h2>
+
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+<ul>
+  {% for year in postsByYear %}
+  <li>
+    <a href="{{ site.url }}{{ site.baseurl }}/{{ year.name }}"
+      >{{ year.name }}</a
+    >
+  </li>
+  {% endfor %}
+</ul>

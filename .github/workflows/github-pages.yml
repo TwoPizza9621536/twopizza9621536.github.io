@@ -9,19 +9,19 @@ jobs:
   github-pages:
     runs-on: ubuntu-20.04
     steps:
-      - name: Setup
+      - name: 📂 Setup
         uses: actions/checkout@v3
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
-      - name: Install Dependencies & Build Site
+      - name: 🔨 Install Dependencies & Build Site
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
-      - name: 🚀 deploy
+      - name: 🚀 Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

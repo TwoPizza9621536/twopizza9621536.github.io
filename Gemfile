@@ -5,6 +5,7 @@ gem "jekyll", "~> 4.2.2"
 
 group :jekyll_plugins do
   gem "jekyll_version_plugin"
+  gem "jekyll-archives"
   gem "jekyll-compose"
   gem "jekyll-email-protect"
   gem "jekyll-feed"
