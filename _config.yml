@@ -6,6 +6,7 @@ description: >-
 baseurl: ""
 url: "https://twopizza9621536.github.io"
 author: Samuel Wu
+tagline: Where we screw with tech.
 
 repository: TwoPizza9621536/twopizza9621536.github.io
 origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
