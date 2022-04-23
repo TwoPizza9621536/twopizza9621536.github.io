@@ -29,6 +29,6 @@ end
 
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
-gem "http_parser.rb", "~> 0.6.0", :install_if => Gem.java_platform?
+gem "http_parser.rb", "~> 0.8.0", :install_if => Gem.java_platform?
 
 gem "webrick", :install_if => Gem.ruby_version >= Gem::Version.new("3")
