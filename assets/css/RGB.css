@@ -1,0 +1,15 @@
+table {
+  text-align: left;
+  font-family: Verdana, Courier, monospace;
+  border-collapse: separate;
+  border-spacing: 2ex 0.5ex;
+}
+.red {
+  background-color: #ea66a8;
+}
+.green {
+  background-color: #159957;
+}
+.blue {
+  background-color: #1e6bb8;
+}
