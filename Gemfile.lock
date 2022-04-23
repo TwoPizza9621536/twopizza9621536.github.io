@@ -117,6 +117,8 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    nokogiri (1.13.4-x86_64-linux)
+      racc (~> 1.4)
     octicons (17.0.0)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -151,8 +153,8 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  ruby
-  x64-unknown
+  x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
