@@ -122,14 +122,12 @@ Fira Code at:
 
 Fira Code is licensed under the [OFL 1.1][11].
 
-### CSS
+### Help With Jekyll
 
 ---
 
-Some CSS is from <https://www.bytedude.com>. Source code can be found at:
-@m-cat / <https://github.com/mcat/bytedude.com>
-
 Implementing line numbers are from [botleg by Hanzel Jesheen][13].
+Implementing tags and the catagories page are from [hyunyoung2][14]
 
 ### W3C
 
@@ -178,3 +176,4 @@ and click on the `old` and `master` branch.
 [11]: <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>
 [12]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
 [13]: <https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/>
+[14]: <https://hyunyoung2.github.io/2016/12/17/Category_And_Tags_In_Jekyll/>
