@@ -3,7 +3,7 @@ title: About Me
 permalink: /about
 ---
 
-<h2>About Me</h2>
+<h2>{% octicon person height:24 aria-label:Me %} About Me</h2>
 <hr />
 <p>Last updated: {{ page.last_modified_at }}</p>
 
@@ -38,6 +38,7 @@ permalink: /about
         <li>Storage: 512 GB Intel SSD wth Optane Memory</li>
         <li>Display: 15.6" diagonal FHD (1920 x 1080)</li>
       </ul>
+      <br />
     </li>
     <li>Software & Apps (In no particular order)
       <ul>
@@ -63,7 +64,7 @@ permalink: /about
 <hr />
 <p>See the footer of the page for email and socials.</p>
 
-<h2>Public Keys</h2>
+<h2>{% octicon key height:24 aria-label:"Public Keys" %} Public Keys</h2>
 <hr />
 <p>
   Depending on the situation you might need to use different methods of
@@ -93,21 +94,20 @@ permalink: /about
 
 <p>
   <a href="https://github.com/TwoPizza9621536.keys">GitHub SSH Keys</a>
-  that can be used by age.
-  the keys are generated on 01-15-2022.
+  that can be used by age. The keys are generated on 01-15-2022.
 </p>
 
 <p>
   Or use PGP to send encrypted emails to set up a secure
   message conversation. My PGP Key is at:
+  <ul>
+    <li><a href="https//keys.mailvelope.com">Mailvelope</a></li>
+    <li><a href="https://keys.openpgp.org">OpenPGP Keyserver</a></li>
+  </ul>
+  My PGP Key ID is:
   <br />
-<ul>
-  <li><a href="https//keys.mailvelope.com">Mailvelope</a></li>
-  <li><a href="https://keys.openpgp.org">OpenPGP Keyserver</a></li>
-</ul>
-My PGP Key ID is:
-<code>6B73 6A21 6E7B E209</code>
-<br />
-These should match the bottom half of the fingerprint.
-The key is generated on 04-21-2022.
+  <code>6B73 6A21 6E7B E209</code>
+  <br />
+  These should match the bottom half of the fingerprint. The key is generated on
+  04-21-2022.
 </p>

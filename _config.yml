@@ -4,7 +4,7 @@ description: >-
   This my blogs for coding, programming, and technology, that will
   spiral into shenanigans. Including games, events and other things too.
 baseurl: ""
-url: "https://twopizza9621536.github.io"
+url: https://twopizza9621536.github.io
 author: Samuel Wu
 tagline: The place where we mainly screw with tech.
 
@@ -12,8 +12,8 @@ repository: TwoPizza9621536/twopizza9621536.github.io
 origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
 
 twitter:
-  username: TwoPizza9621536
   card: summary
+  username: TwoPizza9621536
 
 github:
   username: TwoPizza9621536
@@ -49,13 +49,13 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "page"
+      layout: page
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
 
 feed:
   excerpt_only: true

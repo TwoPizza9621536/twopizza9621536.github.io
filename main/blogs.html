@@ -5,15 +5,23 @@ description: >-
   The place where my coding, programming, technology, and software blogs are.
 ---
 
+<p class="tags-catagories">
+  <a href="{{ '/tags' | relative_url }}">To sort by tags.</a> |
+  <a href="{{ '/categories' | relative_url }}">
+    To sort by categories.
+  </a>
+</p>
+
 <h2>Posts</h2>
 
 <ul class="post-listing">
-  {% for post in site.posts limit:25%}
+  {% for post in site.posts limit:25 %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <p class="date-time">
       <small>
-        Posted On: {{ post.date }} | Last Updated On: {{ post.last_modified_at }}
+        Posted On: {{ post.date }} | Last Updated On:
+        {{ post.last_modified_at }}
       </small>
     </p>
     <p class="post-description">{{ post.description }}</p>
@@ -22,7 +30,10 @@ description: >-
   {% endfor %}
 </ul>
 
-<h2>Yearly Archives</h2>
+<h2>
+  {% octicon archive height:24 aria-label:"Yearly Archives" %}
+  Yearly Archives
+</h2>
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 <ul>

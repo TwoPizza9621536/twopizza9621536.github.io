@@ -2,14 +2,14 @@
 permalink: /
 ---
 
-<h2>Welcome :wave:</h2>
+<h2>:wave: Welcome</h2>
 <hr />
 <p>
   Welcome to my main page. This is where I store tech/programming blogs. Below
   are my latest posts.
 </p>
 
-<h2>Latest Posts :newspaper:</h3>
+<h2>:newspaper: Latest Posts</h3>
 <hr />
 <ul class="post-listing">
   {% for post in site.posts limit:5 %}
@@ -27,13 +27,19 @@ permalink: /
 </ul>
 <a href="{{ '/blogs' | relative_url }}">See older posts.</a>
 
-<h2>Repositories</h2>
+<h2>{% octicon repo height:24 aria-label:Repositories %} Repositories</h2>
 <ul class="repos">
-  {% for repository in site.github.public_repositories limit:5 %}
+  {% for repository in site.github.public_repositories %}
+  {% unless repository.archived or repository.fork %}
   <li>
-    <a href="{{ repository.repository_url }}">{{ repository.project_title }}</a>
-    <p>{{ repository.project_tagline }}</p>
+    <a href="{{ repository.html_url }}">
+      {{ repository.name }}
+      {% octicon star-fill height:16 aria-label:Stargazers %}
+      {{ repository.stargazers_count }}
+    </a>
+    <p>{{ repository.description }}</p>
   </li>
+  {% endunless %}
   {% endfor %}
 </ul>
 <a href="https://github.com/TwoPizza9621536?tab=repositories"

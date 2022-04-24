@@ -2,14 +2,10 @@
 title: 'Comparing Languages'
 date: '2021-10-02 14:53:31 -0400'
 tags:
-    - c
-    - java
-    - python
+  - Comparison
 categories:
-    - programming
-    - comparison
+  - Programming
 description: A test of Jekyll's syntax highlighting and first blog post.
-slug: comparing-languages
 ---
 
 This is a comparison of syntax in 3 different languages as well as a test. It
@@ -28,9 +24,9 @@ stdin and stdout using {% ihighlight c %}prinf(){% endihighlight %} and
 the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.
 
-{% highlight c %}
-#include <stdio.h>
-#include <stdlib.h>
+{% highlight c linenos %}
+# include <stdio.h>
+# include <stdlib.h>
 
 int main(int argc, char **argv)
 {
@@ -76,7 +72,7 @@ be modules for input/output (io), by using the
 handle memory management, this also is in C but only exceptions as C does
 not have memory management.
 
-{% highlight java %}
+{% highlight java linenos %}
 package io.Printchara;
 
 import java.io.*;
@@ -140,7 +136,7 @@ python library which also include file handling. The
 file, a memory management handler like the
 {% ihighlight java %}try{% endihighlight %} in java.
 
-{% highlight python %}
+{% highlight python linenos %}
 print("How many 'A' should be written to a file: ")
 num = input()
 

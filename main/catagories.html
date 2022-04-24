@@ -1,0 +1,24 @@
+---
+permalink: /categories
+title: Categories
+---
+
+<div class="quick-links">
+  {% for category in site.categories %}
+    <a href="#{{ category[0] | slugify }}">{{ category[0] }}</a>
+  {% endfor %}
+</div>
+
+<hr />
+
+{% for category in site.categories %}
+<h2 id="#{{ category[0] | slugify }}">{{ category[0] }}</h2>
+<ul>
+  {% for post in category[1] %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
+{% endfor %}

@@ -4,8 +4,8 @@ description: An explanation of how NFTs actually works and why it is stupid.
 tags:
     - NFT
 categories:
+    - Technology
     - Cryptography
-slug: nfts-works-stupid
 ---
 
 Non Fungible Tokens or NFTs in recent months have been a very controversial

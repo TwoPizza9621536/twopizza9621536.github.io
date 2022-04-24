@@ -129,6 +129,8 @@ Fira Code is licensed under the [OFL 1.1][11].
 Some CSS is from <https://www.bytedude.com>. Source code can be found at:
 @m-cat / <https://github.com/mcat/bytedude.com>
 
+Implementing line numbers are from [botleg by Hanzel Jesheen][13].
+
 ### W3C
 
 ---
@@ -175,3 +177,4 @@ and click on the `old` and `master` branch.
 [10]: <https://fontawesome.com/license/free>
 [11]: <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>
 [12]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
+[13]: <https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/>
