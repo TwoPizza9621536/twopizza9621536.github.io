@@ -5384,7 +5384,7 @@ nav .current { color: #159957; font-size: 1.5em; }
 
 .main-content .highlight pre code td pre { border-radius: 0; padding: 0; }
 
-.site-footer { display: grid; grid-auto-rows: auto; grid-template-columns: repeat(3, 1fr); text-align: center; }
+.site-footer { display: grid; grid-auto-rows: auto; grid-template-columns: repeat(3, 1fr); margin: 32px 8px 8px; padding: 32px 8px 8px; text-align: center; }
 
 .site-footer .site-footer-credits p { margin: 3px 0px; }
 
