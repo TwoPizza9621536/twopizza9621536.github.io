@@ -23,7 +23,7 @@
       https://github.githubassets.com/images/;"
 />
 <link
-  href="/feed.xml?v=9f37698625ad2f1944cd299cd653f80a7c481897"
+  href="/feed.xml?v=c34d203937edfbe1c507741fff70662d08679706"
   type="application/rss+xml"
   rel="alternate"
   title="Latest 10 blog posts (atom)"
@@ -31,7 +31,7 @@
 <link href="/license" rel="license" />
 <link
   rel="stylesheet"
-  href="/assets/css/style.css?v=9f37698625ad2f1944cd299cd653f80a7c481897"
+  href="/assets/css/style.css?v=c34d203937edfbe1c507741fff70662d08679706"
 />
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -54,7 +54,7 @@
 <meta name="google-site-verification" content="I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8" />
 <meta name="msvalidate.01" content="I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Samuel Wu"},"dateModified":"2022-04-23T21:36:57-04:00","datePublished":"2021-10-02T14:53:31-04:00","description":"A test of Jekyll’s syntax highlighting and first blog post.","headline":"Comparing Languages","mainEntityOfPage":{"@type":"WebPage","@id":"https://twopizza9621536.github.io/2021/comparing-languages"},"url":"https://twopizza9621536.github.io/2021/comparing-languages"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Samuel Wu"},"dateModified":"2022-04-24T15:57:54-04:00","datePublished":"2021-10-02T14:53:31-04:00","description":"A test of Jekyll’s syntax highlighting and first blog post.","headline":"Comparing Languages","mainEntityOfPage":{"@type":"WebPage","@id":"https://twopizza9621536.github.io/2021/comparing-languages"},"url":"https://twopizza9621536.github.io/2021/comparing-languages"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -111,9 +111,22 @@
 
 
     <main class="main-content" id="content" role="main">
-      <h2>Comparing Languages</h2>
+      <div>
+  <strong>Categories:</strong>
+  
+  <a href="https://twopizza9621536.github.io/categories/#programming">
+    Programming
+  </a>
+  
+  <strong>Tags:</strong>
+  
+  <a href="https://twopizza9621536.github.io/tags/#comparison">Comparison</a>
+  
+</div>
 
-<p>Posted On: 2021-10-02 14:53:31 -0400 | Last Updated On: 2022-04-23 21:36:57 -0400</p>
+<p>Posted On: 2021-10-02 14:53:31 -0400 | Last Updated On: 2022-04-24 15:57:54 -0400</p>
+
+<hr>
 
 <p>This is a comparison of syntax in 3 different languages as well as a test. It
 is just a simple comparison. To compare them I written a program that asks a
@@ -131,8 +144,45 @@ stdin and stdout using <code class="highlight language-c" data-lang="c"><span cl
 the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.</p>
 
-<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
-#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+</pre></td>
+<td class="code"><pre><span class="cp"># include &lt;stdio.h&gt;
+# include &lt;stdlib.h&gt;
 </span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span>
 <span class="p">{</span>
@@ -165,7 +215,9 @@ Last close it and ask the user input to exit.</p>
     <span class="p">}</span>
 
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
+<span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
 <h2 id="java">Java</h2>
 
@@ -177,7 +229,60 @@ be modules for input/output (io), by using the
 handle memory management, this also is in C but only exceptions as C does
 not have memory management.</p>
 
-<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kn">package</span> <span class="nn">io.Printchara</span><span class="o">;</span>
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+</pre></td>
+<td class="code"><pre><span class="kn">package</span> <span class="nn">io.Printchara</span><span class="o">;</span>
 
 <span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;</span>
 <span class="kn">import</span> <span class="nn">java.nio.file.*</span><span class="o">;</span>
@@ -227,7 +332,9 @@ not have memory management.</p>
             <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
         <span class="o">}</span>
     <span class="o">}</span>
-<span class="o">}</span></code></pre></figure>
+<span class="o">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
 <h2 id="python">Python</h2>
 
@@ -239,7 +346,21 @@ python library which also include file handling. The
 file, a memory management handler like the
 <code class="highlight language-java" data-lang="java"><span class="k">try</span></code> in java.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="s">"How many 'A' should be written to a file: "</span><span class="p">)</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="s">"How many 'A' should be written to a file: "</span><span class="p">)</span>
 <span class="n">num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
 
 <span class="k">print</span><span class="p">(</span><span class="s">"What is the name for the file: "</span><span class="p">)</span>
@@ -250,7 +371,9 @@ file, a memory management handler like the
         <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="s">"A"</span><span class="p">)</span>
         <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="nb">input</span><span class="p">(</span><span class="s">"Operation Completed. Press Enter to exit."</span><span class="p">)</span></code></pre></figure>
+<span class="nb">input</span><span class="p">(</span><span class="s">"Operation Completed. Press Enter to exit."</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -271,12 +394,12 @@ abstracted.</p>
     </p>
     <p>
       This site is build on
-      <a href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/actions" target="_blank" rel="noopener noreferrer nofollow"> 2022-04-23 21:37:48 -0400</a>
+      <a href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/actions" target="_blank" rel="noopener noreferrer nofollow"> 2022-04-24 15:58:53 -0400</a>
     </p>
     <p>
       Build Version:
-      <a href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/tree/9f37698625ad2f1944cd299cd653f80a7c481897" target="_blank" rel="noopener noreferrer nofollow">
-        9f37698</a>
+      <a href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/tree/c34d203937edfbe1c507741fff70662d08679706" target="_blank" rel="noopener noreferrer nofollow">
+        c34d203</a>
     </p>
   </div>
   <div xmlns:cc="https://creativecommons.org/ns#" xmlns:dc="https://purl.org/dc/terms/" class="copyright">

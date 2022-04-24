@@ -5356,9 +5356,9 @@ nav ul li a { font-size: 1.2em; }
 
 nav .current { color: #159957; font-size: 1.5em; }
 
-.main-content .post-listing a { font-size: 2rem; }
+.main-content .tags-catagories { text-align: center; }
 
-.main-content .post-listing p { color: #606c71; font-size: 1rem; text-indent: 2em; }
+.main-content .post-listing a { font-size: 2rem; }
 
 .main-content .post-listing .date-time { color: #567482; text-indent: unset; }
 
@@ -5366,13 +5366,23 @@ nav .current { color: #159957; font-size: 1.5em; }
 
 .main-content .post-listing p.post-description { color: #159957; font-size: 1.5rem; text-indent: unset; }
 
+.main-content .post-listing p { color: #606c71; font-size: 1rem; text-indent: 2em; }
+
 .main-content .highlight { border-radius: 10px; }
 
-.main-content .highlight pre { background-color: unset; border: solid 3px #49483e; }
+.main-content .highlight pre { background-color: unset; border: none; }
 
 .main-content .highlight pre code { font-family: "Fira Code", Consolas, "Courier New", monospace; }
 
 @supports (font-variation-settings: normal) { .main-content .highlight pre code { font-family: "Fira Code VF", Consolas, "Courier New", monospace; } }
+
+.main-content .highlight pre code[data-lang]::before { color: #f3f6fa; content: attr(data-lang); display: block; font-size: 16px; text-align: right; }
+
+.main-content .highlight pre code td { border: none; }
+
+.main-content .highlight pre code td .lineno { border-radius: 0; border-right: 2px solid #f8f8f2; color: #f8f8f2; display: inline-block; padding: 0 5px; text-align: right; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.main-content .highlight pre code td pre { border-radius: 0; padding: 0; }
 
 .site-footer { display: grid; grid-auto-rows: auto; grid-template-columns: repeat(3, 1fr); text-align: center; }
 
