@@ -11,29 +11,25 @@
 @import url(https://unpkg.com/@primer/octicons/build/build.css);
 
 nav {
-  margin-left: auto;
-  margin-right: auto;
-  width: 35em;
-
   ul {
-    list-style-type: none;
-    padding-left: 4em;
-
     li {
-      display: inline-block;
-      padding: 0em 0.4em;
-
       a {
         font-size: 1.2em;
       }
+      display: inline-block;
+      padding: 0em 0.4em;
     }
+    list-style-type: none;
+    padding-left: 4em;
   }
   .current {
     color: $section-headings-color;
     font-size: 1.5em;
   }
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
 }
-
 .main-content {
   .tags-catagories {
     text-align: center;
@@ -61,7 +57,6 @@ nav {
       text-indent: 2em;
     }
   }
-
   .highlight {
     pre {
       code {
@@ -104,7 +99,6 @@ nav {
     border-radius: 10px;
   }
 }
-
 .site-footer {
   .site-footer-credits {
     p {
@@ -116,27 +110,27 @@ nav {
     padding: 2px;
   }
   .copyright {
-    width: 90%;
-
     a:hover i {
       color: #65ace6;
     }
     a.cc-icons:hover {
       text-decoration-line: none;
     }
+    width: 90%;
   }
   .socials {
-    display: block;
-
     a:hover {
       text-decoration-line: none;
     }
     i:hover {
       color: #65ace6;
     }
+    display: block;
   }
   display: grid;
   grid-auto-rows: auto;
   grid-template-columns: repeat(3, 1fr);
+  margin: 32px 8px 8px;
+  padding: 32px 8px 8px;
   text-align: center;
 }
