@@ -3,8 +3,6 @@ title: About Me
 permalink: /about
 ---
 
-<h2>{% octicon person height:24 aria-label:Me %} About Me</h2>
-<hr />
 <p>Last updated: {{ page.last_modified_at }}</p>
 
 <p>
@@ -57,57 +55,14 @@ permalink: /about
     </li>
   </ul>
   Hardware information are from HP. Yes half of the software are not FOSS,
-  But who cares as it is about choice.
+  but who cares as it is about choice.
 </p>
 
 <h2>Contacts</h2>
 <hr />
-<p>See the footer of the page for email and socials.</p>
-
-<h2>{% octicon key height:24 aria-label:"Public Keys" %} Public Keys</h2>
-<hr />
 <p>
-  Depending on the situation you might need to use different methods of
-  communications. To send secure and encrypted messages, use KeyBase, Signal or
-  other any messaging app with a device that is not compromised.
-</p>
-
-<p>Use the following keys to encrypt and verify files.</p>
-
-<p>
-  <a href="https://jedisct1.github.io/minisign">Minisign</a> /
-  <a href="https://github.com/aperezdc/signify">Signify</a>
-  public verification key:
-  <br />
-  <code>RWSm5bWxqG9NjhaaHpQdbt1ZPPlrWG1Q2IP9/PEDM2zjjKHZWfMxyeqZ</code>
-  <br />
-  The key is generated on 10-24-2021.
-</p>
-
-<p>
-  <a href="https://age-encryption.org">Age</a> public encryption key:
-  <br />
-  <code>age1xz8kms3xt2sx05a8rjhwan3fcvltzs6v3jazst2477v5xv3jje4sl4t24n</code>
-  <br />
-  The key is generated on 11-22-2021.
-</p>
-
-<p>
-  <a href="https://github.com/TwoPizza9621536.keys">GitHub SSH Keys</a>
-  that can be used by age. The keys are generated on 01-15-2022.
-</p>
-
-<p>
-  Or use PGP to send encrypted emails to set up a secure
-  message conversation. My PGP Key is at:
-  <ul>
-    <li><a href="https//keys.mailvelope.com">Mailvelope</a></li>
-    <li><a href="https://keys.openpgp.org">OpenPGP Keyserver</a></li>
-  </ul>
-  My PGP Key ID is:
-  <br />
-  <code>6B73 6A21 6E7B E209</code>
-  <br />
-  These should match the bottom half of the fingerprint. The key is generated on
-  04-21-2022.
+  See the footer of the page for email and socials.
+  <a href="{{ '/public-keys' | relative_url }}"
+    >Public keys to send secure messages or files</a
+  >
 </p>
