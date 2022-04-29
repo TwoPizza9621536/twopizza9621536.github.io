@@ -24,6 +24,8 @@ stdin and stdout using {% ihighlight c %}prinf(){% endihighlight %} and
 the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.
 
+<!-- markdownlint-disable MD025 MD022 -->
+
 {% highlight c linenos %}
 # include <stdio.h>
 # include <stdlib.h>
@@ -61,6 +63,8 @@ int main(int argc, char **argv)
     return 0;
 }
 {% endhighlight %}
+
+<!-- markdownlint-enable -->
 
 ## Java
 

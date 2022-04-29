@@ -22,7 +22,7 @@ Before we start, we need define what is a NFT.
 
 NFT
 : A unique and non-interchangeable unit of data stored on a blockchain , a form
-  of digital ledger. - [Wikipedia][1 ] | [CC BY-SA 3.0 Unported][2]
+  of digital ledger. - [Wikipedia][1] | [CC BY-SA 3.0 Unported][2]
 
 Using Wikipedia is kind of unfair isn't it (as it is told not to be used as a
 source) but it does serve as a baseline. It means it is a single digital file
