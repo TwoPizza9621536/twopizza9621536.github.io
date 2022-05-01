@@ -4023,6 +4023,13 @@ readers do not read off random characters that represent icons */
 .sr-only-focusable:not(:focus), .fa-sr-only-focusable:not(:focus) { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
 
 /*! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. */
+:root, :host { --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free"; }
+
+@font-face { font-family: "Font Awesome 6 Free"; font-style: normal; font-weight: 400; font-display: block; src: url("/assets/webfonts/fa-regular-400.woff2") format("woff2"), url("/assets/webfonts/fa-regular-400.ttf") format("truetype"); }
+
+.far, .fa-regular { font-family: "Font Awesome 6 Free"; font-weight: 400; }
+
+/*! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. */
 :root, :host { --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"; }
 
 @font-face { font-family: "Font Awesome 6 Free"; font-style: normal; font-weight: 900; font-display: block; src: url("/assets/webfonts/fa-solid-900.woff2") format("woff2"), url("/assets/webfonts/fa-solid-900.ttf") format("truetype"); }
@@ -5346,6 +5353,8 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
+.page-header a { color: -webkit-link; }
+
 nav { margin-left: auto; margin-right: auto; width: 40em; }
 
 nav ul { list-style-type: none; padding-left: 40px; }
@@ -5370,11 +5379,7 @@ nav .current { color: #159957; font-size: 1.5em; }
 
 .main-content .highlight { border-radius: 10px; }
 
-.main-content .highlight pre { background-color: unset; border: none; }
-
-.main-content .highlight pre code { font-family: "Fira Code", Consolas, "Courier New", monospace; }
-
-@supports (font-variation-settings: normal) { .main-content .highlight pre code { font-family: "Fira Code VF", Consolas, "Courier New", monospace; } }
+.main-content .highlight pre { background-color: unset; border: none; font-family: "Fira Code", Consolas, "Courier New", monospace; }
 
 .main-content .highlight pre code[data-lang]::before { color: #f3f6fa; content: attr(data-lang); display: block; font-size: 16px; text-align: right; }
 
@@ -5383,6 +5388,8 @@ nav .current { color: #159957; font-size: 1.5em; }
 .main-content .highlight pre code td .lineno { border-radius: 0; border-right: 2px solid #f8f8f2; color: #f8f8f2; display: inline-block; padding: 0 5px; text-align: right; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 
 .main-content .highlight pre code td pre { border-radius: 0; padding: 0; }
+
+@supports (font-variation-settings: normal) { .main-content .highlight pre { font-family: "Fira Code VF", Consolas, "Courier New", monospace; } }
 
 .site-footer { display: grid; grid-auto-rows: auto; grid-template-columns: repeat(3, 1fr); margin: 32px 8px 8px; padding: 32px 8px 8px; text-align: center; }
 
