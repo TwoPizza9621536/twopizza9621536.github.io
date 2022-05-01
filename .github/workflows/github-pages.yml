@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: 📂 Setup
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -19,6 +21,7 @@ jobs:
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
+          format_output: true
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
       - name: 🚀 Deploy
@@ -26,4 +29,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages

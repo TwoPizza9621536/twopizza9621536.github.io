@@ -2,9 +2,9 @@
 title: 'Comparing Languages'
 date: '2021-10-02 14:53:31 -0400'
 tags:
-  - Comparison
-categories:
   - Programming
+categories:
+  - Comparisons
 description: A test of Jekyll's syntax highlighting and first blog post.
 ---
 

@@ -6,67 +6,63 @@
     </p>
     <p>
       This site is build on
-      <a href="{{ site.github.repository_url }}/actions"> {{ site.time }}</a>
+      <a href="{{ site.github.repository_url }}/actions"> {{ site.time }}</a>.
     </p>
     <p>
       Build Version:
-      <a
-        href="{{ site.github.repository_url }}/tree/{% project_version commit long %}"
-      >
-        {% project_version commit short %}</a
-      >
+      <a href="{{ site.github.repository_url }}/tree/{% project_version commit long %}">
+        {% project_version commit short %}
+      </a>
     </p>
   </div>
-  <div
-    xmlns:cc="https://creativecommons.org/ns#"
-    xmlns:dc="https://purl.org/dc/terms/"
-    class="copyright"
-  >
-    <a
-      class="cc-icons"
+  <div xmlns:cc="https://creativecommons.org/ns#" xmlns:dc="https://purl.org/dc/terms/" class="copyright">
+    <a class="cc-icons"
       rel="license"
       href="https://creativecommons.org/licenses/by-sa/4.0/"
       aria-label="Creative Commons Attribution Share-Alike Icons"
-      ><i class="fa-brands fa-creative-commons fa-2xl"></i>
+    >
+      <i class="fa-brands fa-creative-commons fa-2xl"></i>
       <i class="fa-brands fa-creative-commons-by fa-2xl"></i>
-      <i class="fa-brands fa-creative-commons-sa fa-2xl"></i
-    ></a>
-    <br />
+      <i class="fa-brands fa-creative-commons-sa fa-2xl"></i>
+    </a>
+    <br>
     Except where otherwise
     <em>
       <a href="{{ '/license' | relative_url }}"> noted </a>
     </em>
-    or <strong>stated on this page</strong>, content on the site is licensed
-    under the
+    or
+    <strong>stated on this page</strong>,
+    content on the site is licensed under the
     <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
-      Creative Commons Attribution-ShareAlike 4.0 International License</a
-    >.
+      Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.
   </div>
   <div class="socials">
     <a
       href="mailto:{{ site.email | encode_email }}"
-      target="top"
+      target="_top"
+      rel="noreferrer"
       title="Email"
       role="img"
       aria-label="Email to Samuel Wu"
-      ><i class="fa-solid fa-envelope fa-3x"></i
-    ></a>
+    >
+    <i class="fa-solid fa-envelope fa-3x"></i>
+    </a>
     {% for entry in site.data.socials %}
-    <a
-      href="{{ entry.href }}{{ entry.id }}"
-      title="{{ entry.title }}"
-      role="img"
-      aria-label="{{ entry.aria }}"
-      ><i class="fa-brands {{ entry.fa-icon }} fa-3x"></i
-    ></a>
+    <a href="{{ entry.href }}{{ entry.id }}" title="{{ entry.title }}" role="img" aria-label="{{ entry.aria }}">
+      <i class="fa-brands {{ entry.fa-icon }} fa-3x"></i>
+    </a>
     {% endfor %}
     <a
-      href="{{ '/feed.xml' | relative_url }}"
-      target="top"
+      href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
+      target="_top"
+      rel="noreferrer"
       title="RSS Feed"
+      type="application/atom+xml"
       role="img"
-      aria-label="Email to TwoPizza9621536"
-      ><i class="fa-solid fa-rss fa-3x"></i
-    ></a>
+      aria-label="RSS Feed"
+    >
+      <i class="fa-solid fa-rss fa-3x"></i>
+    </a>
   </div>
 </footer>

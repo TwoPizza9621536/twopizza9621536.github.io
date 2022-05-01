@@ -1,5 +1,5 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta
   http-equiv="Content-Security-Policy"
   content="
@@ -18,24 +18,21 @@
     img-src
       'self'
       https://github.githubassets.com/images/;"
-/>
+>
+<link href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}" type="image/x-icon" rel="icon">
 <link
   href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
-  type="application/rss+xml"
+  type="application/atom+xml"
   rel="alternate"
-  title="Latest 10 blog posts (atom)"
-/>
-<link href="{{ '/license' | relative_url }}" rel="license" />
-<link
-  rel="stylesheet"
-  href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
-/>
+  title="Samuel Wu @TwoPizza9621536"
+>
+<link href="{{ '/license' | relative_url }}" rel="license">
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 {% if page.css %}
 {% for stylesheet in page.css %}
-<link
-  rel="stylesheet"
+<link rel="stylesheet"
   href="{% asset_path /css/{{ stylesheet | append: '?v=' | append: site.github.build_revision | relative_url }} %}"
-/>
+>
 {% endfor %}
 {% endif %}
 {% seo %}

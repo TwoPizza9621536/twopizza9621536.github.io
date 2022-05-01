@@ -3,22 +3,17 @@ permalink: /
 ---
 
 <h2>:wave: Welcome</h2>
-<hr />
-<p>
-  Welcome to my main page. This is where I store tech/programming blogs. Below
-  are my latest posts.
-</p>
+<hr>
+<p>Welcome to my main page. This is where I store tech/programming blogs. Below are my latest posts.</p>
 
-<h2>:newspaper: Latest Posts</h3>
-<hr />
+<h2><i class="fa-solid fa-newspaper" aria-hidden="true"></i> Latest Posts</h2>
+<hr>
 <ul class="post-listing">
   {% for post in site.posts limit:5 %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <p class="date-time">
-      <small>
-        Posted On: {{ post.date }} | Last Updated On: {{ post.last_modified_at }}
-      </small>
+      <small>Posted On: {{ post.date }} | Last Updated On: {{ post.last_modified_at }}</small>
     </p>
     <p class="post-description">{{ post.description }}</p>
     {{ post.excerpt }}
@@ -27,21 +22,19 @@ permalink: /
 </ul>
 <a href="{{ '/blogs' | relative_url }}">See older posts.</a>
 
-<h2>{% octicon repo height:24 aria-label:Repositories %} Repositories</h2>
+<h2>{% octicon repo height:24 %} Repositories</h2>
+<hr>
 <ul class="repos">
   {% for repository in site.github.public_repositories %}
   {% unless repository.archived or repository.fork %}
   <li>
     <a href="{{ repository.html_url }}">
-      {{ repository.name }}
-      {% octicon star-fill height:16 aria-label:Stargazers %}
-      {{ repository.stargazers_count }}
+      {{ repository.name }} {% octicon star-fill height:16 aria-label:Stargazers %} {{ repository.stargazers_count }}
     </a>
     <p>{{ repository.description }}</p>
   </li>
-  {% endunless %}
-  {% endfor %}
+  {% endunless %} {% endfor %}
 </ul>
-<a href="https://github.com/TwoPizza9621536?tab=repositories"
-  >Here is all of my repositories.</a
->
+<a href="https://github.com/TwoPizza9621536?tab=repositories">
+  Here is all of my repositories.
+</a>

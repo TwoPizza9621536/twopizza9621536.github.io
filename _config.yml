@@ -59,6 +59,7 @@ defaults:
 
 feed:
   excerpt_only: true
+  tags: true
 
 jekyll-mentions: https://twitter.com
 

@@ -5,18 +5,16 @@ layout: page
 <div>
   <strong>Categories:</strong>
   {% for category in page.categories %}
-  <a href="{{ site.url }}/categories#{{ category | slugify }}">
-    {{ category }}
-  </a>
+  <a href="{{ tag | slugify | prepend: '/tags#' | relative_url }}">{{ category }}</a>
   {% endfor %}
   <strong>Tags:</strong>
   {% for tag in page.tags %}
-  <a href="{{ site.url }}/tags#{{ tag | slugify }}">{{ tag }}</a>
+  <a href="{{ tag | slugify | prepend: '/tags#' | relative_url }}">{{ tag }}</a>
   {% endfor %}
 </div>
 
 <p>Posted On: {{ page.date }} | Last Updated On: {{ page.last_modified_at }}</p>
 
-<hr />
+<hr>
 
 {{ content }}
