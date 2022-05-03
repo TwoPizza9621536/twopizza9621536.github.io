@@ -161,3 +161,5 @@ C even though you have learn pointers, memory management and manually set
 everything up, it is still simple. Java is both more complicated and simplified.
 Python is the simplest as it is a beginner language and all of the io is
 abstracted.
+
+Code snippets are licensed under the [MIT license](https://mit-license.org).

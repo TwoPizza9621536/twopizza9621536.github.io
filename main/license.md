@@ -39,15 +39,17 @@ There should be the title of the source material, my name with a link to this
 website, the full or abbreviation of the license, a link to the license
 [CC BY-SA 4.0][1], and a link to the page of the source material.
 
-If you remix, adapt, transform or build upon of this website use the CC License
-Chooser (use the beta version) and select must CC BY-SA and attribute me by
-putting my name in the author section. You may want to edit the metadata to
-hyperlink my name to this website and the page of the source material.
+If you remix, adapt, transform, derive or build upon of this website use the
+CC License Chooser (use the beta version) and select must CC BY-SA and attribute
+yourself and myself by putting your and my name in the author section due to the
+ShareAlike clause. You may want to edit the metadata to hyperlink my name to
+this website and the page of the source material.
 
-If there is a modification, indicate any modification from the original.
+If if you modify this website, indicate any modification from the original by
+appending the indication to the attribution text and credit yourself if you want
+to.
 
-Because this is text media, there are no extra variables determining does this
-activate the ShareAlike clause. In order to not activate the ShareAlike clause:
+In order to not activate the ShareAlike clause:
 the usage of the text must be under fair use, stand by itself and it is not
 modified.
 **This is only for this site and content I post.**
@@ -61,14 +63,10 @@ For more information, here is the official CC website for [attribution][3] and
 ---
 
 For other files that under a different license or under the Credits section,
-you can use them without licensing your website under CC BY-SA 4.0 License
-and crediting me, but you must follow their licenses that they are under.
-
-You can use the code snippets which under are the MIT License.
-
-You can use code or content that is under a permissive license (CC BY/BSD/MIT)
-or is under a public domain compatible license (PDM/CC0/Unlicense) for
-ShareAlike not to be activated.
+like code or content that is under a permissive license (CC BY/BSD/MIT)
+or is under a public domain compatible license (PDM/CC0/Unlicense), can be used
+without activating ShareAlike clause if they are stated to be under a different
+license. And you must follow their license terms if applicable.
 
 ## Credits
 
