@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-watch"
   gem "jemoji"
+  gem "sass-embedded"
 end
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
