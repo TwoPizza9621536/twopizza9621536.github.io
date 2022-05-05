@@ -6,7 +6,6 @@ tags:
 categories:
   - Comparisons
 description: A test of Jekyll's syntax highlighting and first blog post.
-slug: comparing-languages
 ---
 
 This is a comparison of syntax in 3 different languages as well as a test. It

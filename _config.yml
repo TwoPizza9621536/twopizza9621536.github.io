@@ -66,6 +66,8 @@ jekyll-mentions: https://twitter.com
 last-modified-at:
   date-format: "%F %T %z"
 
+strict_front_matter: true
+
 lsi: true
 
 sass:

@@ -4,6 +4,7 @@ gem "jekyll"
 # gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
+  gem "classifier-reborn"
   gem "jekyll_version_plugin"
   gem "jekyll-archives"
   gem "jekyll-compose"

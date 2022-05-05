@@ -8,6 +8,8 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    classifier-reborn (2.2.0)
+      fast-stemmer (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -37,6 +39,7 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
+    fast-stemmer (1.0.2)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
@@ -71,7 +74,7 @@ GEM
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-github-metadata (2.13.0)
+    jekyll-github-metadata (2.14.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.2.1)
@@ -166,6 +169,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  classifier-reborn
   http_parser.rb
   jekyll
   jekyll-archives
@@ -192,4 +196,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.12
+   2.3.13
