@@ -46,10 +46,15 @@
       role="img"
       aria-label="Email to Samuel Wu"
     >
-    <i class="fa-solid fa-envelope fa-3x"></i>
+      <i class="fa-solid fa-envelope fa-3x"></i>
     </a>
     {% for entry in site.data.socials %}
-    <a href="{{ entry.href }}{{ entry.id }}" title="{{ entry.title }}" role="img" aria-label="{{ entry.aria }}">
+    <a
+      href="{{ site.social.links[forloop.index0] }}"
+      title="{{ entry.title }}"
+      role="img"
+      aria-label="{{ entry.aria }}"
+    >
       <i class="fa-brands {{ entry.fa-icon }} fa-3x"></i>
     </a>
     {% endfor %}

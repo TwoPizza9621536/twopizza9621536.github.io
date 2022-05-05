@@ -66,8 +66,13 @@ jekyll-mentions: https://twitter.com
 last-modified-at:
   date-format: "%F %T %z"
 
+lsi: true
+
 sass:
   implementation: sass-embedded
+
+target-blank:
+  rel: nofollow
 
 plugins:
   - jekyll_version_plugin
@@ -77,6 +82,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-loading-lazy
   - jekyll-mentions
   - jekyll-octicons
   - jekyll-sass-converter
@@ -86,9 +92,7 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
 
-target-blank:
-  rel: nofollow
-
 exclude:
   - LICENSE
   - README.md
+  - frontmatter.json

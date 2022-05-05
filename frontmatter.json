@@ -1,0 +1,93 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "drafts",
+      "path": "[[workspace]]/collections/_drafts"
+    },
+    {
+      "title": "_posts",
+      "path": "[[workspace]]/collections/_posts"
+    }
+  ],
+  "frontMatter.framework.startCommand": "bundle exec jekyll serve",
+  "frontMatter.preview.host": "http://127.0.0.1:4000",
+  "frontMatter.site.baseURL": "https://twopizza9621536.github.io",
+  "frontMatter.taxonomy.dateFormat": "YYYY-MM-DD hh:mm:ss ZZZZ",
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.taxonomy.categories": [
+    "Comparisons",
+    "Cryptography",
+    "Software",
+    "Technology"
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Programming"
+  ],
+  "frontMatter.telemetry.disable": true,
+  "frontMatter.data.files": [
+    {
+      "id": "navigation",
+      "title": "Navigation Links",
+      "file": "[[workspace]]/_data/navigation.yml",
+      "fileType": "yaml",
+      "labelField": "Links",
+      "schema": {
+        "title": "Navigation",
+        "type": "object",
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "link": {
+            "title": "Link",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "link"
+        ]
+      }
+    },
+    {
+      "id": "social",
+      "title": "Social Media Links",
+      "file": "[[workspace]]/_data/socials.yml",
+      "fileType": "yaml",
+      "labelField": "",
+      "schema": {
+        "title": "Social",
+        "type": "object",
+        "properties": {
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "aria": {
+            "title": "ARIA",
+            "type": "string"
+          },
+          "fa-icon": {
+            "title": "FontAwesome Icon",
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "aria",
+          "fa-icon"
+        ]
+      }
+    }
+  ],
+  "frontMatter.media.supportedMimeTypes": [
+    "image/*",
+    "video/*",
+    "audio/*",
+    "text/*"
+  ]
+}

@@ -13,6 +13,9 @@ Last modified: {{ page.last_modified_at }}
 > copyright, trademarks, and register trademarks, please look up their
 > respective guideline from their respective owners.**
 
+Additional terms on how I handle the processing of data is available at
+the [Terms of Service and Privacy Policy][15] page.
+
 ## License
 
 ---
@@ -49,10 +52,9 @@ If if you modify this website, indicate any modification from the original by
 appending the indication to the attribution text and credit yourself if you want
 to.
 
-In order to not activate the ShareAlike clause:
-the usage of the text must be under fair use, stand by itself and it is not
-modified.
-**This is only for this site and content I post.**
+In order to not activate the ShareAlike clause: the usage of the content must be
+under fair use, the content must stand by itself and the content is not
+modified. **This is only for this site and content I post.**
 
 For more information, here is the official CC website for [attribution][3] and
 [licensing][4]. And here is the official CC wiki for [attribution][5] and
@@ -176,3 +178,4 @@ and click on the `old` and `master` branch.
 [12]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
 [13]: <https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/>
 [14]: <https://hyunyoung2.github.io/2016/12/17/Category_And_Tags_In_Jekyll/>
+[15]: <{{ '/terms-of-service-privacy-policy' | relative_url }}>

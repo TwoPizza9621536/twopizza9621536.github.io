@@ -26,4 +26,4 @@ bundle exec jekyll serve
 ## License
 
 Except stated otherwise, this site is licensed under the CC BY-SA 4.0.
-Code snippets are licensed under the MIT license.
+Code snippets are licensed under the MIT license or CC0.

@@ -2,10 +2,12 @@
 title: You Do Not Know How NFTs Works And Here Is Why It Is Stupid
 description: An explanation of how NFTs actually works and why it is stupid.
 tags:
-    - NFT
+  - NFT
 categories:
-    - Technology
-    - Cryptography
+  - Technology
+  - Cryptography
+draft: true
+slug: nfts-works-stupid
 ---
 
 Non Fungible Tokens or NFTs in recent months have been a very controversial

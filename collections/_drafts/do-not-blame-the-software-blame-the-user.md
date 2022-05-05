@@ -1,7 +1,9 @@
 ---
-title: 'Do Not Blame The Software, Blame The User'
+title: Do Not Blame The Software, Blame The User
 categories:
   - Software
+draft: true
+slug: blame-software-blame-user
 ---
 
 You know that saying goes:

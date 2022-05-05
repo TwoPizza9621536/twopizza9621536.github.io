@@ -1,11 +1,12 @@
 ---
-title: 'Comparing Languages'
-date: '2021-10-02 14:53:31 -0400'
+title: Comparing Languages
+date: 2021-10-02 14:53:31 -0400
 tags:
   - Programming
 categories:
   - Comparisons
 description: A test of Jekyll's syntax highlighting and first blog post.
+slug: comparing-languages
 ---
 
 This is a comparison of syntax in 3 different languages as well as a test. It
@@ -162,4 +163,5 @@ everything up, it is still simple. Java is both more complicated and simplified.
 Python is the simplest as it is a beginner language and all of the io is
 abstracted.
 
-Code snippets are licensed under the [MIT license](https://mit-license.org).
+Code snippets are licensed under the
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
