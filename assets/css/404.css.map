@@ -1,12 +1,1 @@
-{
-	"version": 3,
-	"file": "404.css",
-	"sources": [
-		"404.scss"
-	],
-	"sourcesContent": [
-		".container {\n  margin: 10px auto;\n  max-width: 600px;\n  text-align: center;\n}\n\nh1 {\n  margin: 30px 0;\n  font-size: 4em;\n  line-height: 1;\n  letter-spacing: -1px;\n}\n"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,UAAU,CAAC,EACT,MAAM,EAAE,SAAS,EACjB,SAAS,EAAE,KAAK,EAChB,UAAU,EAAE,MAAM,GACnB;;AAED,AAAA,EAAE,CAAC,EACD,MAAM,EAAE,MAAM,EACd,SAAS,EAAE,GAAG,EACd,WAAW,EAAE,CAAC,EACd,cAAc,EAAE,IAAI,GACrB"
-}
+{"version":3,"sourceRoot":"","sources":["assets/css/404.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA","sourcesContent":[".container {\n  margin: 10px auto;\n  max-width: 600px;\n  text-align: center;\n}\n\nh1 {\n  margin: 30px 0;\n  font-size: 4em;\n  line-height: 1;\n  letter-spacing: -1px;\n}\n"],"file":"404.css"}
