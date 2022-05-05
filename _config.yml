@@ -68,8 +68,6 @@ last-modified-at:
 
 strict_front_matter: true
 
-lsi: true
-
 sass:
   implementation: sass-embedded
 

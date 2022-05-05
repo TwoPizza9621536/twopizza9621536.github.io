@@ -18,18 +18,3 @@ layout: page
 <hr>
 
 {{ content }}
-
-<h2>Related Posts</h2>
-<ul class="post-listing">
-  {% for post in site.related_posts limit:3 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <p class="date-time">
-      <small>
-        Posted On: {{ post.date }} | Last Updated On:
-        {{ post.last_modified_at }}
-      </small>
-    </p>
-  </li>
-  {% endfor %}
-</ul>

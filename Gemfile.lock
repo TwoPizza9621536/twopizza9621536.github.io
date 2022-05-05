@@ -8,8 +8,6 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    classifier-reborn (2.2.0)
-      fast-stemmer (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -39,7 +37,6 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
-    fast-stemmer (1.0.2)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
@@ -169,7 +166,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  classifier-reborn
   http_parser.rb
   jekyll
   jekyll-archives
