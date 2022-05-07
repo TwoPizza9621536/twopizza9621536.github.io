@@ -2,7 +2,7 @@
 title: The Quest For a MinGW GCC
 date: 2021-10-02 04:33:23 -0400
 description: Compiling a compiler
-tag:
+tags:
   - CompileHell
 categories:
   - Software

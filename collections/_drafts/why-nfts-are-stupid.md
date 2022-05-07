@@ -4,8 +4,8 @@ description: An explanation of how NFTs actually works and why it is stupid.
 tags:
   - NFT
 categories:
-  - Technology
   - Cryptography
+  - Technology
 draft: true
 slug: nfts-works-stupid
 ---
