@@ -1,12 +1,8 @@
-- title: Twitter
-  aria: Samuel Wu's Twitter Account
-  fa-icon: fa-twitter
-- title: Github
-  aria: Samuel Wu's Twitter Account
-  fa-icon: fa-github
-- title: Keybase
-  aria: Samuel Wu's Keybase Account
-  fa-icon: fa-keybase
-- title: Reddit
-  aria: Samuel Wu's Reddit Account
-  fa-icon: fa-reddit
+- title: Samuel Wu's Twitter Account
+  icon: twitter
+- title: Samuel Wu's Github Account
+  icon: github
+- title: Samuel Wu's Keybase Account
+  icon: keybase
+- title: Samuel Wu's Reddit Account
+  icon: reddit

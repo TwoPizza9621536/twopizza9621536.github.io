@@ -9,7 +9,13 @@
     {% include navigation.html %}
 
     <main class="main-content" id="content" role="main">
-      {{ content }}
+      <div title="Table of Contents" id="table-of-contents">
+        <input id="spoiler-check" type="checkbox">
+        <label class="spoiler" for="spoiler-check">Table Of Contents</label>
+        {% include toc.html html=content id="toc" %}
+      </div>
+      <br>
+      {% include anchors.html html=content anchorTitle="Permalink to %heading%" anchorClass="anchor" %}
     </main>
 
     {% include_cached footer.html %}

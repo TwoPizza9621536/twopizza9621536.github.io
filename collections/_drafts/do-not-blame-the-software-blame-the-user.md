@@ -3,6 +3,7 @@ title: Do Not Blame The Software, Blame The User
 categories:
   - Software
 draft: true
+published: false
 slug: blame-software-blame-user
 ---
 

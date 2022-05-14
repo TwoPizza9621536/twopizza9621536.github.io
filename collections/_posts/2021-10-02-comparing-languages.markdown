@@ -24,11 +24,11 @@ stdin and stdout using {% ihighlight c %}prinf(){% endihighlight %} and
 the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.
 
-<!-- markdownlint-disable MD025 MD022 -->
+<!-- markdownlint-disable MD018 MD022 MD025 -->
 
 {% highlight c linenos %}
-# include <stdio.h>
-# include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char **argv)
 {

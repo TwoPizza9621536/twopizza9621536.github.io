@@ -7,6 +7,7 @@ categories:
   - Cryptography
   - Technology
 draft: true
+published: false
 slug: nfts-works-stupid
 ---
 

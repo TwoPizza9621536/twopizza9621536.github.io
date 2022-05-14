@@ -1,10 +1,8 @@
 source "https://rubygems.org"
 gem "jekyll"
-# gem "minima", "~> 2.5"
-# gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll_version_plugin"
+  gem "dotenv"
   gem "jekyll-archives"
   gem "jekyll-compose"
   gem "jekyll-email-protect"
@@ -20,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-target-blank"
   gem "jekyll-titles-from-headings"
   gem "jekyll-watch"
+  gem "jekyll_version_plugin"
   gem "jemoji"
   gem "sass-embedded"
 end

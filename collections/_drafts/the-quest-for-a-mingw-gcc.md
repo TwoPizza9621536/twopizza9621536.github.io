@@ -7,6 +7,7 @@ tags:
 categories:
   - Software
 draft: true
+published: false
 slug: quest-mingw-gcc
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<div>
+<div title="The post's categories and tags">
   <strong>Categories:</strong>
   {% for category in page.categories %}
   <a href="{{ tag | slugify | prepend: '/tags#' | relative_url }}">{{ category }}</a>
@@ -15,6 +15,10 @@ layout: page
 
 <p>Posted On: {{ page.date }} | Last Updated On: {{ page.last_modified_at }}</p>
 
+{% include reading_time.html %}
+
 <hr>
 
-{{ content }}
+<article title="{{ page.title }}">
+  {{ content }}
+</article>

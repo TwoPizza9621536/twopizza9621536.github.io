@@ -105,7 +105,7 @@ Jekyll Cayman theme is license under the [CC-BY 4.0 License][9].
 
 The social media icons from Font Awesome.
 
-Source code for Font Awesome at:
+Source code for Font Awesome can be found at:
 @Fort Awesome / <https://github.com/FortAwesome/Font-Awesome>
 or
 [Font Awesome](https://fontawesome.com)
@@ -123,12 +123,35 @@ Fira Code at:
 
 Fira Code is licensed under the [OFL 1.1][11].
 
-### Help With Jekyll
+### Jekyll Front Matter and Liquid Implementation
 
 ---
 
 Implementing line numbers are from [botleg by Hanzel Jesheen][12].
-Implementing tags and the catagories page are from [hyunyoung2][13]
+Implementing tags and the catagories page are from [hyunyoung2][13].
+Liquid snippet for implementing reading time is from [planet jekyll][14].
+Some tricks are from @jreel, these can be found at
+<https://jreel.github.io/jekyll-tips-tricks-and-best-practices/>.
+
+Implementation of the Table of Contents and anchor elements as include files are
+created by @allejo. Modified to use octicon link.
+
+The source code for the include files can be found at:
+<https://github.com/allejo/jekyll-anchor-headings>
+and
+<https://github.com/allejo/jekyll-toc>
+
+These include files are licensed under the [MIT license][8].
+
+### CSS
+
+---
+
+Some CSS is from @m-cat. The source code can be found at:
+<https://github.com/mcat/bytedude.com>
+
+And from the main website:
+<https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers>
 
 ### W3C
 
@@ -143,7 +166,7 @@ You can find the badges at the W3C website:
 HTML 5 icon can be found at the W3C website:
 [W3C](https://w3.org) / [W3C HTML5 Logo](https://www.w3.org/QA/Tools/Icons)
 
-The icons are license under the [CC-BY 3.0 License][14].
+The icons are license under the [CC-BY 3.0 License][15].
 
 ### Plugins
 
@@ -157,11 +180,11 @@ Here are the plugins that are used to build this site.
 
 {% endfor %}
 
-These are licensed either under the [MIT license][9], the [GPLv2][15] or the [LGPLv2][16].
+These are licensed either under the [MIT license][9], the [GPLv2][16] or the [LGPLv2][17].
 
 ### Old Version
 
-To see the old version of this site, go to the [site's GitHub repository][17]
+To see the old version of this site, go to the [site's GitHub repository][18]
 and click on the `old` or the `master` branch.
 
 [1]: <{{ '/terms-of-service-privacy-policy' | relative_url }}>
@@ -177,7 +200,8 @@ and click on the `old` or the `master` branch.
 [11]: <https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web>
 [12]: <https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/>
 [13]: <https://hyunyoung2.github.io/2016/12/17/Category_And_Tags_In_Jekyll/>
-[14]: <https://creativecommons.org/licenses/by/3.0/>
-[15]: <https://github.com/SciRuby/rb-gsl/blob/master/COPYING>
-[16]: <https://github.com/jekyll/classifier-reborn/blob/master/LICENSE>
-[17]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
+[14]: <https://planetjekyll.github.io/snippets/reading-time>
+[15]: <https://creativecommons.org/licenses/by/3.0/>
+[16]: <https://github.com/SciRuby/rb-gsl/blob/master/COPYING>
+[17]: <https://github.com/jekyll/classifier-reborn/blob/master/LICENSE>
+[18]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>

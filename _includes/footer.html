@@ -10,21 +10,33 @@
     </p>
     <p>
       Build Version:
-      <a href="{{ site.github.repository_url }}/tree/{% project_version commit long %}">
-        {% project_version commit short %}
-      </a>
+      <a href="{{ site.github.repository_url }}/tree/{% project_version commit long %}">{% project_version commit short %}</a>
     </p>
   </div>
   <div xmlns:cc="https://creativecommons.org/ns#" xmlns:dc="https://purl.org/dc/terms/" class="copyright">
-    <a class="cc-icons"
-      rel="license"
+    <a
+      class="cc-icons"
       href="https://creativecommons.org/licenses/by-sa/4.0/"
+      rel="license"
+      title="Creative Commons Attribution-ShareAlike 4.0 International License"
       aria-label="Creative Commons Attribution Share-Alike Icons"
-    >
-      <i class="fa-brands fa-creative-commons fa-2xl"></i>
-      <i class="fa-brands fa-creative-commons-by fa-2xl"></i>
-      <i class="fa-brands fa-creative-commons-sa fa-2xl"></i>
-    </a>
+    ><svg height="32" width="96" version="1.1" viewBox="0 0 96 32" rol="img" aria-hidden="true">
+      <use
+        height="32"
+        width="32"
+        href="{{ '/assets/svg/creative-commons.svg?v=' | append: site.github.build_revision | relative_url }}"
+      />
+      <use
+        height="32"
+        width="32"
+        href="{{ '/assets/svg/creative-commons-by.svg?v=' | append: site.github.build_revision | relative_url }}"
+      />
+      <use
+        hight="32"
+        width="32"
+        href="{{ '/assets/svg/creative-commons-sa.svg?v=' | append: site.github.build_revision | relative_url }}"
+      />
+    </svg></a>
     <br>
     Except where otherwise
     <em>
@@ -34,40 +46,44 @@
     <strong>stated on this page</strong>,
     content on this site is licensed under the
     <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
-      Creative Commons Attribution-ShareAlike 4.0 International License
-    </a>.
+      Creative Commons Attribution-ShareAlike 4.0 International License</a>.
   </div>
   <div class="socials">
     <a
       href="mailto:{{ site.email | encode_email }}"
       target="_top"
       rel="noreferrer"
-      title="Email"
-      role="img"
-      aria-label="Email to Samuel Wu"
-    >
-      <i class="fa-solid fa-envelope fa-3x"></i>
-    </a>
+      title="Email to Samuel Wu"
+    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" rol="img" aria-hidden="true">
+      <use
+        height="48"
+        width="48"
+        href="{{ '/assets/svg/envelope.svg?v=' | append: site.github.build_revision | relative_url }}"
+      />
+    </svg></a>
     {% for entry in site.data.socials %}
     <a
       href="{{ site.social.links[forloop.index0] }}"
       title="{{ entry.title }}"
-      role="img"
-      aria-label="{{ entry.aria }}"
-    >
-      <i class="fa-brands {{ entry.fa-icon }} fa-3x"></i>
-    </a>
+    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" rol="img" aria-hidden="true">
+      <use
+        height="48"
+        width="48"
+        href="{{ entry.icon | prepend: '/assets/svg/' | append: '.svg' | append: '?v=' | append: site.github.build_revision | relative_url }}"
+      />
+    </svg></a>
     {% endfor %}
     <a
       href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
       target="_top"
       rel="noreferrer"
-      title="RSS Feed"
+      title="RSS/Atom Feed"
       type="application/atom+xml"
-      role="img"
-      aria-label="RSS Feed"
-    >
-      <i class="fa-solid fa-rss fa-3x"></i>
-    </a>
+    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" rol="img" aria-hidden="true">
+      <use
+        height="48"
+        width="48"
+        href="{{ '/assets/svg/rss.svg?v=' | append: site.github.build_revision | relative_url }}" />
+    </svg></a>
   </div>
 </footer>

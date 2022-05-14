@@ -62,19 +62,17 @@ feed:
 
 jekyll-mentions: https://twitter.com
 
-last-modified-at:
-  date-format: "%F %T %z"
-
 strict_front_matter: true
 
 sass:
   implementation: sass-embedded
+  style: compressed
 
 target-blank:
+  add_css_classes: external
   rel: nofollow
 
 plugins:
-  - jekyll_version_plugin
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
@@ -89,9 +87,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-titles-from-headings
+  - jekyll_version_plugin
   - jemoji
 
 exclude:
   - LICENSE
   - README.md
   - frontmatter.json
+  - node_modules
+  - postcss.config.js

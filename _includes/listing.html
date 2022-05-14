@@ -1,0 +1,29 @@
+{% assign numPosts = include.numPosts %}
+{% assign heading = include.heading %}
+{% assign headingId = include.headingId %}
+{% assign isPage = include.isPage %}
+{% assign posts = page.posts | default: site.posts %}
+
+<section>
+  {% if isPage %}
+    <h2 class="no_toc">Archive {{ page.date | date: "%Y" }}</h2>
+  {% else %}
+    <h2 {% if headingId %}id="{{ headingId }}"{% endif %}>{{ heading }}</h2>
+  {% endif %}
+  <ul class="post-listing">
+    {% for post in posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p class="date-time">
+        Posted On: {{ post.date }} | Last Updated On:
+        {{ post.last_modified_at }}
+      </p>
+      <p class="post-description">{{ post.description }}</p>
+      {{ post.excerpt }}
+    </li>
+    {% endfor %}
+  </ul>
+  {% if page.permalink == "/" %}
+  <a href="{{ '/blogs' | relative_url }}">See older posts.</a>
+  {% endif %}
+</section>

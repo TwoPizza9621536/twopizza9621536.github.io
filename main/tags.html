@@ -3,7 +3,7 @@ permalink: /tags
 title: Tags
 ---
 
-<div class="quick-links">
+<div class="quick-links" title="Fast Travel">
   {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
   {% endfor %}
@@ -12,13 +12,15 @@ title: Tags
 <hr>
 
 {% for tag in site.tags %}
-<h2 id="#{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-<ul>
-  {% for post in tag[1] %}
+<section>
+  <h2 id="#{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+  <ul>
+    {% for post in tag[1] %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <p>{{ post.description }}</p>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</section>
 {% endfor %}

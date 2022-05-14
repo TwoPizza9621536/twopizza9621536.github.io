@@ -3,7 +3,7 @@ permalink: /categories
 title: Categories
 ---
 
-<div class="quick-links">
+<div class="quick-links" title="Fast Travel">
   {% for category in site.categories %}
     <a href="#{{ category[0] | slugify }}">{{ category[0] }}</a>
   {% endfor %}
@@ -12,13 +12,15 @@ title: Categories
 <hr>
 
 {% for category in site.categories %}
-<h2 id="#{{ category[0] | slugify }}">{{ category[0] }}</h2>
-<ul>
-  {% for post in category[1] %}
+<section>
+  <h2 id="#{{ category[0] | slugify }}">{{ category[0] }}</h2>
+  <ul>
+    {% for post in category[1] %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <p>{{ post.description }}</p>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</section>
 {% endfor %}
