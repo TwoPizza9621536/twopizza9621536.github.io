@@ -15,26 +15,29 @@
   </div>
   <div xmlns:cc="https://creativecommons.org/ns#" xmlns:dc="https://purl.org/dc/terms/" class="copyright">
     <a
-      class="cc-icons"
+      class="cc-icon"
       href="https://creativecommons.org/licenses/by-sa/4.0/"
       rel="license"
       title="Creative Commons Attribution-ShareAlike 4.0 International License"
       aria-label="Creative Commons Attribution Share-Alike Icons"
-    ><svg height="32" width="96" version="1.1" viewBox="0 0 96 32" rol="img" aria-hidden="true">
+    ><svg height="48" width="150" version="1.1" viewBox="0 0 150 48" class="fa-icon" rol="img" aria-hidden="true">
       <use
-        height="32"
-        width="32"
-        href="{{ '/assets/svg/creative-commons.svg?v=' | append: site.github.build_revision | relative_url }}"
+        height="48"
+        width="48"
+        x="0"
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#creative-commons' | relative_url }}"
       />
       <use
-        height="32"
-        width="32"
-        href="{{ '/assets/svg/creative-commons-by.svg?v=' | append: site.github.build_revision | relative_url }}"
+        height="48"
+        width="48"
+        x="50"
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#creative-commons-by' | relative_url }}"
       />
       <use
-        hight="32"
-        width="32"
-        href="{{ '/assets/svg/creative-commons-sa.svg?v=' | append: site.github.build_revision | relative_url }}"
+        hight="48"
+        width="48"
+        x="100"
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#creative-commons-sa' | relative_url }}"
       />
     </svg></a>
     <br>
@@ -54,22 +57,22 @@
       target="_top"
       rel="noreferrer"
       title="Email to Samuel Wu"
-    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" rol="img" aria-hidden="true">
+    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" class="fa-icon" rol="img" aria-hidden="true">
       <use
         height="48"
         width="48"
-        href="{{ '/assets/svg/envelope.svg?v=' | append: site.github.build_revision | relative_url }}"
+        href="{{ '/assets/svg/solid.svg?v=' | append: site.github.build_revision | append: '#envelope' | relative_url }}"
       />
     </svg></a>
     {% for entry in site.data.socials %}
     <a
       href="{{ site.social.links[forloop.index0] }}"
       title="{{ entry.title }}"
-    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" rol="img" aria-hidden="true">
+    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" class="fa-icon" rol="img" aria-hidden="true">
       <use
         height="48"
         width="48"
-        href="{{ entry.icon | prepend: '/assets/svg/' | append: '.svg' | append: '?v=' | append: site.github.build_revision | relative_url }}"
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#' | append: entry.icon | relative_url }}"
       />
     </svg></a>
     {% endfor %}
@@ -79,11 +82,11 @@
       rel="noreferrer"
       title="RSS/Atom Feed"
       type="application/atom+xml"
-    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" rol="img" aria-hidden="true">
+    ><svg height="48" width="48" version="1.1" viewBox="0 0 48 48" class="fa-icon" rol="img" aria-hidden="true">
       <use
         height="48"
         width="48"
-        href="{{ '/assets/svg/rss.svg?v=' | append: site.github.build_revision | relative_url }}" />
+        href="{{ '/assets/svg/solid.svg?v=' | append: site.github.build_revision | append: '#rss' | relative_url }}" />
     </svg></a>
   </div>
 </footer>

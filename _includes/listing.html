@@ -6,10 +6,16 @@
 
 <section>
   {% if isPage %}
-    <h2 class="no_toc">Archive {{ page.date | date: "%Y" }}</h2>
+    <h2 class="no_toc">{% octicon archive height:24 %} Archive {{ page.date | date: "%Y" }}</h2>
   {% else %}
-    <h2 {% if headingId %}id="{{ headingId }}"{% endif %}>{{ heading }}</h2>
+    <h2 {% if headingId %}id="{{ headingId }}"{% endif %}>
+      <svg height="24" width="24" version="1.1" viewBox="0 0 24 24" class="fa-icon" rol="img" aria-hidden="true">
+        <use height="24" width="24" href="{{ '/assets/svg/regular.svg?v=' | append: site.github.build_revision | append: '#newspaper' | relative_url }}"/>
+      </svg>
+      {{ heading }}
+    </h2>
   {% endif %}
+  <hr>
   <ul class="post-listing">
     {% for post in posts %}
     <li>
