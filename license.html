@@ -23,12 +23,12 @@
       https://github.githubassets.com/images/;"
     />
     <link
-      href="/favicon.ico?v=9059df8acac2d499fe2ab93dddaaccba9be11537"
+      href="/favicon.ico?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
       type="image/x-icon"
       rel="icon"
     />
     <link
-      href="/feed.xml?v=9059df8acac2d499fe2ab93dddaaccba9be11537"
+      href="/feed.xml?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
       type="application/atom+xml"
       rel="alternate"
       title="Samuel Wu @TwoPizza9621536"
@@ -36,7 +36,7 @@
     <link href="/license" rel="license" />
     <link
       rel="stylesheet"
-      href="/assets/css/style.css?v=9059df8acac2d499fe2ab93dddaaccba9be11537"
+      href="/assets/css/style.css?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
     />
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -77,7 +77,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "author": { "@type": "Person", "name": "Samuel Wu" },
-        "dateModified": "2022-05-05T18:29:28-04:00",
+        "dateModified": "2022-05-14T07:14:56-04:00",
         "description": "The License, Acknowledgments and Dependencies for twopizza9621536.github.io.",
         "headline": "License",
         "url": "https://twopizza9621536.github.io/license"
@@ -100,35 +100,64 @@
     <nav>
       <ul>
         <li>
-          <a href="/" rel="license"> Home </a>
+          <a href="/" rel="license">Home</a>
         </li>
 
         <li>
-          <a href="/blogs" rel="license"> Blogs </a>
+          <a href="/blogs" rel="license">Blogs</a>
         </li>
 
         <li>
-          <a href="/terms-of-service-privacy-policy" rel="license">
-            ToS &amp; Privacy
-          </a>
+          <a href="/terms-of-service-privacy-policy" rel="license"
+            >ToS &amp; Privacy</a
+          >
         </li>
 
         <li>
-          <a href="/public-keys" rel="license"> Public Keys </a>
+          <a href="/public-keys" rel="license">Public Keys</a>
         </li>
 
         <li>
-          <a href="/license" class="current" rel="license"> License </a>
+          <a href="/license" class="current" rel="license">License</a>
         </li>
 
         <li>
-          <a href="/about" rel="license"> About </a>
+          <a href="/about" rel="license">About</a>
         </li>
       </ul>
     </nav>
 
     <main class="main-content" id="content" role="main">
-      <p>Last modified: 2022-05-05 18:29:28 -0400</p>
+      <div title="Table of Contents" id="table-of-contents">
+        <input id="spoiler-check" type="checkbox" />
+        <label class="spoiler" for="spoiler-check">Table Of Contents</label>
+        <ul id="toc">
+          <li><a href="#license">License</a></li>
+          <li>
+            <a href="#notice"><strong>Notice</strong></a>
+          </li>
+          <li>
+            <a href="#credits">Credits</a>
+            <ul>
+              <li><a href="#jekyll">Jekyll</a></li>
+              <li><a href="#cayman">Cayman</a></li>
+              <li><a href="#font-awesome">Font Awesome</a></li>
+              <li><a href="#fira-code">Fira Code</a></li>
+              <li>
+                <a href="#jekyll-front-matter-and-liquid-implementation"
+                  >Jekyll Front Matter and Liquid Implementation</a
+                >
+              </li>
+              <li><a href="#css">CSS</a></li>
+              <li><a href="#w3c">W3C</a></li>
+              <li><a href="#plugins">Plugins</a></li>
+              <li><a href="#old-version">Old Version</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <p>Last modified: 2022-05-14 07:14:56 -0400</p>
 
       <blockquote>
         <p>
@@ -150,9 +179,25 @@
         >
         page.
       </p>
-
-      <h2 id="license">License</h2>
-
+      <h2 id="license">
+        License
+        <a href="#license" class="anchor" title="Permalink to License"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h2>
       <hr />
 
       <p>
@@ -161,6 +206,7 @@
           href="https://creativecommons.org/licenses/by-sa/4.0/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >Creative Commons Attribution-ShareAlike 4.0 International License</a
         >.
       </p>
@@ -181,6 +227,7 @@
             href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
             target="_blank"
             rel="noopener noreferrer nofollow"
+            class="external"
             >legal code</a
           >.</em
         >
@@ -205,6 +252,7 @@
           href="https://creativecommons.org/licenses/by-sa/4.0/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >CC BY-SA 4.0</a
         >, and a link to the page of the source material.
       </p>
@@ -237,6 +285,7 @@
           href="https://creativecommons.org/use-remix/attribution"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >attribution</a
         >
         and
@@ -244,12 +293,14 @@
           href="https://creativecommons.org/share-your-work"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >licensing</a
         >. And here is the official CC wiki for
         <a
           href="https://wiki.creativecommons.org/wiki/Best_practices_for_attribution"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >attribution</a
         >
         and
@@ -257,12 +308,29 @@
           href="https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >licensing</a
         >.
       </p>
-
-      <h2 id="notice"><strong>Notice</strong></h2>
-
+      <h2 id="notice">
+        <strong>Notice</strong>
+        <a href="#notice" class="anchor" title="Permalink to Notice"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h2>
       <hr />
 
       <p>
@@ -273,15 +341,47 @@
         they are stated to be under a different license. And you must follow
         their license terms if applicable.
       </p>
-
-      <h2 id="credits">Credits</h2>
-
+      <h2 id="credits">
+        Credits
+        <a href="#credits" class="anchor" title="Permalink to Credits"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h2>
       <hr />
 
       <p>Here is a list of all dependencies to create this site.</p>
-
-      <h3 id="jekyll">Jekyll</h3>
-
+      <h3 id="jekyll">
+        Jekyll
+        <a href="#jekyll" class="anchor" title="Permalink to Jekyll"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>
@@ -290,6 +390,7 @@
           href="https://jekyllrb.com"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >https://jekyllrb.com</a
         >
         on how to create your own static website. Jekyll is under the
@@ -297,12 +398,29 @@
           href="https://mit-license.org"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >MIT license</a
         >.
       </p>
-
-      <h3 id="cayman">Cayman</h3>
-
+      <h3 id="cayman">
+        Cayman
+        <a href="#cayman" class="anchor" title="Permalink to Cayman"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>The theme for this site is Cayman.</p>
@@ -311,7 +429,7 @@
         Source code for Cayman at:
         <a
           href="https://github.com/jasonlong"
-          class="user-mention"
+          class="external user-mention"
           target="_blank"
           rel="noopener noreferrer nofollow"
           >@jasonlong</a
@@ -321,6 +439,7 @@
           href="https://github.com/jasonlong/cayman-theme"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >https://github.com/jasonlong/cayman-theme</a
         >
       </p>
@@ -331,6 +450,7 @@
           href="https://creativecommons.org/licenses/by/4.0/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >CC-BY 4.0 License</a
         >.
       </p>
@@ -339,7 +459,7 @@
         Source code for Jekyll-Cayman-theme at:
         <a
           href="https://github.com/pietromenna"
-          class="user-mention"
+          class="external user-mention"
           target="_blank"
           rel="noopener noreferrer nofollow"
           >@pietromenna</a
@@ -349,6 +469,7 @@
           href="https://github.com/pietromenna/jekyll-cayman-theme"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >https://github.com/pietromenna/jekyll-cayman-theme</a
         >
       </p>
@@ -359,21 +480,38 @@
           href="https://creativecommons.org/licenses/by/4.0/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >CC-BY 4.0 License</a
         >.
       </p>
-
-      <h3 id="font-awesome">Font Awesome</h3>
-
+      <h3 id="font-awesome">
+        Font Awesome
+        <a href="#font-awesome" class="anchor" title="Permalink to Font Awesome"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>The social media icons from Font Awesome.</p>
 
       <p>
-        Source code for Font Awesome at:
+        Source code for Font Awesome can be found at:
         <a
           href="https://github.com/Fort"
-          class="user-mention"
+          class="external user-mention"
           target="_blank"
           rel="noopener noreferrer nofollow"
           >@Fort</a
@@ -383,6 +521,7 @@
           href="https://github.com/FortAwesome/Font-Awesome"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >https://github.com/FortAwesome/Font-Awesome</a
         >
         or
@@ -390,6 +529,7 @@
           href="https://fontawesome.com"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >Font Awesome</a
         >
       </p>
@@ -400,12 +540,29 @@
           href="https://fontawesome.com/license/free"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >Font Awesome Free License</a
         >.
       </p>
-
-      <h3 id="fira-code">Fira Code</h3>
-
+      <h3 id="fira-code">
+        Fira Code
+        <a href="#fira-code" class="anchor" title="Permalink to Fira Code"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>
@@ -416,7 +573,7 @@
         Fira Code at:
         <a
           href="https://github.com/tonsky"
-          class="user-mention"
+          class="external user-mention"
           target="_blank"
           rel="noopener noreferrer nofollow"
           >@tonsky</a
@@ -426,6 +583,7 @@
           href="https://github.com/tonsky/FiraCode"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >https://github.com/tonsky/FiraCode</a
         >
       </p>
@@ -436,12 +594,32 @@
           href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >OFL 1.1</a
         >.
       </p>
-
-      <h3 id="help-with-jekyll">Help With Jekyll</h3>
-
+      <h3 id="jekyll-front-matter-and-liquid-implementation">
+        Jekyll Front Matter and Liquid Implementation
+        <a
+          href="#jekyll-front-matter-and-liquid-implementation"
+          class="anchor"
+          title="Permalink to Jekyll Front Matter and Liquid Implementation"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>
@@ -450,18 +628,148 @@
           href="https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >botleg by Hanzel Jesheen</a
         >. Implementing tags and the catagories page are from
         <a
           href="https://hyunyoung2.github.io/2016/12/17/Category_And_Tags_In_Jekyll/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >hyunyoung2</a
+        >. Liquid snippet for implementing reading time is from
+        <a
+          href="https://planetjekyll.github.io/snippets/reading-time"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >planet jekyll</a
+        >. Some tricks are from
+        <a
+          href="https://github.com/jreel"
+          class="external user-mention"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >@jreel</a
+        >, these can be found at
+        <a
+          href="https://jreel.github.io/jekyll-tips-tricks-and-best-practices/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >https://jreel.github.io/jekyll-tips-tricks-and-best-practices/</a
+        >.
+      </p>
+
+      <p>
+        Implementation of the Table of Contents and anchor elements as include
+        files are created by
+        <a
+          href="https://github.com/allejo"
+          class="external user-mention"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >@allejo</a
+        >. Modified to use octicon link.
+      </p>
+
+      <p>
+        The source code for the include files can be found at:
+        <a
+          href="https://github.com/allejo/jekyll-anchor-headings"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >https://github.com/allejo/jekyll-anchor-headings</a
+        >
+        and
+        <a
+          href="https://github.com/allejo/jekyll-toc"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >https://github.com/allejo/jekyll-toc</a
         >
       </p>
 
-      <h3 id="w3c">W3C</h3>
+      <p>
+        These include files are licensed under the
+        <a
+          href="https://mit-license.org"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >MIT license</a
+        >.
+      </p>
+      <h3 id="css">
+        CSS
+        <a href="#css" class="anchor" title="Permalink to CSS"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
+      <hr />
 
+      <p>
+        Some CSS is from
+        <a
+          href="https://github.com/m-cat"
+          class="external user-mention"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >@m-cat</a
+        >. The source code can be found at:
+        <a
+          href="https://github.com/mcat/bytedude.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >https://github.com/mcat/bytedude.com</a
+        >
+      </p>
+
+      <p>
+        And from the main website:
+        <a
+          href="https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          class="external"
+          >https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers</a
+        >
+      </p>
+      <h3 id="w3c">
+        W3C
+        <a href="#w3c" class="anchor" title="Permalink to W3C"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>For a secret page some badges are from W3C.</p>
@@ -472,6 +780,7 @@
           href="https://w3.org"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >W3C</a
         >
         /
@@ -479,6 +788,7 @@
           href="https://www.w3.org/html/logo/index.html"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >Validation Badges</a
         >
       </p>
@@ -489,6 +799,7 @@
           href="https://w3.org"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >W3C</a
         >
         /
@@ -496,6 +807,7 @@
           href="https://www.w3.org/QA/Tools/Icons"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >W3C HTML5 Logo</a
         >
       </p>
@@ -506,20 +818,34 @@
           href="https://creativecommons.org/licenses/by/3.0/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >CC-BY 3.0 License</a
         >.
       </p>
-
-      <h3 id="plugins">Plugins</h3>
-
+      <h3 id="plugins">
+        Plugins
+        <a href="#plugins" class="anchor" title="Permalink to Plugins"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
       <hr />
 
       <p>Here are the plugins that are used to build this site.</p>
 
       <ul>
-        <li>
-          <p>jekyll_version_plugin</p>
-        </li>
         <li>
           <p>jekyll-archives</p>
         </li>
@@ -563,6 +889,9 @@
           <p>jekyll-titles-from-headings</p>
         </li>
         <li>
+          <p>jekyll_version_plugin</p>
+        </li>
+        <li>
           <p>jemoji</p>
         </li>
       </ul>
@@ -573,12 +902,14 @@
           href="https://creativecommons.org/licenses/by/4.0/"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >MIT license</a
         >, the
         <a
           href="https://github.com/SciRuby/rb-gsl/blob/master/COPYING"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >GPLv2</a
         >
         or the
@@ -586,11 +917,29 @@
           href="https://github.com/jekyll/classifier-reborn/blob/master/LICENSE"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >LGPLv2</a
         >.
       </p>
-
-      <h3 id="old-version">Old Version</h3>
+      <h3 id="old-version">
+        Old Version
+        <a href="#old-version" class="anchor" title="Permalink to Old Version"
+          ><svg
+            height="24"
+            class="octicon octicon-link"
+            viewbox="0 0 24 24"
+            version="1.1"
+            width="24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14.78 3.653a3.936 3.936 0 115.567 5.567l-3.627 3.627a3.936 3.936 0 01-5.88-.353.75.75 0 00-1.18.928 5.436 5.436 0 008.12.486l3.628-3.628a5.436 5.436 0 10-7.688-7.688l-3 3a.75.75 0 001.06 1.061l3-3z"
+            ></path>
+            <path
+              d="M7.28 11.153a3.936 3.936 0 015.88.353.75.75 0 001.18-.928 5.436 5.436 0 00-8.12-.486L2.592 13.72a5.436 5.436 0 107.688 7.688l3-3a.75.75 0 10-1.06-1.06l-3 3a3.936 3.936 0 01-5.567-5.568l3.627-3.627z"
+            ></path></svg
+        ></a>
+      </h3>
 
       <p>
         To see the old version of this site, go to the
@@ -598,6 +947,7 @@
           href="https://github.com/TwoPizza9621536/twopizza9621536.github.io"
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="external"
           >site’s GitHub repository</a
         >
         and click on the
@@ -614,6 +964,7 @@
             href="https://pages.github.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
+            class="external"
           >
             GitHub Pages</a
           >.
@@ -624,19 +975,20 @@
             href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/actions"
             target="_blank"
             rel="noopener noreferrer nofollow"
+            class="external"
           >
-            2022-05-07 08:14:16 -0400</a
+            2022-05-14 07:16:02 -0400</a
           >.
         </p>
         <p>
           Build Version:
           <a
-            href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/tree/9059df8acac2d499fe2ab93dddaaccba9be11537"
+            href="https://github.com/TwoPizza9621536/twopizza9621536.github.io/tree/1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
             target="_blank"
             rel="noopener noreferrer nofollow"
+            class="external"
+            >1fc06a6</a
           >
-            9059df8
-          </a>
         </p>
       </div>
       <div
@@ -645,16 +997,36 @@
         class="copyright"
       >
         <a
-          class="cc-icons"
-          rel="noopener noreferrer nofollow"
+          class="external cc-icons"
           href="https://creativecommons.org/licenses/by-sa/4.0/"
+          rel="noopener noreferrer nofollow"
+          title="Creative Commons Attribution-ShareAlike 4.0 International License"
           aria-label="Creative Commons Attribution Share-Alike Icons"
           target="_blank"
-        >
-          <i class="fa-brands fa-creative-commons fa-2xl"></i>
-          <i class="fa-brands fa-creative-commons-by fa-2xl"></i>
-          <i class="fa-brands fa-creative-commons-sa fa-2xl"></i>
-        </a>
+          ><svg
+            height="32"
+            width="96"
+            version="1.1"
+            viewbox="0 0 96 32"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="32"
+              width="32"
+              href="/assets/svg/creative-commons.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use>
+            <use
+              height="32"
+              width="32"
+              href="/assets/svg/creative-commons-by.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use>
+            <use
+              hight="32"
+              width="32"
+              href="/assets/svg/creative-commons-sa.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
         <br />
         Except where otherwise
         <em>
@@ -667,8 +1039,9 @@
           rel="noopener noreferrer nofollow"
           href="https://creativecommons.org/licenses/by-sa/4.0/"
           target="_blank"
+          class="external"
         >
-          Creative Commons Attribution-ShareAlike 4.0 International License </a
+          Creative Commons Attribution-ShareAlike 4.0 International License</a
         >.
       </div>
       <div class="socials">
@@ -676,68 +1049,126 @@
           href="mailto:%74%77%6F%70%69%7A%7A%61%39%36%32%31%35%33%36@%67%6D%61%69%6C.%63%6F%6D"
           target="_top"
           rel="noreferrer"
-          title="Email"
-          role="img"
-          aria-label="Email to Samuel Wu"
-        >
-          <i class="fa-solid fa-envelope fa-3x"></i>
-        </a>
+          title="Email to Samuel Wu"
+          ><svg
+            height="48"
+            width="48"
+            version="1.1"
+            viewbox="0 0 48 48"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="48"
+              width="48"
+              href="/assets/svg/envelope.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
 
         <a
           href="https://twitter.com/TwoPizza9621536"
-          title="Twitter"
-          role="img"
-          aria-label="Samuel Wu's Twitter Account"
+          title="Samuel Wu's Twitter Account"
           target="_blank"
           rel="noopener noreferrer nofollow"
-        >
-          <i class="fa-brands fa-twitter fa-3x"></i>
-        </a>
+          class="external"
+          ><svg
+            height="48"
+            width="48"
+            version="1.1"
+            viewbox="0 0 48 48"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="48"
+              width="48"
+              href="/assets/svg/twitter.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
 
         <a
           href="https://github.com/TwoPizza9621536"
-          title="Github"
-          role="img"
-          aria-label="Samuel Wu's Twitter Account"
+          title="Samuel Wu's Github Account"
           target="_blank"
           rel="noopener noreferrer nofollow"
-        >
-          <i class="fa-brands fa-github fa-3x"></i>
-        </a>
+          class="external"
+          ><svg
+            height="48"
+            width="48"
+            version="1.1"
+            viewbox="0 0 48 48"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="48"
+              width="48"
+              href="/assets/svg/github.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
 
         <a
           href="https://keybase.io/TwoPizza9621536"
-          title="Keybase"
-          role="img"
-          aria-label="Samuel Wu's Keybase Account"
+          title="Samuel Wu's Keybase Account"
           target="_blank"
           rel="noopener noreferrer nofollow"
-        >
-          <i class="fa-brands fa-keybase fa-3x"></i>
-        </a>
+          class="external"
+          ><svg
+            height="48"
+            width="48"
+            version="1.1"
+            viewbox="0 0 48 48"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="48"
+              width="48"
+              href="/assets/svg/keybase.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
 
         <a
           href="https://reddit.com/u/twopizza9621536"
-          title="Reddit"
-          role="img"
-          aria-label="Samuel Wu's Reddit Account"
+          title="Samuel Wu's Reddit Account"
           target="_blank"
           rel="noopener noreferrer nofollow"
-        >
-          <i class="fa-brands fa-reddit fa-3x"></i>
-        </a>
+          class="external"
+          ><svg
+            height="48"
+            width="48"
+            version="1.1"
+            viewbox="0 0 48 48"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="48"
+              width="48"
+              href="/assets/svg/reddit.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
 
         <a
-          href="/feed.xml?v=9059df8acac2d499fe2ab93dddaaccba9be11537"
+          href="/feed.xml?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
           target="_top"
           rel="noreferrer"
-          title="RSS Feed"
+          title="RSS/Atom Feed"
           type="application/atom+xml"
-          role="img"
-          aria-label="RSS Feed"
-        >
-          <i class="fa-solid fa-rss fa-3x"></i>
-        </a>
+          ><svg
+            height="48"
+            width="48"
+            version="1.1"
+            viewbox="0 0 48 48"
+            rol="img"
+            aria-hidden="true"
+          >
+            <use
+              height="48"
+              width="48"
+              href="/assets/svg/rss.svg?v=1fc06a6d1c58be5d7f510d86d1b31b7ee5348de2"
+            ></use></svg
+        ></a>
       </div>
     </footer>
   </body>
