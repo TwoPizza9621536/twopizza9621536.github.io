@@ -10,8 +10,10 @@
 
     <main class="main-content" id="content" role="main">
       <div title="Table of Contents" id="table-of-contents">
+        {% unless page.permalink == "/404.html" or page.layout == "archive" %}
         <input id="spoiler-check" type="checkbox">
         <label class="spoiler" for="spoiler-check">Table Of Contents</label>
+        {% endunless %}
         {% include toc.html html=content id="toc" %}
       </div>
       <br>
