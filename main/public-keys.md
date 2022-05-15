@@ -71,5 +71,5 @@ These should match the bottom half of the fingerprint.
 [2]: <https://github.com/aperezdc/signify>
 [3]: <https://age-encryption.org>
 [4]: <https://github.com/TwoPizza9621536.keys>
-[5]: <https//keys.mailvelope.com>
+[5]: <https://keys.mailvelope.com>
 [6]: <https://keys.openpgp.org>
