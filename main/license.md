@@ -13,9 +13,9 @@ Last modified: {{ page.last_modified_at }}
 > copyright, trademarks, and register trademarks, please look up their
 > respective guideline from their respective owners.**
 
-Additional terms on how I handle the processing of data and content I post here
-is as-is, and it is available at the [Terms of Service and Privacy Policy][1]
-page.
+Additional terms on how I handle the processing of data; usage of projects I
+create, content I post here is provided as-is, is available at the
+[Terms of Service and Privacy Policy page][1].
 
 ## License
 
@@ -38,11 +38,11 @@ and you cannot and will not use the content for any purpose unless I manually
 reinstate the license for you. Any usage of the content after the license
 termination will be an instant takedown of the content.
 
-If use my content in a way that is looks that I am endorsing a product, project,
-website, etc, or harmful or hateful that is listed in
-[section 4 of the Terms of Service][4], I reserve the right to request you to
-remove and replace the attribution in a reasonable manner that is stated in the
-license. You must follow the request and if not after 30 days of the request,
+If use my content in a way that is looks that I am endorsing or promoting a
+product, project, website, etc, or if the content is used in a harmful or
+hateful way that is listed in [section 4 of the Terms of Service][4], I reserve
+the right to request you to remove and replace the attribution in a reasonable
+manner. You must complete the request and if not after 30 days of the request,
 the license will be automatically be terminated.
 
 To attribute, make sure that the credits is intact or around the material.

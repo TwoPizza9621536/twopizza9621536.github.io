@@ -61,22 +61,23 @@ This website and the repositories are hosted on GitHub.
 
 ## 4. Termination
 
-I reserve the right to ban, report, or otherwise refuse service, use projects
-that requires minimal information in order to function, and contribute to any
-project that I have control over to people who are posting harmful and hateful
-content based on [information listed in section 1](#1-no-tracking) and
-violations of the code of conduct directly, insulting or harassing people, etc.
-And indirectly, harassing contributes offsite, incite violence that may cause
-harm to the project, etc. These include but not limited to the following
-contents:
+I reserve the right to ban, report, or otherwise refuse service, using projects
+that requires minimal information in order to function, and contributing to any
+project that I have control over. If people are violating the code of conduct
+directly, insulting or harassing people, etc. Indirectly, harassing contributes
+offsite, inciting violence that may cause harm to the project, etc. Or people
+who are posting harmful and hateful content based on
+[information listed in section 1](#1-no-tracking) These include but not limited
+to the following contents:
 
-- Xenophobic
-- Transphobic
-- NAZI
-- Sexist
-- Anti-LGBTQ+
 - Alt/Far-Right
+- Anti-LGBTQ+
+- NAZI
 - Q-Anon
+- Racist
+- Sexist
+- Transphobic
+- Xenophobic
 
 ## 5. No Warranty
 
