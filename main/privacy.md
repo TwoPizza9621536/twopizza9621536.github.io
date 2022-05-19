@@ -21,19 +21,30 @@ Terms of Service, Privacy Policy and License Agreement.
 
 There are neither analytics and third party analytics on this site, nor they are
 on any projects and applications that have I developed. No cookies, first party,
-third party or tracking cookies , will be stored on your computer. No logs will
-be send over the internet.
+third party or tracking cookies, will be stored on your computer nor any logs
+will be send over the internet. No data will be collected **except the following
+things** which are collected by normal means of searching, browsing and/or
+service and projects that required minimal information in order to function:
 
-[Although there are exceptions.](#3-exceptions)
+- Username
+- Public Name (if applicable)
+- Email Address (if applicable)
+- Anything that you post, share, send, and/or distribute publicly through
+  social media, forums and/or communications that anyone can see publicly.
+
+[Although there are 3rd party exceptions.](#3-exceptions)
 
 ## 2. Open Source
 
 ---
 
-Most projects and applications are under a Open Source license. Anyone have the
+Most projects and applications are under a Open Source license. Anybody have the
 right to use, modify and distribute these projects and applications for any
 purpose if the conditions are met for the license that they are under. These
-projects and applications are on GitHub.
+projects and applications are on GitHub. Anybody also have the right to
+contribute to these projects **unless** if you violate the code of conduct.
+
+See the [termination section below for more information](#6-termination).
 
 ## 3. Exceptions
 
@@ -41,14 +52,33 @@ projects and applications are on GitHub.
 
 The projects and applications may have to use 3rd party libraries and APIs in
 order to function. These libraries and APIs will be stated on the project's or
-application's page.
+application's page. The libraries and APIs may
 
-For Google and Bing's webmasters, they are only used for SEO, troubleshooting
+For Google and Bing webmasters, they are only used for SEO, troubleshooting
 and source code improvements only.
 
 This website and the repositories are hosted on GitHub.
 
-## 4. No Warranty
+## 4. Termination
+
+I reserve the right to ban, report, or otherwise refuse service, use projects
+that requires minimal information in order to function, and contribute to any
+project that I have control over to people who are posting harmful and hateful
+content based on [information listed in section 1](#1-no-tracking) and
+violations of the code of conduct directly, insulting or harassing people, etc.
+And indirectly, harassing contributes offsite, incite violence that may cause
+harm to the project, etc. These include but not limited to the following
+contents:
+
+- Xenophobic
+- Transphobic
+- NAZI
+- Sexist
+- Anti-LGBTQ+
+- Alt/Far-Right
+- Q-Anon
+
+## 5. No Warranty
 
 All content posted here are created by myself.
 
@@ -71,7 +101,7 @@ The code, projects and applications have the following disclaimer:
 > OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 > PERFORMANCE OF THIS SOFTWARE.
 
-## 5. Terms of Service and License Agreement
+## 6. License Agreement
 
 ---
 
@@ -82,5 +112,5 @@ do anything listed above. Some content are licensed under a different license,
 for more licensing information, see the
 [license page]({{ '/license' | relative_url }}).
 
-[1]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io/issues>
-[2]: <https://creativecommons.org/licenses/by-sa/4.0/>
+[1]: https://github.com/TwoPizza9621536/twopizza9621536.github.io/issues
+[2]: https://creativecommons.org/licenses/by-sa/4.0/
