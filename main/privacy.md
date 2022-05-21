@@ -11,26 +11,34 @@ description: >-
 
 Last modified on {{ page.last_modified_at }}
 
-These ONLY apply to sites I own and my own projects. For applications, projects,
-and website for other groups that I am in, they are subjected under their own
-Terms of Service, Privacy Policy and License Agreement.
+These **ONLY** apply to sites I own and my own projects. For applications,
+projects, and website for other groups that I am in, they are subjected under
+their own Terms of Service, Privacy Policy and License Agreement.
 
 ## 1. No Tracking
 
 ---
 
 There are neither analytics and third party analytics on this site, nor they are
-on any projects and applications that have I developed. No cookies, first party,
-third party or tracking cookies, will be stored on your computer nor any logs
-will be send over the internet. No data will be collected **except the following
-things** which are collected by normal means of searching, browsing and/or
-service and projects that required minimal information in order to function:
+on any projects and applications that have I developed. Neither cookies, first
+party, third party or tracking cookies, will be stored on your computer nor any
+logs will be send over the internet. No data will be collected except the
+following things which are collected by normal means of searching, browsing
+and/or service, projects that required minimal information in order to function:
 
 - Username
 - Public Name (if applicable)
 - Email Address (if applicable)
 - Anything that you post, share, send, and/or distribute publicly through
   social media, forums and/or communications that anyone can see publicly.
+
+If data is collected by the means of survey, polling, etc, the above
+aforementioned data are stripped from the responses if possible or anonymize and
+all responses with the analysis will be published publicly fully and licensed
+under a Creative Commons license.
+
+No data will be stored your computer except service workers, authentication
+tokens and
 
 [Although there are 3rd party exceptions.](#3-exceptions)
 
@@ -52,7 +60,8 @@ See the [termination section below for more information](#6-termination).
 
 The projects and applications may have to use 3rd party libraries and APIs in
 order to function. These libraries and APIs will be stated on the project's or
-application's page. The libraries and APIs may
+application's page. The libraries and APIs may have their own ToS and Privacy
+Policy which collects in their own accord.
 
 For Google and Bing webmasters, they are only used for SEO, troubleshooting
 and source code improvements only.
@@ -63,12 +72,12 @@ This website and the repositories are hosted on GitHub.
 
 I reserve the right to ban, report, or otherwise refuse service, using projects
 that requires minimal information in order to function, and contributing to any
-project that I have control over. If people are violating the code of conduct
-directly, insulting or harassing people, etc. Indirectly, harassing contributes
-offsite, inciting violence that may cause harm to the project, etc. Or people
-who are posting harmful and hateful content based on
-[information listed in section 1](#1-no-tracking) These include but not limited
-to the following contents:
+project that I have control over indefinitely. If people are violating the code
+of conduct directly, insulting or harassing people, etc. Indirectly, harassing
+contributes offsite, inciting violence that may cause harm to the project, etc.
+Or people who are posting harmful and hateful content based their
+[public information listed in section 1](#1-no-tracking) .These include but not
+limited to the following contents:
 
 - Alt/Far-Right
 - Anti-LGBTQ+

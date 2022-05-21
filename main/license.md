@@ -34,9 +34,9 @@ are my own ideas. If you are using content from this site please read the
 If you violate any terms that is stated in the license, you have 30 days to
 correct the violations for the license to reinstate itself. If the violations
 had not been corrected after 30 days, the license is automatically terminated
-and you cannot and will not use the content for any purpose unless I manually
-reinstate the license for you. Any usage of the content after the license
-termination will be an instant takedown of the content.
+and you cannot and will not use the content for any purpose indefinitely unless
+I manually reinstate the license for you. Any usage of the content after the
+license termination will be an instant takedown of the content.
 
 If use my content in a way that is looks that I am endorsing or promoting a
 product, project, website, etc, or if the content is used in a harmful or
