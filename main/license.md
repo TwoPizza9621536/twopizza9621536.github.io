@@ -188,11 +188,11 @@ Here are the plugins that are used to build this site.
 
 {% endfor %}
 
-These are licensed either under the [MIT license][9], the [GPLv2][17] or the [LGPLv2][18].
+These are licensed under the [MIT license][9].
 
 ### Old Version
 
-To see the old version of this site, go to the [site's GitHub repository][19]
+To see the old version of this site, go to the [site's GitHub repository][17]
 and click on the `old` or the `master` branch.
 
 [1]: <{{ '/terms-of-service-privacy-policy' | relative_url }}>
@@ -211,6 +211,4 @@ and click on the `old` or the `master` branch.
 [14]: <https://hyunyoung2.github.io/2016/12/17/Category_And_Tags_In_Jekyll/>
 [15]: <https://planetjekyll.github.io/snippets/reading-time>
 [16]: <https://creativecommons.org/licenses/by/3.0/>
-[17]: <https://github.com/SciRuby/rb-gsl/blob/master/COPYING>
-[18]: <https://github.com/jekyll/classifier-reborn/blob/master/LICENSE>
-[19]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
+[17]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
