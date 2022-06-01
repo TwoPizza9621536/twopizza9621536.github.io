@@ -62,7 +62,8 @@ want to.
 
 In order to not activate the ShareAlike clause: the usage of the content must be
 under fair use, the content must stand by itself and the content is not
-modified. **This is only for this site and content I post.**
+modified. **This is only for this site and content I post under Section 8 of the
+license.**
 
 For more information, here is the official CC website for [attribution][5] and
 [licensing][6]. And here is the official CC wiki for [attribution][7] and
