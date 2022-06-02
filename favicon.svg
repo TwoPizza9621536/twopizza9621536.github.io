@@ -16,7 +16,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"><sodipodi:namedview
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><title
+     id="title1529">Logo</title><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#999999"
      borderopacity="1"
@@ -28,7 +29,7 @@
      showgrid="false"
      inkscape:zoom="1.9588849"
      inkscape:cx="273.88031"
-     inkscape:cy="427.7944"
+     inkscape:cy="346.11528"
      inkscape:window-width="1436"
      inkscape:window-height="1011"
      inkscape:window-x="26"
@@ -100,7 +101,7 @@
          inkscape:label="circle-3" /></g></g><metadata
      id="metadata1442"><rdf:RDF><cc:Work
          rdf:about=""><dc:creator><cc:Agent><dc:title>Samuel Wu</dc:title></cc:Agent></dc:creator><dc:rights><cc:Agent><dc:title>Creative Commons Attribution-ShareAlike License</dc:title></cc:Agent></dc:rights><cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" /></cc:Work><cc:License
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" /><dc:title>Logo</dc:title><dc:date>06/02/2022</dc:date><dc:description>My nickname and last name in a modified verision of Sherman's Gallifreyan. I might expand on it with the rest of the alphabet. Gallifreyan is a copyright of BBC. For Sherman's, visit https://shermansplanet.com/gallifreyan/.</dc:description><dc:source>https://shermansplanet.com/gallifreyan/</dc:source><dc:language>en-US</dc:language><dc:subject><rdf:Bag><rdf:li>Gallifreyan</rdf:li></rdf:Bag></dc:subject></cc:Work><cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/"><cc:permits
            rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
            rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:requires
