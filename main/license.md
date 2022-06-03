@@ -11,7 +11,7 @@ Last modified: {{ page.last_modified_at }}
 > **All copyright, trademarks, and register trademarks that are not from this
 > site are properties of their respective owners. For the usage of such
 > copyright, trademarks, and register trademarks, please look up their
-> respective guideline from their respective owners.**
+> respective guidelines from their respective owners.**
 
 Additional terms on how I handle the processing of data; usage of projects I
 create, content I post here is provided as-is, is available at the
@@ -61,9 +61,8 @@ stating the modified after the attribution text, you can credit yourself if you
 want to.
 
 In order to not activate the ShareAlike clause: the usage of the content must be
-under fair use, the content must stand by itself and the content is not
-modified. **This is only for this site and content I post under Section 8 of the
-license.**
+under fair use, the content must standalone and the content is not modified.
+**This is only for this site and content I post.**
 
 For more information, here is the official CC website for [attribution][5] and
 [licensing][6]. And here is the official CC wiki for [attribution][7] and
