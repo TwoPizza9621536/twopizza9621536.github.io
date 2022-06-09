@@ -11,7 +11,7 @@ Last modified: {{ page.last_modified_at }}
 > **All copyright, trademarks, and register trademarks that are not from this
 > site are properties of their respective owners. For the usage of such
 > copyright, trademarks, and register trademarks, please look up their
-> respective guideline from their respective owners.**
+> respective guidelines from their respective owners.**
 
 Additional terms on how I handle the processing of data; usage of projects I
 create, content I post here is provided as-is, is available at the
@@ -34,9 +34,9 @@ are my own ideas. If you are using content from this site please read the
 If you violate any terms that is stated in the license, you have 30 days to
 correct the violations for the license to reinstate itself. If the violations
 had not been corrected after 30 days, the license is automatically terminated
-and you cannot and will not use the content for any purpose unless I manually
-reinstate the license for you. Any usage of the content after the license
-termination will be an instant takedown of the content.
+and you cannot and will not use the content for any purpose indefinitely unless
+I manually reinstate the license for you. Any usage of the content after the
+license termination will be an instant takedown of the content.
 
 If use my content in a way that is looks that I am endorsing or promoting a
 product, project, website, etc, or if the content is used in a harmful or
@@ -61,8 +61,8 @@ stating the modified after the attribution text, you can credit yourself if you
 want to.
 
 In order to not activate the ShareAlike clause: the usage of the content must be
-under fair use, the content must stand by itself and the content is not
-modified. **This is only for this site and content I post.**
+under fair use, the content must standalone and the content is not modified.
+**This is only for this site and content I post.**
 
 For more information, here is the official CC website for [attribution][5] and
 [licensing][6]. And here is the official CC wiki for [attribution][7] and
@@ -188,11 +188,11 @@ Here are the plugins that are used to build this site.
 
 {% endfor %}
 
-These are licensed either under the [MIT license][9], the [GPLv2][17] or the [LGPLv2][18].
+These are licensed under the [MIT license][9].
 
 ### Old Version
 
-To see the old version of this site, go to the [site's GitHub repository][19]
+To see the old version of this site, go to the [site's GitHub repository][17]
 and click on the `old` or the `master` branch.
 
 [1]: <{{ '/terms-of-service-privacy-policy' | relative_url }}>
@@ -211,6 +211,4 @@ and click on the `old` or the `master` branch.
 [14]: <https://hyunyoung2.github.io/2016/12/17/Category_And_Tags_In_Jekyll/>
 [15]: <https://planetjekyll.github.io/snippets/reading-time>
 [16]: <https://creativecommons.org/licenses/by/3.0/>
-[17]: <https://github.com/SciRuby/rb-gsl/blob/master/COPYING>
-[18]: <https://github.com/jekyll/classifier-reborn/blob/master/LICENSE>
-[19]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>
+[17]: <https://github.com/TwoPizza9621536/twopizza9621536.github.io>

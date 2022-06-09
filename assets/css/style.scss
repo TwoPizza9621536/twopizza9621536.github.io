@@ -215,13 +215,14 @@ h6:hover .anchor {
 /* Site Footer */
 
 .site-footer {
-  display: grid;
-  grid-template-columns: 0.6fr 1fr 0.6fr;
+  display: flex;
+  justify-content: space-evenly;
   margin-bottom: 2rem;
   text-align: center;
 
   .site-footer-credits {
     color: unset;
+    flex: 1 1 0;
 
     > p {
       margin: 3px 0px;
@@ -245,7 +246,12 @@ h6:hover .anchor {
     }
   }
 
+  .copyright {
+    flex: 2 1 0;
+  }
+
   .socials {
     display: block;
+    flex: 1 1 0;
   }
 }
