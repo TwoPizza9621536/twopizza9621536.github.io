@@ -19,6 +19,8 @@ GEM
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (2.0.3)
+    faraday-retry (2.0.0)
+      faraday (~> 2.0)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -97,7 +99,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.8.0)
-    minitest (5.16.0)
+    minitest (5.16.1)
     nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -120,7 +122,7 @@ GEM
     rouge (3.29.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.6.2)
+    sass-embedded (1.53.0)
       google-protobuf (~> 3.19)
       rake (>= 10.0.0)
     sassc (2.4.0)
@@ -145,6 +147,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  faraday-retry
   http_parser.rb
   jekyll
   jekyll-archives

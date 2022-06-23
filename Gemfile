@@ -3,6 +3,7 @@ gem "jekyll"
 
 group :jekyll_plugins do
   gem "dotenv"
+  gem "faraday-retry"
   gem "jekyll-archives"
   gem "jekyll-compose"
   gem "jekyll-email-protect"
