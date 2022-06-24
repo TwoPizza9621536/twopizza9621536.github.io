@@ -5,10 +5,14 @@ permalink: /
 <section>
   <h2 id="welcome">:wave: Welcome</h2>
   <hr>
-  <p>Welcome to my main page. This is where I store tech/programming blogs. Below are my latest posts.</p>
+  <p>
+    Welcome to my main page. This is where I store tech/programming blogs. Below
+    are my latest posts.
+  </p>
 </section>
 
-{% include listing.html numPosts=5 heading="Latest Posts" headingId="latest-posts" %}
+{% include listing.html numPosts=5 heading="Latest Posts"
+headingId="latest-posts" %}
 
 <br>
 
@@ -16,14 +20,17 @@ permalink: /
   <h2 id="repositories">{% octicon repo height:24 %} Repositories</h2>
   <hr>
   <ul class="repos">
-    {% for repository in site.github.public_repositories %} {% unless repository.archived or repository.fork %}
+    {% for repository in site.github.public_repositories %} {% unless
+    repository.archived or repository.fork %}
     <li>
       <a href="{{ repository.html_url }}">
-        {{ repository.name }} {% octicon star-fill height:16 aria-label:Stargazers %}
-        {{ repository.stargazers_count }}</a>
+        {{ repository.name }} {% octicon star-fill height:16
+        aria-label:Stargazers %} {{ repository.stargazers_count }}</a>
       <p>{{ repository.description }}</p>
     </li>
     {% endunless %} {% endfor %}
   </ul>
-  <a href="https://github.com/TwoPizza9621536?tab=repositories">Here is all of my repositories.</a>
+  <a href="https://github.com/TwoPizza9621536?tab=repositories">
+    Here is all of my repositories.
+  </a>
 </section>
