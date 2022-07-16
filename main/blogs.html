@@ -2,7 +2,7 @@
 title: Blogs
 permalink: /blogs
 description: >-
-  The place where my coding, programming, technology, and software blogs are.
+The place where my coding, programming, technology, and software blogs are.
 ---
 
 <p class="tags-catagories" title="To sort by catagories and tags">
@@ -18,9 +18,7 @@ description: >-
   <ul>
     {% for year in postsByYear %}
     <li>
-      <a href="{{ site.url }}{{ site.baseurl }}/{{ year.name }}"
-        >{{ year.name }}</a
-        >
+      <a href="{{ site.url }}{{ site.baseurl }}/{{ year.name }}">{{ year.name }}</a>
     </li>
     {% endfor %}
   </ul>
