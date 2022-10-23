@@ -1,0 +1,100 @@
+// Themes
+//
+// Apply custom color schemes by adding the appropriate class to the `body`.
+// Based on colors from Base16: http://chriskempson.github.io/base16/#default.
+
+// Red
+.theme-base-08 {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #ac4142;
+  }
+}
+
+// Orange
+.theme-base-09 {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #d28445;
+  }
+}
+
+// Yellow
+.theme-base-0a {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #f4bf75;
+  }
+}
+
+// Green
+.theme-base-0b {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #90a959;
+  }
+}
+
+// Cyan
+.theme-base-0c {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #75b5aa;
+  }
+}
+
+// Blue
+.theme-base-0d {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .theme-base-0d .sidebar-toggle,
+  .theme-base-0d .related-posts li a:hover {
+    color: #6a9fb5;
+  }
+}
+
+// Magenta
+.theme-base-0e {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #aa759f;
+  }
+}
+
+// Brown
+.theme-base-0f {
+  .sidebar,
+  .sidebar-toggle:active,
+  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  .container a,
+  .sidebar-toggle,
+  .related-posts li a:hover {
+    color: #8f5536;
+  }
+}

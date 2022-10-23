@@ -1,0 +1,26 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+// Container
+//
+// Center the page content.
+
+.container {
+  max-width: 28rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 38em) {
+    max-width: 32rem;
+  }
+  @media (min-width: 56em) {
+    max-width: 38rem;
+  }
+}
+
+footer {
+  margin-bottom: 2rem;
+}
