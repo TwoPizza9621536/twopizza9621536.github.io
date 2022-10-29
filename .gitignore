@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0
 # Ignore docs files
 _site
 .sass-cache
@@ -8,6 +9,7 @@ vendor
 .env
 .ruby-version
 .jekyll-cache
+Gemfile.lock
 
 # Numerous always-ignore extensions
 *.diff

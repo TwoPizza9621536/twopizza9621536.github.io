@@ -1,32 +1,115 @@
-# Permalinks
-permalink: pretty
-
+# SPDX-License-Identifier: CC0-1.0
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: http://getpoole.com
-paginate: 1
+title: Samuel Wu
+tagline: The place where we mainly screw with tech.
+description: >-
+  This my blogs for coding, programming, and technology, that will
+  spiral into shenanigans. Including games, events and other things too.
+url: https://twopizza9621536.github.io
 baseurl: ""
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir: _sass
-  style: compressed
+# Timezone and Locale
+encoding: UTF-8
+timezone: America/New_York
+locale: en-US
+lang: en-US
 
 # About/contact
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Samuel Wu
+  url: https://github.com/TwoPizza9621536
+  email: twopizza9621536@gmail.com
+  twitter:
+    username: TwoPizza9621536
+    card: summary
 
-# Custom vars
-version: 2.1.0
-github:
-  repo: https://github.com/poole/poole
+social:
+  name: Samuel Wu
+  links:
+    - https://twitter.com/TwoPizza9621536
+    - https://github.com/TwoPizza9621536
+    - https://keybase.io/TwoPizza9621536
+    - https://reddit.com/u/twopizza9621536
 
-# Gems
+# SEO
+webmaster_verifications:
+  google: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
+
+# Permalinks
+collections_dir: collections
+permalink: /:year/:title
+
+# Pagination
+pagination:
+  enabled: true
+
+# Archives
+jekyll-archives:
+  enabled:
+    - year
+    - tags
+    - categories
+  layouts:
+    year: year-archive
+  permalinks:
+    year: /:year/
+    tags: /:tags/
+    categories: /:categories/
+
+# Set Page Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Markdown
+kramdown:
+  auto_ids: true
+  input: GFM
+  line_width: 80
+  syntax_highlighter: rouge
+  toc_levels: 1..6
+
+# Assets
+sass:
+  implementation: sass-embedded
+  style: compressed
+
+# Feeds
+feed:
+  excerpt_only: true
+
+# Mentions
+jekyll-mentions: https://twitter.com
+
+# Make sure there are no YAML syntax errors
+strict_front_matter: true
+
+# New window for external links
+target-blank:
+  rel: nofollow
+
+# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-loading-lazy
+  - jekyll-mentions
+  - jekyll-octicons
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll_version_plugin
+  - jemoji
+
+# Excluding Files
+exclude:
+  - LICENSE
+  - LICENSES
+  - README.md
+  - frontmatter.json

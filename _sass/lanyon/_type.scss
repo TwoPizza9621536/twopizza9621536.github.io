@@ -8,11 +8,14 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
+  letter-spacing: -0.025rem;
 }
 
 h1 {

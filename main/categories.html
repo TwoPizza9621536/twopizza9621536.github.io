@@ -1,0 +1,14 @@
+---
+layout: default
+title: Categories
+permalink: /categories
+---
+
+<h1>{% octicon inbox height:24 %} Categories</h1>
+<ul>
+  {% for categories in site.categories %}
+  <li>
+    <a href="{{ '/categories[0]' | relative_url }}">{{ categories[0] }}</a>
+  </li>
+  {% endfor %}
+</ul>

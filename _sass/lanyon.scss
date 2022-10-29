@@ -1,8 +1,3 @@
----
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
----
-
 //                        ___
 //                       /\_ \
 //  _____     ___     ___\//\ \      __
@@ -26,16 +21,18 @@
 // Designed, built, and released under MIT license by @mdo. Learn more at
 // https://github.com/poole/poole and https://github.com/poole/lanyon.
 
-@import "variables";
-@import "base";
-@import "type";
-@import "code";
-@import "layout";
-@import "masthead";
-@import "sidebar";
-@import "posts";
-@import "pagination";
-@import "reverse";
-@import "message";
-@import "themes";
-@import "overlay";
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400&display=swap);
+
+@import "lanyon/variables";
+@import "lanyon/base";
+@import "lanyon/type";
+@import "lanyon/code";
+@import "lanyon/layout";
+@import "lanyon/masthead";
+@import "lanyon/sidebar";
+@import "lanyon/posts";
+@import "lanyon/pagination";
+@import "lanyon/reverse";
+@import "lanyon/message";
+@import "lanyon/themes";
+@import "lanyon/overlay";
