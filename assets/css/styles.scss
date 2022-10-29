@@ -2,16 +2,46 @@
 ---
 
 // Add themes
+@charset "UTF-8";
 @import "lanyon";
-@import "monokai.css";
+@import "github-dark.css";
 
 // Add fonts
 @import url(https://cdn.jsdelivr.net/npm/firacode@latest/distr/fira_code.css);
 
 // Reset sidebar color for contrast and accessability
+// And stylize icons
 .sidebar-item {
   strong {
     color: unset;
+  }
+
+  &.socials {
+    a {
+      text-decoration: none;
+
+      &:hover > svg,
+      &:focus > svg {
+        fill: #157bc4;
+      }
+    }
+  }
+}
+
+// Make masthead and links more readable
+.masthead-title {
+  small {
+    color: #757575;
+  }
+}
+
+.content {
+  a {
+    color: #157bc4;
+  }
+
+  .post-date {
+    color: #757575;
   }
 }
 
@@ -34,8 +64,8 @@ pre {
 }
 
 code {
-  color: #f8f8f2;
-  background-color: #49483e;
+  color: #c9d1d9;
+  background-color: #0d1117;
 }
 
 .highlight {
@@ -46,10 +76,10 @@ code {
   }
 
   code[data-lang]::before {
-    background-color: #49483e;
+    background-color: #0d1117;
     border-radius: 5px;
     border: 1px solid #e5e5e5;
-    color: #f8f8f2;
+    color: #c9d1d9;
     content: attr(data-lang);
     min-width: 3.5rem;
     position: absolute;
@@ -59,10 +89,11 @@ code {
   }
 }
 
-// Normalize octicons
+// Normalize octicons and font awesome icons
 // From https://primer.style/octicons/
+.fa-icon,
 .octicon {
-  display: inline-block;
+  display: inline;
   vertical-align: text-top;
   fill: currentColor;
   overflow: visible;

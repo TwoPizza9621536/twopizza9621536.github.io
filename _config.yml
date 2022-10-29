@@ -67,9 +67,7 @@ defaults:
 # Markdown
 kramdown:
   auto_ids: true
-  input: GFM
   line_width: 80
-  syntax_highlighter: rouge
   toc_levels: 1..6
 
 # Assets
@@ -97,6 +95,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-include-cache
   - jekyll-loading-lazy
   - jekyll-mentions
   - jekyll-octicons

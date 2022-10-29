@@ -63,7 +63,7 @@ int main(int argc, char **argv)
 }
 {% endhighlight %}
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 
 ## Java
 

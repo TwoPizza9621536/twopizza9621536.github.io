@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem "jekyll-email-protect"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
+  gem "jekyll-include-cache"
   gem "jekyll-loading-lazy"
   gem "jekyll-mentions"
   gem "jekyll-octicons"

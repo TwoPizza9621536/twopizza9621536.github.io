@@ -7,7 +7,9 @@
 .theme-base-08 {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #ac4142;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
@@ -19,7 +21,9 @@
 .theme-base-09 {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #d28445;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
@@ -31,7 +35,9 @@
 .theme-base-0a {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #f4bf75;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
@@ -43,7 +49,9 @@
 .theme-base-0b {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #90a959;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
@@ -55,7 +63,9 @@
 .theme-base-0c {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #75b5aa;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
@@ -67,10 +77,12 @@
 .theme-base-0d {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #6a9fb5;
+  }
   .container a,
-  .theme-base-0d .sidebar-toggle,
-  .theme-base-0d .related-posts li a:hover {
+  .sidebar-toggle,
+  .related-posts li a:hover {
     color: #6a9fb5;
   }
 }
@@ -79,7 +91,9 @@
 .theme-base-0e {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #aa759f;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
@@ -91,7 +105,9 @@
 .theme-base-0f {
   .sidebar,
   .sidebar-toggle:active,
-  #sidebar-checkbox:checked ~ .sidebar-toggle,
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #8f5536;
+  }
   .container a,
   .sidebar-toggle,
   .related-posts li a:hover {
