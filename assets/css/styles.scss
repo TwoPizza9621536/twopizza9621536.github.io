@@ -6,9 +6,6 @@
 @import "lanyon";
 @import "github-dark.css";
 
-// Add fonts
-@import url(https://cdn.jsdelivr.net/npm/firacode@latest/distr/fira_code.css);
-
 // Reset sidebar color for contrast and accessability
 // And stylize icons
 .sidebar-item {
@@ -57,10 +54,6 @@
 code,
 pre {
   font-family: "Fira Code", $code-font-family;
-
-  @supports (font-variation-settings: normal) {
-    font-family: "Fira Code VF", $code-font-family;
-  }
 }
 
 code {
