@@ -16,12 +16,9 @@
   "frontMatter.preview.host": "http://127.0.0.1:4000",
   "frontMatter.site.baseURL": "https://twopizza9621536.github.io",
   "frontMatter.taxonomy.dateFormat": "YYYY-MM-DD hh:mm:ss ZZZZ",
-  "frontMatter.taxonomy.categories": [
-    "Cryptography",
-    "Software"
-  ],
   "frontMatter.taxonomy.tags": [
-    "Comparison",
+    "Cryptography",
+    "Software",
     "Comparisons",
     "NFTs"
   ],

@@ -4,7 +4,6 @@ date: 2021-10-02 04:33:23 -0400
 description: Compiling a compiler
 tags:
   - CompileHell
-categories:
   - Software
 slug: quest-mingw-gcc
 ---
@@ -25,5 +24,5 @@ better, and a great resource for general OS development and programming.
 I wanted a updated version of GCC running on the `mingw` triple. The current
 version is GCC 11 (at the time of writing this)
 
-[1]: <https://wiki.osdev.org>
-[2]: <https://wiki.osdev.org/Target_Triplet>
+[1]: https://wiki.osdev.org
+[2]: https://wiki.osdev.org/Target_Triplet

@@ -3,7 +3,6 @@ title: You Do Not Know How NFTs Works And Here Is Why It Is Stupid
 description: An explanation of how NFTs actually works and why it is stupid.
 tags:
   - NFTs
-categories:
   - Cryptography
 slug: nfts-works-stupid
 ---
@@ -77,5 +76,5 @@ does not have anything to back it up.
 
 ## Conclusion
 
-[1]: <https://en.wikipedia.org/wiki/Non-fungible_token>
-[2]: <https://creativecommons.org/licenses/by-sa/3.0/>
+[1]: https://en.wikipedia.org/wiki/Non-fungible_token
+[2]: https://creativecommons.org/licenses/by-sa/3.0/

@@ -9,6 +9,7 @@ repos:
       - id: fix-byte-order-marker
       - id: mixed-line-ending
       - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
   - repo: https://github.com/klieret/jekyll-relative-url-check
     rev: v2.0.1
     hooks:

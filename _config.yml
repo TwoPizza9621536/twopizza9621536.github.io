@@ -89,6 +89,9 @@ strict_front_matter: true
 target-blank:
   rel: nofollow
 
+# Latent Semantic Indexer
+lsi: true
+
 # Plugins
 plugins:
   - jekyll-archives

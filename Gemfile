@@ -2,13 +2,13 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "jekyll-compose"
-gem "dotenv"
-gem "faraday-retry"
-gem "sass-embedded"
 
 group :jekyll_plugins do
+  gem "classifier-reborn"
+  gem "dotenv"
+  gem "faraday-retry"
   gem "jekyll-archives"
+  gem "jekyll-compose"
   gem "jekyll-email-protect"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
@@ -20,18 +20,19 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-target-blank"
-  gem "jekyll_version_plugin"
   gem "jekyll-watch"
+  gem "jekyll_version_plugin"
   gem "jemoji"
+  gem "numo-linalg"
+  gem "numo-narray"
+  gem "sass-embedded"
 end
 
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo"
   gem "tzinfo-data"
 end
 
-gem "wdm", :install_if => Gem.win_platform?
+gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "http_parser.rb", :install_if => Gem.java_platform?
-
-gem "webrick", :install_if => Gem.ruby_version >= Gem::Version.new("3")
+gem "http_parser.rb", :platforms => [:jruby]
