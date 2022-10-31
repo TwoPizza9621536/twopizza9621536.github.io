@@ -1,5 +1,5 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular styles,
+     `#sidebar-checkbox` for behavior. -->
 <input
   type="checkbox"
   class="sidebar-checkbox"
@@ -13,13 +13,13 @@
 
   <nav class="sidebar-nav">
     <a
-      class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}"
+      class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}"
       href="{{ '/' | relative_url }}"
       >Home</a
     >
 
     <a
-      class="sidebar-nav-item{% if page.title == 'Blogs' %} active{% endif %}"
+      class="sidebar-nav-item{% if page.url == '/blogs' %} active{% endif %}"
       href="{{ '/blogs' | relative_url }}"
       >Blogs</a
     >
@@ -41,6 +41,12 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+
+    <a
+      class="sidebar-nav-item{% if page.url == '/archives' %} active{% endif %}"
+      href="{{ '/archives' | relative_url }}"
+      >Archive</a
+    >
 
     <span class="sidebar-nav-item">
       Commit Version: {% project_version commit short %}

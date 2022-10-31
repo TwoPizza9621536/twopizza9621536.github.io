@@ -5,7 +5,7 @@
     rel="noreferrer"
     >{% octicon mail height:24 aria-label:"Email" %}</a
   >
-  <a href="{{ site.social.links[0] }}">
+  <a href="{{ site.social.links[0] }}" title="My Twitter Account">
     <svg
       width="24"
       height="24"
@@ -19,21 +19,35 @@
       />
     </svg>
   </a>
-  <a href="{{ site.social.links[1] }}">
+  <a href="{{ site.social.links[3] }}" title="My Reddit Account">
     <svg
-      width="24"
-      height="24"
-      class="fa-icon"
-      aria-labelledby="github"
-      role="img"
+    width="24"
+    height="24"
+    class="fa-icon"
+    aria-labelledby="reddit"
+    role="img"
     >
-      <title id="github">My Github Account</title>
-      <use
-        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#github' | relative_url }}"
-      />
-    </svg>
-  </a>
-  <a href="{{ site.social.links[2] }}">
+    <title id="reddit">My Reddit Account</title>
+    <use
+    href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#reddit' | relative_url }}"
+    />
+  </svg>
+</a>
+<a href="{{ site.social.links[1] }}" title="My Github Account">
+  <svg
+    width="24"
+    height="24"
+    class="fa-icon"
+    aria-labelledby="github"
+    role="img"
+  >
+    <title id="github">My Github Account</title>
+    <use
+      href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#github' | relative_url }}"
+    />
+  </svg>
+</a>
+  <a href="{{ site.social.links[2] }}" title="My Keybase Account">
     <svg
       width="24"
       height="24"
@@ -47,22 +61,8 @@
       />
     </svg>
   </a>
-  <a href="{{ site.social.links[3] }}">
-    <svg
-      width="24"
-      height="24"
-      class="fa-icon"
-      aria-labelledby="reddit"
-      role="img"
-    >
-      <title id="reddit">My Reddit Account</title>
-      <use
-        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#reddit' | relative_url }}"
-      />
-    </svg>
-  </a>
   <a
-    href="{{ '/atom.xml?v=' | append: site.github.build_revision | relative_url }}"
+    href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
     target="_top"
     rel="noreferrer"
     type="application/atom+xml"

@@ -5,8 +5,8 @@ permalink: /license
 description: The License and Dependencies for twopizza9621536.github.io.
 ---
 
-This website is licensed under the [Creative Commons Attribution-ShareAlike 4.0
-International][1] License.
+This website is licensed under the
+[Creative Commons Attribution-ShareAlike 4.0 International][1] License.
 
 Additionally if the Licensed Material is not modified, and the use of the
 Licensed Material is standalone in an Adapted Material. Section 3(b) may be

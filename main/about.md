@@ -18,9 +18,6 @@ And Chinese: <ruby>吴申榕<rp>(</rp><rt>WūShēnRóng</rt><rp>)</rp></ruby>
 I have done [Linux From Scratch](https://www.linuxfromscratch.org/) in 2019 and
 the id is 29239.
 
-To contact me, see the sidebar for links; [public cryptographic keys][1] are
-provided to send secure messages or files.
-
 ## What I Use
 
 ---
@@ -157,5 +154,3 @@ Sectioned based on usage.
 * Reddit
 * Twitter
 * YouTube
-
-[1]: {{ '/public-keys' | relative_url }}

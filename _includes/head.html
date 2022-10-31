@@ -37,12 +37,8 @@
     rel="shortcut icon"
     href="{{ '/assets/favicon.svg?v=' | append: site.github.build_revision | relative_url }}"
   >
-  <link
-    rel="alternate"
-    type="application/atom+xml"
-    title="{{ site.title }}"
-    href="{{ '/atom.xml?v=' | append: site.github.build_revision | relative_url }}"
-  >
+
+  {% feed_meta %}
 
   {% seo title=false %}
 </head>

@@ -6,11 +6,13 @@ pagination:
   enabled: true
 ---
 
+<p><a href="{{ '/tags' | relative_url }}">Sort Posts by Tags</a></p>
+
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
       <h1 class="post-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h1>
 
       <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
@@ -29,11 +31,15 @@ pagination:
 <div class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+      <a
+        class="pagination-item newer"
+        href="{{ '/blogs' | relative_url }}"
+        >Newer</a
+      >
     {% else %}
       <a
         class="pagination-item newer"
-        href="{{ paginator.previous_page_path | absolute_url }}"
+        href="{{ paginator.previous_page_path | relative_url }}"
         >Newer</a
       >
     {% endif %}
@@ -43,7 +49,7 @@ pagination:
   {% if paginator.next_page %}
     <a
       class="pagination-item older"
-      href="{{ paginator.next_page_path | absolute_url }}"
+      href="{{ paginator.next_page_path | relative_url }}"
       >Older</a
     >
   {% else %}

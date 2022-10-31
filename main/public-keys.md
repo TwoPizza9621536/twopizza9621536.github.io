@@ -13,10 +13,10 @@ other any messaging app with a device that is not compromised.
 
 Use the following keys to encrypt and verify files.
 
-[Minisign][1] / [Signify][2] public verification key:
+[Minisign][1] / [Signify][2] public verification key:  
 "8E4D6FA8B1B5E5A6": `RWSm5bWxqG9NjhaaHpQdbt1ZPPlrWG1Q2IP9/PEDM2zjjKHZWfMxyeqZ`
 
-[Age][3] public encryption key:
+[Age][3] public encryption key:  
 `age1xz8kms3xt2sx05a8rjhwan3fcvltzs6v3jazst2477v5xv3jje4sl4t24n`
 
 [SSH Key][4] that can be used by age.
@@ -27,8 +27,7 @@ Key is at:
 - [Mailvelope Keyserver][5]
 - [OpenPGP Keyserver][6]
 
-The PGP key ID is:
-`6B73 6A21 6E7B E209`
+The PGP key ID is: `6B73 6A21 6E7B E209`
 
 These should match the bottom half of the fingerprint.
 
