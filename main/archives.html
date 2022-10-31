@@ -9,7 +9,7 @@ permalink: /archives
 <ul>
   {% for year in postsByYear %}
   <li>
-    <a href="{{ '/'year.name | relative_url }}">{{ year.name }}</a>
+    <a href="{{ year.name | relative_url }}">{{ year.name }}</a>
   </li>
   {% endfor %}
 </ul>
