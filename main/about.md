@@ -50,16 +50,20 @@ I also use some extensions to make GNOME better.
 * Activate GNOME
 * AppIndicator and KStatusNotifierItem Support
 * Background Logo
+* Bluetooth Quick Connect
 * Blur my Shell
 * Clipboard History
+* Color App Menu Icon for GNOME 40+
 * Desktop Icons NG (DING)
 * Espresso
 * Extensions Sync
 * GSConnect
 * Hot Edge
 * Night Theme Switcher
-* Pop Shell
 * No overview at start-up
+* Pop Shell
+* Privacy Quick Settings Menu
+* Quick Settings Tweaker
 * Removable Drive Menu
 * Screenshot Window Sizer
 * Status Area Horizontal Spacing
