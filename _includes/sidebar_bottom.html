@@ -12,41 +12,54 @@
       class="fa-icon"
       aria-labelledby="twitter"
       role="img"
-    >
-      <title id="twitter">My Twitter Account</title>
+    ><title id="twitter">My Twitter Account</title>
       <use
         href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#twitter' | relative_url }}"
       />
     </svg>
   </a>
+  <a
+    rel="me external nofollow noopener noreferrer"
+    href="{{ site.social.links[4] }}"
+    title="My Mastodon Account"
+  ><svg
+      width="24"
+      height="24"
+      class="fa-icon"
+      aria-labelledby="mastodon"
+      role="img"
+    ><title id="mastodon">My Mastodon Account</title>
+      <use
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#mastodon' | relative_url }}"
+      />
+    </svg>
+  </a>
   <a href="{{ site.social.links[3] }}" title="My Reddit Account">
     <svg
-    width="24"
-    height="24"
-    class="fa-icon"
-    aria-labelledby="reddit"
-    role="img"
-    >
-    <title id="reddit">My Reddit Account</title>
-    <use
-    href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#reddit' | relative_url }}"
-    />
-  </svg>
-</a>
-<a href="{{ site.social.links[1] }}" title="My Github Account">
-  <svg
-    width="24"
-    height="24"
-    class="fa-icon"
-    aria-labelledby="github"
-    role="img"
-  >
-    <title id="github">My Github Account</title>
-    <use
-      href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#github' | relative_url }}"
-    />
-  </svg>
-</a>
+      width="24"
+      height="24"
+      class="fa-icon"
+      aria-labelledby="reddit"
+      role="img"
+    ><title id="reddit">My Reddit Account</title>
+      <use
+      href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#reddit' | relative_url }}"
+      />
+    </svg>
+  </a>
+  <a href="{{ site.social.links[1] }}" title="My Github Account">
+    <svg
+      width="24"
+      height="24"
+      class="fa-icon"
+      aria-labelledby="github"
+      role="img"
+    ><title id="github">My Github Account</title>
+      <use
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#github' | relative_url }}"
+      />
+    </svg>
+  </a>
   <a href="{{ site.social.links[2] }}" title="My Keybase Account">
     <svg
       width="24"
@@ -54,8 +67,7 @@
       class="fa-icon"
       aria-labelledby="keybase"
       role="img"
-    >
-      <title id="keybase">My Keybase Account</title>
+    ><title id="keybase">My Keybase Account</title>
       <use
         href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#keybase' | relative_url }}"
       />
@@ -65,6 +77,7 @@
     href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
     target="_top"
     rel="noreferrer"
+    title="RSS/Atom Feed"
     type="application/atom+xml"
     >{% octicon rss height:24 aria-label:"RSS/Atom Feed" %}</a
   >
@@ -83,7 +96,9 @@
     Except where otherwise
     <em><a href="{{ '/license' | relative_url }}">noted</a></em
     >, this website is licensed under
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+    <a
+      rel="license external nofollow noopener noreferrer"
+      href="https://creativecommons.org/licenses/by-sa/4.0/"
       >CC BY-SA 4.0</a
     >.
   </p>

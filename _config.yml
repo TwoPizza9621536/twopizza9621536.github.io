@@ -34,6 +34,7 @@ social:
     - https://github.com/TwoPizza9621536
     - https://keybase.io/TwoPizza9621536
     - https://reddit.com/u/twopizza9621536
+    - https://social.restless.systems/@TwoPizza9621536
 
 # SEO
 webmaster_verifications:
@@ -90,8 +91,9 @@ jekyll-mentions: https://twitter.com
 strict_front_matter: true
 
 # New window for external links
-target-blank:
-  rel: nofollow
+external_links:
+  enabled: true
+  rel: external nofollow noopener noreferrer
 
 # Latent Semantic Indexer
 lsi: true
@@ -103,13 +105,13 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-include-cache
+  - jekyll-link-attributes
   - jekyll-loading-lazy
   - jekyll-mentions
   - jekyll-octicons
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-target-blank
   - jekyll_version_plugin
   - jemoji
 
