@@ -5,69 +5,60 @@
     rel="noreferrer"
     >{% octicon mail height:24 aria-label:"Email" %}</a
   >
-  <a href="{{ site.social.links[0] }}" title="My Twitter Account">
-    <svg
-      width="24"
-      height="24"
-      class="fa-icon"
-      aria-labelledby="twitter"
-      role="img"
-    ><title id="twitter">My Twitter Account</title>
-      <use
-        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#twitter' | relative_url }}"
-      />
-    </svg>
-  </a>
   <a
     rel="me external nofollow noopener noreferrer"
-    href="{{ site.social.links[4] }}"
+    href="{{ site.social.links[0] }}"
     title="My Mastodon Account"
-  ><svg
+    ><svg
       width="24"
       height="24"
       class="fa-icon"
       aria-labelledby="mastodon"
       role="img"
-    ><title id="mastodon">My Mastodon Account</title>
+    >
+      <title id="mastodon">My Mastodon Account</title>
       <use
         href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#mastodon' | relative_url }}"
       />
     </svg>
   </a>
-  <a href="{{ site.social.links[3] }}" title="My Reddit Account">
+  <a href="{{ site.social.links[1] }}" title="My Reddit Account">
     <svg
       width="24"
       height="24"
       class="fa-icon"
       aria-labelledby="reddit"
       role="img"
-    ><title id="reddit">My Reddit Account</title>
+    >
+      <title id="reddit">My Reddit Account</title>
       <use
-      href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#reddit' | relative_url }}"
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#reddit' | relative_url }}"
       />
     </svg>
   </a>
-  <a href="{{ site.social.links[1] }}" title="My Github Account">
+  <a href="{{ site.social.links[2] }}" title="My Github Account">
     <svg
       width="24"
       height="24"
       class="fa-icon"
       aria-labelledby="github"
       role="img"
-    ><title id="github">My Github Account</title>
+    >
+      <title id="github">My Github Account</title>
       <use
         href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#github' | relative_url }}"
       />
     </svg>
   </a>
-  <a href="{{ site.social.links[2] }}" title="My Keybase Account">
+  <a href="{{ site.social.links[3] }}" title="My Keybase Account">
     <svg
       width="24"
       height="24"
       class="fa-icon"
       aria-labelledby="keybase"
       role="img"
-    ><title id="keybase">My Keybase Account</title>
+    >
+      <title id="keybase">My Keybase Account</title>
       <use
         href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#keybase' | relative_url }}"
       />
@@ -85,17 +76,18 @@
 
 <div class="sidebar-item">
   <p>
-    Hosted on <a href="https://pages.github.com">GitHub Pages</a>. Source code
-    is hosted on <a href="{{ site.github.repository_url }}">Github</a>. Build
-    with <a href="https://jekyllrb.com">Jekyll</a>.
+    Hosted on <a href="https://pages.github.com">GitHub Pages</a>.
+    Source code is hosted on
+    <a href="{{ site.github.repository_url }}">Github</a>.
+    Build with <a href="https://jekyllrb.com">Jekyll</a>.
   </p>
 </div>
 
 <div class="sidebar-item">
   <p>
     Except where otherwise
-    <em><a href="{{ '/license' | relative_url }}">noted</a></em
-    >, this website is licensed under
+    <em><a href="{{ '/license' | relative_url }}">noted</a></em>,
+    this website is licensed under
     <a
       rel="license external nofollow noopener noreferrer"
       href="https://creativecommons.org/licenses/by-sa/4.0/"

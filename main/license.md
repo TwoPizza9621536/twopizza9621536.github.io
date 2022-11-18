@@ -74,8 +74,8 @@ plugins requires.
 
 ### Plugins
 
-* [jekyll-archives](https://github.com/jekyll/jekyll-archives)
-* [jekyll-asset-path](https://github.com/samrayner/jekyll-asset-path-plugin)
+* @jekyll/jekyll-archives
+* samrayner/jekyll-asset-path-plugin
 * [jekyll-email-protect](https://github.com/vwochnik/jekyll-email-protect)
 * [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 * [jekyll-github-metadata](https://github.com/jekyll/github-metadata)

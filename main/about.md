@@ -7,7 +7,7 @@ permalink: about
 I am a Chinese American who likes to code, play video games and messing with
 cursed technology.
 
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD033 -->
 
 I have two names:<br>
 English: Samuel Wu<br>
@@ -80,10 +80,10 @@ Sectioned based on usage.
 #### Desktop
 
 * Browsers
-  * Microsoft Edge
-  * Firefox
-  * Chromium
-  * Epiphany
+  + Microsoft Edge
+  + Firefox
+  + Chromium
+  + Epiphany
 * Bitwarden
 * Discord
 * LibreOffice
@@ -94,8 +94,8 @@ Sectioned based on usage.
 ##### GNOME Apps
 
 * Backups
-  * Déjà Dup
-  * TimeShift
+  + Déjà Dup
+  + TimeShift
 * Collision
 * Disks
 * Eye of GNOME
@@ -108,9 +108,9 @@ Sectioned based on usage.
 * Text Editor
 * Videos
 * Third Party
-  * Geary
-  * Extension Manager
-  * Gradients
+  + Geary
+  + Extension Manager
+  + Gradients
 
 #### Games
 
@@ -126,28 +126,28 @@ Sectioned based on usage.
 #### Development Setup and Command-line
 
 * Editor
-  * Visual Studio Code
+  + Visual Studio Code
 * Language Setup
-  * dotnet
-  * goenv
-  * nvm
-  * plenv
-  * pyenv
-  * rbenv
-  * sdkman
+  + dotnet
+  + goenv
+  + nvm
+  + plenv
+  + pyenv
+  + rbenv
+  + sdkman
 * Command Line
-  * bat
-  * exa
-  * fd
-  * rg
-  * hyfetch / neofetch
+  + bat
+  + exa
+  + fd
+  + rg
+  + hyfetch / neofetch
 * Command Line Shell
-  * Zsh
-  * Oh My Posh
-  * Oh My Zsh
+  + Zsh
+  + Oh My Posh
+  + Oh My Zsh
 * Terminals
-  * GNOME Terminal
-  * Yakuake
+  + GNOME Terminal
+  + Yakuake
 
 #### Mobile
 
