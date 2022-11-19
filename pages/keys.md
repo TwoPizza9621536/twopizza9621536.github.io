@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Public Cryptographic Keys
-permalink: /public-keys
+title: Cryptographic Keys
+permalink: /keys
 description: >-
-  Public keys to send encrypted messages and files, or check the authenticity
-  of a file or message.
+  Cryptographic keys to send encrypted messages and files, or check the
+  authenticity of messages and files.
 ---
 
 Depending on the situation you might need to use different methods of
@@ -35,9 +35,9 @@ The PGP key ID is: `E616 FEDB 61CF 8046`
 
 These should match the bottom half of the fingerprint.
 
-[1]: <https://jedisct1.github.io/minisign>
-[2]: <https://github.com/aperezdc/signify>
-[3]: <https://age-encryption.org>
-[4]: <https://github.com/TwoPizza9621536.keys>
-[5]: <https://keys.mailvelope.com>
-[6]: <https://keys.openpgp.org>
+[1]: https://jedisct1.github.io/minisign
+[2]: https://github.com/aperezdc/signify
+[3]: https://age-encryption.org
+[4]: https://github.com/TwoPizza9621536.keys
+[5]: https://keys.mailvelope.com
+[6]: https://keys.openpgp.org
