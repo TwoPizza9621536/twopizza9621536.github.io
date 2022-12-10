@@ -35,7 +35,7 @@ configuration.
 | Operating System       | Fedora Silverblue                  |
 | Desktop Environment    | GNOME                              |
 | Cursor                 | Breeze                             |
-| Shell                  | Adwaita                            |
+| Shell                  | Materia or Adwaita                 |
 | Theme                  | Pop via Adw-gtk3                   |
 
 ### GNOME Extensions
@@ -43,6 +43,7 @@ configuration.
 I also use some extensions to make GNOME better.
 
 * Activate GNOME
+* Auto Move Windows
 * AppIndicator and KStatusNotifierItem Support
 * Background Logo
 * Bluetooth Quick Connect
@@ -60,6 +61,7 @@ I also use some extensions to make GNOME better.
 * Privacy Quick Settings Menu
 * Quick Settings Tweaker
 * Removable Drive Menu
+* Rounded Window Corners
 * Screenshot Window Sizer
 * Status Area Horizontal Spacing
 * User Themes
@@ -122,13 +124,13 @@ Sectioned based on usage.
   + Neovim
   + Visual Studio Code
 * Language Setup
-  + dotnet (C#/F#/VB)
-  + goenv (Go Tools)
-  + nvm (JavaScript)
-  + plenv (Perl Tools)
-  + pyenv (Python)
-  + rbenv (Ruby)
-  + rustup (Rust Tools)
+  + dotnet
+  + goenv
+  + nvm
+  + plenv
+  + pyenv
+  + rbenv
+  + rustup
 * Command Line
   + bat / cat
   + exa / ls
