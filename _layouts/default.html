@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include sidebar.html %}
+  {% include sidebar.html %}
 
-    <div class="wrap">
-      <header class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </header>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+      </div>
+    </header>
 
-      <main class="container content">
-        {{ content }}
-      </main>
-    </div>
+    <main class="container content">
+      {{ content }}
+    </main>
+  </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-  </body>
+</body>
 
 </html>

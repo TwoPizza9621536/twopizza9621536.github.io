@@ -8,18 +8,12 @@ description: The License and Dependencies for twopizza9621536.github.io.
 This website is licensed under the
 [Creative Commons Attribution-ShareAlike 4.0 International License][1].
 
-Additionally if the Licensed Material is not modified, and the use of the
-Licensed Material is referenced in an Adapted Material. Section 3(b) may be
-waived. You must obey all other Sections of the License unless they are waived
-by the Licensor **and** the Licenses of other Materials in an Adapted Material.
-**This waiver only applies to the Licensor's Material and can be removed.**
-
 > All trademarks that may be in website are properties of their respective
 > owners, please lookup their respective guidelines for the permitted use of
 > such trademarks.
 
-The website's source code and stylesheets can be used freely with attribution
-or the dependencies below. Any other notice will be listed on the page.
+The website's source code and stylesheets can be used freely under CC BY-SA
+and dependencies can be used with attributions which are listed below this page.
 
 ## Website Dependencies
 
@@ -73,22 +67,22 @@ plugins requires.
 
 ### Plugins
 
-* [Jekyll Include Cache](https://github.com/benbalter/jekyll-include-cache)
-* [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy)
 * [GitHub Metadata](https://github.com/jekyll/github-metadata)
 * [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
+* [Jekyll Asset Path Tag](https://github.com/samrayner/jekyll-asset-path-plugin)
+* [Jekyll Email Protect](https://github.com/vwochnik/jekyll-email-protect)
 * [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed)
+* [Jekyll Include Cache](https://github.com/benbalter/jekyll-include-cache)
+* [Jekyll Link Attributes](https://github.com/twinsunllc/jekyll-link-attributes)
 * [Jekyll Mentions](https://github.com/jekyll/jekyll-mentions)
 * [Jekyll Sass Converter](https://github.com/jekyll/jekyll-sass-converter)
 * [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
 * [Jekyll Sitemap Generator Plugin](https://github.com/jekyll/jekyll-sitemap)
+* [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy)
+* [jekyll-version-plugin](https://github.com/rob-murray/jekyll-version-plugin)
+* [Jekyll::Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2)
 * [Jemoji](https://github.com/jekyll/jemoji)
 * [Primer Octicons](https://github.com/primer/octicons)
-* [jekyll-version-plugin](https://github.com/rob-murray/jekyll-version-plugin)
-* [Jekyll Asset Path Tag](https://github.com/samrayner/jekyll-asset-path-plugin)
-* [Jekyll::Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2)
-* [Jekyll Link Attributes](https://github.com/twinsunllc/jekyll-link-attributes)
-* [Jekyll Email Protect](https://github.com/vwochnik/jekyll-email-protect)
 
 These plugins are licensed under the [MIT License][3], but the license for their
 dependencies are different. See the [website's source code][8] for more

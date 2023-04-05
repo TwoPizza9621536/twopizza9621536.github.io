@@ -96,6 +96,7 @@ lsi: true
 
 # Plugins
 plugins:
+  - jekyll_version_plugin
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
@@ -108,7 +109,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll_version_plugin
   - jemoji
 
 # Excluding Files

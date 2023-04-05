@@ -20,7 +20,7 @@ and below are key servers which hold my public key.
 
 Please do not use DM or Email to send any private information as most of theme
 do not use end to end encryption and anybody can see these messages. Please use
-[Signal](https://signal.org).
+[Signal](https://signal.org) if your device is not comprised.
 
 ## More Encryption And Verification Tools
 
@@ -29,4 +29,4 @@ do not use end to end encryption and anybody can see these messages. Please use
 signing tools respectively that can be used if the above methods is not
 appropriate for the context of sending messages or files. Check my
 [dotfiles repository](https://github.com/TwoPizza9621536/dotfiles) for public
-keys.
+keys. (They are currently unavailable.)

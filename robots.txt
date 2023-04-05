@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /assets/
-
-User-agent: Mediapartners-Google
-User-agent: AdsBot-Google
-User-agent: AdIdxBot
-Disallow: /
-
-Sitemap: https://twopizza9621536.github.io/sitemap.xml

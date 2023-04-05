@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem "classifier-reborn"
   gem "dotenv"
   gem "faraday-retry"
+  gem "jekyll_version_plugin"
   gem "jekyll-archives"
   gem "jekyll-compose"
   gem "jekyll-email-protect"
@@ -21,18 +22,14 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-watch"
-  gem "jekyll_version_plugin"
   gem "jemoji"
-  gem "numo-linalg"
-  gem "numo-narray"
+  # gem "numo-linalg"
+  # gem "numo-narray"
   gem "sass-embedded"
-end
-
-platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo"
   gem "tzinfo-data"
 end
 
-gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm" if Gem.win_platform?
 
 gem "http_parser.rb", :platforms => [:jruby]
