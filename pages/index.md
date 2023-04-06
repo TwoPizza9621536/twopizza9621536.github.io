@@ -20,4 +20,4 @@ files, see the sidebar on the left.
 {% for repository in repositories limit:5 %}
 * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
-<!-- markdownlint restore -->
+<!-- markdownlint-restore -->
