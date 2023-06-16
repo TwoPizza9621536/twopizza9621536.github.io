@@ -13,11 +13,12 @@ files, see the sidebar on the left.
 ## Repositories
 
 <!-- markdownlint-disable MD032 -->
+
 {% assign public_repositories = site.github.public_repositories %}
 {% assign unarchive_repositories = public_repositories | sort:"archived" %}
 {% assign personal_repositories = unarchive_repositories | sort:"fork" %}
 {% assign repositories = personal_repositories | sort:"stargazers_count" %}
 {% for repository in repositories limit:5 %}
-* [{{ repository.name }}]({{ repository.html_url }})
+- [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
 <!-- markdownlint-restore -->

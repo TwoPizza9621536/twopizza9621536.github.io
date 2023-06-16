@@ -105,6 +105,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-loading-lazy
   - jekyll-mentions
+  - jekyll-minifier
   - jekyll-octicons
   - jekyll-paginate-v2
   - jekyll-seo-tag

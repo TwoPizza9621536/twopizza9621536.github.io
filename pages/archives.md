@@ -11,7 +11,7 @@ permalink: /archives
 {% assign posts = site.posts %}
 {% assign postsByYear = posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
-* [{{ year.name }}]({{ year.name | relative_url }})
+- [{{ year.name }}]({{ year.name | relative_url }})
 {% endfor %}
 
 <!-- markdownlint-disable -->

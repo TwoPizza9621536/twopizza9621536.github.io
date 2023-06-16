@@ -9,7 +9,7 @@ permalink: /tags
 <!-- markdownlint-disable MD032 -->
 
 {% for tag in site.tags %}
-* [{{ tag[0] }}]({{ '/tag[0]' | relative_url }})
+- [{{ tag[0] }}]({{ '/tag[0]' | relative_url }})
 {% endfor %}
 
 <!-- markdownlint restore -->

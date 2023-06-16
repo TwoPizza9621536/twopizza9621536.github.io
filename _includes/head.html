@@ -1,25 +1,31 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>
-    {% if page.title == "Home" %}
-    {{ site.title }} | {{ site.tagline }}
-    {% else %}
-    {{ page.title }} | {{ site.title }}
-    {% endif %}
+    {% if page.title == "Home" %} {{ site.title }} | {{ site.tagline }} {% else
+    %} {{ page.title }} | {{ site.title }} {% endif %}
   </title>
 
   {% if page.url and site.baseurl %}
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
   {% endif %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet preconnect"
-    href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400&display=swap">
-  <link rel="stylesheet preconnect" href="https://fonts.googleapis.com/css?family=Fira+Code:wght@300..700&display=swap">
-  <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}"
+  />
+  <link
+    rel="stylesheet preconnect"
+    href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400&display=swap"
+  />
+  <link
+    rel="stylesheet preconnect"
+    href="https://fonts.googleapis.com/css?family=Fira+Code:wght@300..700&display=swap"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="{{ '/assets/apple-touch-icon.png' | relative_url }}"
+  />
+  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}" />
 
-  {% feed_meta %}
-
-  {% seo title=false %}
+  {% feed_meta %} {% seo title=false %}
 </head>

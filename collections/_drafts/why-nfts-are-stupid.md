@@ -21,12 +21,12 @@ Before we start, we need define what is a NFT.
 
 NFT
 : A unique and non-interchangeable unit of data stored on a blockchain , a form
-  of digital ledger. - [Wikipedia][1] | [CC BY-SA 3.0 Unported][2]
+of digital ledger. - [Wikipedia][1] | [CC BY-SA 3.0 Unported][2]
 
 Using Wikipedia is kind of unfair isn't it (as it is told not to be used as a
 source) but it does serve as a baseline. It means it is a single digital file
 that represents a digital asset which shows ownership as a transaction record
-that cannot be copied. Basically you take all the data  that represent the
+that cannot be copied. Basically you take all the data that represent the
 digital asset you want to mint (the process of creating NFTs) and output it into
 data that only represent the bits/bytes of that digital asset you minted. Here
 is a visual example of this process:

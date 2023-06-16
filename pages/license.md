@@ -67,22 +67,22 @@ plugins requires.
 
 ### Plugins
 
-* [GitHub Metadata](https://github.com/jekyll/github-metadata)
-* [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
-* [Jekyll Asset Path Tag](https://github.com/samrayner/jekyll-asset-path-plugin)
-* [Jekyll Email Protect](https://github.com/vwochnik/jekyll-email-protect)
-* [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed)
-* [Jekyll Include Cache](https://github.com/benbalter/jekyll-include-cache)
-* [Jekyll Link Attributes](https://github.com/twinsunllc/jekyll-link-attributes)
-* [Jekyll Mentions](https://github.com/jekyll/jekyll-mentions)
-* [Jekyll Sass Converter](https://github.com/jekyll/jekyll-sass-converter)
-* [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
-* [Jekyll Sitemap Generator Plugin](https://github.com/jekyll/jekyll-sitemap)
-* [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy)
-* [jekyll-version-plugin](https://github.com/rob-murray/jekyll-version-plugin)
-* [Jekyll::Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2)
-* [Jemoji](https://github.com/jekyll/jemoji)
-* [Primer Octicons](https://github.com/primer/octicons)
+- [GitHub Metadata](https://github.com/jekyll/github-metadata)
+- [Jekyll Archives](https://github.com/jekyll/jekyll-archives)
+- [Jekyll Asset Path Tag](https://github.com/samrayner/jekyll-asset-path-plugin)
+- [Jekyll Email Protect](https://github.com/vwochnik/jekyll-email-protect)
+- [Jekyll Feed plugin](https://github.com/jekyll/jekyll-feed)
+- [Jekyll Include Cache](https://github.com/benbalter/jekyll-include-cache)
+- [Jekyll Link Attributes](https://github.com/twinsunllc/jekyll-link-attributes)
+- [Jekyll Mentions](https://github.com/jekyll/jekyll-mentions)
+- [Jekyll Sass Converter](https://github.com/jekyll/jekyll-sass-converter)
+- [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
+- [Jekyll Sitemap Generator Plugin](https://github.com/jekyll/jekyll-sitemap)
+- [jekyll-loading-lazy](https://github.com/gildesmarais/jekyll-loading-lazy)
+- [jekyll-version-plugin](https://github.com/rob-murray/jekyll-version-plugin)
+- [Jekyll::Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2)
+- [Jemoji](https://github.com/jekyll/jemoji)
+- [Primer Octicons](https://github.com/primer/octicons)
 
 These plugins are licensed under the [MIT License][3], but the license for their
 dependencies are different. See the [website's source code][8] for more
@@ -94,5 +94,5 @@ dependencies.
 [4]: https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
 [5]: https://fontawesome.com/license/free
 [6]: https://www.w3.org/Consortium/Legal/logo-usage-20000308
-[7]: http://creativecommons.org/licenses/by/3.0/
-[8]: {{ site.github.repository_url }}
+[7]: https://creativecommons.org/licenses/by/3.0/
+[8]: https://twopizza9621536.github.io

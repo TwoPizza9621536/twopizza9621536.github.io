@@ -42,30 +42,30 @@ configuration.
 
 I also use some extensions to make GNOME better.
 
-* Activate GNOME
-* Auto Move Windows
-* AppIndicator and KStatusNotifierItem Support
-* Background Logo
-* Bluetooth Quick Connect
-* Blur my Shell
-* Clipboard History
-* Color App Menu Icon for GNOME 40+
-* Desktop Icons NG (DING)
-* Espresso
-* Extensions Sync
-* GSConnect
-* Hot Edge
-* Night Theme Switcher
-* No overview at start-up
-* Pop Shell
-* Privacy Quick Settings Menu
-* Quick Settings Tweaker
-* Removable Drive Menu
-* Rounded Window Corners
-* Screenshot Window Sizer
-* Status Area Horizontal Spacing
-* User Themes
-* Vitals
+- Activate GNOME
+- Auto Move Windows
+- AppIndicator and KStatusNotifierItem Support
+- Background Logo
+- Bluetooth Quick Connect
+- Blur my Shell
+- Clipboard History
+- Color App Menu Icon for GNOME 40+
+- Desktop Icons NG (DING)
+- Espresso
+- Extensions Sync
+- GSConnect
+- Hot Edge
+- Night Theme Switcher
+- No overview at start-up
+- Pop Shell
+- Privacy Quick Settings Menu
+- Quick Settings Tweaker
+- Removable Drive Menu
+- Rounded Window Corners
+- Screenshot Window Sizer
+- Status Area Horizontal Spacing
+- User Themes
+- Vitals
 
 ## Applications
 
@@ -76,82 +76,82 @@ Sectioned based on usage.
 
 ### Desktop
 
-* Browsers
-  + Microsoft Edge
-  + Firefox
-  + Chromium
-  + Epiphany
-* Bitwarden
-* Discord
-* LibreOffice
-* Thunderbird
-* VeraCrypt
-* VLC
+- Browsers
+  - Microsoft Edge
+  - Firefox
+  - Chromium
+  - Epiphany
+- Bitwarden
+- Discord
+- LibreOffice
+- Thunderbird
+- VeraCrypt
+- VLC
 
 #### GNOME Apps
 
-* Collision
-* Déjà Dup
-* Disks
-* Eye of GNOME
-* File Roller
-* Junction
-* Nautilus
-* Obfuscate
-* Seahorse
-* Settings
-* Text Editor
-* Videos
-* Third Party
-  + Geary
-  + Extension Manager
-  + Gradients
+- Collision
+- Déjà Dup
+- Disks
+- Eye of GNOME
+- File Roller
+- Junction
+- Nautilus
+- Obfuscate
+- Seahorse
+- Settings
+- Text Editor
+- Videos
+- Third Party
+  - Geary
+  - Extension Manager
+  - Gradients
 
 ### Games
 
-* Steam
-* PrismMC
+- Steam
+- PrismMC
 
 ### Video, Graphics and Audio
 
-* GIMP
-* Inkscape
-* Krita
+- GIMP
+- Inkscape
+- Krita
 
 ### Development Setup and Command-line
 
-* Editor
-  + Neovim
-  + Visual Studio Code
-* Language Setup
-  + dotnet
-  + goenv
-  + nvm
-  + plenv
-  + pyenv
-  + rbenv
-  + rustup
-* Command Line
-  + bat / cat
-  + exa / ls
-  + fd / find
-  + rg / grep
-  + hyfetch / neofetch
-* Command Line Shell
-  + Zsh
-  + Oh My Zsh
-  + Powerlevel10k
-  + Tmux
-* Terminals
-  + GNOME Terminal
-  + Yakuake
+- Editor
+  - Neovim
+  - Visual Studio Code
+- Language Setup
+  - dotnet
+  - goenv
+  - nvm
+  - plenv
+  - pyenv
+  - rbenv
+  - rustup
+- Command Line
+  - bat / cat
+  - exa / ls
+  - fd / find
+  - rg / grep
+  - hyfetch / neofetch
+- Command Line Shell
+  - Zsh
+  - Oh My Zsh
+  - Powerlevel10k
+  - Tmux
+- Terminals
+  - GNOME Terminal
+  - Yakuake
 
 ### Mobile
 
-* Bitwarden
-* Discord
-* Microsoft Authenticator
-* Raivo
-* Reddit
-* Twitter
-* YouTube
+- Bitwarden
+- Discord
+- Microsoft Authenticator
+- Raivo
+- Reddit
+- Twitter
+- YouTube

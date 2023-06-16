@@ -7,14 +7,14 @@ description: Cryptographic keys for encryption and verification.
 
 Pretty Good Privacy keys are provided for:
 
-* Verifying Git Commits, messages, files, and accounts that I own.
-* Encrypting and sending messages or files through Email (not recommended).
+- Verifying Git Commits, messages, files, and accounts that I own.
+- Encrypting and sending messages or files through Email (not recommended).
 
 My fingerprint is `3301 C20A 816B 1C39 5831 ADA4 E616 FEDB 61CF 8046`
 and below are key servers which hold my public key.
 
-* [OpenPGP Keyserver](https://keys.openpgp.org)
-* [Mailvelope Keyserver](https://keys.mailvelope.com)
+- [OpenPGP Keyserver](https://keys.openpgp.org)
+- [Mailvelope Keyserver](https://keys.mailvelope.com)
 
 ## Secure Messages
 
