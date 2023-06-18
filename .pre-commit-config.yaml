@@ -9,7 +9,6 @@ repos:
       - id: fix-byte-order-marker
       - id: mixed-line-ending
       - id: no-commit-to-branch
-      - id: pretty-format-json
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
   - repo: https://github.com/klieret/jekyll-relative-url-check
@@ -18,12 +17,15 @@ repos:
       - id: jekyll-relative-url-check-html
       - id: jekyll-relative-url-check-markdown
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.34.0
+    rev: v0.35.0
     hooks:
       - id: markdownlint
       - id: markdownlint-fix
-  - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v2.3.0
+
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v9.5.0
     hooks:
-      - id: conventional-pre-commit
-        stages: [commit-msg]
+        - id: commitlint
+          stages: [commit-msg]
+          additional_dependencies:
+            - '@commitlint/config-conventional'
