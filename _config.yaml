@@ -101,7 +101,6 @@ redirect_from:
 plugins:
   - jekyll_version_plugin
   - jekyll-archives
-  - jekyll-gzip
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata

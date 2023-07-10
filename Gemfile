@@ -13,7 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-email-protect"
   gem "jekyll-feed"
   gem "jekyll-github-metadata"
-  gem "jekyll-gzip"
   gem "jekyll-include-cache"
   gem "jekyll-link-attributes"
   gem "jekyll-loading-lazy"
