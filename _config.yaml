@@ -29,7 +29,6 @@ author:
 
 socials:
   - https://social.restless.systems/@TwoPizza9621536
-  - https://reddit.com/u/twopizza9621536
   - https://github.com/TwoPizza9621536
 
 # SEO
@@ -94,10 +93,15 @@ external_links:
 # Latent Semantic Indexer
 lsi: true
 
+# Redirect
+redirect_from:
+  json: false
+
 # Plugins
 plugins:
   - jekyll_version_plugin
   - jekyll-archives
+  - jekyll-brotli
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-github-metadata
@@ -108,6 +112,7 @@ plugins:
   - jekyll-minifier
   - jekyll-octicons
   - jekyll-paginate-v2
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
