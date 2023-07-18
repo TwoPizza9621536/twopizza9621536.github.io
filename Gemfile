@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-watch"
   gem "jemoji"
+  gem "liquid_reading_time"
   gem "numo-linalg"
   gem "numo-narray"
   gem "sass-embedded"

@@ -1,8 +1,7 @@
 ---
 title: Comparing Languages
 date: 2021-10-02 14:53:31 -0400
-tags:
-  - Comparisons
+categories:
   - Programming
 description: A test of Jekyll's syntax highlighting and my first blog post.
 ---
@@ -23,7 +22,6 @@ to the filename provided to create in memory, then open the file and write to
 it. Last close it and ask the user input to exit.
 
 <!-- markdownlint-disable MD018 MD022 MD025 -->
-
 {% highlight c linenos %}
 #include <stdio.h>
 #include <stdlib.h>
@@ -61,7 +59,6 @@ int main(int argc, char **argv)
     return 0;
 }
 {% endhighlight %}
-
 <!-- markdownlint-restore -->
 
 ## Java
@@ -156,5 +153,5 @@ everything up, it is still simple. Java is both more complicated and simplified.
 Python is the simplest as it is a beginner language and all of the io is
 abstracted.
 
-**Notice** Code snippets are licensed under the
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+> **Notice**: Code snippets are licensed under the
+> [CC0](https://creativecommons.org/publicdomain/zero/1.0/).

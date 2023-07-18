@@ -1,6 +1,6 @@
 ---
-title: LFS For a 486.
-tags:
+title: LFS For a 486
+categories:
   - Linux
 description: Linus is decapitating Linux on the 586, Long Live 486 Linux.
 ---
