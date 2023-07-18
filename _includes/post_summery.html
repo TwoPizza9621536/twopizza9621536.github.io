@@ -1,0 +1,16 @@
+<article class="post">
+  <header>
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+      {{ post.date | date_to_string }}
+    </time>
+  </header>
+
+  {% if post.description != null %}
+  <p class="post-description">{{ post.description }}</p>
+  {% endif %}
+
+  {{ post.excerpt }}
+</article>

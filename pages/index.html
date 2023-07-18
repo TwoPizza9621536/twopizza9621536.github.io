@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+<p>
+  Welcome to my github.io page. This is where I store my
+  <a href="{{ '/blogs' | relative_url }}">
+    blogs for technology, programming, open source, games, and more.
+  </a>
+</p>
+
+<p>
+  To contact me or using public cryptographic keys to send or verify messages or
+  files, see the sidebar on the left.
+</p>
+
+<h2>Latest Post</h2>
+
+{% assign post = site.posts[0] %}
+{% include post_summery.html %}
+
+<h2>Repositories</h2>
+
+{% assign repositories = site.github.public_repositories
+  | sort: "archived" | sort: "fork" | sort: "stargazers_count" %}
+<ul>
+  {% for repository in repositories limit:5 %}
+  <li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
+  {% endfor %}
+</ul>

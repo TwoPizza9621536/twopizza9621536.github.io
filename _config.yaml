@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: CC0-1.0
 # Setup
 title: Samuel Wu
-tagline: The place where we mainly screw with tech.
+tagline: Where we cannot know, and will never know.
 description: >-
-  This my blogs for coding, programming, and technology, that will
-  spiral into shenanigans. Including games, events and other things too.
+  This my blogs for programming, technology, media, and politics. Because
+  that what blogs are for.
 url: https://twopizza9621536.github.io
 baseurl: ""
 
@@ -13,7 +13,7 @@ repository: TwoPizza9621536/twopizza9621536.github.io
 origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
 
 # Timezone and Locale
-encoding: UTF-8
+encoding: utf-8
 timezone: America/New_York
 locale: en-US
 lang: en-US
@@ -30,6 +30,8 @@ author:
 socials:
   - https://social.restless.systems/@TwoPizza9621536
   - https://github.com/TwoPizza9621536
+  - https://en.gravatar.com/twopizza9621536
+  - https://steamcommunity.com/profiles/76561199040648119/
 
 # SEO
 webmaster_verifications:
@@ -42,6 +44,7 @@ permalink: /:year/:title
 # Pagination
 pagination:
   enabled: true
+  per_page: 10
 
 # Archives
 jekyll-archives:

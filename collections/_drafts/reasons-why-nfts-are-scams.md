@@ -1,43 +1,44 @@
 ---
-title: You Do Not Know How NFTs Works And Here Is Why It Is Stupid
-description: An explanation of how NFTs actually works and why it is stupid.
+title: Reasons Why NFTs Are Scams
+description: An explanation of how NFTs actually works and why they are scams.
 tags:
   - NFTs
   - Cryptography
-slug: nfts-works-stupid
 ---
 
 Non Fungible Tokens or NFTs in recent months have been a very controversial
 technology not just in the tech world but also in the art world. I know I am
-going to get flamed by "TechBros" on how "web3" will change the world and how
-people will actually own "Digital Property", you guys do not know how it works
-or do not care because it is all about the money. On the side of people who
-agrees that NFTs are bad, well you guys also do not know how NFTs work, so this
-is how NFT works.
+going to get flamed by tech bros on how "Web3" will change the world and how
+people will actually own digital property, but in actuality it is a way for
+scammers to gain more money.
+
+{% capture info %}
+:information_source: <strong>Notice</strong>
+This article was still in draft during 2022. I
+did not finish this as many other people have voice their options on NFTs. But
+since this article is mostly finished, I have rewritten this article for a
+less wordy explanation.
+{% endcapture %}
+{% include aside_blockquote.html content=info %}
 
 ## How NFT works
 
-Before we start, we need define what is a NFT.
+First off what is a NFT. A NFT is a unique and non-interchangeable unit of data
+stored on a blockchain, a form of digital ledger - [Wikipedia][1]
+([CC BY-SA 3.0][2]). Basically a receipt or transaction "proves" that
+you have a digital asset, which cannot be copied and records it in a blockchain.
+Then how do you create a NFT, well below is a simple diagram that I have created
+to show the process.
 
-NFT
-: A unique and non-interchangeable unit of data stored on a blockchain , a form
-of digital ledger. - [Wikipedia][1] | [CC BY-SA 3.0 Unported][2]
+![A diagram that shows how a digital asset is minted as a NFT. Starting with
+ a digital asset, then the minting process, and lastly putting the NFT on the
+ blockchain.]({% asset_path nft_process.svg %} "The process of minting a NFT")
 
-Using Wikipedia is kind of unfair isn't it (as it is told not to be used as a
-source) but it does serve as a baseline. It means it is a single digital file
-that represents a digital asset which shows ownership as a transaction record
-that cannot be copied. Basically you take all the data that represent the
-digital asset you want to mint (the process of creating NFTs) and output it into
-data that only represent the bits/bytes of that digital asset you minted. Here
-is a visual example of this process:
+Ok that diagram
 
-![process.svg]({% asset_path process.svg %} "The process of minting a NFT")
-
-Lets do this in
-
-This is why NFTs is stupid, you are owning the representation of the data that
-represent the digital asset, not the actual digital asset. Which leads to the
-next thing.
+Well then why can people can copy assets that are minted as NFTs. Because only
+the receipt representing the asset, the NFT, is not copyable, original digital
+asset is copyable.
 
 ### How "Digital Copying" Works
 

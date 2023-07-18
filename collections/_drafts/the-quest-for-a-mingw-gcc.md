@@ -3,14 +3,10 @@ title: The Quest For a MinGW GCC
 date: 2023-06-15 04:33:23 -0400
 description: Compiling a compiler
 tags:
-  - CompileHell
+  - Compile Hell
   - Software
 slug: quest-mingw-gcc
 ---
-
-## Introduction
-
-> Note: This article was original drafted in 2021.
 
 The [MinGW](https://osdn.net/projects/mingw/) project is a port the Gnu
 Compiler Collection for Windows during XP. It was a native port enabling the
@@ -19,14 +15,14 @@ which added 64bit support, provides a better port of the Windows API, and
 allows Linux systems to compile to Windows.
 
 I wanted a updated version of GCC running on for the MinGW triple, which is
-`mingw` (2023 update: or `mingw32`). A triple is basically the a way to tell the
+`mingw` or `mingw32`. A triple is basically the a way to tell the
 compiler to compile the code for a specific platform. The [OSDev Wiki][1]
 explains [targeting triple][2] better, and a great resource for general OS
 development and programming.
 
-I wanted a updated version of GCC running on the `mingw` (or `mingw32`) triple.
+I wanted a updated version of GCC running on the `mingw` or `mingw32` triple.
 The current version is GCC 11 (at the time of writing this) so this will be my
-target (2023 update: I am targeting GCC 10 to rebuild this project).
+target.
 
 ## Setup
 

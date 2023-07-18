@@ -36,6 +36,34 @@
       />
     </svg>
   </a>
+  <a href="{{ site.socials[2] }}" title="My Gravatar Profile">
+    <svg
+      width="24"
+      height="24"
+      class="fa-icon"
+      aria-labelledby="gravatar"
+      role="img"
+    >
+      <title id="gravatar">My Steam Profile</title>
+      <use
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#gravatar' | relative_url }}"
+      />
+    </svg>
+  </a>
+  <a href="{{ site.socials[3] }}" title="My Steam Profile">
+    <svg
+      width="24"
+      height="24"
+      class="fa-icon"
+      aria-labelledby="steam"
+      role="img"
+    >
+      <title id="steam">My Steam Profile</title>
+      <use
+        href="{{ '/assets/svg/brands.svg?v=' | append: site.github.build_revision | append: '#steam' | relative_url }}"
+      />
+    </svg>
+  </a>
   <a
     href="{{ '/feed.xml?v=' | append: site.github.build_revision | relative_url }}"
     target="_top"

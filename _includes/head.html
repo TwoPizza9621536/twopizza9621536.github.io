@@ -2,8 +2,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>
-    {% if page.title == "Home" %} {{ site.title }} | {{ site.tagline }} {% else
-    %} {{ page.title }} | {{ site.title }} {% endif %}
+    {% if page.title == "Home" %}
+    {{ site.title }} | {{ site.tagline }}
+    {% else %}
+    {{ page.title }} | {{ site.title }}
+    {% endif %}
   </title>
 
   {% if page.url and site.baseurl %}
@@ -23,9 +26,10 @@
   />
   <link
     rel="apple-touch-icon"
-    href="{{ '/assets/apple-touch-icon.png' | relative_url }}"
+    href="{{ '/assets/apple-touch-icon.png?v=' | append: site.github.build_revision | relative_url }}"
   />
   <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}" />
 
-  {% feed_meta %} {% seo title=false %}
+  {% feed_meta %}
+  {% seo title=false %}
 </head>

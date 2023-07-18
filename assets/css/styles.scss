@@ -6,8 +6,7 @@
 @import "lanyon";
 @import "github-dark.css";
 
-// Reset sidebar color for contrast and accessability
-// And stylize icons
+// Reset sidebar color for contrast, accessability. Also stylize icons
 .sidebar-item {
   strong {
     color: unset;
@@ -25,10 +24,23 @@
   }
 }
 
-// Make masthead and links more readable
-.masthead-title {
-  small {
-    color: #757575;
+// Resize pagination items
+.pagination-item {
+  width: 33.33%;
+}
+
+// Make masthead and links more accessible
+hgroup.container {
+  display: flex;
+
+  p {
+    margin-left: 5px;
+  }
+
+  .masthead-title {
+    small {
+      color: #757575;
+    }
   }
 }
 
@@ -37,23 +49,41 @@
     color: #157bc4;
   }
 
-  .post-date {
-    color: #757575;
+  .post {
+    margin-bottom: 2.5rem;
+
+    p {
+      font-size: large;
+    }
+
+    .post-date {
+      color: #757575;
+    }
+
+    .post-description {
+      font-size: medium;
+    }
   }
 }
 
-// Syntax Highlighting / Code
-// Make sure that the code blocks uses monokai and fira code.
-//
-// Show the language for the code block too.
-//
-// Some css are from:
-// https://github.com/tonsky/FiraCode#browser-support
-// https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/
-// https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers/#language-display
+// Use aside as replacement for blockquote
+
+/**
+ * Syntax Highlighting / Code
+ * Make sure that the code blocks uses monokai and fira code.
+ * Show the language for the code block too.
+ * Some css are from:
+ * https://github.com/tonsky/FiraCode#browser-support
+ * https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/
+ * https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers/#language-display
+ */
 code,
 pre {
   font-family: "Fira Code", $code-font-family;
+
+  @supports (font-variation-settings: normal) {
+    font-family: 'Fira Code VF', $code-font-family;
+  }
 }
 
 code {
@@ -80,13 +110,19 @@ code {
     text-align: center;
     top: -10px;
   }
+
+  .noline {
+    overflow-x: visible;
+  }
 }
 
-// Normalize octicons and font awesome icons
+// Normalize octicons, font awesome icons, and jemojis
 // From https://primer.style/octicons/
 .fa-icon,
-.octicon {
+.octicon,
+.emoji {
   display: inline;
   fill: currentColor;
   overflow: visible;
+  margin-bottom: 0;
 }
