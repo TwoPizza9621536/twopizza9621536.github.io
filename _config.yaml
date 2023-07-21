@@ -46,6 +46,7 @@ permalink: /:year/:title
 pagination:
   enabled: true
   per_page: 10
+  sort_reverse: true
 
 # Archives
 jekyll-archives:

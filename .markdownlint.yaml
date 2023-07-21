@@ -5,7 +5,6 @@ MD025:
 
 MD033:
   allowed_elements:
-    - "strong"
-    - "ruby"
-    - "rt"
-    - "rp"
+    - abbr
+    - p
+    - strong

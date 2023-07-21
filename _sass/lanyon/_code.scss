@@ -45,7 +45,7 @@ pre {
   .lineno {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-left: 0.25rem;
-    color: #999;
+    color: #555;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
     -moz-user-select: none;
