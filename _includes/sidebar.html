@@ -4,49 +4,53 @@
   type="checkbox"
   class="sidebar-checkbox"
   id="sidebar-checkbox"
-  aria-label="Sidebar"
+  title="sidebar"
 />
 
 <!-- Toggleable sidebar -->
-<footer class="sidebar" id="sidebar">
-  {% include_cached sidebar_top.html %}
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-item"><p>{{ site.description }}</p></div>
 
   <nav class="sidebar-nav">
     <a
-      class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}"
+      class="sidebar-nav-item {% if page.url == '/' %}active{% endif %}"
       href="{{ '/' | relative_url }}"
       >Home</a
     >
 
     <a
-      class="sidebar-nav-item{% if page.url == '/blogs' %} active{% endif %}"
+      class="sidebar-nav-item {% if page.url == '/blogs' %}active{% endif %}"
       href="{{ '/blogs' | relative_url }}"
       >Blogs</a
     >
 
-    {% assign pages_list = site.pages | sort:"url" %}
+    {% assign pages_list = site.pages | sort: "url" %}
     {% for node in pages_list %}
     {% if node.title != null %}
     {% if node.layout == "page" %}
+    {% if node.sidebar != false %}
     <a
-      class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+      class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}"
       href="{{ node.url | relative_url }}"
       >{{ node.title }}
     </a>
     {% endif %}
     {% endif %}
+    {% endif %}
     {% endfor %}
 
     <a
-      class="sidebar-nav-item{% if page.url == '/archives' %} active{% endif %}"
+      class="sidebar-nav-item {% if page.url == '/archives' %}active{% endif %}"
       href="{{ '/archives' | relative_url }}"
       >Archive</a
     >
 
-    <span class="sidebar-nav-item">
+    <div class="sidebar-nav-item">
       Commit Version: {% project_version commit short %}
-    </span>
+      <br>
+      Build On: {{ site.time | date_to_string: "ordinal", "US" }}
+    </div>
   </nav>
 
-  {% include_cached sidebar_bottom.html %}
-</footer>
+  {% include_cached footer.html %}
+</aside>

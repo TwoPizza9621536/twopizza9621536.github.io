@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang }}">
   {% include head.html %}
 
   <body>
+    <header class="masthead">
+      <hgroup class="container">
+        <h3 class="masthead-title">
+          <a href="{{ site.url }}" title="Home">{{ site.title }}</a>
+        </h3>
+        <p><small>{{ site.tagline }}</small></p>
+      </hgroup>
+    </header>
+
     {% include sidebar.html %}
 
     <div class="wrap">
-      <header class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </header>
-
       <main class="container content">{{ content }}</main>
     </div>
 

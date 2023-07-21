@@ -1,10 +1,12 @@
 # SPDX-License-Identifier: CC0-1.0
 # Setup
 title: Samuel Wu
-tagline: The place where we mainly screw with tech.
+tagline: >-
+  We cannot know, and will never know... But in the shadows of the unknown,
+  truth will prevail.
 description: >-
-  This my blogs for coding, programming, and technology, that will
-  spiral into shenanigans. Including games, events and other things too.
+  A site for Samuel's blog which includes programming, technology, media,
+  politics, etc.
 url: https://twopizza9621536.github.io
 baseurl: ""
 
@@ -13,7 +15,7 @@ repository: TwoPizza9621536/twopizza9621536.github.io
 origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
 
 # Timezone and Locale
-encoding: UTF-8
+encoding: utf-8
 timezone: America/New_York
 locale: en-US
 lang: en-US
@@ -30,6 +32,7 @@ author:
 socials:
   - https://social.restless.systems/@TwoPizza9621536
   - https://github.com/TwoPizza9621536
+  - https://steamcommunity.com/profiles/76561199040648119/
 
 # SEO
 webmaster_verifications:
@@ -42,6 +45,7 @@ permalink: /:year/:title
 # Pagination
 pagination:
   enabled: true
+  per_page: 10
 
 # Archives
 jekyll-archives:
@@ -96,25 +100,6 @@ lsi: true
 # Redirect
 redirect_from:
   json: false
-
-# Plugins
-plugins:
-  - jekyll_version_plugin
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-link-attributes
-  - jekyll-loading-lazy
-  - jekyll-mentions
-  - jekyll-minifier
-  - jekyll-octicons
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
 
 # Excluding Files
 exclude:
