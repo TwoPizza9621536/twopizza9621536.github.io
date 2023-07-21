@@ -1,13 +1,18 @@
 ---
-title: Reasons Why NFTs Are Scams
+title: Reasons Why Non Fungible Tokens Are Scams
 date: 2023-07-21 10:31:02 -0400
 categories:
   - Technology
 tags:
-  - NFTs
+  - Cryptocurrency
   - Cryptography
-description: An explanation of how NFTs actually works and why they are scams.
+description: >-
+  An explanation of how Non Fungible Tokens actually works and why they are
+  scams.
 ---
+
+*[NFT]: Non Fungible Token
+*[NFTs]: Non Fungible Tokens
 
 Non Fungible Tokens or NFTs in recent months have been a very controversial
 technology not just in the tech world but also in the art world. I know I am
@@ -15,14 +20,12 @@ going to get flamed by tech bros on how "Web3" will change the world and how
 people will actually own digital property, but in actuality it is a way for
 scammers to gain more money.
 
-{% capture info %}
-:information_source: <strong>Notice</strong>
-This article was still in draft during 2022. I
-did not finish this as many other people have voice their options on NFTs. But
-since this article is mostly finished, I have rewritten this article for a
-less wordy explanation.
-{% endcapture %}
-{% include aside_blockquote.html content=info %}
+<p class="message">
+:information_source: <strong>Notice</strong>: This article was still in draft
+during 2022. I did not finish this as many other people have voice their options
+on <abbr title="Non Fungible Tokens">NFTs</abbr>. But since this article is
+mostly finished, I have rewritten this article for a less wordy explanation.
+</p>
 
 ## How NFT works
 
@@ -33,9 +36,8 @@ you have a digital asset, which cannot be copied and records it in a blockchain.
 Then how do you create a NFT, well below is a simple diagram that I have created
 to show the process.
 
-![A diagram that shows how a digital asset is minted as a NFT. Starting with
- a digital asset, then the minting process, and lastly putting the NFT on the
- blockchain.]({% asset_path nft_process.svg %} "The process of minting a NFT")
+![Starting with a digital asset, next minting the asset, then putting the NFT
+  on the blockchain.]({% asset_path nft_process.svg %})
 
 Ok, that diagram does not contain the important process of creating a NFT, how
 an asset is minted as a NFT. The process of minting is complicated, as it uses

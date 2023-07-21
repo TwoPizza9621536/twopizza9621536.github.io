@@ -17,7 +17,6 @@ group :jekyll_plugins do
   gem "jekyll-link-attributes"
   gem "jekyll-loading-lazy"
   gem "jekyll-mentions"
-  gem "jekyll-minifier"
   gem "jekyll-octicons"
   gem "jekyll-paginate-v2"
   gem "jekyll-redirect-from"

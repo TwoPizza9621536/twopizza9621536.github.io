@@ -14,8 +14,8 @@ Content on this website is licensed under the
 
 The [website's source code][2] and stylesheets can be used freely used and
 dependencies can be used with attributions which are listed below this page.
-Please check the requirements to use the stylesheets as they are different from
-the website.
+Please check the requirements of the stylesheets before using them as they are
+different from the website.
 
 ## Website Dependencies
 
@@ -29,8 +29,8 @@ you to create your own website. Jekyll licensed is under the [MIT License][4].
 ### Lanyon and Poole
 
 The theme of this website uses a modified version of
-[Lanyon](https://lanyon.getpoole.com/) overlaid on top of
-[Poole](https://getpoole.com/). Both Lanyon and Poole by @mdo are licensed
+[Lanyon](https://lanyon.getpoole.com/) build on top of
+[Poole](https://getpoole.com/). Both Lanyon and Poole by @mdo and are licensed
 under the [MIT License][4].
 
 ### Fira Code
@@ -40,10 +40,10 @@ the [Open Font License 1.1][5].
 
 ### Font Awesome
 
-Brand icons are provided by [Font Awesome](https://fontawesome.com). Font
-Awesome is licensed under the [Font Awesome Free License][6].
+Some icons are provided by [Font Awesome](https://fontawesome.com). Font
+Awesome Free is licensed under the [Font Awesome Free License][6].
 
-### Stylesheet
+### Stylesheets
 
 Some stylesheet modifications are from
 [botleg](https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/) and
@@ -52,8 +52,8 @@ Some stylesheet modifications are from
 [Rouge](https://github.com/rouge-ruby/rouge) is used to generate the syntax
 highlighting theme for code blocks.
 
-This website uses some styling from [MDN Web Docs][7] which uses
-[yari](https://github.com/mdn/yari) which is licensed under the
+This website uses some styling from [Mozilla Developer Network Web Docs][7], and
+it uses [yari](https://github.com/mdn/yari); which is licensed under the
 [Mozilla Public License 2.0][8].
 
 ### W3C

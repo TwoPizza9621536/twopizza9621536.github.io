@@ -1,60 +1,66 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
   <title>
     {% if page.title == "Home" %}
-    {{ site.title }} | {{ site.tagline }}
+    {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-    {{ page.title }} | {{ site.title }}
+    {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
   {% if page.url and site.baseurl %}
-  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" >
   {% endif %}
 
   <link
     rel="stylesheet"
     href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}"
-  />
+  >
   <link
     rel="stylesheet"
-    href="{{ '/assets/css/socials.css?v=' | append: site.github.build_revision | relative_url }}"
-  />
-  <link
-    rel="stylesheet preconnect"
     href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400&display=swap"
-  />
-  <link
-    rel="stylesheet preconnect"
-    href="https://fonts.googleapis.com/css?family=Fira+Code:wght@300..700&display=swap"
-  />
+  >
   <link
     rel="apple-touch-icon"
     href="{{ '/assets/apple-touch-icon.png?v=' | append: site.github.build_revision | relative_url }}"
-  />
+  >
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
     href="{{ '/assets/favicon-32x32.png?v=' | append: site.github.build_revision | relative_url }}"
-  />
+  >
   <link
     rel="icon"
     type="image/png"
     sizes="16x16"
     href="{{ '/assets/favicon-16x16.png?v=' | append: site.github.build_revision | relative_url }}"
-  />
-  <link rel="manifest" href="/assets/site.webmanifest" />
-  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5" />
+  >
+  <link
+    rel="manifest"
+    href="{{ '/assets/site.webmanifest?v=' | append: site.github.build_revision | relative_url }}"
+  >
+  <link
+    rel="mask-icon"
+    href="{{ '/assets/safari-pinned-tab.svg?v=' | append: site.github.build_revision | relative_url }}"
+    color="#5bbad5"
+  >
   <link
     rel="shortcut icon"
     href="{{ '/assets/favicon.ico?v=' | append: site.github.build_revision | relative_url }}"
-  />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="msapplication-config" content="/assets/browserconfig.xml" />
-  <meta name="theme-color" content="#ffffff" />
+  >
+  <meta name="msapplication-TileColor" content="#da532c" >
+  <meta name="msapplication-config" content="/assets/browserconfig.xml" >
+  <meta name="theme-color" content="#ffffff" >
+  <link
+    rel="alternative"
+    type="application/atom+xml"
+    title="Samuel's Blog RSS/Atom Feed"
+    hreflang="en-US"
+    href="/feed.xml"
+  >
 
-  {% feed_meta %}
   {% seo title=false %}
 </head>

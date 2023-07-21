@@ -8,7 +8,7 @@
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: $root-font-family;
-  color: #ccc;
+  color: #666;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ a.pagination-item:hover {
 
   .pagination-item {
     float: left;
-    width: 50%;
+    width: 33.33%;
     border-width: 1px;
 
     &:first-child {

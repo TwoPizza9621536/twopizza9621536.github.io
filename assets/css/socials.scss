@@ -1,0 +1,67 @@
+---
+---
+
+/*!
+ * Social Media Icons, uses MDN Web Docs social media icon layout
+ * https://developer.mozilla.org
+ * yari https://github.com/mdn/yari is licensed under the MPL 2.0
+ * http://mozilla.org/MPL/2.0/
+ */
+.socials {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+
+  li {
+    flex: 0 0 auto;
+  }
+}
+
+
+.icon {
+  background-color: #fff;
+  display: block;
+
+  &.icon-mastodon {
+    -webkit-mask-image: url("{{ '/assets/svg/mastodon.svg?v=' | append: site.github.build_revision | relative_url }}");
+    mask-image: url("{{ '/assets/svg/mastodon.svg?v=' | append: site.github.build_revision | relative_url }}");
+    height: 24px;
+    width: 21px;
+  }
+
+  &.icon-github {
+    -webkit-mask-image: url("{{ '/assets/svg/github.svg?v=' | append: site.github.build_revision | relative_url }}");
+    mask-image: url("{{ '/assets/svg/github.svg?v=' | append: site.github.build_revision | relative_url }}");
+    height: 24px;
+    width: 23px;
+  }
+
+  &.icon-steam {
+    -webkit-mask-image: url("{{ '/assets/svg/steam.svg?v=' | append: site.github.build_revision | relative_url }}");
+    mask-image: url("{{ '/assets/svg/steam.svg?v=' | append: site.github.build_revision | relative_url }}");
+    height: 24px;
+    width: 23px;
+  }
+
+  &.icon-rss {
+    -webkit-mask-image: url("{{ '/assets/svg/rss.svg?v=' | append: site.github.build_revision | relative_url }}");
+    mask-image: url("{{ '/assets/svg/rss.svg?v=' | append: site.github.build_revision | relative_url }}");
+    height: 24px;
+    width: 21px;
+  }
+}
+
+.visually-hidden {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0!important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}

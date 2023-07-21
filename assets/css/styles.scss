@@ -4,7 +4,10 @@
 // Add themes
 @charset "UTF-8";
 @import "lanyon";
-@import "github.css";
+@import "github";
+@import "fira_code";
+
+@import "socials.css";
 
 // Set colors for contrast and accessability. And resize elements.
 hgroup.container {
@@ -12,37 +15,12 @@ hgroup.container {
 
   p {
     margin-left: 5px;
+    width: 80%;
   }
 
   small {
     color: $gray-3;
   }
-}
-
-.post {
-  margin-bottom: 2.5rem;
-
-  header .p,
-  .post-description {
-    font-size: medium;
-  }
-}
-
-.post-date {
-  margin-bottom: 0.25rem;
-}
-
-.pagination {
-  color: #666;
-}
-
-.pagination-item {
-  width: 33.33%;
-}
-
-// Use aside as replacement for blockquote
-aside.blockquote {
-  @extend blockquote;
 }
 
 /**
@@ -66,6 +44,11 @@ pre {
 .highlight {
   position: relative;
 
+  @media (min-width: 56rem) {
+    width: fit-content;
+    width: -moz-fit-content;
+  }
+
   code[data-lang]::before {
     background-color: #f6f8fa;
     border-radius: 5px;
@@ -77,10 +60,6 @@ pre {
     right: 34px;
     text-align: center;
     top: -10px;
-  }
-
-  .noline {
-    overflow-x: visible;
   }
 }
 

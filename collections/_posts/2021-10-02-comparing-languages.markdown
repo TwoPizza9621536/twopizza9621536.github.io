@@ -17,9 +17,9 @@ C looks like it is difficult to comprehend but is it simple. First define the C
 standard in and out headers for input and output and the C standard library
 headers for file handling. The main function starts with initialization of an
 integer and a character array, to store the inputs. Then ask the user with
-stdin and stdout using `prinf()` and `scanf()`. Next create a file pointer `*`
-to the filename provided to create in memory, then open the file and write to
-it. Last close it and ask the user input to exit.
+stdin and stdout using `prinf()` and `scanf()`. Next create a file pointer to
+the filename provided to create in memory, then open the file and write to it.
+Last close it and ask the user input to exit.
 
 <!-- markdownlint-disable MD018 MD022 MD025 -->
 {% highlight c linenos %}
