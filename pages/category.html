@@ -1,0 +1,17 @@
+---
+layout: default
+title: Categories
+permalink: /categories
+---
+
+<h2>{% octicon tag height:24 %} Categories</h2>
+
+<ul>
+  {% for category in site.categories %}
+  <li>
+    <a href="{{ category[0] | prepend: '/category/' | relative_url }}">
+      {{ category[0] }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

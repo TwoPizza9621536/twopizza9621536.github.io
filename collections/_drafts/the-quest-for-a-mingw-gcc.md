@@ -3,9 +3,7 @@ title: The Quest For a MinGW GCC
 date: 2023-06-15 04:33:23 -0400
 description: Compiling a compiler
 tags:
-  - Compile Hell
   - Software
-slug: quest-mingw-gcc
 ---
 
 The [MinGW](https://osdn.net/projects/mingw/) project is a port the Gnu

@@ -1,7 +1,8 @@
 ---
 title: Do Not Blame The Software, Blame The User
-tags:
-  - Software
+categories:
+  - Technology
+  - Politics
 slug: blame-software-blame-user
 ---
 

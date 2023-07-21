@@ -1,0 +1,41 @@
+<article class="post">
+  <header>
+    {% if post != null %}
+    {% if page.url == '/' %}
+    <h3 class="post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+    {% else %}
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    {% endif %}
+    {% else %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+      {{ post.date | date_to_string }}
+    </time>
+    <p>
+      Reading Time:
+      {% if post != null %}
+      {{ post.content | reading_time }}
+      {% else %}
+      {{ content | reading_time }}
+      {% endif %}
+      minutes
+    </p>
+  </header>
+
+  {% if post.description != null %}
+  <p class="post-description">{{ post.description }}</p>
+  {% elsif page.description != null %}
+  <p class="post-description"><small>{{ page.description }}</small></p>
+  {% endif %}
+
+  {% if post != null %}
+  {{ post.excerpt }}
+  {% else %}
+  {{ content }}
+  {% endif %}
+</article>

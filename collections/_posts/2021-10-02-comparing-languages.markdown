@@ -1,8 +1,7 @@
 ---
 title: Comparing Languages
 date: 2021-10-02 14:53:31 -0400
-tags:
-  - Comparisons
+categories:
   - Programming
 description: A test of Jekyll's syntax highlighting and my first blog post.
 ---

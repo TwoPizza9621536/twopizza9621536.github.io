@@ -4,32 +4,9 @@
 // Add themes
 @charset "UTF-8";
 @import "lanyon";
-@import "github-dark.css";
+@import "github.css";
 
-// Reset sidebar color for contrast, accessability. Also stylize icons
-.sidebar-item {
-  strong {
-    color: unset;
-  }
-
-  &.socials {
-    a {
-      text-decoration: none;
-
-      &:hover > svg,
-      &:focus > svg {
-        fill: #157bc4;
-      }
-    }
-  }
-}
-
-// Resize pagination items
-.pagination-item {
-  width: 33.33%;
-}
-
-// Make masthead and links more accessible
+// Set colors for contrast and accessability. And resize elements.
 hgroup.container {
   display: flex;
 
@@ -37,36 +14,36 @@ hgroup.container {
     margin-left: 5px;
   }
 
-  .masthead-title {
-    small {
-      color: #757575;
-    }
+  small {
+    color: $gray-3;
   }
 }
 
-.content {
-  a {
-    color: #157bc4;
+.post {
+  margin-bottom: 2.5rem;
+
+  header .p,
+  .post-description {
+    font-size: medium;
   }
+}
 
-  .post {
-    margin-bottom: 2.5rem;
+.post-date {
+  margin-bottom: 0.25rem;
+}
 
-    p {
-      font-size: large;
-    }
+.pagination {
+  color: #666;
+}
 
-    .post-date {
-      color: #757575;
-    }
-
-    .post-description {
-      font-size: medium;
-    }
-  }
+.pagination-item {
+  width: 33.33%;
 }
 
 // Use aside as replacement for blockquote
+aside.blockquote {
+  @extend blockquote;
+}
 
 /**
  * Syntax Highlighting / Code
@@ -82,27 +59,18 @@ pre {
   font-family: "Fira Code", $code-font-family;
 
   @supports (font-variation-settings: normal) {
-    font-family: 'Fira Code VF', $code-font-family;
+    font-family: "Fira Code VF", $code-font-family;
   }
-}
-
-code {
-  color: #c9d1d9;
-  background-color: #0d1117;
 }
 
 .highlight {
   position: relative;
 
-  td {
-    background-color: unset !important;
-  }
-
   code[data-lang]::before {
-    background-color: #0d1117;
+    background-color: #f6f8fa;
     border-radius: 5px;
     border: 1px solid #e5e5e5;
-    color: #c9d1d9;
+    color: #24292f;
     content: attr(data-lang);
     min-width: 3.5rem;
     position: absolute;
@@ -118,7 +86,6 @@ code {
 
 // Normalize octicons, font awesome icons, and jemojis
 // From https://primer.style/octicons/
-.fa-icon,
 .octicon,
 .emoji {
   display: inline;

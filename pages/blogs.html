@@ -6,11 +6,16 @@ pagination:
   enabled: true
 ---
 
-<p><a href="{{ '/tags' | relative_url }}">Sort Posts by Tags</a></p>
+<h1>Blogs</h1>
+
+<p>
+  <a href="{{ '/categories' | relative_url }}">Search by Categories.</a>
+  <a href="{{ '/tags' | relative_url }}">Search by Tags.</a>
+</p>
 
 <section class="posts">
   {% for post in paginator.posts %}
-  {% include post_summery.html %}
+  {% include article.html %}
   {% endfor %}
 </section>
 

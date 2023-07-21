@@ -1,5 +1,8 @@
 ---
 title: Artificial Intelligence, Copyright, and The TikTok Ban.
+categories:
+  - Technology
+  - Politics
 tags:
   - AI
   - Copyright

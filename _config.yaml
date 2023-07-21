@@ -1,10 +1,12 @@
 # SPDX-License-Identifier: CC0-1.0
 # Setup
 title: Samuel Wu
-tagline: Where we cannot know, and will never know.
+tagline: >-
+  We cannot know, and will never know... But in the shadows of the unknown,
+  truth will prevail.
 description: >-
-  This my blogs for programming, technology, media, and politics. Because
-  that what blogs are for.
+  A site for Samuel's blog which includes programming, technology, media,
+  politics, etc.
 url: https://twopizza9621536.github.io
 baseurl: ""
 
@@ -30,7 +32,6 @@ author:
 socials:
   - https://social.restless.systems/@TwoPizza9621536
   - https://github.com/TwoPizza9621536
-  - https://en.gravatar.com/twopizza9621536
   - https://steamcommunity.com/profiles/76561199040648119/
 
 # SEO
@@ -99,25 +100,6 @@ lsi: true
 # Redirect
 redirect_from:
   json: false
-
-# Plugins
-plugins:
-  - jekyll_version_plugin
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-link-attributes
-  - jekyll-loading-lazy
-  - jekyll-mentions
-  - jekyll-minifier
-  - jekyll-octicons
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
 
 # Excluding Files
 exclude:
