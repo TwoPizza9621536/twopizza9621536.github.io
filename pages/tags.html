@@ -4,12 +4,15 @@ title: Tags
 permalink: /tags
 ---
 
-<h1>{% octicon tag height:24 %} Tags</h1>
-
-<ul>
-  {% for tag in site.tags %}
-  <li>
-    <a href="{{ tag[0] | prepend: '/tag/' | relative_url }}">{{ tag[0] }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="page">
+  <h1>{% octicon tag height:24 %} Tags</h1>
+  <ul>
+    {% for tag in site.tags %}
+    <li>
+      <a href="{{ tag[0] | slugify | prepend: '/tag/' | relative_url }}">
+        {{ tag[0] }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

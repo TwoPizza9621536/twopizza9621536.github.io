@@ -1,6 +1,3 @@
----
----
-
 /*!
  * Social Media Icons, uses MDN Web Docs social media icon layout
  * https://developer.mozilla.org
@@ -24,29 +21,29 @@
   display: block;
 
   &.icon-mastodon {
-    -webkit-mask-image: url("{{ '/assets/svg/mastodon.svg?v=' | append: site.github.build_revision | relative_url }}");
-    mask-image: url("{{ '/assets/svg/mastodon.svg?v=' | append: site.github.build_revision | relative_url }}");
+    -webkit-mask-image: url("/assets/svg/mastodon.svg");
+    mask-image: url("/assets/svg/mastodon.svg");
     height: 24px;
     width: 21px;
   }
 
   &.icon-github {
-    -webkit-mask-image: url("{{ '/assets/svg/github.svg?v=' | append: site.github.build_revision | relative_url }}");
-    mask-image: url("{{ '/assets/svg/github.svg?v=' | append: site.github.build_revision | relative_url }}");
+    -webkit-mask-image: url("assets/svg/github.svg");
+    mask-image: url("assets/svg/github.svg");
     height: 24px;
     width: 23px;
   }
 
   &.icon-steam {
-    -webkit-mask-image: url("{{ '/assets/svg/steam.svg?v=' | append: site.github.build_revision | relative_url }}");
-    mask-image: url("{{ '/assets/svg/steam.svg?v=' | append: site.github.build_revision | relative_url }}");
+    -webkit-mask-image: url("assets/svg/steam.svg");
+    mask-image: url("assets/svg/steam.svg");
     height: 24px;
     width: 23px;
   }
 
   &.icon-rss {
-    -webkit-mask-image: url("{{ '/assets/svg/rss.svg?v=' | append: site.github.build_revision | relative_url }}");
-    mask-image: url("{{ '/assets/svg/rss.svg?v=' | append: site.github.build_revision | relative_url }}");
+    -webkit-mask-image: url("assets/svg/rss.svg");
+    mask-image: url("assets/svg/rss.svg");
     height: 24px;
     width: 21px;
   }

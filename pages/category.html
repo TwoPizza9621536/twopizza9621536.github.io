@@ -4,14 +4,16 @@ title: Categories
 permalink: /categories
 ---
 
-<h1>{% octicon tag height:24 %} Categories</h1>
-
-<ul>
-  {% for category in site.categories %}
-  <li>
-    <a href="{{ category[0] | prepend: '/category/' | relative_url }}">
-      {{ category[0] }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="page">
+  <h1>{% octicon tag height:24 %} Categories</h1>
+  <ul>
+    {% for category in site.categories %}
+    <li>
+      <a
+        href="{{ category[0] | slugify | prepend: '/category/' | relative_url }}"
+        >{{ category[0] }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</div>

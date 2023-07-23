@@ -2,12 +2,10 @@
 ---
 
 // Add themes
-@charset "UTF-8";
 @import "lanyon";
 @import "github";
 @import "fira_code";
-
-@import "socials.css";
+@import "socials";
 
 // Set colors for contrast and accessability. And resize elements.
 hgroup.container {
@@ -21,6 +19,10 @@ hgroup.container {
   small {
     color: $gray-3;
   }
+}
+
+li a {
+  font-size: large;
 }
 
 /**
@@ -45,8 +47,8 @@ pre {
   position: relative;
 
   @media (min-width: 56rem) {
-    width: fit-content;
     width: -moz-fit-content;
+    width: fit-content;
   }
 
   code[data-lang]::before {
