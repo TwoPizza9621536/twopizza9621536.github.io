@@ -4,8 +4,11 @@
 // Add themes
 @import "lanyon";
 @import "github";
-@import "fira_code";
 @import "socials";
+
+@import "fira_code";
+@import "pt_sans";
+@import "pt_serif";
 
 // Set colors for contrast and accessability. And resize elements.
 hgroup.container {
