@@ -68,17 +68,6 @@ defaults:
     values:
       layout: post
 
-# Markdown
-kramdown:
-  auto_ids: true
-  line_width: 80
-  toc_levels: 1..6
-
-# Assets
-sass:
-  implementation: sass-embedded
-  style: compressed
-
 # Feeds
 feed:
   excerpt_only: true
