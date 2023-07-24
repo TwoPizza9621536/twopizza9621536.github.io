@@ -53,7 +53,7 @@ jobs:
       - name: Format HTML
         run: |
           cd _site
-          npx exec -y -- prettier "./**/*.html" --write --bracket-same-line
+          npx --yes prettier "./**/*.html" --write --bracket-same-line
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
