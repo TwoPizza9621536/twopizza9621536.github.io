@@ -10,10 +10,6 @@
     {% endif %}
   </title>
 
-  {% if page.url and site.baseurl %}
-  <link rel="canonical" href="{{ page.url | absolute_url }}" >
-  {% endif %}
-
   <link
     rel="stylesheet"
     href="/assets/css/styles.css"
@@ -50,13 +46,7 @@
   <meta name="msapplication-TileColor" content="#da532c" >
   <meta name="msapplication-config" content="/assets/browserconfig.xml" >
   <meta name="theme-color" content="#ffffff" >
-  <link
-    rel="alternative"
-    type="application/atom+xml"
-    title="Samuel's Blog RSS/Atom Feed"
-    hreflang="en-US"
-    href="/feed.xml"
-  >
 
+  {% feed_meta %}
   {% seo title=false %}
 </head>
