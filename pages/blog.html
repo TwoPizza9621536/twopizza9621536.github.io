@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blogs
+permalink: /blog
+pagination:
+  enabled: true
+---
+
+<h1>Blogs</h1>
+
+<p>
+  <a href="{{ '/category' | relative_url }}">Search by Categories.</a>
+  <a href="{{ '/tag' | relative_url }}">Search by Tags.</a>
+</p>
+
+<section>
+  {% for post in paginator.posts %}
+  {% include article.html %}
+  {% endfor %}
+</section>
+
+{% include pagination.html %}

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Collections
+permalink: /collection/
+---
+
+<div class="page">
+  <h1>Collections</h1>
+  <ul>
+    {% for collection in site.collections %}
+    <li>
+      <a
+        href="{{ collection.label | slugify | prepend: '/collection/' | relative_url }}"
+        >{{ collection.label | capitalize }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</div>

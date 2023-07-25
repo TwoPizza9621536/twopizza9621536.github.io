@@ -7,7 +7,7 @@
 .post {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2.5em;
+  margin-bottom: 1.7em;
 
   li + li {
     margin-top: 0.25rem;
@@ -25,6 +25,7 @@
 .post-title a {
   color: #303030;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;

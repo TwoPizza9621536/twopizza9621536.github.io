@@ -45,18 +45,9 @@ pagination:
   per_page: 10
   sort_reverse: true
 
-# Archives
-jekyll-archives:
-  enabled:
-    - year
-    - tags
-    - categories
-  layouts:
-    year: year-archive
-  permalinks:
-    year: /:year/
-    tags: /:tags/
-    categories: /:categories/
+# AutoPages
+autopages:
+  enabled: true
 
 # Set Page Defaults
 defaults:

@@ -3,12 +3,14 @@ source "https://rubygems.org"
 
 gem "jekyll"
 
+gem "classifier-reborn"
+gem "dotenv"
+gem "faraday-retry"
+gem "numo-linalg"
+gem "numo-narray"
+
 group :jekyll_plugins do
-  gem "classifier-reborn"
-  gem "dotenv"
-  gem "faraday-retry"
   gem "jekyll_version_plugin"
-  gem "jekyll-archives"
   gem "jekyll-compose"
   gem "jekyll-email-protect"
   gem "jekyll-feed"
@@ -25,12 +27,10 @@ group :jekyll_plugins do
   gem "jekyll-watch"
   gem "jemoji"
   gem "liquid_reading_time"
-  gem "numo-linalg"
-  gem "numo-narray"
-  gem "sass-embedded"
-  gem "tzinfo"
-  gem "tzinfo-data"
 end
+
+gem "tzinfo"
+gem "tzinfo-data"
 
 gem "wdm" if Gem.win_platform?
 

@@ -15,11 +15,15 @@
       href="{{ '/' | relative_url }}"
       >Home</a
     >
-
     <a
       class="sidebar-nav-item {% if page.url == '/blogs' %}active{% endif %}"
-      href="{{ '/blogs' | relative_url }}"
-      >Blogs</a
+      href="{{ '/blog' | relative_url }}"
+      >Blog</a
+    >
+    <a
+      class="sidebar-nav-item {% if page.url == '/collections' %}active{% endif %}"
+      href="{{ '/collection' | relative_url }}"
+      >Collections</a
     >
 
     {% assign pages_list = site.pages | sort: "url" %}
@@ -36,12 +40,6 @@
     {% endif %}
     {% endif %}
     {% endfor %}
-
-    <a
-      class="sidebar-nav-item {% if page.url == '/archives' %}active{% endif %}"
-      href="{{ '/archives' | relative_url }}"
-      >Archive</a
-    >
 
     <div class="sidebar-nav-item">
       Commit Version: {% project_version commit short %}

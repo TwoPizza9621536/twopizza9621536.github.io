@@ -5,6 +5,7 @@ MD025:
 
 MD033:
   allowed_elements:
+    - a
     - abbr
     - p
     - strong

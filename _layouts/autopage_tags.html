@@ -3,11 +3,9 @@ layout: default
 ---
 
 <section>
-  <h1>
-    {% octicon tag height:24 %} Posts with the {{ page.title }} {{ page.type }}
-  </h1>
-  <ul class="posts">
-    {% for post in page.posts %}
+  <h1>Posts with {{ page.autopages.display_name }} tag</h1>
+  <ul>
+    {% for post in paginator.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }} - {{ post.date | date_to_string }}

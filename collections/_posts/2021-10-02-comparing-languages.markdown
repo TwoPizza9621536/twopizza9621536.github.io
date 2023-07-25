@@ -153,5 +153,7 @@ everything up, it is still simple. Java is both more complicated and simplified.
 Python is the simplest as it is a beginner language and all of the io is
 abstracted.
 
-> **Notice**: Code snippets are licensed under the
-> [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+<p class="message">
+<strong>Notice</strong>: Code snippets are licensed under the
+<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.
+</p>

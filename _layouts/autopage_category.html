@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section>
+  <h1>Posts that are in {{ page.autopages.display_name }} category</h1>
+  {% for post in paginator.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }} - {{ post.date | date_to_string }}
+    </a>
+  </li>
+  {% endfor %}
+</section>
