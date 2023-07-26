@@ -13,7 +13,7 @@ h6 {
   margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: $gray-5;
   text-rendering: optimizeLegibility;
   letter-spacing: -0.025rem;
 }
@@ -70,27 +70,27 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid $custom-gray-1;
+  border-bottom: 1px solid $body-bg;
 }
 
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: $custom-gray-2;
   text-transform: uppercase;
 
   &[title] {
     cursor: help;
-    border-bottom: 1px dotted #e5e5e5;
+    border-bottom: 1px dotted $border-color;
   }
 }
 
 blockquote {
   padding: 0.5rem 1rem;
   margin: 0.8rem 0;
-  color: #555555;
-  border-left: 0.25rem solid #e5e5e5;
+  color: $custom-gray-2;
+  border-left: 0.25rem solid $border-color;
 
   p:last-child {
     margin-bottom: 0;

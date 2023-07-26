@@ -72,14 +72,14 @@ table {
   margin-bottom: 1rem;
   width: 100%;
   font-size: 95%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-color;
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: 0.25rem 0.5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-color;
 }
 
 th {
@@ -88,5 +88,5 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: $gray-1;
 }

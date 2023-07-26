@@ -12,7 +12,7 @@ code {
   padding: 0.25em 0.5em;
   font-size: 85%;
   color: $code-color;
-  background-color: #f9f9f9;
+  background-color: $gray-1;
   border-radius: 3px;
 }
 
@@ -34,7 +34,7 @@ pre {
   margin-bottom: 1rem;
   font-size: 0.8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
+  background-color: $gray-1;
   border-radius: 0.25rem;
 
   pre {
@@ -45,7 +45,7 @@ pre {
   .lineno {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-left: 0.25rem;
-    color: #555;
+    color: $custom-gray-2;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
     -moz-user-select: none;

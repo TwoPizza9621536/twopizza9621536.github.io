@@ -57,7 +57,7 @@ pre {
   code[data-lang]::before {
     background-color: #f6f8fa;
     border-radius: 5px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid $border-color;
     color: #24292f;
     content: attr(data-lang);
     min-width: 3.5rem;

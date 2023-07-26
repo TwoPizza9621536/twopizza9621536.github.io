@@ -43,7 +43,8 @@
 
   a {
     font-weight: normal;
-    color: #fff;
+    color: $body-bg;
+    text-decoration: none;
   }
 }
 
@@ -102,8 +103,8 @@ a.sidebar-nav-item:focus {
   display: flex;
   align-items: center;
   padding: 0.25rem 0.75rem;
-  color: #505050;
-  background-color: #fff;
+  color: $gray-4;
+  background-color: $body-bg;
   border-radius: 0.25rem;
   cursor: pointer;
 
@@ -119,8 +120,8 @@ a.sidebar-nav-item:focus {
   &:active,
   #sidebar-checkbox:focus ~ &,
   #sidebar-checkbox:checked ~ & {
-    color: #fff;
-    background-color: #555;
+    color: $body-bg;
+    background-color: $custom-gray-2;
   }
 
   &:active::before,

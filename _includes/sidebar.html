@@ -7,7 +7,7 @@
 >
 
 <!-- Toggleable sidebar -->
-<aside class="sidebar" id="sidebar">
+<div class="sidebar" id="sidebar">
   <div class="sidebar-item"><p>{{ site.description }}</p></div>
   <nav class="sidebar-nav">
     <a
@@ -41,12 +41,12 @@
     {% endif %}
     {% endfor %}
 
-    <div class="sidebar-nav-item">
+    <span class="sidebar-nav-item">
       Commit Version: {% project_version commit short %}
       <br>
       Build On: {{ site.time | date_to_string: "ordinal", "US" }}
-    </div>
+    </span>
   </nav>
 
   {% include_cached footer.html %}
-</aside>
+</div>
