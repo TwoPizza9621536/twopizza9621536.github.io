@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Home
+layout: page
 permalink: /
 ---
 
@@ -17,20 +16,25 @@ permalink: /
   </p>
 </section>
 
-<h2>Latest Post</h2>
-
-{% assign post = site.posts[0] %}
-{% include article.html %}
+<section>
+  <h2>Latest Post</h2>
+  {% assign post = site.posts[0] %}
+  {% include article.html %}
+</section>
 
 <section>
-  <h2>Repositories</h2>
-  {% assign repositories = site.github.public_repositories
-    | sort: "archived" | sort: "fork" | sort: "stargazers_count" %}
+  <h2>Top Repositories</h2>
+  {% assign repos = site.github.public_repositories
+      | where: "archived", false
+      | where: "fork", false
+      | sort_reverse: "stargazers_count" %}
   <ul>
-    {% for repository in repositories limit:5 %}
+    {% for repo in repos reversed limit:3 %}
     <li>
-      <a href="{{ repository.html_url }}">{{ repository.name }}</a>
-      <p></p>
+      <a href="{{ repo.html_url }}">
+        {{ repo.name }} - {{ repo.stargazers_count }}{% octicon star aria-label:stargazers %}
+      </a>
+      <p>{{ repo.description }}</p>
     </li>
     {% endfor %}
   </ul>

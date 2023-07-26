@@ -2,14 +2,6 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-  <title>
-    {% if page.title == "Home" %}
-    {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-    {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-
   <link
     rel="stylesheet"
     href="/assets/css/styles.css"
@@ -48,5 +40,5 @@
   <meta name="theme-color" content="#ffffff" >
 
   {% feed_meta %}
-  {% seo title=false %}
+  {% seo %}
 </head>

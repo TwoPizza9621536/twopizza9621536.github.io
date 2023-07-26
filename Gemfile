@@ -29,9 +29,11 @@ group :jekyll_plugins do
   gem "liquid_reading_time"
 end
 
-gem "tzinfo"
-gem "tzinfo-data"
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo"
+  gem "tzinfo-data"
+end
 
-gem "wdm" if Gem.win_platform?
+gem "wdm", :install_if => Gem.win_platform?
 
 gem "http_parser.rb", :platforms => [:jruby]

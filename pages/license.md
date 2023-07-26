@@ -48,15 +48,16 @@ Awesome Free is licensed under the [Font Awesome Free License][6].
 ### Stylesheets
 
 Some stylesheet modifications are from
-[botleg](https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/) and
-[m-cat](https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers).
+[botleg](https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/),
+[m-cat](https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers)
+and [ritchiecarroll][7].
 
 [Rouge](https://github.com/rouge-ruby/rouge) is used to generate the syntax
 highlighting theme for code blocks.
 
-This website uses some styling from [Mozilla Developer Network Web Docs][7], and
+This website uses some styling from [Mozilla Developer Network Web Docs][8], and
 it uses [yari](https://github.com/mdn/yari); which is licensed under the
-[Mozilla Public License 2.0][8].
+[Mozilla Public License 2.0][9].
 
 ## Build Time Dependencies
 
@@ -64,7 +65,7 @@ it uses [yari](https://github.com/mdn/yari); which is licensed under the
 
 This website also uses additional plugins and dependencies to build the website.
 These plugins are licensed under the [MIT License][4], but some dependencies
-like [classifier-reborn][9] are under the [Lesser GNU Public License v2.1][10].
+like [classifier-reborn][10] are under the [Lesser GNU Public License v2.1][11].
 Please check at the [website's source code][2] to see and check licensing
 requirements of each plugin and dependencies.
 
@@ -74,7 +75,8 @@ requirements of each plugin and dependencies.
 [4]: https://mit-license.org
 [5]: https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
 [6]: https://fontawesome.com/license/free
-[7]: https://developer.mozilla.org
-[8]: http://mozilla.org/MPL/2.0/
-[9]: https://github.com/jekyll/classifier-reborn
-[10]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1
+[7]: https://gist.github.com/ritchiecarroll/132715b38c071cbd01b1d3a0da60822a
+[8]: https://developer.mozilla.org
+[9]: http://mozilla.org/MPL/2.0/
+[10]: https://github.com/jekyll/classifier-reborn
+[11]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1

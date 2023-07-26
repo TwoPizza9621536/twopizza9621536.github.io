@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: CC0-1.0
 # Setup
 title: Samuel Wu
-tagline: The place where we will never know.
+tagline: The place where we will never know
 description: >-
   A site for Samuel's blog which includes programming, technology, media,
   politics, etc.
@@ -26,14 +26,15 @@ author:
     username: TwoPizza9621536
     card: summary
 
-socials:
-  - https://social.restless.systems/@TwoPizza9621536
-  - https://github.com/TwoPizza9621536
-  - https://steamcommunity.com/profiles/76561199040648119/
+social:
+  name: Samuel Wu
+  links:
+    - https://social.restless.systems/@TwoPizza9621536
+    - https://github.com/TwoPizza9621536
+    - https://steamcommunity.com/profiles/76561199040648119/
 
 # SEO
-webmaster_verifications:
-  google: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
+google_site_verification: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
 
 # Permalinks
 collections_dir: collections

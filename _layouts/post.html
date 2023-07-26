@@ -13,9 +13,9 @@ layout: default
       <h3>
         <a href="{{ related_post.url | relative_url }}">
           {{ related_post.title }}
+          <small>{{ related_post.date | date_to_string }}</small>
         </a>
       </h3>
-      <p><small>{{ related_post.date | date_to_string }}</small></p>
     </li>
     {% endfor %}
   </ul>
