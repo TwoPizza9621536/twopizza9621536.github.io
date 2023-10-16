@@ -54,18 +54,5 @@
       "title": "collections",
       "path": "[[workspace]]/collections"
     }
-  ],
-  "frontMatter.taxonomy.tags": [
-    "AI",
-    "Copyright",
-    "Cryptography",
-    "NFTs",
-    "Software"
-  ],
-  "frontMatter.taxonomy.categories": [
-   "Linux",
-    "Politics",
-    "Programming",
-    "Technology"
   ]
 }
