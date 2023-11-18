@@ -17,28 +17,22 @@ timezone: America/New_York
 locale: en-US
 lang: en-US
 
-# About/Contact
+# Author
 author:
   name: Samuel Wu
   url: https://github.com/TwoPizza9621536
   email: twopizza9621536@gmail.com
-  twitter:
-    username: TwoPizza9621536
-    card: summary
 
-social:
-  name: Samuel Wu
-  links:
-    - https://social.restless.systems/@TwoPizza9621536
-    - https://github.com/TwoPizza9621536
-    - https://steamcommunity.com/profiles/76561199040648119/
+twitter:
+  username: TwoPizza9621536
+  card: summery
 
 # SEO
 google_site_verification: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
 
 # Permalinks
 collections_dir: collections
-permalink: /:year/:title
+permalink: /:title
 
 # Pagination
 pagination:

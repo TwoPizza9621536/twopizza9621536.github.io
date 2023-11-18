@@ -1,7 +1,7 @@
 /*! Social Media Icons, uses MDN Web Docs social media icon layout https://developer.mozilla.org, yari https://github.com/mdn/yari is licensed under the MPL 2.0 http://mozilla.org/MPL/2.0/ */
 .socials {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.3rem;
   list-style: none;
   padding: 0;
 
@@ -17,33 +17,42 @@
   mask-position: center;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+
+  &.icon-email {
+    -webkit-mask-image: url("../svg/envelope.svg");
+    mask-image: url("../svg/envelope.svg");
+  }
 
   &.icon-mastodon {
     -webkit-mask-image: url("../svg/mastodon.svg");
     mask-image: url("../svg/mastodon.svg");
-    height: 24px;
-    width: 21px;
+  }
+
+  &.icon-tumblr {
+    -webkit-mask-image: url("../svg/tumblr.svg");
+    mask-image: url("../svg/tumblr.svg");
   }
 
   &.icon-github {
     -webkit-mask-image: url("../svg/github.svg");
     mask-image: url("../svg/github.svg");
-    height: 24px;
-    width: 23px;
   }
 
   &.icon-steam {
     -webkit-mask-image: url("../svg/steam.svg");
     mask-image: url("../svg/steam.svg");
-    height: 24px;
-    width: 23px;
+  }
+
+  &.icon-telegram {
+    -webkit-mask-image: url("../svg/telegram.svg");
+    mask-image: url("../svg/telegram.svg");
   }
 
   &.icon-rss {
     -webkit-mask-image: url("../svg/rss.svg");
     mask-image: url("../svg/rss.svg");
-    height: 24px;
-    width: 21px;
   }
 }
 

@@ -16,11 +16,14 @@ and below are key servers which hold my public key.
 - [OpenPGP Keyserver](https://keys.openpgp.org)
 - [Mailvelope Keyserver](https://keys.mailvelope.com)
 
+Verification of my accounts is provided by [Keyoxide][1].
+
 ## Secure Messages
 
 Please do not use DM or Email to send any private information as most of theme
 do not use end to end encryption and anybody can see these messages. Please use
-[Signal](https://signal.org) if your device is not comprised.
+[Signal](https://signal.org) if your device is not comprised. Telegram is
+available but it is only used for verification.
 
 ## More Encryption And Verification Tools
 
@@ -34,3 +37,5 @@ appropriate for the context of sending messages or files.
 `minisign public key: RWTi523u+M/TuVaf2WhEEZPjw2ZzfxlXjUonkoJoFRQL/zwNLTwj0p2V`
 
 SSH keys can be found at <https://github.com/TwoPizza9621536.keys>.
+
+[1]: https://keyoxide.org/twopizza9621536@gmail.com
