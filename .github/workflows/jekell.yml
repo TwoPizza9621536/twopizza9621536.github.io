@@ -56,7 +56,7 @@ jobs:
           npx --yes prettier "./**/*.html" --write --bracket-same-line
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
 
   deploy:
     environment:
