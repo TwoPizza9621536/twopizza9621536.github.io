@@ -1,6 +1,5 @@
 ---
 ---
-
 // Add themes
 @import "lanyon";
 @import "github";
@@ -108,34 +107,41 @@ h6 {
   text-indent: -2px;
 }
 
-h1 .anchor-octicon,
-h2 .anchor-octicon,
-h3 .anchor-octicon,
-h4 .anchor-octicon,
-h5 .anchor-octicon,
-h6 .anchor-octicon  {
-  visibility: hidden;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  .anchor-octicon {
+    visibility: hidden;
+  }
 }
 
-h1:hover .anchor-octicon,
-h2:hover .anchor-octicon,
-h3:hover .anchor-octicon,
-h4:hover .anchor-octicon,
-h5:hover .anchor-octicon,
-h6:hover .anchor-octicon {
-  visibility: visible;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &:hover .anchor-octicon {
+    visibility: visible;
+  }
 }
 
 header,
 section,
 aside {
-  h1:first-child,
-  h2:first-child,
-  h3:first-child,
-  h4:first-child,
-  h5:first-child,
-  h6:first-child {
-    text-indent: 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:first-child {
+      text-indent: 0;
+    }
   }
 }
 
