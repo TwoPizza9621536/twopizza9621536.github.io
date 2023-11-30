@@ -11,9 +11,6 @@ description: >-
   scams.
 ---
 
-*[NFT]: Non Fungible Token
-*[NFTs]: Non Fungible Tokens
-
 Non Fungible Tokens or NFTs in recent months have been a very controversial
 technology not just in the tech world but also in the art world. I know I am
 going to get flamed by tech bros on how "Web3" will change the world and how

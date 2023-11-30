@@ -3,8 +3,9 @@ layout: default
 ---
 
 <section>
-  <h1>{{ page.autopages.display_name | capitalize }}</h1>
+  <h1>The {{ page.autopages.display_name | capitalize }} Collection</h1>
   {% for post in paginator.posts %}
   {% include article.html %}
   {% endfor %}
+  {% include pagination.html %}
 </section>

@@ -44,13 +44,23 @@ pagination:
 autopages:
   enabled: true
 
-# Set Page Defaults
+# Collections
+collections:
+  rejects:
+
+# Front Matter Defaults
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: rejects
+    values:
+      layout: post
+      excerpt_only: true
 
 # Mentions
 jekyll-mentions: https://github.com
@@ -69,6 +79,10 @@ lsi: true
 # Redirect
 redirect_from:
   json: false
+
+# Include Files
+include:
+  - .well-known/
 
 # Excluding Files
 exclude:
