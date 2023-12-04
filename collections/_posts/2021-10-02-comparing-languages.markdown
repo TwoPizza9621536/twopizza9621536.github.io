@@ -22,7 +22,7 @@ the filename provided to create in memory, then open the file and write to it.
 Last close it and ask the user input to exit.
 
 <!-- markdownlint-disable MD018 MD022 MD025 -->
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -69,7 +69,7 @@ also a `try` and `catch` block which catch exceptions and handle memory
 management, this also is in C but only exceptions as C does not have memory
 management.
 
-{% highlight java linenos %}
+{% highlight java %}
 package io.Printchara;
 
 import java.io.*;
@@ -131,7 +131,7 @@ written. No imports or include as the python automatically includes the
 python library which also include file handling. The `with` is the handler to
 close the file, a memory management handler like the `try` in java.
 
-{% highlight python linenos %}
+{% highlight python %}
 print("How many 'A' should be written to a file: ")
 num = input()
 

@@ -1,13 +1,15 @@
 ---
 ---
+
 // Add themes
 @import "lanyon";
-@import "github";
 @import "socials";
 
 @import "fira_code";
 @import "pt_sans";
 @import "pt_serif";
+
+@import "monokai.css";
 
 // Set colors for contrast and accessability. And resize elements.
 hgroup.container {
@@ -48,16 +50,15 @@ pre {
 .highlight {
   position: relative;
 
-  @media (min-width: 56rem) {
-    width: -moz-fit-content;
-    width: fit-content;
+  tr:nth-child(odd) td {
+    background-color: unset;
   }
 
   code[data-lang]::before {
-    background-color: #f6f8fa;
+    background-color: #272822;
     border-radius: 5px;
     border: 1px solid $border-color;
-    color: #24292f;
+    color: #f8f8f2;
     content: attr(data-lang);
     min-width: 3.5rem;
     position: absolute;

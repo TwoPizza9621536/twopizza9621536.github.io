@@ -85,7 +85,12 @@ th {
   text-align: left;
 }
 
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: $gray-1;
+tbody {
+  tr:nth-child(odd) {
+
+    td,
+    th {
+      background-color: $gray-1;
+    }
+  }
 }

@@ -1,58 +1,60 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/collections",
+      "title": "collections"
+    }
+  ],
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --drafts",
+  "frontMatter.preview.host": "http://localhost:4000",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
-      "pageBundle": false,
-      "previewPath": null,
       "fields": [
         {
-          "title": "Title",
           "name": "title",
+          "title": "Title",
           "type": "string"
         },
         {
-          "title": "Description",
           "name": "description",
+          "title": "Description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
           "default": "{{now}}",
-          "isPublishDate": true
+          "isPublishDate": true,
+          "name": "date",
+          "title": "Publishing date",
+          "type": "datetime"
         },
         {
-          "title": "Content preview",
           "name": "preview",
+          "title": "Content preview",
           "type": "image"
         },
         {
-          "title": "Is in draft",
           "name": "draft",
+          "title": "Is in draft",
           "type": "draft"
         },
         {
-          "title": "Tags",
           "name": "tags",
+          "title": "Tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
           "name": "categories",
+          "title": "Categories",
           "type": "categories"
         }
-      ]
+      ],
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null
     }
   ],
-  "frontMatter.framework.id": "jekyll",
-  "frontMatter.content.publicFolder": "assets",
-  "frontMatter.preview.host": "http://localhost:4000",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "collections",
-      "path": "[[workspace]]/collections"
-    }
-  ]
+  "frontMatter.website.host": "https://twopizza96521536.github.io"
 }
