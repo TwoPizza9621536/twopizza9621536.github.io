@@ -8,6 +8,11 @@ layout: default
     <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
       {{ page.date | date_to_string }}
     </time>
+
+    {% if post.description %}
+    <p class="post-description">{{ post.description }}</p>
+    {% endif %}
+
     <p>Reading Time: {{ content | reading_time | pluralize: "minute" }}</p>
   </header>
 

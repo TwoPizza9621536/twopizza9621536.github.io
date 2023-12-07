@@ -36,7 +36,7 @@ favicon:
 
 # Permalinks
 collections_dir: collections
-permalink: /:title
+permalink: /blog/:title
 
 # Pagination
 pagination:
@@ -64,6 +64,7 @@ defaults:
       type: rejects
     values:
       layout: post
+      draft: true
       excerpt_only: true
   - scope:
       path: "assets/"

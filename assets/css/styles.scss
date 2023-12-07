@@ -11,13 +11,14 @@
 @import "lanyon.css";
 @import "monokai.css";
 
-/* Misc */
+/* Other Styles */
 @import "socials";
 @import "octicon";
 
 /* Accessibility */
 
-blockquote .post-date,
+blockquote,
+.post-date,
 .related-posts li small {
   color: #585858;
 }
@@ -35,6 +36,12 @@ a {
   color: #2077b3;
 }
 
+/* Misc */
+
+.post-description {
+  font-style: italic;
+}
+
 /*!
  * Syntax Highlighting / Code
  * Make sure that the code blocks uses monokai and fira code.
@@ -47,10 +54,10 @@ a {
 
 code,
 pre {
-  font-family: "Fira Code", Menlo, Monaco, "Courier New", monospace;
+  font-family: "Fira Code", inherit;
 
   @supports (font-variation-settings: normal) {
-    font-family: "Fira Code VF", Menlo, Monaco, "Courier New", monospace;
+    font-family: "Fira Code VF", inherit;
   }
 }
 

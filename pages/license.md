@@ -28,10 +28,11 @@ you to create your own website. Jekyll licensed is under the [MIT License][4].
 
 ### Website Theme
 
-The theme of this website uses a modified version of
-[Lanyon](https://lanyon.getpoole.com/) build on top of
-[Poole](https://getpoole.com/). Both Lanyon and Poole by @mdo and are licensed
-under the [MIT License][4].
+The theme of this website uses [Lanyon](https://lanyon.getpoole.com/) which is
+build on top of [Poole](https://getpoole.com/). Both Lanyon and Poole by @mdo
+and are licensed under the [MIT License][4].
+
+Some styling is
 
 ### Fonts
 
@@ -58,7 +59,8 @@ Some CSS and HTML tricks are from:
 - [ritchiecarroll][8]
 
 [Rouge](https://github.com/rouge-ruby/rouge) is used to generate the syntax
-highlighting theme for code blocks.
+highlighting theme, monokai, for code blocks. Some colors for monokai comes from
+[Pygments](https://pygments.org/) to make the theme more accessible.
 
 This website uses some styling from [Mozilla Developer Network Web Docs][9]
 based on [yari](https://github.com/mdn/yari); which is licensed under the

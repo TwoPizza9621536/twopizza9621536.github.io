@@ -10,9 +10,10 @@ permalink: /collection/
     {% for collection in site.collections %}
     <li>
       <a
-        href="{{ collection.label | slugify | prepend: '/collection/' | relative_url }}">{{
-        collection.label | capitalize }}</a>
+        href="{{ collection.label | slugify | prepend: '/collection/' | relative_url }}">
+        {{ collection.label | capitalize }}
+      </a>
     </li>
     {% endfor %}
   </ul>
-  </s>
+</section>

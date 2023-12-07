@@ -7,8 +7,7 @@ tags:
   - Cryptocurrency
   - Cryptography
 description: >-
-  An explanation of how Non Fungible Tokens actually works and why they are
-  scams.
+  Or how NFTs is not an actual tangible asset that can be unique once.
 ---
 
 Non Fungible Tokens or NFTs in recent months have been a very controversial
@@ -24,7 +23,7 @@ on <abbr title="Non Fungible Tokens">NFTs</abbr>. But since this article is
 mostly finished, I have rewritten this article for a less wordy explanation.
 </p>
 
-## How NFT works
+## How NFT Works
 
 First off what is a NFT. A NFT is a unique and non-interchangeable unit of data
 stored on a blockchain, a form of digital ledger - [Wikipedia][1]

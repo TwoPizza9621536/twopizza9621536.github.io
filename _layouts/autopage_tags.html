@@ -3,13 +3,21 @@ layout: default
 ---
 
 <section class="page">
-  <h1 class="page-title">Tag {{ page.autopages.display_name  }}</h1>
-  {{ content | markdownify }}
+  <header>
+    <h1 class="page-title">
+      <strong>{{ page.autopages.display_name }}</strong>Tag
+    </h1>
+    <p>
+      {% if paginator.total_pages > 1 %}
+      Page {{ page.pagination_info.curr_page }} of
+      {{ page.pagination_info.total_pages }}
+      {% endif %}
+    </p>
+  </header>
+
   {% for post in paginator.posts %}
-  <li>
-    <a href="{{ post.url | relative_url }}">
-      {{ post.title }} - {{ post.date | date_to_string }}
-    </a>
-  </li>
+  {% include articles.html %}
   {% endfor %}
+
+  {% include pagination.html %}
 </section>

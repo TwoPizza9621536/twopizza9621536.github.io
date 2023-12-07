@@ -5,6 +5,8 @@ permalink: /keys
 description: Cryptographic keys for encryption and verification.
 ---
 
+Last Update: {{ page.last_modified_at | date_to_string }}
+
 Pretty Good Privacy keys are provided for:
 
 - Verifying Git Commits, messages, files, and accounts that I own.

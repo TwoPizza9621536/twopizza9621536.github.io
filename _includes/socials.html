@@ -14,15 +14,17 @@
   {% assign key = social | first %}
   <li>
     <a href="{{ s[key].href }}{{ s[key].id }}" class="icon icon-{{ key }}"
-      rel="me external nofollow noopener noreferrer"><span
-        class="visually-hidden">{{ s[key].title }}</span></a>
+      rel="me external nofollow noopener noreferrer">
+      <span class="visually-hidden">{{ s[key].title }}</span>
+    </a>
   </li>
   {% endfor %}
 
   <li>
-    <a href="{{ site.baseurl }}/feed.xml" target="_top"
-      type="application/atom+xml" class="icon icon-rss"><span
-        class="visually-hidden">RSS/Atom Feed</span></a>
+    <a href="{{ '/feed.xml' | absolute_url  }}" target="_top"
+      type="application/atom+xml" class="icon icon-rss">
+      <span class="visually-hidden">RSS/Atom Feed</span>
+    </a>
   </li>
 </ul>
 <!--! End of socials.html -->

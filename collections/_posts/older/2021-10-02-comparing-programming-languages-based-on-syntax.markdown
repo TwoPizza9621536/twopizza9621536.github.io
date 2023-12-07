@@ -1,9 +1,9 @@
 ---
-title: Comparing Languages
+title: Comparing Programming Languages Based on Syntax
 date: 2021-10-02 14:53:31 -0400
 categories:
   - Programming
-description: A test of Jekyll's syntax highlighting and my first blog post.
+description: Or a test of Jekyll's syntax highlighting and my first blog post.
 ---
 
 This is a comparison of syntax in 3 different languages as well as a test. It

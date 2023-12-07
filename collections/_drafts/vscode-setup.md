@@ -5,7 +5,6 @@ categories:
   - Development
 tags:
   - VSCode
-  - Software
 ---
 
 Visual Studio Code (VSCode) is one of the popular most text editor and it's

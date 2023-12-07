@@ -29,6 +29,50 @@
           "type": "image"
         },
         {
+          "name": "draft",
+          "title": "Is in draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    },
+    {
+      "name": "rejects",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "name": "draft",
+          "title": "Is in draft",
+          "type": "draft",
+          "default": true
+        },
+        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
@@ -47,7 +91,24 @@
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/collections",
-      "title": "collections"
+      "title": "Collections",
+      "excludeSubdir": true
+    },
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/collections/_posts"
+    },
+    {
+      "title": "Drafts",
+      "path": "[[workspace]]/collections/_drafts"
+    },
+    {
+      "title": "Rejects",
+      "path": "[[workspace]]/collections/_rejects",
+      "disableCreation": true,
+      "contentTypes": [
+        "rejects"
+      ]
     }
   ],
   "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --drafts",
