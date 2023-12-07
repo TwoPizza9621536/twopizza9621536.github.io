@@ -22,7 +22,7 @@ jobs:
       - name: Setup environment
         run: |
           sudo apt-get update
-          sudo apt-get install liblapacke-dev libopenblas-dev imagemagick
+          sudo apt-get install liblapacke-dev libopenblas-dev
 
       - name: Checkout
         uses: actions/checkout@v4
