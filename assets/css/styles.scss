@@ -1,0 +1,104 @@
+---
+---
+
+/* Fonts */
+@import "fira_code";
+@import "pt_sans";
+@import "pt_serif";
+
+/* Themes */
+@import "poole.css";
+@import "lanyon.css";
+@import "monokai.css";
+
+/* Misc */
+@import "socials";
+@import "octicon";
+
+/* Accessibility */
+
+blockquote .post-date,
+.related-posts li small {
+  color: #585858;
+}
+
+.masthead-title small {
+  color: #544e4e;
+}
+
+span.sidebar-nav-item,
+.sidebar-item p {
+  color: #ababab;
+}
+
+a {
+  color: #2077b3;
+}
+
+/*!
+ * Syntax Highlighting / Code
+ * Make sure that the code blocks uses monokai and fira code.
+ * Show the language for the code block too.
+ * Some css are from:
+ * https://github.com/tonsky/FiraCode#browser-support
+ * https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/
+ * https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers/#language-display
+ */
+
+code,
+pre {
+  font-family: "Fira Code", Menlo, Monaco, "Courier New", monospace;
+
+  @supports (font-variation-settings: normal) {
+    font-family: "Fira Code VF", Menlo, Monaco, "Courier New", monospace;
+  }
+}
+
+code {
+  color: #f8f8f2 !important;
+  background-color: #272822;
+}
+
+.highlight {
+  position: relative;
+
+  pre {
+    background-color: transparent;
+    white-space: pre;
+  }
+
+  table {
+    border: none;
+
+    tr:nth-child(odd) td,
+    tr:nth-child(odd) th {
+      border: inherit;
+      background-color: transparent;
+
+      pre {
+        padding: 0;
+
+        &.lineno {
+          text-align: end;
+        }
+      }
+
+      &.gutter {
+        padding-right: 0;
+      }
+    }
+  }
+
+  code[data-lang]::before {
+    background-color: #272822;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    color: #f8f8f2;
+    content: attr(data-lang);
+    position: absolute;
+    right: 34px;
+    text-align: center;
+    top: -10px;
+  }
+}

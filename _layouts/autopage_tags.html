@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<section class="page">
+  <h1 class="page-title">Tag {{ page.autopages.display_name  }}</h1>
+  {{ content | markdownify }}
+  {% for post in paginator.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }} - {{ post.date | date_to_string }}
+    </a>
+  </li>
+  {% endfor %}
+</section>

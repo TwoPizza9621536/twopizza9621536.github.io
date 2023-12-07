@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<section class="page">
+  <h1 class="page-title">
+    The {{ page.autopages.display_name | capitalize }} Collection
+  </h1>
+  {% for post in paginator.posts %}
+  {% include articles.html %}
+  {% endfor %}
+  {% include pagination.html %}
+</section>

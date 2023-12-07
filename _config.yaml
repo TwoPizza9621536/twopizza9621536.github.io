@@ -1,0 +1,108 @@
+# SPDX-License-Identifier: CC0-1.0
+# Setup
+title: Samuel Wu's Blog
+tagline: The place where we will never know
+description: >-
+  A site for Samuel's blog which includes programming, technology, media,
+  politics, etc.
+url: https://twopizza9621536.github.io
+baseurl: ""
+
+# Repository
+repository: TwoPizza9621536/twopizza9621536.github.io
+origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
+
+# Timezone and Locale
+timezone: America/New_York
+locale: en-US
+lang: en-US
+
+# Author
+author:
+  name: Samuel Wu
+  url: https://github.com/TwoPizza9621536
+  email: twopizza9621536@gmail.com
+
+twitter:
+  username: TwoPizza9621536
+  card: summery
+
+# SEO
+google_site_verification: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
+
+# Favicon
+favicon:
+  source: favicon.png
+
+# Permalinks
+collections_dir: collections
+permalink: /:title
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+  sort_reverse: true
+
+# AutoPages
+autopages:
+  enabled: true
+
+# Collections
+collections:
+  - rejects
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: rejects
+    values:
+      layout: post
+      excerpt_only: true
+  - scope:
+      path: "assets/"
+    values:
+      sitemap: false
+
+# Set date format
+last-modified-at:
+  date-format: "%Y-%m-%d %H:%M:%S %z"
+
+# Mentions
+jekyll-mentions: https://github.com
+
+# Make sure there are no YAML syntax errors
+strict_front_matter: true
+
+# New window for external links
+external_links:
+  enabled: true
+  rel: external nofollow
+
+# Latent Semantic Indexer
+lsi: true
+
+# Redirect
+redirect_from:
+  json: false
+
+# Compress CSS
+sass:
+  style: compressed
+
+# Include Files
+include:
+  - .well-known/
+
+# Excluding Files
+exclude:
+  - LICENSE
+  - LICENSES
+  - README.md
+  - frontmatter.json

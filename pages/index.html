@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="page">
+  <h1 class="page-title">Introduction</h1>
+  <blockquote>
+    We cannot know, and will never know... in the darkness and shadows of the
+    unknown, truth will prevail.
+  </blockquote>
+  <p>
+    Welcome to my github.io page, where I store my
+    <a href="{{ '/blog' | relative_url }}">blogs</a>.
+    To contact me see the sidebar on the left.
+  </p>
+</section>
+
+<section class="page">
+  <h2>Latest Posts</h2>
+  {% for post in site.posts limit:3 %}
+  {% include articles.html %}
+  {% endfor %}
+</section>
+
+<section class="page">
+  <h2>Projects under this site</h2>
+  {% assign repos = site.github.public_repositories
+  | where_exp:"item", "item.homepage contains 'twopizza9621536'" %}
+  <ul>
+    {% for repo in repos limit:3 %}
+    <li>
+      <a href="{{ repo.homepage }}">
+        {{ repo.name }} - {{ repo.stargazers_count }}
+        {% octicon star aria-label:stargazers %}
+      </a>
+      <p>{{ repo.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

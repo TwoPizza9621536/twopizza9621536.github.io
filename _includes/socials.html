@@ -1,0 +1,28 @@
+<!--! Start of socials.html. From MDN Web Docs https://developer.mozilla.org/ -->
+<!--! yari https://github.com/mdn/yari, MPL 2.0 http://mozilla.org/MPL/2.0/ -->
+<!--! and jreel https://jreel.github.io/social-media-icons-on-jekyll/ -->
+<ul class="socials">
+  <li>
+    <a href="mailto:{{ site.author.email | encode_email }}"
+      class="icon icon-email">
+      <span class="visually-hidden">Email</span>
+    </a>
+  </li>
+
+  {% assign s = site.data.socials %}
+  {% for social in s %}
+  {% assign key = social | first %}
+  <li>
+    <a href="{{ s[key].href }}{{ s[key].id }}" class="icon icon-{{ key }}"
+      rel="me external nofollow noopener noreferrer"><span
+        class="visually-hidden">{{ s[key].title }}</span></a>
+  </li>
+  {% endfor %}
+
+  <li>
+    <a href="{{ site.baseurl }}/feed.xml" target="_top"
+      type="application/atom+xml" class="icon icon-rss"><span
+        class="visually-hidden">RSS/Atom Feed</span></a>
+  </li>
+</ul>
+<!--! End of socials.html -->

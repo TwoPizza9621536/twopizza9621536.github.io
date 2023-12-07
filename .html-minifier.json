@@ -1,0 +1,13 @@
+{
+  "collapseBooleanAttributes": true,
+  "collapseWhitespace": true,
+  "decodeEntities": true,
+  "ignoreCustomComments": [
+    "/^!/",
+    "/SEO/"
+  ],
+  "removeComments": true,
+  "removeRedundantAttributes": true,
+  "sortAttributes": true,
+  "sortClassName": true
+}

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Categories
+permalink: /category/
+---
+
+<section class="page">
+  <h1 class="page-title">Categories</h1>
+  <ul>
+    {% for category in site.categories %}
+    <li>
+      <a
+        href="{{ category[0] | slugify | prepend: '/category/' | relative_url }}"
+        >{{ category[0] }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</section>
