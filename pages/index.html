@@ -4,20 +4,8 @@ permalink: /
 ---
 
 <section class="page">
-  <h1 class="page-title">Introduction</h1>
-  <blockquote>
-    We cannot know, and will never know... in the darkness and shadows of the
-    unknown, truth will prevail.
-  </blockquote>
-  <p>
-    Welcome to my github.io page, where I store my blogs.
-    To view them and to contact me, see the sidebar on the left.
-  </p>
-</section>
-
-<section class="page">
-  <h2>Latest Posts</h2>
-  {% for post in site.posts limit:3 %}
+  <h1>Latest Posts</h1>
+  {% for post in site.posts limit:5 %}
   {% include articles.html %}
   {% endfor %}
 </section>

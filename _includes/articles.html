@@ -1,17 +1,11 @@
 <article class="post">
   <header>
-    {% if page.url == '/' %}
-    <h3 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-    {% else %}
     {% if post.excerpt_only %}
     <h2 class="post-title">{{ post.title }}</h2>
     {% else %}
     <h2 class="post-title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
-    {% endif %}
     {% endif %}
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
       {{ post.date | date_to_string }}

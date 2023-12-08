@@ -1,10 +1,9 @@
 # SPDX-License-Identifier: CC0-1.0
 # Setup
 title: Samuel Wu's Blog
-tagline: The place where we will never know
+tagline: Open source is a voluntary force
 description: >-
-  A site for Samuel's blog which includes programming, technology, media,
-  politics, etc.
+  A site for Samuel to blog about programming, technology, media, politics, etc.
 url: https://twopizza9621536.github.io
 baseurl: ""
 
