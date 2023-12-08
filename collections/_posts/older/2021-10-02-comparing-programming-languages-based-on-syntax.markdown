@@ -50,6 +50,7 @@ int main(int argc, char **argv)
 
     printf("Operation Completed. Press Enter to exit.\n");
     fflush(stdout);
+
     int chara;
     while ((chara != '\n') && (chara != EOF) )
     {

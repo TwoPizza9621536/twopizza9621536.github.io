@@ -10,7 +10,6 @@ gem 'numo-narray', '~> 0.9.2.1'
 
 group :jekyll_plugins do
   gem 'jekyll_version_plugin', '~> 2.0'
-  gem 'jekyll-compose', '~> 0.12.0'
   gem 'jekyll-email-protect', '~> 1.1'
   gem 'jekyll-favicon', '~> 1.1'
   gem 'jekyll-feed', '~> 0.17.0'
