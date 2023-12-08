@@ -54,10 +54,10 @@ a {
 
 code,
 pre {
-  font-family: "Fira Code", inherit;
+  font-family: "Fira Code", Menlo, Monaco, "Courier New", monospace;
 
   @supports (font-variation-settings: normal) {
-    font-family: "Fira Code VF", inherit;
+    font-family: "Fira Code VF", Menlo, Monaco, "Courier New", monospace;
   }
 }
 

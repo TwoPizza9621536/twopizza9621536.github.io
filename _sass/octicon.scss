@@ -5,13 +5,14 @@
 
 .octicon {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: text-top;
   fill: currentColor;
   overflow: visible;
 }
 
 .emoji {
   @extend .octicon;
+  vertical-align: middle;
   margin-bottom: 0;
 }
 
@@ -75,6 +76,6 @@ h6 {
 }
 
 .anchor-octicon {
-  vertical-align: text-bottom;
+  vertical-align: middle;
   margin-left: -16px;
 }
