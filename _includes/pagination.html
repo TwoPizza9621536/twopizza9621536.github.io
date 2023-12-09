@@ -1,14 +1,14 @@
 <nav class="pagination" aria-label="Pagination">
   {% if paginator.previous_page %}
   <a class="pagination-item newer" rel="prev"
-    href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+    href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
   {% else %}
   <span class="pagination-item newer">Newer</span>
   {% endif %}
 
   {% if paginator.next_page %}
   <a class="pagination-item older" rel="next"
-    href="{{ paginator.next_page_path | absolute_url }}">Older</a>
+    href="{{ paginator.next_page_path | relative_url }}">Older</a>
   {% else %}
   <span class="pagination-item older">Older</span>
   {% endif %}

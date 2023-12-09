@@ -40,11 +40,6 @@
     mask-image: url("../svg/github.svg");
   }
 
-  &.icon-steam {
-    -webkit-mask-image: url("../svg/steam.svg");
-    mask-image: url("../svg/steam.svg");
-  }
-
   &.icon-telegram {
     -webkit-mask-image: url("../svg/telegram.svg");
     mask-image: url("../svg/telegram.svg");
@@ -53,6 +48,11 @@
   &.icon-rss {
     -webkit-mask-image: url("../svg/rss.svg");
     mask-image: url("../svg/rss.svg");
+  }
+
+  &.icon-sitemap {
+    -webkit-mask-image: url("../svg/sitemap.svg");
+    mask-image: url("../svg/sitemap.svg");
   }
 }
 

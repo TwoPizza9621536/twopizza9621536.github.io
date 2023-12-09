@@ -29,14 +29,14 @@ First off, what is a NFT?
 
 > A NFT is a unique and non-interchangeable unit of data stored on a blockchain,
 > a form of digital ledger.
-> \- [Wikipedia<span class="visually-hidden"> (Opens in a new window)</span>][1]
+> \- [Wikipedia][1]
 
 Basically a receipt or transaction "proves" that you have a digital asset, which
 cannot be copied and records it in a blockchain. Then how do you create a NFT,
 well below is a simple diagram that I have created to show the process.
 
-![Starting with a digital asset, next minting the asset, then putting the NFT
-  on the blockchain.]({% asset_path nft_process.svg %})
+![Starting with a digital asset, next minting the asset, then putting the NFT on
+  the blockchain.]({% asset_path nft_process.svg %} "Process of Minting a NFT")
 
 Ok, that diagram does not contain the important process of creating a NFT, how
 an asset is minted as a NFT. The process of minting is complicated, as it uses
