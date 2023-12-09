@@ -47,7 +47,7 @@ I also use some extensions to make GNOME better.
 ## Applications
 
 List of applications that I used that is not listed in my
-[daily diver list]({{ "/about" | relative_url }}).
+[daily diver list]({{ '/about' | relative_url }}).
 
 - Browsers
   - Chromium

@@ -12,10 +12,19 @@
 @import "monokai.css";
 
 /* Other Styles */
-@import "socials";
 @import "octicon";
+@import "socials";
 
 /* Accessibility */
+
+a {
+  color: #195c8b;
+}
+
+span.sidebar-nav-item,
+.sidebar-item p {
+  color: #ababab;
+}
 
 blockquote,
 .post-date,
@@ -27,19 +36,8 @@ blockquote,
   color: #544e4e;
 }
 
-span.sidebar-nav-item,
-.sidebar-item p {
-  color: #ababab;
-}
-
-a {
-  color: #2077b3;
-}
-
-/* Misc */
-
-.post-description {
-  font-style: italic;
+.message {
+  color: #555;
 }
 
 /*!

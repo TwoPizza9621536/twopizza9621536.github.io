@@ -1,21 +1,22 @@
 ---
-layout: default
-title: Blogs
+title: Blog
 permalink: /blog
 pagination:
   enabled: true
 ---
 
-<section class="page">
-  <h1 class="page-title">Blogs</h1>
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
   <p>
-    <a href="{{ '/category' | relative_url }}">Search by Categories.</a>
-    <a href="{{ '/tag' | relative_url }}">Search by Tags.</a>
+    <a href="{{ '/category/' | relative_url }}">Search by Categories.</a>
+    <a href="{{ '/tag/' | relative_url }}">Search by Tags.</a>
   </p>
 
   {% for post in paginator.posts %}
   {% include articles.html %}
   {% endfor %}
 
+  {% if paginator.total_pages > 1 %}
   {% include pagination.html %}
-</section>
+  {% endif %}
+</div>

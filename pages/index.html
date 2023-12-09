@@ -1,28 +1,26 @@
 ---
-layout: default
 permalink: /
 ---
 
-<section class="page">
-  <h1>Latest Posts</h1>
-  {% for post in site.posts limit:5 %}
-  {% include articles.html %}
-  {% endfor %}
-</section>
-
-<section class="page">
-  <h2>Projects under this site</h2>
-  {% assign repos = site.github.public_repositories
-  | where_exp:"item", "item.homepage contains 'twopizza9621536'" %}
-  <ul>
-    {% for repo in repos limit:3 %}
-    <li>
-      <a href="{{ repo.homepage }}">
-        {{ repo.name }} - {{ repo.stargazers_count }}
-        {% octicon star aria-label:stargazers %}
-      </a>
-      <p>{{ repo.description }}</p>
-    </li>
+<div class="page">
+  <section aria-labelledby="latest-post">
+    <h1 id="latest-post">Latest Posts</h1>
+    {% for post in site.posts limit:5 %}
+    {% include articles.html %}
     {% endfor %}
-  </ul>
-</section>
+  </section>
+
+  <section aria-labelledby="projects-under-this-site">
+    <h2 id="projects-under-this-site">Projects under this site</h2>
+    {% assign repos = site.github.public_repositories
+    | where_exp:"item", "item.homepage contains 'twopizza9621536'" %}
+    <ul>
+      {% for repo in repos limit:3 %}
+      <li>
+        <a href="{{ repo.homepage }}">{{ repo.name }}</a>
+        <p>{{ repo.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

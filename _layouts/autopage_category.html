@@ -2,22 +2,21 @@
 layout: default
 ---
 
-<section class="page">
-  <header>
-    <h1 class="page-title">
-      Category <b>{{ page.autopages.display_name }}</b>
-    </h1>
-    <p>
-      {% if paginator.total_pages > 1 %}
-      Page {{ page.pagination_info.curr_page }} of
-      {{ page.pagination_info.total_pages }}
-      {% endif %}
-    </p>
-  </header>
+<div class="page">
+  <h1 class="page-title">
+    Category
+    <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b>
+    {% if paginator.total_pages > 1 %}
+    Page {{ page.pagination_info.curr_page }} of
+    {{ page.pagination_info.total_pages }}
+    {% endif %}
+  </h1>
 
   {% for post in paginator.posts %}
   {% include articles.html %}
   {% endfor %}
 
+  {% if paginator.total_pages > 1 %}
   {% include pagination.html %}
-</section>
+  {% endif %}
+</div>

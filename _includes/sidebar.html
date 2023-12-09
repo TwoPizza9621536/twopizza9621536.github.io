@@ -1,7 +1,6 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"
-  {% if page.url == "/" %}checked{% endif %}>
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -9,13 +8,22 @@
     <p>{{ site.description }}</p>
   </div>
 
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}"
-      href="{{ '/' | relative_url }}">Home</a>
+  <nav class="sidebar-nav" aria-label="Primary">
+    <a class="sidebar-nav-item"
+      href="{{ '/' | relative_url }}"
+      {% if page.url == '/' %}aria-current="page"{% endif %}>
+      Home
+    </a>
     <a class="sidebar-nav-item {% if page.url == '/blog' %}active{% endif %}"
-      href="{{ '/blog' | relative_url }}">Blog</a>
-    <a class="sidebar-nav-item {% if page.url == '/collections' %}active{% endif %}"
-      href="{{ '/collection' | relative_url }}">Collections</a>
+      href="{{ '/blog' | relative_url }}"
+      {% if page.url == '/blog' %}aria-current="page"{% endif %}>
+      Blog
+    </a>
+    <a class="sidebar-nav-item {% if page.url == '/collection/' %}active{% endif %}"
+      href="{{ '/collection/' | relative_url }}"
+      {% if page.url == '/collection/' %}aria-current="page"{% endif %}>
+      Collections
+    </a>
 
     {% comment %}
     The code below dynamically generates a sidebar nav of pages with
@@ -28,7 +36,8 @@
     {% if node.layout == "page" %}
     {% if node.sidebar != false %}
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
-      href="{{ node.url | relative_url }}">
+      href="{{ node.url | relative_url }}"
+      {% if page.url == node.url %}aria-current="page"{% endif %}>
       {{ node.title }}
     </a>
     {% endif %}

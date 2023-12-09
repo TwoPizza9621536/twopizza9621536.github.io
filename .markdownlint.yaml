@@ -7,5 +7,7 @@ MD033:
   allowed_elements:
     - a
     - abbr
+    - br
     - p
+    - span
     - strong

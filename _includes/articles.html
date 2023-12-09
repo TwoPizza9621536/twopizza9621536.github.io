@@ -1,20 +1,19 @@
 <article class="post">
-  <header>
-    {% if post.excerpt_only %}
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% else %}
-    <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-    {% endif %}
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
-      {{ post.date | date_to_string }}
-    </time>
+  {% if post.excerpt_only %}
+  <h2 class="post-title">{{ post.title }}</h2>
+  {% else %}
+  <h2 class="post-title">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h2>
+  {% endif %}
 
-    {% if post.description %}
-    <p class="post-description">{{ post.description }}</p>
-    {% endif %}
-  </header>
+  <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+    {{ post.date | date_to_string }}
+  </time>
+
+  {% if post.description %}
+  <p class="lead">{{ post.description }}</p>
+  {% endif %}
 
   {{ post.excerpt }}
 </article>

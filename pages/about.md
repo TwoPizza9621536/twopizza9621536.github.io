@@ -19,7 +19,7 @@ I have a HP ENVY x360 15m-ed0023dx as my daily driver. See my
 additional applications that I use for Linux.
 
 | Configuration    | Hardware / Software                |
-| -----------------| ---------------------------------- |
+| ---------------- | ---------------------------------- |
 | CPU              | Intel Core i7-1065G7 CPU @ 1.30GHz |
 | GPU              | Intel Iris Plus Graphics           |
 | RAM              | 12 GB                              |

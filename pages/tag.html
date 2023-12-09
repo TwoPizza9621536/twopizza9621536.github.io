@@ -1,11 +1,12 @@
 ---
-layout: default
 title: Tags
 permalink: /tag/
 ---
 
-<section class="page">
-  <h1 class="page-title">{% octicon tag height:24 %} Tags</h1>
+<div class="page">
+  <h1 class="page-title" id="{{ page.title | slugify }}">
+    {% octicon tag height:24 %} {{ page.title }}
+  </h1>
   <ul>
     {% for tag in site.tags %}
     <li>
@@ -15,4 +16,4 @@ permalink: /tag/
     </li>
     {% endfor %}
   </ul>
-</section>
+</div>

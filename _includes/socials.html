@@ -14,8 +14,10 @@
   {% assign key = social | first %}
   <li>
     <a href="{{ s[key].href }}{{ s[key].id }}" class="icon icon-{{ key }}"
-      rel="me external nofollow noopener noreferrer">
-      <span class="visually-hidden">{{ s[key].title }}</span>
+      rel="me">
+      <span class="visually-hidden">
+        {{ s[key].title }} (Opens in a new window)
+      </span>
     </a>
   </li>
   {% endfor %}

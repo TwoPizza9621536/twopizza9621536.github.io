@@ -65,6 +65,10 @@ defaults:
       layout: post
       excerpt_only: true
   - scope:
+      path: "pages/"
+    values:
+      layout: default
+  - scope:
       path: "assets/"
     values:
       sitemap: false
@@ -80,8 +84,8 @@ jekyll-mentions: https://github.com
 strict_front_matter: true
 
 # New window for external links
-external_links:
-  rel: external nofollow noopener noreferrer
+target-blank:
+  rel: nofollow external
 
 # Latent Semantic Indexer
 lsi: true
