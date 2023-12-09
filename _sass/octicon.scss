@@ -21,38 +21,6 @@
  * From https://gist.github.com/ritchiecarroll/132715b38c071cbd01b1d3a0da60822a
  */
 
-h2 {
-  text-indent: -6px;
-}
-
-h3 {
-  text-indent: -5px;
-}
-
-h4 {
-  text-indent: -4px;
-}
-
-h5 {
-  text-indent: -3px;
-}
-
-h6 {
-  text-indent: -2px;
-}
-
-header,
-aside {
-  h2,
-  h3 {
-    text-indent: 0;
-  }
-}
-
-.post h2:first-child {
-  text-indent: 0;
-}
-
 h2,
 h3,
 h4,
