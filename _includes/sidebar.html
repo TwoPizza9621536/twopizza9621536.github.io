@@ -9,12 +9,13 @@
   </div>
 
   <nav class="sidebar-nav" aria-label="Primary">
-    <a class="sidebar-nav-item" href="{{ '/' | relative_url }}">
+    <a class="sidebar-nav-item {% if page.url == '/' %}active{% endif %}"
+      href="{{ '/' | relative_url }}">
       Home
     </a>
-    <a class="sidebar-nav-item {% if page.url == '/blog/' %}active{% endif %}"
-      href="{{ '/blog/' | relative_url }}"
-      {% if page.url == '/blog/' %}aria-current="page"{% endif %}>
+    <a class="sidebar-nav-item {% if page.url == '/blog' %}active{% endif %}"
+      href="{{ '/blog' | relative_url }}"
+      {% if page.url == '/blog' %}aria-current="page"{% endif %}>
       Blog
     </a>
     <a class="sidebar-nav-item {% if page.url == '/collection/' %}active{% endif %}"

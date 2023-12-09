@@ -1,6 +1,6 @@
 <article class="post">
   {% if post.excerpt_only %}
-  <h2 class="post-title post-paginate-title">{{ post.title }}</h2>
+  <h2 class="post-title">{{ post.title }}</h2>
   {% else %}
   <h2 class="post-title">
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
