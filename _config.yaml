@@ -69,10 +69,6 @@ defaults:
     values:
       layout: default
       sitemap: false
-  - scope:
-      path: "assets/"
-    values:
-      sitemap: false
 
 # Set date format
 last-modified-at:
@@ -83,10 +79,6 @@ jekyll-mentions: https://github.com
 
 # Make sure there are no YAML syntax errors
 strict_front_matter: true
-
-# New window for external links
-target-blank:
-  rel: nofollow external
 
 # Latent Semantic Indexer
 lsi: true

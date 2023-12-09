@@ -9,9 +9,8 @@
   </div>
 
   <nav class="sidebar-nav" aria-label="Primary">
-    <a class="sidebar-nav-item"
-      href="{{ '/' | relative_url }}"
-      {% if page.url == '/' %}aria-current="page"{% endif %}>
+    <a class="sidebar-nav-item {% if page.url == '/' %}active{% endif %}"
+      href="{{ '/' | relative_url }}">
       Home
     </a>
     <a class="sidebar-nav-item {% if page.url == '/blog' %}active{% endif %}"
