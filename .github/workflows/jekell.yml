@@ -51,11 +51,9 @@ jobs:
           JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Installing Minifier Tools
-        run: npm ci
-
       - name: Format HTML and CSS
         run: >-
+          npm ci
           npm run html
           npm run css
 
