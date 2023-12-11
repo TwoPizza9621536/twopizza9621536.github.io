@@ -4,7 +4,7 @@
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.3.0
+    rev: v4.5.0
     hooks:
       - id: check-added-large-files
       - id: check-yaml
@@ -20,7 +20,7 @@ repos:
   #     - id: jekyll-relative-url-check-markdown
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.31.1
+    rev: v0.38.0
     hooks:
       - id: markdownlint
       - id: markdownlint-fix
