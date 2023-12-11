@@ -6,3 +6,4 @@ vendor
 .vscode
 .env
 .ruby-lsp
+node_modules

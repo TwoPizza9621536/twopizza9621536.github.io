@@ -39,6 +39,10 @@ jobs:
         uses: actions/setup-node@v4.0.0
         with:
           node-version: 18
+          cache: npm
+
+      - name: Installing Minifier Tools
+        run: npm ci
 
       - name: Setup Pages
         id: pages
@@ -52,9 +56,8 @@ jobs:
 
       - name: Format HTML and CSS
         run: >-
-          npx --yes html-minifier -c .html-minifier.json --input-dir _site \
-            --output-dir _site --file-ext html
-          npx --y clean-css-cli --batch --batch-suffix '' _site/**/*.css
+          npm run html
+          npm run css
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
