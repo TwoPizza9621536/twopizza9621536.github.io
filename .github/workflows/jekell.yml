@@ -41,9 +41,6 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: Installing Minifier Tools
-        run: npm ci
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -53,6 +50,9 @@ jobs:
         env:
           JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Installing Minifier Tools
+        run: npm ci
 
       - name: Format HTML and CSS
         run: >-
