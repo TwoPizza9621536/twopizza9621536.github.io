@@ -54,7 +54,7 @@ jobs:
         run: >-
           npx --yes html-minifier -c .html-minifier.json --input-dir _site \
             --output-dir _site --file-ext html
-          npx --y cleancss --batch --batch-suffix '' _site/**/*.css
+          npx --y clean-css-cli --batch --batch-suffix '' _site/**/*.css
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
