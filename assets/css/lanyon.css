@@ -1,4 +1,4 @@
-/*
+/*!
  *  ___
  * /\_ \
  * \//\ \      __      ___   __  __    ___     ___
@@ -13,7 +13,6 @@
  * https://github.com/poole/lanyon.
  */
 
-
 /*
  * Contents
  *
@@ -26,7 +25,6 @@
  * Reverse layout
  * Themes
  */
-
 
 /*
  * Global resets
@@ -53,9 +51,8 @@ h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+  letter-spacing: -0.025rem;
 }
-
 
 /*
  * Wrapper
@@ -69,7 +66,6 @@ h6 {
   position: relative;
   width: 100%;
 }
-
 
 /*
  * Container
@@ -92,7 +88,6 @@ h6 {
     max-width: 38rem;
   }
 }
-
 
 /*
  * Masthead
@@ -134,7 +129,6 @@ h6 {
   }
 }
 
-
 /*
  * Sidebar
  *
@@ -160,17 +154,17 @@ h6 {
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   /* 15px */
-  color: rgba(255, 255, 255, .6);
+  color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem;
+    font-size: 0.75rem;
     /* 14px */
   }
 }
@@ -191,20 +185,20 @@ h6 {
 
 /* Sidebar nav */
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
-  border-top: 1px solid rgba(255, 255, 255, .1);
+  padding: 0.5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-color: transparent;
 }
 
@@ -231,14 +225,14 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top: .8rem;
+  top: 0.8rem;
   left: 1rem;
   display: flex;
   align-items: center;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   color: #505050;
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
@@ -247,20 +241,22 @@ a.sidebar-nav-item:focus {
   width: 32px;
   height: 32px;
   content: "";
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23555' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23555' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E")
+    no-repeat;
 }
 
 .sidebar-toggle:active,
-#sidebar-checkbox:focus~.sidebar-toggle,
-#sidebar-checkbox:checked~.sidebar-toggle {
+#sidebar-checkbox:focus ~ .sidebar-toggle,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
   background-color: #555;
 }
 
 .sidebar-toggle:active:before,
-#sidebar-checkbox:focus~.sidebar-toggle::before,
-#sidebar-checkbox:checked~.sidebar-toggle::before {
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
+#sidebar-checkbox:focus ~ .sidebar-toggle::before,
+#sidebar-checkbox:checked ~ .sidebar-toggle::before {
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E")
+    no-repeat;
 }
 
 @media (min-width: 30.1em) {
@@ -298,23 +294,22 @@ a.sidebar-nav-item:focus {
 
 .wrap,
 .sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
-#sidebar-checkbox:checked+.sidebar {
+#sidebar-checkbox:checked + .sidebar {
   z-index: 10;
   visibility: visible;
 }
 
-#sidebar-checkbox:checked~.sidebar,
-#sidebar-checkbox:checked~.wrap,
-#sidebar-checkbox:checked~.sidebar-toggle {
+#sidebar-checkbox:checked ~ .sidebar,
+#sidebar-checkbox:checked ~ .wrap,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
   -ms-transform: translateX(14rem);
   transform: translateX(14rem);
 }
-
 
 /*
  * Posts and pages
@@ -343,7 +338,7 @@ a.sidebar-nav-item:focus {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
@@ -377,7 +372,6 @@ a.sidebar-nav-item:focus {
 .related-posts li a:hover small {
   color: inherit;
 }
-
 
 /*
  * Pagination
@@ -435,7 +429,6 @@ a.pagination-item:hover {
   }
 }
 
-
 /*
  * Reverse layout
  *
@@ -453,14 +446,13 @@ a.pagination-item:hover {
   right: 1rem;
 }
 
-.layout-reverse #sidebar-checkbox:checked~.sidebar,
-.layout-reverse #sidebar-checkbox:checked~.wrap,
-.layout-reverse #sidebar-checkbox:checked~.sidebar-toggle {
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(-14rem);
   -ms-transform: translateX(-14rem);
   transform: translateX(-14rem);
 }
-
 
 /*
  * Themes
@@ -472,7 +464,7 @@ a.pagination-item:hover {
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
-.theme-base-08 #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-08 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #ac4142;
 }
 
@@ -485,7 +477,7 @@ a.pagination-item:hover {
 /* Orange */
 .theme-base-09 .sidebar,
 .theme-base-09 .sidebar-toggle:active,
-.theme-base-09 #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-09 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #d28445;
 }
 
@@ -498,7 +490,7 @@ a.pagination-item:hover {
 /* Yellow */
 .theme-base-0a .sidebar,
 .theme-base-0a .sidebar-toggle:active,
-.theme-base-0a #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-0a #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #f4bf75;
 }
 
@@ -511,7 +503,7 @@ a.pagination-item:hover {
 /* Green */
 .theme-base-0b .sidebar,
 .theme-base-0b .sidebar-toggle:active,
-.theme-base-0b #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-0b #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #90a959;
 }
 
@@ -524,7 +516,7 @@ a.pagination-item:hover {
 /* Cyan */
 .theme-base-0c .sidebar,
 .theme-base-0c .sidebar-toggle:active,
-.theme-base-0c #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-0c #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #75b5aa;
 }
 
@@ -537,7 +529,7 @@ a.pagination-item:hover {
 /* Blue */
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
-.theme-base-0d #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #6a9fb5;
 }
 
@@ -550,7 +542,7 @@ a.pagination-item:hover {
 /* Magenta */
 .theme-base-0e .sidebar,
 .theme-base-0e .sidebar-toggle:active,
-.theme-base-0e #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #aa759f;
 }
 
@@ -563,7 +555,7 @@ a.pagination-item:hover {
 /* Brown */
 .theme-base-0f .sidebar,
 .theme-base-0f .sidebar-toggle:active,
-.theme-base-0f #sidebar-checkbox:checked~.sidebar-toggle {
+.theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #8f5536;
 }
 
@@ -573,7 +565,6 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
-
 /*
  * Overlay sidebar
  *
@@ -581,21 +572,21 @@ a.pagination-item:hover {
  * aside when toggled.
  */
 
-.sidebar-overlay #sidebar-checkbox:checked~.wrap {
+.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
 }
 
-.sidebar-overlay #sidebar-checkbox:checked~.sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff;
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
+  box-shadow: 0 0 0 0.25rem #fff;
 }
 
-.sidebar-overlay #sidebar-checkbox:checked~.sidebar {
-  box-shadow: .25rem 0 .5rem rgba(0, 0, 0, .1);
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
+  box-shadow: 0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 /* Only one tweak for a reverse layout */
-.layout-reverse.sidebar-overlay #sidebar-checkbox:checked~.sidebar {
-  box-shadow: -.25rem 0 .5rem rgba(0, 0, 0, .1);
+.layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
+  box-shadow: -0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }

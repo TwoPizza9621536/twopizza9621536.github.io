@@ -17,10 +17,10 @@ people will actually own digital property, but in actuality it is a way for
 scammers to gain more money.
 
 <p class="message">
-:information_source: <strong>Notice</strong>: This article was still in draft
-during 2022. I did not finish this as many other people have voice their options
-on <abbr title="Non Fungible Tokens">NFTs</abbr>. But since this article is
-mostly finished, I have rewritten this article for a less wordy explanation.
+{% octicon info height:24 aria-label:Notice %} <strong>Note</strong>: This
+article was still in draft during 2022. I did not finish this as many other
+people have voice their options on NFTs. But since this article is mostly
+finished, I have rewritten this article for a less wordy explanation.
 </p>
 
 ## How NFT Works

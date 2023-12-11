@@ -91,6 +91,10 @@ redirect_from:
 sass:
   style: compressed
 
+# Use KaTeX for math support instead of MathJax
+kramdown:
+  math_engine: katex
+
 # Include Files
 include:
   - .well-known/

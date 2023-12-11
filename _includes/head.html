@@ -2,6 +2,11 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+  {% if page.katex %}
+  <link rel="stylesheet" href="{{ '/assets/css/katex.css' | relative_url }}">
+  {% endif %}
+
   {% feed_meta %}
   {% seo %}
   {% favicon %}

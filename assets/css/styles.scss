@@ -1,12 +1,8 @@
 ---
 ---
 
-/* Fonts */
-@import "fira_code";
-@import "pt_sans";
-@import "pt_serif";
-
-/* Themes */
+/* Theme */
+@import "fonts";
 @import "poole.css";
 @import "lanyon.css";
 @import "monokai.css";
@@ -18,7 +14,7 @@
 /* Accessibility */
 
 a {
-  color: #195c8b;
+  color: #217ab9;
 }
 
 span.sidebar-nav-item,

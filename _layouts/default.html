@@ -10,22 +10,20 @@
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
         content to avoid any CSS collisions with our real content. -->
   <div class="wrap">
-    <div class="masthead">
-      <header class="container">
+    <header class="masthead">
+      <div class="container">
         <h3 class="masthead-title">
           <a href="{{ '/' | relative_url }}" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h3>
-      </header>
-    </div>
+      </div>
+    </header>
 
-    <main class="container content">
-      {{ content }}
-    </main>
+    <main class="container content">{{ content }}</main>
   </div>
 
   <label for="sidebar-checkbox" class="sidebar-toggle">
-    <span class="visually-hidden">Sidebar</span>
+    <span class="visually-hidden">Open navigation menu</span>
   </label>
 
 </body>

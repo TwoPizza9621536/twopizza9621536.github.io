@@ -102,11 +102,11 @@ module Jekyll
       end
 
       def add_target_attribute(link)
-        link["target"] = @target
+        link["target"] = link["target"] || @target
       end
 
       def add_title_attribute(link)
-        link["title"] = @title
+        link["title"] = link["title"] || @title
       end
 
       def add_rel_attributes(link)

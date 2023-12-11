@@ -64,7 +64,8 @@ highlighting theme, monokai, for code blocks. Some colors for monokai comes from
 
 This website uses some styling from [Mozilla Developer Network Web Docs][9]
 based on [yari](https://github.com/mdn/yari); which is licensed under the
-[Mozilla Public License 2.0][10].
+[Mozilla Public License 2.0][10]. Additional styling for MathML support from
+[KaTeX][11] licensed under the [MIT License][4].
 
 ## Build Time Dependencies
 
@@ -72,7 +73,7 @@ based on [yari](https://github.com/mdn/yari); which is licensed under the
 
 This website also uses additional plugins and dependencies to build the website.
 These plugins are licensed under the [MIT License][4], but some dependencies
-like [classifier-reborn][11] are under the [Lesser GNU Public License v2.1][12].
+like [classifier-reborn][12] are under the [Lesser GNU Public License v2.1][13].
 Please check at the [website's source code][2] to see and check licensing
 requirements of each plugin and dependencies.
 
@@ -86,5 +87,6 @@ requirements of each plugin and dependencies.
 [8]: https://gist.github.com/ritchiecarroll/132715b38c071cbd01b1d3a0da60822a
 [9]: https://developer.mozilla.org
 [10]: http://mozilla.org/MPL/2.0/
-[11]: https://github.com/jekyll/classifier-reborn
-[12]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1
+[11]: https://github.com/KaTeX/KaTeX
+[12]: https://github.com/jekyll/classifier-reborn
+[13]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1

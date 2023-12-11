@@ -50,10 +50,11 @@ jobs:
           JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Format HTML
-        run: |
+      - name: Format HTML and CSS
+        run: >-
           npx --yes html-minifier -c .html-minifier.json --input-dir _site \
             --output-dir _site --file-ext html
+          npx --y cleancss --batch --batch-suffix '' _site/**/*.css
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

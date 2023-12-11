@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Linux Daily Driver
-permalink: /linux-daily-driver
+permalink: /linux
 sidebar: false
 ---
 

@@ -155,6 +155,7 @@ Python is the simplest as it is a beginner language and all of the io is
 abstracted.
 
 <p class="message">
-:information_source: <strong>Note</strong>: Code snippets are licensed under
-the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.
+{% octicon info height:24 aria-label:Notice %} <strong>Note</strong>: Code
+snippets are licensed under the
+<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.
 </p>

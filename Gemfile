@@ -2,6 +2,9 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
 
+gem "kramdown-parser-gfm", "~> 1.1"
+gem "kramdown-math-katex", "~> 1.0"
+
 gem 'classifier-reborn', '~> 2.3'
 gem 'dotenv', '~> 2.8', '>= 2.8.1'
 gem 'faraday-retry', '~> 2.2'

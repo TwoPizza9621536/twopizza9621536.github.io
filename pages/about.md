@@ -7,16 +7,13 @@ permalink: /about
 I am a 17 year old Chinese American who likes to code, play video games and
 messing with technology.
 
-I also have done [Linux From Scratch](https://www.linuxfromscratch.org/) in 2019
-and the id is 29239.
+I also have done [Linux From Scratch][1] in 2019 and the id is 29239.
 
 ## What I Use
 
 ---
 
-I have a HP ENVY x360 15m-ed0023dx as my daily driver. See my
-[Linux daily driver]({{ '/linux-daily-driver' | relative_url }}) to see
-additional applications that I use for Linux.
+I have a HP ENVY x360 15m-ed0023dx as my daily driver.
 
 | Configuration    | Hardware / Software                |
 | ---------------- | ---------------------------------- |
@@ -31,7 +28,9 @@ additional applications that I use for Linux.
 
 ---
 
-Below are list of software and apps that I commonly use for my workflow.
+Below are list of software and apps that I commonly use for my workflow. For
+additional applications, check out my
+[Linux Setup]({{ '/linux' | relative_url }}).
 Sectioned based on usage.
 
 ### Desktop
@@ -54,9 +53,9 @@ Editors to create videos and art.
 - Inkscape
 - Krita
 
-### Development Setup and Commandline
+### Development Setup and Command Line
 
-Tools that I use for developing applications and on the commandline.
+Tools that I use for developing applications and on the command line.
 
 - Editor
   - Neovim
@@ -73,7 +72,9 @@ Tools that I use for developing applications and on the commandline.
 
 - Bitwarden
 - Discord
+- Metatext
 - Microsoft Authenticator
-- Reddit
-- Twitter
+- Tumblr
 - YouTube
+
+[1]: https://www.linuxfromscratch.org/

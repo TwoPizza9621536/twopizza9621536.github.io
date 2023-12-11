@@ -24,13 +24,12 @@ Verification of my accounts is provided by [Keyoxide][1].
 
 Please do not use DM or Email to send any private information as most of theme
 do not use end to end encryption and anybody can see these messages. Please use
-[Signal](https://signal.org) if your device is not comprised. Telegram is
+[Signal](https://signal.org) if your device is not comprised. [Telegram][2] is
 available but it is only used for verification.
 
 ## More Encryption And Verification Tools
 
-[age](https://age-encryption.org) and
-[Minisign](https://jedisct1.github.io/minisign) are simple encryption and
+[age](https://age-encryption.org) and [Minisign][3] are simple encryption and
 signing tools respectively that can be used if the above methods is not
 appropriate for the context of sending messages or files.
 
@@ -41,3 +40,5 @@ appropriate for the context of sending messages or files.
 SSH keys can be found at <https://github.com/TwoPizza9621536.keys>.
 
 [1]: https://keyoxide.org/twopizza9621536@gmail.com
+[2]: https://t.me/TwoPizza9621536Keyoxide
+[3]: https://jedisct1.github.io/minisign
