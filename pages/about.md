@@ -7,7 +7,7 @@ permalink: /about
 I am a 17 year old Chinese American who likes to code, play video games and
 messing with technology.
 
-I also have done [Linux From Scratch][1] in 2019 and the id is 29239.
+I also have done [Linux From Scratch][lfs] in 2019 and the id is 29239.
 
 ## What I Use
 
@@ -77,4 +77,4 @@ Tools that I use for developing applications and on the command line.
 - Tumblr
 - YouTube
 
-[1]: https://www.linuxfromscratch.org/
+[lfs]: https://www.linuxfromscratch.org/
