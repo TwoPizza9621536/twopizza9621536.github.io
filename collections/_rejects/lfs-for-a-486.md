@@ -16,8 +16,8 @@ LFS for the 486, as might be the last version of Linux as Linus is removing
 
 With the upcoming Linux kernel version 6.0, Linus Torvalds express that he
 wanted to remove 486 support from the kernel. Before that can happen, let's
-celebrate with [Linux From Scratch][1] on a 586, also known as the Pentium, for
-a 486.
+celebrate with Linux From Scratch on a 586, also known as the Pentium, for a
+486.
 
 ### Setup
 
