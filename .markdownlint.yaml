@@ -9,5 +9,8 @@ MD033:
     - abbr
     - br
     - p
+    - rp
+    - rt
+    - ruby
     - span
     - strong

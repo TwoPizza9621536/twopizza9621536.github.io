@@ -6,6 +6,9 @@
   {% if page.katex %}
   <link rel="stylesheet" href="{{ '/assets/css/katex.css' | relative_url }}">
   {% endif %}
+  {% if page.cjk %}
+  <link rel="stylesheet" href="{{ '/assets/css/cjk.css' | relative_url }}">
+  {% endif %}
 
   {% feed_meta %}
   {% seo %}

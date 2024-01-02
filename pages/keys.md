@@ -31,13 +31,8 @@ is only used for verification.
 
 [age][4] and [Minisign][5] are simple encryption and signing tools respectively
 that can be used if the above methods is not appropriate for the context of
-sending messages or files.
-
-`age: age1sr55thj6rqtvfqjmveepzczynaw0xd7efz50tlhh7f534verge0s470vht`
-
-`minisign: RWTi523u+M/TuVaf2WhEEZPjw2ZzfxlXjUonkoJoFRQL/zwNLTwj0p2V`
-
-SSH keys can be found at <https://github.com/TwoPizza9621536.keys>.
+sending messages or files. These keys and SSH keys can be found at
+<https://github.com/TwoPizza9621536/dotfiles>.
 
 [1]: https://keyoxide.org/twopizza9621536@gmail.com
 [2]: https://signal.org

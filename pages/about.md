@@ -2,10 +2,16 @@
 layout: page
 title: About
 permalink: /about
+cjk: true
 ---
 
 I am a 17 year old Chinese American who likes to code, play video games and
 messing with technology.
+
+I have two names: Samuel Wu and
+<ruby lang="cmn">吴申榕<rp>(</rp><rt>Wū ShēnRóng</rt><rp>)</rp></ruby>.
+The former name is the only legal recognized name and the latter is only for
+unofficial Chinese, Japanese and Korean use.
 
 I also have done [Linux From Scratch][lfs] in 2019 and the id is 29239.
 
