@@ -18,7 +18,6 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.17.0'
   gem 'jekyll-github-metadata', '~> 2.16'
   gem 'jekyll-include-cache', '~> 0.2.1'
-  gem 'jekyll-last-modified-at', '~> 1.3'
   gem 'jekyll-loading-lazy', '~> 0.1.1'
   gem 'jekyll-mentions', '~> 1.6'
   gem 'jekyll-octicons', '~> 19.8'
@@ -26,9 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from', '~> 0.16.0'
   gem 'jekyll-seo-tag', '~> 2.8'
   gem 'jekyll-sitemap', '~> 1.4'
-  gem 'jekyll-watch', '~> 2.2', '>= 2.2.1'
   gem 'jemoji', '~> 0.13.0'
-  gem 'liquid_reading_time', '~> 1.1', '>= 1.1.3'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

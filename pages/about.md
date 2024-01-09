@@ -8,8 +8,10 @@ cjk: true
 I am a 17 year old Chinese American who likes to code, play video games and
 messing with technology.
 
-I have two names: Samuel Wu and
-<ruby lang="cmn">吴申榕<rp>(</rp><rt>Wū ShēnRóng</rt><rp>)</rp></ruby>.
+I have two names: <span translate="no">Samuel Wu</span> and
+<ruby lang="cmn" translate="no">
+  吴申榕<rp>(</rp><rt>Wū ShēnRóng</rt><rp>)</rp>
+</ruby>.
 The former name is the only legal recognized name and the latter is only for
 unofficial Chinese, Japanese and Korean use.
 
@@ -41,45 +43,43 @@ Sectioned based on usage.
 
 ### Desktop
 
-- Browsers
-  - Microsoft Edge
-  - Firefox
 - Bitwarden
 - Discord
+- Firefox Developer Edition
 - LibreOffice
-- Thunderbird
+- Microsoft Edge
+- Outlook
 - VeraCrypt
+- Visual Studio Code
 - VLC
 
 ### Video, Graphics and Audio
 
 Editors to create videos and art.
 
-- GIMP
 - Inkscape
+- Kdenlive
 - Krita
 
-### Development Setup and Command Line
+### Command Line
 
-Tools that I use for developing applications and on the command line.
+Command line tools for development.
 
-- Editor
-  - Neovim
-  - Visual Studio Code
-- Command Line
-  - bat / cat
-  - chezmoi
-  - exa / ls
-  - fd / find
-  - rg / grep
-  - hyfetch / neofetch
+- bat
+- chezmoi
+- eza
+- fd
+- fzf
+- pipx
+- pre-commit
+- ripgrep
+- hyfetch
 
 ### Mobile
 
-- Bitwarden
 - Discord
+- iCloud Password
 - Metatext
-- Microsoft Authenticator
 - Tumblr
 - YouTube
 
