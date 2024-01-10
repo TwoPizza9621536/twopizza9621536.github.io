@@ -11,5 +11,7 @@
 @import "primer";
 
 .tag-and-category {
-  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
 }
