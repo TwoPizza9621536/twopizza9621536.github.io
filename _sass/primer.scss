@@ -1,0 +1,15 @@
+/*!
+ * Normalize Octicons abd jemojis from https://github.com/primer/octicons
+ * Licensed under the MIT License
+ */
+
+.octicon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  overflow: visible;
+}
+
+.message .octicon {
+  vertical-align: text-top;
+}

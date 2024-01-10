@@ -1,0 +1,23 @@
+---
+---
+
+/* Noto Serif */
+@font-face {
+  font-family: "Noto Serif SC";
+  src: url("../fonts/NotoSerif/NotoSerifSC-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif SC";
+  src: url("../fonts/NotoSerif/NotoSerifSC-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+ruby:lang(cmn) {
+  font-family: "PT Serif", Georgia, "Times New Roman", "Noto Serif SC", FangSong, serif;
+}

@@ -1,0 +1,80 @@
+// Code
+//
+// Inline and block-level code snippets. Includes tweaks to syntax highlighted
+// snippets from Pygments/Rouge.
+
+code,
+pre {
+  font-family: var(--code-font);
+}
+
+code {
+  padding: 0.25em 0.5em;
+  font-size: 85%;
+  color: var(--codeblock-foreground);
+  background-color: var(--codeblock-background);
+  border-radius: 3px;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: var(--spacer-3);
+  overflow: auto;
+}
+
+/* Show the language for the code block
+ * Some css are from:
+ * https://botleg.com/stories/line-numbers-in-jekyll-code-blocks/
+ * https://web.archive.org/web/20221126122334/https://www.bytedude.com/jekyll-syntax-highlighting-and-line-numbers/#language-display
+ */
+.highlight {
+  position: relative;
+
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  background-color: var(--code-bg);
+  border-radius: var(--border-radius);
+
+  pre {
+    margin-bottom: 0;
+  }
+
+  table {
+    margin: 0;
+    border: 0;
+
+    .gutter,
+    .code {
+      border: none;
+      background-color: inherit;
+    }
+  }
+
+  .lineno {
+    padding-right: 2px;
+    border-right: 2px solid;
+    text-align: end;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  code[data-lang]::before {
+    background-color: var(--codeblock-background);
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--body-bg);
+    color: var(--codeblock-foreground);
+    content: attr(data-lang);
+    position: absolute;
+    right: 34px;
+    text-align: center;
+    top: -10px;
+  }
+
+  // Triple backticks (code fencing) doubles the .highlight elements
+  .highlight {
+    padding: 0;
+  }
+}

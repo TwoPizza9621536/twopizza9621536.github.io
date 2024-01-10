@@ -1,0 +1,74 @@
+default: true
+
+heading-style:
+  style: atx
+
+ul-style:
+  style: dash
+
+no-trailing-spaces:
+  br_spaces: 0
+  strict: true
+
+no-hard-tabs:
+  code_blocks: false
+  spaces_per_tab: 4
+
+line-length:
+  strict: true
+  code_blocks: false
+
+ol-prefix:
+  style: ordered
+
+no-inline-html:
+  allowed_elements:
+    - a
+    - abbr
+    - blockquote
+    - br
+    - cite
+    - code
+    - del
+    - div
+    - em
+    - figcaption
+    - figure
+    - img
+    - ins
+    - mark
+    - p
+    - pre
+    - rp
+    - rt
+    - ruby
+    - span
+    - strong
+    - sub
+    - sup
+
+hr-style:
+  style: ---
+
+fenced-code-language:
+  language_only: true
+
+code-block-style:
+  style: fenced
+
+code-fence-style:
+  style: backtick
+
+emphasis-style:
+  style: asterisk
+
+strong-style:
+  style: asterisk
+
+link-image-style:
+  collapsed: false
+  shortcut: false
+  url_inline: false
+
+table-pipe-style:
+  style: leading_and_trailing

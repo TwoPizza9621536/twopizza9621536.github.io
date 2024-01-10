@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">
+    Category
+    <b>
+      {% if page.autopages %}
+      {{ page.autopages.display_name | capitalize }}
+      {% endif %}
+    </b>
+  </h1>
+
+  {% for post in paginator.posts %}
+  {% include article.html %}
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  {% include pagination.html %}
+  {% endif %}
+</div>

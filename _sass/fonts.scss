@@ -1,0 +1,58 @@
+/* PTSans */
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* PTSerif */
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/PTSerif/PTSerif-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/PTSerif/PTSerif-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/PTSerif/PTSerif-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../fonts/PTSerif/PTSerif-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Fira Code */
+@font-face {
+  font-family: "Fira Code";
+  src: url("../fonts/FiraCode/FiraCode-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../fonts/FiraCode/FiraCode-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

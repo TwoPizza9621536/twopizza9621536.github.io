@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <header class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ '/' | relative_url }}" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </header>
+
+      <main class="container">{{ content }}</main>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle">
+      <span class="sidebar-icon">
+        <span class="visually-hidden">Navigation Sidebar</span>
+      </span>
+    </label>
+  </body>
+
+</html>

@@ -1,0 +1,52 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<aside class="sidebar" id="sidebar" aria-label="Sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav" aria-label="Primary">
+    <a {% if page.url=='/' %}aria-current="page" {% endif %}
+      class="sidebar-nav-item {% if page.url == '/' %}active{% endif %}"
+      href="{{ '/' | relative_url }}">
+      Home
+    </a>
+
+    <a {% if page.url=='/blog/' %}aria-current="page" {% endif %}
+      class="sidebar-nav-item {% if page.url == '/blog/' %}active{% endif %}"
+      href="{{ '/blog/' | relative_url }}">
+      Blog
+    </a>
+
+    <a {% if page.url=='/collection/' %}aria-current="page" {% endif %}
+      class="sidebar-nav-item {% if page.url == '/collection/' %}active{% endif %}"
+      href="{{ '/collection/' | relative_url }}">
+      Collections
+    </a>
+
+    {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+    {% if node.title != null %}
+    {% if node.layout == "page" %}
+    <a {% if page.url==node.url %}aria-current="page" {% endif %}
+      class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}"
+      href="{{ node.url | relative_url }}">
+      {{ node.title }}
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% include_cached build.html %}
+  </nav>
+
+  {% include_cached footer.html %}
+</aside>

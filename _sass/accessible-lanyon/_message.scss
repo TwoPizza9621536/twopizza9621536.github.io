@@ -1,0 +1,98 @@
+/*!
+ * Colors are from https://github.com/primer/primitives
+ * Licensed under the MIT License
+ */
+
+:root {
+  --message-color: var(--gray-300);
+  --message-bg: #e8e9e9;
+
+  --message-notice-color: #0969da;
+  --message-notice-bg: #ddf4ff;
+
+  --message-tip-color: #1a7f37;
+  --message-tip-bg: #dafbe1;
+
+  --message-important-color: #8250df;
+  --message-important-bg: #fbefff;
+
+  --message-warning-color: #9a6700;
+  --message-warning-bg: #fff8c5;
+
+  --message-caution-color: #d1242f;
+  --message-caution-bg: #ffebe9;
+
+  @media (prefers-color-scheme: dark) {
+    --message-notice-color: #2f81f7;
+    --message-notice-bg: rgba(56, 139, 253, 0.1);
+
+    --message-tip-color: #3fb950;
+    --message-tip-bg: rgba(46, 160, 67, 0.15);
+
+    --message-important-color: #a371f7;
+    --message-important-bg: rgba(163, 113, 247, 0.1);
+
+    --message-warning-color: #d29922;
+    --message-warning-bg: rgba(187, 128, 9, 0.15);
+
+    --message-caution-color: #f85149;
+    --message-caution-bg: rgba(248, 81, 73, 0.1);
+  }
+}
+
+// Messages
+//
+// Show alert messages to users. You may add it to single elements like a `<p>`,
+// or to a parent if there are multiple elements to show.
+
+.message {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--message-color);
+  background-color: var(--message-bg);
+
+  &.notice {
+    background-color: var(--message-notice-bg);
+    color: revert;
+
+    .message-title {
+      color: var(--message-notice-color);
+    }
+  }
+
+  &.tip {
+    background-color: var(--message-tip-bg);
+    color: revert;
+
+    .message-title {
+      color: var(--message-tip-color);
+    }
+  }
+
+  &.important {
+    background-color: var(--message-important-bg);
+    color: revert;
+
+    .message-title {
+      color: var(--message-important-color);
+    }
+  }
+
+  &.warning {
+    background-color: var(--message-warning-bg);
+    color: revert;
+
+    .message-title {
+      color: var(--message-warning-color);
+    }
+  }
+
+  &.caution {
+    background-color: var(--message-caution-bg);
+    color: revert;
+
+    .message-title {
+      color: var(--message-caution-color);
+    }
+  }
+}

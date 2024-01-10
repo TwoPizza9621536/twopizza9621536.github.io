@@ -1,0 +1,138 @@
+// Sidebar
+//
+// The sidebar is the drawer, the item we are toggling with our handy hamburger
+// button in the corner of the page.
+//
+// This particular sidebar implementation was inspired by Chris Coyier's
+// "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
+// comments by a reader. It modifies both implementations to continue using the
+// checkbox (no change in URL means no polluted browser history), but this uses
+// `position` for the menu to avoid some potential content reflow issues.
+//
+// Source: https://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
+
+// Style and "hide" the sidebar
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -14rem;
+  width: 14rem;
+  visibility: hidden;
+  overflow-y: auto;
+  font-family: var(--title-font-family);
+  font-size: 0.875rem; // 15px
+  color: var(--sidebar-fg-color);
+  background-color: var(--sidebar-bg-color);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  @media (min-width: 30em) {
+    font-size: 0.75rem; // 14px
+  }
+
+  a {
+    font-weight: normal;
+    color: var(--sidebar-link-color);
+  }
+}
+
+/* Sidebar content */
+.sidebar-item {
+  padding: 1rem;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 48em) {
+    padding: 1.5rem;
+  }
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  border-bottom: 1px solid var(--sidebar-nav-color);
+}
+
+.sidebar-nav-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid var(--sidebar-nav-color);
+
+  &.active {
+    background-color: var(--sidebar-nav-color);
+    border-color: transparent;
+  }
+
+  @media (min-width: 48em) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+a.sidebar-nav-item {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background-color: var(--sidebar-nav-color);
+    border-color: transparent;
+  }
+}
+
+/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+.sidebar-checkbox {
+  position: absolute;
+  opacity: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Style the `label` that we use to target the `.sidebar-checkbox` */
+.sidebar-toggle {
+  padding: 1rem;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+  z-index: 4;
+
+  .sidebar-icon {
+    cursor: pointer;
+    border-radius: 0.25rem;
+    height: 4px;
+    width: 30px;
+    background: var(--heading-color);
+    position: absolute;
+    display: block;
+
+    &::before,
+    &::after {
+      border-radius: 0.25rem;
+      height: 4px;
+      width: 30px;
+      background: var(--heading-color);
+      position: absolute;
+      content: "";
+    }
+
+    &::before {
+      top: -8px;
+    }
+
+    &::after {
+      bottom: -8px;
+    }
+
+    span {
+      color: var(--body-bg);
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}

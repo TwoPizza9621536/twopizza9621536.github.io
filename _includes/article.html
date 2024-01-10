@@ -1,0 +1,39 @@
+<article class="post">
+  <header>
+    <h1 class="post-title">
+      {{ post.title }}
+      {% unless page.excerpt_only %}
+      <a class="anchor-right hide-small" href="{{ post.url | relative_url }}"
+        rel="bookmark" title="Permalink to {{ post.title }}">
+        {% octicon link height:24 %}
+      </a>
+      {% endunless %}
+    </h1>
+  </header>
+
+  <div class="bottomline">
+    <span class="post-date anchor-left">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date_to_long_string: "ordinal", "US" }}
+      </time>
+    </span>
+    {% unless page.excerpt_only %}
+    <span class="post-date anchor-right hide-small">
+      {% octicon clock height:16 %} Reading time
+      {{ post.content | reading_time | pluralize: "minute" }}
+    </span>
+    {% endunless %}
+  </div>
+
+  {% if post.description %}
+  <p class="lead">{{ post.description }}</p>
+  {% endif %}
+
+  {{ post.excerpt }}
+
+  {% unless page.excerpt_only %}
+  <a href="{{ post.url | relative_url }}" class="anchor-right">
+    Read More{% octicon triangle-right height:24 %}
+  </a>
+  {% endunless %}
+</article>

@@ -1,0 +1,40 @@
+// Slide effect
+//
+// Handle the sliding effects of the sidebar and content in one spot, seperate
+// from the default styles.
+//
+// As an a heads up, we don't use `transform: translate3d()` here because when
+// mixed with `position: fixed;` for the sidebar toggle, it creates a new
+// containing block. Put simply, the fixed sidebar toggle behaves like
+// `position: absolute;` when transformed.
+//
+// Read more about it at https://meyerweb.com/eric/thoughts/2011/09/12/.
+
+.wrap,
+.sidebar,
+.sidebar-toggle {
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.wrap,
+.sidebar-toggle {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+#sidebar-checkbox:checked {
+  & + .sidebar {
+    z-index: 10;
+    visibility: visible;
+  }
+
+  & ~ .sidebar,
+  & ~ .wrap,
+  & ~ .sidebar-toggle {
+    -webkit-transform: translateX(14rem);
+    -ms-transform: translateX(14rem);
+    transform: translateX(14rem);
+  }
+}

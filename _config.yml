@@ -1,0 +1,105 @@
+# Setup
+title: Samuel Wu's Blog
+tagline: Open source is a voluntary force
+description: >-
+  A site for Samuel to blog about programming, technology, media, politics, etc.
+url: https://twopizza9621536.github.io
+baseurl: ""
+excerpt_separator: <!-- more -->
+
+# Repository
+repository: TwoPizza9621536/twopizza9621536.github.io
+origin: https://github.com/TwoPizza9621536/twopizza9621536.github.io.git
+
+# Timezone and Locale
+timezone: America/New_York
+locale: en-US
+lang: en-US
+
+# Author/Contact
+author:
+  name: Samuel Wu
+  url: https://github.com/TwoPizza9621536
+  email: twopizza9621536@gmail.com
+
+twitter:
+  username: TwoPizza9621536
+  card: summery
+
+# SEO
+google_site_verification: I7yhE_OKyT8UlfvQvfF9KQqu0rZRZcaMZ9Y5nQhGyQ8
+
+# Favicon
+favicon:
+  source: favicon.png
+
+# Permalinks
+collections_dir: collections
+permalink: /blog/:title
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+
+# AutoPages
+autopages:
+  enabled: true
+
+# Collections
+collections:
+  - rejects
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: rejects
+    values:
+      layout: post
+      excerpt_only: true
+  - scope:
+      path: "pages/"
+    values:
+      layout: default
+      sitemap: false
+
+# Mentions
+jekyll-mentions:
+
+# Check for YAML errors
+strict_front_matter: true
+
+# Latent Semantic Indexer
+lsi: true
+
+# Redirect
+redirect_from:
+  json: false
+
+# External Links
+target-blank:
+  css_class: external
+
+# MathML Support
+kramdown:
+  math_engine: katex
+
+# Exclude files
+exclude:
+  - LICENSE
+  - LICENSES
+  - node_modules
+  - package-lock.json
+  - package.json
+  - README.md
+
+# Include Files
+include:
+  - .well-known

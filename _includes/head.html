@@ -1,0 +1,43 @@
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload"
+    href="{{ '/assets/fonts/PTSans-Regular.woff2' | relative_url }}" as="font"
+    type="font/woff2" crossorigin="anonymous">
+
+  <link rel="preload"
+    href="{{ '/assets/fonts/PTSerif/PTSerif-Regular.woff2' | relative_url }}"
+    as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload"
+    href="{{ '/assets/fonts/PTSerif/PTSerif-Italic.woff2' | relative_url }}"
+    as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload"
+    href="{{ '/assets/fonts/PTSerif/PTSerif-Bold.woff2' | relative_url }}"
+    as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload"
+    href="{{ '/assets/fonts/PTSerif/PTSerif-BoldItalic.woff2' | relative_url }}"
+    as="font" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="preload"
+    href="{{ '/assets/fonts/FiraCode/FiraCode-Regular.woff2' | relative_url }}"
+    as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload"
+    href="{{ '/assets/fonts/FiraCode/FiraCode-Bold.woff2' | relative_url }}"
+    as="font" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+  {% if page.katex %}
+  <link rel="stylesheet" href="{{ '/assets/css/katex.css' | relative_url }}">
+  {% endif %}
+
+  {% if page.cjk %}
+  <link rel="stylesheet" href="{{ '/assets/css/katex.css' | relative_url }}">
+  {% endif %}
+
+  {% feed_meta %}
+  {% seo %}
+  {% favicon %}
+</head>
