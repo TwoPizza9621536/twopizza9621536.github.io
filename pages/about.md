@@ -6,7 +6,8 @@ cjk: true
 ---
 
 I am a 17 year old Chinese American who likes to code, play video games and
-messing with technology.
+messing with technology. To contact me securely checkout my
+[public key page]({% link pages/keys.md %}) for encryption keys.
 
 I have two names: <span translate="no">Samuel Wu</span> and
 <ruby lang="cmn" translate="no">
