@@ -1,12 +1,10 @@
 <article class="post">
   <header>
     <h1 class="post-title">
-      {{ post.title }}
       {% unless page.excerpt_only %}
-      <a class="anchor-right hide-small" href="{{ post.url | relative_url }}"
-        rel="bookmark" title="Permalink to {{ post.title }}">
-        {% octicon link height:24 %}
-      </a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% else %}
+      {{ post.title }}
       {% endunless %}
     </h1>
   </header>
@@ -30,10 +28,4 @@
   {% endif %}
 
   {{ post.excerpt }}
-
-  {% unless page.excerpt_only %}
-  <a href="{{ post.url | relative_url }}" class="anchor-right">
-    Read More{% octicon triangle-right height:24 %}
-  </a>
-  {% endunless %}
 </article>
