@@ -1,0 +1,195 @@
+/*!
+ * Monokai theme from Rouge with Pygments colors
+ * Licensed under the MIT License
+ * https://github.com/rouge-ruby/rouge
+ * https://pygments.org/
+ */
+
+:root {
+  --codeblock-white: #f8f8f2;
+  --codeblock-gray: #b3b3b3;
+  --codeblock-black: #272822;
+  --codeblock-brown: #bab495;
+  --codeblock-red: #ff9696;
+  --codeblock-pink: #ff91b9;
+  --codeblock-blue: #66d9ef;
+  --codeblock-purple: #c4a3ff;
+  --codeblock-yellow: #e6db74;
+  --codeblock-green: #a6e22e;
+}
+
+.highlight {
+  color: var(--codeblock-white);
+  background-color: var(--codeblock-black);
+
+  table {
+    td {
+      padding: 5px;
+    }
+
+    pre {
+      margin: 0;
+    }
+  }
+
+  .hll  /* Highlight */ {
+    background-color: #49483e;
+  }
+
+  .err  /* Error */ {
+    color: #ff5fb4;
+    background-color: #1e0010;
+  }
+
+  .c,   // Comment
+  .ch,  // Comment.Hashbang
+  .cd,  //
+  .cpf, // Comment.PreprocFile
+  .cm,  // Comment.Multiline
+  .c1   /* Comment.Single */ {
+    color: var(--codeblock-brown);
+    font-style: italic;
+  }
+
+  .cp   /* Comment.Preproc */ {
+    color: var(--codeblock-brown);
+    font-weight: bold;
+  }
+
+  .cs   /* Comment.Special */ {
+    color: var(--codeblock-brown);
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .gi   /* Generic.Inserted */ {
+    color: var(--white);
+    background-color: #366d36;
+  }
+
+  .gd   /* Generic.Deleted */ {
+    color: var(--white);
+    background-color: #7f3d3d;
+  }
+
+  .ge   /* Generic.Emph */ {
+    color: var(--codeblock-gray);
+    font-style: italic;
+  }
+
+  .gr,  // Generic.Error
+  .gt   /* Generic.Traceback */ {
+    color: var(--codeblock-red);
+  }
+
+  .gh   /* Generic.Heading */ {
+    color: var(--codeblock-gray);
+  }
+
+  .gu   /* Generic.Subheading */ {
+    color: var(--codeblock-brown);
+  }
+
+  .go   /* Generic.Output */ {
+    color: var(--codeblock-blue);
+  }
+
+  .gp   /* Generic.Prompt */ {
+    color: var(--codeblock-pink);
+    font-weight: bold;
+  }
+
+  .gs   /* Generic.Strong */ {
+    color: var(--codeblock-white);
+    font-weight: bold;
+  }
+
+  .k,   // Keyword
+  .kv,  //
+  .kc,  // Keyword.Constant
+  .kd,  // Keyword.Declaration
+  .kp,  // Keyword.Pseudo
+  .kr,  // Keyword.Reserved
+  .kt   /* Keyword.Type */ {
+    color: var(--codeblock-blue);
+    font-weight: bold;
+  }
+
+  .kn,  // Keyword.Namespace
+  .ow,  // Operator.Word
+  .o    /* Operator */ {
+    color: var(--codeblock-pink);
+    font-weight: bold;
+  }
+
+  .mf,  // Literal.Number.Float
+  .mh,  // Literal.Number.Hex
+  .il,  // Literal.Number.Integer.Long
+  .mi,  // Literal.Number.Integer
+  .mo,  // Literal.Number.Octal
+  .m,   // Literal.Number
+  .mb,  // Literal.Number.Binary
+  .mx,
+  .se   /* Literal.String.Escape */ {
+    color: var(--codeblock-purple);
+  }
+
+  .sa   /* Literal.String.Affix */ {
+    color: var(--codeblock-blue);
+    font-weight: bold;
+  }
+
+  .sb,  // Literal.String.Backtick
+  .sc,  // Literal.String.Character
+  .sd,  // Literal.String.Doc
+  .s2,  // Literal.String.Double
+  .sh,  // Literal.String.Heredoc
+  .si,  // Literal.String.Interpolated
+  .sx,  // Literal.String.Other
+  .sr,  // Literal.String.Regex
+  .s1,  // Literal.String.Single
+  .ss,  // Literal.String.Symbol
+  .s,   // Literal.String
+  .dl {
+    color: var(--codeblock-yellow);
+  }
+
+  .na   /* Name.Attribute */ {
+    color: var(--codeblock-green);
+  }
+
+  .nc,  // Name.Class
+  .nd,  // Name.Decorator
+  .ne,  // Name.Exception
+  .nf,  // Name.Function
+  .fm   /* Name.Function.Magic */ {
+    color: var(--codeblock-green);
+    font-weight: bold;
+  }
+
+  .no   /* Name.Constant */ {
+    color: var(--codeblock-blue);
+  }
+
+  .bp,  // Name.Builtin.Pseudo
+  .nb,  // Name.Builtin
+  .ni,  // Name.Entity
+  .nn,  // Name.Namespace
+  .vc,  // Name.Variable.Class
+  .vg,  // Name.Variable.Global
+  .vi,  // Name.Variable.Instance
+  .nv,  // Name.Variable
+  .vm,  // Name.Variable.Magic
+  .w    /* Text.Whitespace */ {
+    color: var(--codeblock-white);
+  }
+
+  .nl   /* Name.Label */ {
+    color: var(--codeblock-white);
+    font-weight: bold;
+  }
+
+  .nt   /* Name.Tag */ {
+    color: var(--codeblock-pink);
+  }
+}

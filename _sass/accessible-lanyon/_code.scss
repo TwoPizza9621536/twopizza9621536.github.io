@@ -61,11 +61,11 @@ pre {
   }
 
   code[data-lang]::before {
-    background-color: var(--codeblock-background);
+    background-color: var(--codeblock-black);
     padding: 0 0.5rem;
     border-radius: 5px;
     border: 1px solid var(--body-bg);
-    color: var(--codeblock-foreground);
+    color: var(--codeblock-white);
     content: attr(data-lang);
     position: absolute;
     right: 34px;
