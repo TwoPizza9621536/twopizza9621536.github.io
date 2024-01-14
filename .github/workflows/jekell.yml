@@ -51,11 +51,10 @@ jobs:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Format HTML and CSS
-        run: >-
-          npm ci
-          npm run html
-          npm run css
-          npm run xml
+        uses: devatherock/minify-js@v3.0.0
+        with:
+          directory: _site
+          add_suffix: false
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

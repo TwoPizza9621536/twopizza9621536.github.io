@@ -37,22 +37,19 @@ I have a HP ENVY x360 15m-ed0023dx as my daily driver.
 
 ---
 
-Below are list of software and apps that I commonly use for my workflow. For
-additional applications, check out my
-[Linux Setup]({{ '/linux' | relative_url }}).
-Sectioned based on usage.
+Below are list of software and apps that I commonly use for my workflow.
 
 ### Desktop
 
-- Bitwarden
 - Discord
 - Firefox Developer Edition
 - LibreOffice
 - Microsoft Edge
 - Outlook
+- Steam
 - VeraCrypt
 - Visual Studio Code
-- VLC
+- Windows Terminal
 
 ### Video, Graphics and Audio
 
@@ -72,12 +69,15 @@ Command line tools for development.
 - fd
 - fzf
 - pipx
+- powershell
 - pre-commit
 - ripgrep
 - hyfetch
+- zsh
 
 ### Mobile
 
+- Bluesky
 - Discord
 - iCloud Password
 - Metatext
