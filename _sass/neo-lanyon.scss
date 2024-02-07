@@ -17,7 +17,7 @@
 
 @media (max-width: 22.5em) {
   .hide-small {
-    display: none;
+    opacity: 0;
   }
 }
 
@@ -48,5 +48,11 @@
     &:hover {
       background-color: #888;
     }
+  }
+}
+
+@media print {
+  .permalink {
+    display: none;
   }
 }
