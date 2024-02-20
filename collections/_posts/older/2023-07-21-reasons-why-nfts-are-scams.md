@@ -42,7 +42,7 @@ well below is a simple diagram that I have created to show the process.
     alt="Starting with a digital asset, next the asset is minted into a NFT,
       then putting the NFT on the blockchain."
     role="img"
-  >
+  />
   <figcaption>
     The process of minting a NFT.
   </figcaption>
