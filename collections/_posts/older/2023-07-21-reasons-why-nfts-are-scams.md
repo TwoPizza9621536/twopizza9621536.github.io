@@ -36,8 +36,17 @@ Basically a receipt or transaction "proves" that you have a digital asset, which
 cannot be copied and records it in a blockchain. Then how do you create a NFT,
 well below is a simple diagram that I have created to show the process.
 
-![Starting with a digital asset, next minting the asset, then putting the NFT on
-  the blockchain.]({% asset_path nft_process.svg %} "Process of Minting a NFT")
+<figure>
+  <img
+    src="{% asset_path nft_process.svg %}"
+    alt="Starting with a digital asset, next the asset is minted into a NFT,
+      then putting the NFT on the blockchain."
+    role="img"
+  >
+  <figcaption>
+    The process of minting a NFT.
+  </figcaption>
+</figure>
 
 Ok, that diagram does not contain the important process of creating NFTs, how
 minting NFTs work. The process of minting is complicated, as it uses a technique
