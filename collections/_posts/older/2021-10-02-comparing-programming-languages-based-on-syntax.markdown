@@ -1,7 +1,7 @@
 ---
 title: Comparing Programming Languages Based on Syntax
 date: 2021-10-02 14:53:31 -0400
-categories:
+tags:
   - Programming
 description: Or a test of Jekyll's syntax highlighting and my first blog post.
 ---

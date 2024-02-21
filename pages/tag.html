@@ -12,7 +12,7 @@ permalink: /tag
     <li>
       <a href="#{{ tag[0] | slugify }}" class="tag">
         <span class="term">{{ tag[0] }}</span>
-        <span class="count">{{ tag[0].size }}</span>
+        <span class="count">{{ tag[1].size }}</span>
       </a>
     </li>
     {% endfor %}
@@ -21,9 +21,14 @@ permalink: /tag
   {% for tag in site.tags %}
   <section>
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    <ul>
+    <ul class="related-posts">
       {% for post in tag[1] %}
-      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_long_string: "ordinal", "US" }}</small>
+        </a>
+      </li>
       {% endfor %}
     </ul>
     {% endfor %}
