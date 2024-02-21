@@ -44,16 +44,14 @@ layout: default
   </svg>' %}
 
   <footer class="post-meta">
-    <div>
-      <span class="post-tags">
-        {% for tag in page.tags %}
-        <a href="{{ tag | prepend: '/tag/' | relative_url }}"
-          title="Pages tagged {{ tag }}" class="tag">
-          <span class="term">{{ tag | upcase }}</span>
-        </a>
-        {% endfor %}
-      </span>
-    </div>
+    <span class="post-tags">
+      {% for tag in page.tags %}
+      <a href="{{ tag | slugify | prepend: '/tag#' | relative_url }}"
+        title="Pages tagged {{ tag }}" class="tag">
+        <span class="term">{{ tag }}</span>
+      </a>
+      {% endfor %}
+    </span>
 
     {% if page.last_modified_at %}
     <span>

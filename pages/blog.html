@@ -2,15 +2,11 @@
 title: Blog
 permalink: /blog/
 pagination:
-  enabled: true
+enabled: true
 ---
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  <span class="tag-and-category">
-    <a href="{{ '/tag/' | relative_url }}">Search by Tags.</a>
-    <a href="{{ '/category/' | relative_url }}">Search by Categories.</a>
-  </span>
 
   {% for post in paginator.posts %}
   {% include article.html %}

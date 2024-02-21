@@ -1,19 +1,31 @@
 ---
-title: Tags
-permalink: /tag/
+title: Tag Archive
+description: An archive of posts sorted by tag.
+permalink: /tag
 ---
 
 <div class="page">
-  <h1 class="page-title" id="{{ page.title | slugify }}">
-    {% octicon tag height:24 %} {{ page.title }}
-  </h1>
-  <ul>
+  <h1 class="page-title">{% octicon tag height:24 %} {{ page.title }}</h1>
+
+  <ul class="tag-list">
     {% for tag in site.tags %}
     <li>
-      <a href="{{ tag[0] | slugify | prepend: '/tag/' | relative_url }}">
-        {{ tag[0] | capitalize }}
+      <a href="#{{ tag[0] | slugify }}" class="tag">
+        <span class="term">{{ tag[0] }}</span>
+        <span class="count">{{ tag[0].size }}</span>
       </a>
     </li>
     {% endfor %}
   </ul>
+
+  {% for tag in site.tags %}
+  <section>
+    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <ul>
+      {% for post in tag[1] %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
 </div>

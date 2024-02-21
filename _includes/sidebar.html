@@ -21,10 +21,10 @@
       Blog
     </a>
 
-    <a {% if page.url=='/collection/' %}aria-current="page" {% endif %}
-      class="sidebar-nav-item {% if page.url == '/collection/' %}active{% endif %}"
-      href="{{ '/collection/' | relative_url }}">
-      Collections
+    <a {% if page.url=='/tag' %}aria-current="page" {% endif %} +
+      class="sidebar-nav-item {% if page.url == '/tag' %}active{% endif %}" +
+      href="{{ '/tag' | relative_url }}">
+      Tags
     </a>
 
     {% comment %}
