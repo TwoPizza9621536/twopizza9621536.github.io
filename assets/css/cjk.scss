@@ -18,6 +18,10 @@
   font-display: swap;
 }
 
-ruby:lang(cmn) {
-  font-family: "PT Serif", Georgia, "Times New Roman", "Noto Serif SC", FangSong, serif;
+ruby {
+  text-transform: full-size-kana;
+
+  &:lang(cmn) {
+    font-family: "PT Serif", Georgia, "Times New Roman", "Noto Serif SC", FangSong, serif;
+  }
 }
