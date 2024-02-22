@@ -19,7 +19,7 @@
 }
 
 ruby {
-  text-transform: full-size-kana;
+  text-transform: full-width;
 
   &:lang(cmn) {
     font-family: "PT Serif", Georgia, "Times New Roman", "Noto Serif SC", FangSong, serif;
