@@ -4,8 +4,39 @@
 /* Theme */
 @import "fonts";
 @import "accessible-lanyon";
-@import "monokai";
+@import "syntax";
 
 /* Other */
 @import "mozilla";
 @import "primer";
+
+/*!
+ * Skip to content from the cayman theme
+ * https://github.com/pages-themes/cayman
+ * MIT License
+ */
+
+#skip-to-content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+
+  &:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+    color: #98d2ff;
+    background: #343a40;
+    outline: #343a40 thick solid;
+
+    @media (prefers-color-scheme: dark) {
+      color: #165b96;
+      background: #fff;
+      outline: #fff thick solid;
+    }
+  }
+}
