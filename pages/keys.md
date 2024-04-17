@@ -22,20 +22,20 @@ Verification of my accounts is provided by [Keyoxide][1].
 
 ## Secure Messages
 
-Please do not use DM or Email to send any private information as most of theme
+Please do not use DM or Email to send any private information as most of them
 do not use end to end encryption and anybody can see these messages. Please use
-[Signal][2] if your device is not comprised. [Telegram][3] is available but it
-is only used for verification.
+[Signal][2] if your device is not comprised. Signal can now use usernames to
+text other people, make sure you set a username and hide your phone number
+before sending message, my username is `TwoPizza9621536.01`.
 
 ## More Encryption And Verification Tools
 
-[age][4] and [Minisign][5] are simple encryption and signing tools respectively
-that can be used if the above methods is not appropriate for the context of
-sending messages or files. These keys and SSH keys can be found at
+[age][3] and [Minisign][4] are simple encryption and signing tools that can be
+used if the above methods is not appropriate for the context of sending messages
+or files respectively. These keys and SSH keys can be found at
 <https://github.com/TwoPizza9621536/dotfiles>.
 
 [1]: https://keyoxide.org/twopizza9621536@gmail.com
 [2]: https://signal.org
-[3]: https://t.me/TwoPizza9621536Keyoxide
-[4]: https://age-encryption.org
-[5]: https://jedisct1.github.io/minisign
+[3]: https://age-encryption.org
+[4]: https://jedisct1.github.io/minisign
