@@ -50,7 +50,7 @@ jobs:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Format HTML and CSS
-        uses: devatherock/minify-js@v3.0.0
+        uses: devatherock/minify-js@v3.1.0
         with:
           directory: _site
           add_suffix: false
