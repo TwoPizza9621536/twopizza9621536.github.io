@@ -12,30 +12,21 @@ Pretty Good Privacy keys are provided for:
 - Verifying Git Commits, messages, files, and accounts that I own.
 - Encrypting and sending messages or files through Email (not recommended).
 
-My fingerprint is `5804 f6df 8982 0b7b 6f9e 8a5e 5981 17fc 783d 70fd` and
+My fingerprint is `4FD4 4C7B A817 716A 1F8A A923 00E0 54F1 90A6 9373` and
 below are key servers which hold my public key.
 
-- [OpenPGP Keyserver](https://keys.openpgp.org)
-- [Mailvelope Keyserver](https://keys.mailvelope.com)
+- [OpenPGP](https://keys.openpgp.org)
+- [Mailvelope](https://keys.mailvelope.com)
 
 Verification of my accounts is provided by [Keyoxide][1].
 
 ## Secure Messages
 
 Please do not use DM or Email to send any private information as most of them
-do not use end to end encryption and anybody can see these messages. Please use
-[Signal][2] if your device is not comprised. Signal can now use usernames to
-text other people, make sure you set a username and hide your phone number
-before sending message, my username is `TwoPizza9621536.01`.
-
-## More Encryption And Verification Tools
-
-[age][3] and [Minisign][4] are simple encryption and signing tools that can be
-used if the above methods is not appropriate for the context of sending messages
-or files respectively. These keys and SSH keys can be found at
-<https://github.com/TwoPizza9621536/dotfiles>.
+do not use end to end encryption, provide forward secrecy, and anybody can see
+these messages. Please use [Signal][2] or [SimpleX][3] for advanced people. My
+Signal username is `TwoPizza9621536.01`.
 
 [1]: https://keyoxide.org/twopizza9621536@gmail.com
 [2]: https://signal.org
-[3]: https://age-encryption.org
-[4]: https://jedisct1.github.io/minisign
+[3]: https://simplex.chat
