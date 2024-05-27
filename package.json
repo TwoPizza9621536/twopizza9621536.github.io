@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "dependencies": {
+    "cssnano": "^7.0.1",
+    "cssnano-preset-advanced": "^7.0.1",
+    "htmlnano": "^2.1.1",
+    "minify-xml": "^4.3.0",
+    "postcss-cli": "^11.0.0",
+    "posthtml-cli": "^0.10.0"
+  },
+  "scripts": {
+    "html": "posthtml _site/**/*.html -o _site",
+    "css": "postcss _site/**/*.css -r",
+    "xml": "minify-xml --in-place _site/feed.xml && minify-xml --in-place _site/sitemap.xml"
+  }
+}

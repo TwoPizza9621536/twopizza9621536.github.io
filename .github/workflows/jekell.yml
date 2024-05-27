@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Github Pages
 
 on:
   push:
-    branches: [main]
+    branches: [site]
   workflow_dispatch:
 
 permissions:
@@ -32,16 +32,17 @@ jobs:
           ruby-version: 3.1
           bundler: latest
           bundler-cache: true
-          cache-version: 2
+          cache-version: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v4.0.1
+        uses: actions/setup-node@v4.0.2
         with:
           node-version: 18
+          cache: npm
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Build site with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -50,10 +51,11 @@ jobs:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Format HTML and CSS
-        uses: devatherock/minify-js@v3.0.0
-        with:
-          directory: _site
-          add_suffix: false
+        run: >-
+          npm ci
+          npm run html
+          npm run css
+          npm run xml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
