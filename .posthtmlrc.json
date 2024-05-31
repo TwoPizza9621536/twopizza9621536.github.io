@@ -1,7 +1,7 @@
 {
   "plugins": {
     "htmlnano": {
-      "collapseWhitespace": "aggressive"
+      "collapseWhitespace": "aggressive",
       "minifyJs": false
     }
   }
